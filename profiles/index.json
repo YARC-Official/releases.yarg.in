@@ -134,7 +134,7 @@
       "name": "Assorted Metal 1",
       "iconUrl": "@/icons/SetlistDLC.png",
       "bannerUrl": "@/banners/SetlistBack.png",
-      "localOverrides": {}
+      "localeOverrides": {}
     }
   ]
 }
