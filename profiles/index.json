@@ -1,12 +1,11 @@
 {
   "banner": {
-    "backgroundUrl": "@/banners/SetlistKeysChristmas.png",
-    "backgroundAccent": "#000000",
-    "useLightText": true,
-    "preHeaderText": "A Holiday Song Pack:",
-    "headerText": "Christmas Keys",
-    "viewProfileUUID": "49d5c1e5-ef1b-49af-a710-ebccdf5e940b",
-    "previewUrl": "https://www.youtube.com/watch?v=FPsL2l40Nx8",
+    "backgroundUrl": "@/banners/SetlistWave.png",
+    "backgroundAccent": "#DF6B00",
+    "useLightText": false,
+    "preHeaderText": "YARG's Second DLC",
+    "headerText": "Assorted Metal 1",
+    "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
   "lastUpdated": "2025-03-01T19:45:26.4850637Z",
