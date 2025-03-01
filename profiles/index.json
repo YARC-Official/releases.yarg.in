@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=FPsL2l40Nx8",
     "localeOverrides": {}
   },
-  "lastUpdated": "2024-10-26T23:47:52.706Z",
+  "lastUpdated": "2025-03-01T19:45:26.4850637Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -109,7 +109,7 @@
       "category": "official_setlist",
       "url": "https://releases.yarg.in/profiles/ca41fee5-35de-442e-8e28-c246e19b36fc/",
       "release": "2024-10-23T02:02:51.396Z",
-      "name": "Children's Keys Pack 1",
+      "name": "Children\u0027s Keys Pack 1",
       "iconUrl": "@/icons/SetlistKeys.png",
       "bannerUrl": "@/banners/SetlistKeys.png",
       "localeOverrides": {}
@@ -124,6 +124,17 @@
       "iconUrl": "@/icons/SetlistKeys.png",
       "bannerUrl": "@/banners/SetlistKeysChristmas.png",
       "localeOverrides": {}
+    },
+    {
+      "uuid": "c0a10224-2cf2-4584-8dee-778108c7796d",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/c0a10224-2cf2-4584-8dee-778108c7796d/",
+      "release": "2025-03-01T19:45:26.4850637Z",
+      "name": "Assorted Metal 1",
+      "iconUrl": "@/icons/SetlistDLC.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
+      "localOverrides": {}
     }
   ]
 }

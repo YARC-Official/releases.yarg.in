@@ -1,0 +1,124 @@
+{
+  "type": "setlist",
+  "uuid": "c0a10224-2cf2-4584-8dee-778108c7796d",
+  "metadata": {
+    "name": "Assorted Metal 1",
+    "description": "Rock out with an assortment of accessible metal songs, drawing from nu-metal, alternative, thrash, and djent!",
+    "iconUrl": "@/icons/SetlistDLC.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2025-03-01T19:45:26.4850637Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Full Body Plutonium",
+        "artist": "Frostbitt",
+        "length": 255891,
+        "releaseDate": "2025-03-01T20:00:00.000Z"
+      },
+      {
+        "title": "What You Really Want",
+        "artist": "Garlagan",
+        "length": 229558,
+        "releaseDate": "2025-03-01T20:00:00.000Z"
+      },
+      {
+        "title": "Sleep Cycles",
+        "artist": "Heartsick",
+        "length": 152381,
+        "releaseDate": "2025-03-01T20:00:00.000Z"
+      },
+      {
+        "title": "The Mortal Plane",
+        "artist": "Mindiode",
+        "length": 333285,
+        "releaseDate": "2025-03-01T20:00:00.000Z"
+      },
+      {
+        "title": "Harbinger of Pestilence",
+        "artist": "Silverhawk",
+        "length": 270774,
+        "releaseDate": "2025-03-01T20:00:00.000Z"
+      },
+      {
+        "title": "Control",
+        "artist": "Thousand Thoughts",
+        "length": 211764,
+        "releaseDate": "2025-03-01T20:00:00.000Z"
+      },
+      {
+        "title": "Simple Folds",
+        "artist": "Zephyrianna, Tsyolin and BoffleFloffle",
+        "length": 275130,
+        "releaseDate": "2025-03-01T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "19cd969c-c493-4e1b-9d2c-9985ea16fa83",
+      "tag": "assorted_3-2025-03-01-0",
+      "release": "2025-03-01T19:45:26.4850637Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_3-2025-03-01-0/assorted_3-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
