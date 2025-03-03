@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "e90269896a817f3d4857abca954a871d8d85d843",
+      "author": "TheNathannator",
+      "summary": "don't forget to inform the input system of polling rate changes",
+      "description": ""
+    },
+    {
+      "sha": "afd2060fab6cf579dc6eceeb9de2147e266f7f2b",
+      "author": "TheNathannator",
+      "summary": "Add setting for configuring the polling rate of input devices that require polling",
+      "description": ""
+    }
+  ]
+}
