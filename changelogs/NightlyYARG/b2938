@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "382309a8b7e8a5d2f3019023afaeff0688dac55e",
+      "author": "sonicfind",
+      "summary": "Fix video loop behavior not applying",
+      "description": ""
+    }
+  ]
+}
