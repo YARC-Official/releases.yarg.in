@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d319bc4cf34cb181504d0f18eae12727d678e19b",
+      "author": "thomeval",
+      "summary": "Update Active Player List instrument icons on device connect/disconnect (#987)",
+      "description": ""
+    }
+  ]
+}
