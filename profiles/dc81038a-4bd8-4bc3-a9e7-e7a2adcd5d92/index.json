@@ -119,9 +119,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "5126d27b-6757-47d8-95ff-bb34382efb25",
-      "tag": "yarn_pack_1-2025-03-08-0",
-      "release": "2025-03-08T18:24:31.3334654Z",
+      "uuid": "d1674b19-1d52-462c-84aa-eba2e6081a10",
+      "tag": "yarn_pack_1-2025-03-08-1",
+      "release": "2025-03-08T20:08:45.342304Z",
       "content": [
         {
           "platforms": [
@@ -131,7 +131,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_1-2025-03-08-0/yarn_pack_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_1-2025-03-08-1/yarn_pack_1-0.7z",
               "fileType": "encrypted"
             }
           ]
