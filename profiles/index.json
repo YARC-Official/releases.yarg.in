@@ -3,12 +3,12 @@
     "backgroundUrl": "@/banners/SetlistWave.png",
     "backgroundAccent": "#DF6B00",
     "useLightText": false,
-    "preHeaderText": "YARG's Third DLC",
+    "preHeaderText": "YARG\u0027s Third DLC",
     "headerText": "Assorted Metal 1",
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-03-01T19:45:26.4850637Z",
+  "lastUpdated": "2025-03-08T18:24:31.3334654Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -132,6 +132,17 @@
       "release": "2025-03-01T19:45:26.4850637Z",
       "name": "Assorted Metal 1",
       "iconUrl": "@/icons/SetlistDLC.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "dc81038a-4bd8-4bc3-a9e7-e7a2adcd5d92",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/dc81038a-4bd8-4bc3-a9e7-e7a2adcd5d92/",
+      "release": "2025-03-08T18:24:31.3334654Z",
+      "name": "YARN Pack 1",
+      "iconUrl": "@/icons/SetlistNetwork.png",
       "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     }

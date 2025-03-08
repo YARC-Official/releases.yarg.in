@@ -1,0 +1,142 @@
+{
+  "type": "setlist",
+  "uuid": "dc81038a-4bd8-4bc3-a9e7-e7a2adcd5d92",
+  "metadata": {
+    "name": "YARN Pack 1",
+    "description": "Our first grab-bag pack from YARN authors. Check out what they\u0027ve submitted!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2025-03-08T18:24:31.3334654Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Whispers (Rose Ver.)",
+        "artist": "Asilveras",
+        "length": 235738,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "I\u0027m mindless :3",
+        "artist": "Catastrophe",
+        "length": 150387,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "Amelioration",
+        "artist": "Chaotrope",
+        "length": 487539,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "Reaper (2023 Remaster)",
+        "artist": "Chaotrope",
+        "length": 363018,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "Burn",
+        "artist": "Counterparts",
+        "length": 212342,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "How",
+        "artist": "Exyl and Paper Skies",
+        "length": 249750,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "Fearfulness",
+        "artist": "Jaden (ft. Various Artists)",
+        "length": 1007710,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "Eviternal",
+        "artist": "James Paddock",
+        "length": 416897,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "Ways of Torment",
+        "artist": "Silverhawk",
+        "length": 395710,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      },
+      {
+        "title": "Second Wind",
+        "artist": "Walter Ralts",
+        "length": 177157,
+        "releaseDate": "2025-03-08T13:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "5126d27b-6757-47d8-95ff-bb34382efb25",
+      "tag": "yarn_pack_1-2025-03-08-0",
+      "release": "2025-03-08T18:24:31.3334654Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_1-2025-03-08-0/yarn_pack_1-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
