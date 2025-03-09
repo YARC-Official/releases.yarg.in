@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "689d1733b3c56c9329b030fd1b9b682920dd2d4f",
+      "author": "sonicfind",
+      "summary": "Address compile errors from credit changes",
+      "description": ""
+    },
+    {
+      "sha": "4f63626a3b9599b7ef596f7808052dea87fb6969",
+      "author": "sonicfind",
+      "summary": "Support more song credit info (+Cache Update)",
+      "description": ""
+    },
+    {
+      "sha": "365f6e26029793e5c3ce42cdc17b316cc51536aa",
+      "author": "sonicfind",
+      "summary": "Fix missing credit license info (+Cache Update)",
+      "description": ""
+    },
+    {
+      "sha": "1845c666c6b1dd3a60168ff68ed275a4015ad5f7",
+      "author": "theli-ua",
+      "summary": "Fix stutter caused by score star popping (#986)",
+      "description": "Activating object does it recursively and forces gui canvas rebuild"
+    },
+    {
+      "sha": "7e38ac1540737e8bd8b708a1d86efb1e115cc6bb",
+      "author": "sonicfind",
+      "summary": "Fix negative video start times",
+      "description": ""
+    }
+  ]
+}
