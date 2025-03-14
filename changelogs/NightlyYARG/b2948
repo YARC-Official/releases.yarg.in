@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "0be369f8f0dbfaec0aecba36c8785bc35aea304b",
+      "author": "sonicfind",
+      "summary": "Scanning Hotfixes",
+      "description": ""
+    },
+    {
+      "sha": "dedc95f403c4647c99c562c99d8f645232481598",
+      "author": "TheNathannator",
+      "summary": "Always update default resolution's displayed value regardless of resolution/fullscreen settings",
+      "description": ""
+    },
+    {
+      "sha": "b5452998e5892cda722b2450b9660a86a6df5f04",
+      "author": "TheNathannator",
+      "summary": "realized that can be a lot simpler lol; also automatically refresh when switching screens",
+      "description": ""
+    },
+    {
+      "sha": "2cc796e6db32a3685891025f1497143a3733a878",
+      "author": "TheNathannator",
+      "summary": "Improve default fullscreen resolution setting",
+      "description": ""
+    }
+  ]
+}
