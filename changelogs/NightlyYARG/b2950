@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "5f533f78337e71c37034e24e6a80d2fe73a47563",
+      "author": "sonicfind",
+      "summary": "Support additional .ini credit modifiers (+Cache Update)",
+      "description": ""
+    },
+    {
+      "sha": "8b58f4e6e86b0c099adb53b052435d73f651a1ab",
+      "author": "sonicfind",
+      "summary": "Hide \"Loading Song\" mixer log during scan",
+      "description": ""
+    }
+  ]
+}
