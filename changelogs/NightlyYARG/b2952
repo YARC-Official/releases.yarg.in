@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "9524182b5c6f32888c24af6383bcf88eabe95f7e",
+      "author": "TheNathannator",
+      "summary": "Fix logic error causing default resolution to always be applied when in fullscreen, regardless of if a specific resolution was set",
+      "description": ""
+    }
+  ]
+}
