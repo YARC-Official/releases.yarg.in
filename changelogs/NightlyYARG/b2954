@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "80f93afde525f53b62cbf7a9a16d413d59458569",
+      "author": "sonicfind",
+      "summary": "A Set of Minor Hotfixes",
+      "description": "+ Fix single-note solo sections\n+ Address improper handling of vectorized `FixedArray` instances\n+ Syntaxial string transformation code touch ups\n+ Other minor things"
+    }
+  ]
+}
