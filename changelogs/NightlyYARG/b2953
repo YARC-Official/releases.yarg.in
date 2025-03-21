@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "cd33bcb8bfef275dce2a7b169e69a83657d7d4d9",
+      "author": "wyrdough",
+      "summary": "Fix bug with score database query for high score. (#990)",
+      "description": "- Songs that had only been played on one difficulty were always showing the first score record when score display was set to \"highest difficulty only\"."
+    }
+  ]
+}
