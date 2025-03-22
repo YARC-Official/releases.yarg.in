@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "75ab82970907c304c9cbf86042ac14afaedb6ce1",
+      "author": "theli-ua",
+      "summary": "Use much more aggresive prewarming for track element pools (#988)",
+      "description": "When a pool is depleted creating new elements is expensive and total memory\nused is only couple mb anyway"
+    },
+    {
+      "sha": "d80f3502397987a333cf3187e32b5c8088c3cf46",
+      "author": "thomeval",
+      "summary": "Add \"No Vocal Percussion\" modifier (#996)",
+      "description": "* Added \"No Vocal Percussion\" modifier\n\n* Added placeholder icon for No Vocal Percussion modifier"
+    }
+  ]
+}
