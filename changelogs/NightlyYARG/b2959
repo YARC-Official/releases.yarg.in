@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "23b8e2e7718021c161f072bfd62d9de71dc85928",
+      "author": "sonicfind",
+      "summary": "Remove unnecessary parameter from LoadBackground()",
+      "description": ""
+    },
+    {
+      "sha": "f7e14a0f6b2c9e2cbbbfbd7602febcbb98e277af",
+      "author": "sonicfind",
+      "summary": "Reduce repeated allocations with CategoryViewType constructors",
+      "description": ""
+    },
+    {
+      "sha": "82f5c0688a55fb4b96d34396ede8451a542315af",
+      "author": "sonicfind",
+      "summary": "Convert SongCategory variables to properties",
+      "description": ""
+    }
+  ]
+}
