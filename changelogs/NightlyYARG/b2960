@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "e9944e576ba4638b6e0c0bd7e1d1aac3f7a947a8",
+      "author": "TheNathannator",
+      "summary": "Fix certain section events not being read correctly",
+      "description": ""
+    }
+  ]
+}
