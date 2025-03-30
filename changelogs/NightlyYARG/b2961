@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "3ab382eff9dea6a2c8fcccdf08f72efe52024237",
+      "author": "wyrdough",
+      "summary": "Fix bug causing FCs to not always be marked as such in library score display. (#1004)",
+      "description": ""
+    }
+  ]
+}
