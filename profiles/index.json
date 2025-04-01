@@ -8,7 +8,7 @@
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-03-08T18:24:31.3334654Z",
+  "lastUpdated": "2025-04-01T17:33:31.8406513Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -144,6 +144,17 @@
       "name": "YARN Pack 1",
       "iconUrl": "@/icons/SetlistNetwork.png",
       "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "196e82d2-e919-4bf7-8db6-6216f26e5f7c",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/196e82d2-e919-4bf7-8db6-6216f26e5f7c/",
+      "release": "2025-04-01T17:33:31.8406513Z",
+      "name": "Mini-Wave 0",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/196e82d2-e919-4bf7-8db6-6216f26e5f7c/banner.png",
       "localeOverrides": {}
     }
   ]
