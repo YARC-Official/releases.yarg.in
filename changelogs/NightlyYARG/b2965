@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "305e88748b90ec48d683a0841a957a38305c27e3",
+      "author": "RileyTheFox",
+      "summary": "Update version",
+      "description": ""
+    },
+    {
+      "sha": "9cbcc01333152db504f95c701b1465cbe59ce550",
+      "author": "RileyTheFox",
+      "summary": "Add online multiplayer",
+      "description": ""
+    }
+  ]
+}
