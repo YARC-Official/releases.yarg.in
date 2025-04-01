@@ -8,7 +8,7 @@
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-03-08T18:24:31.3334654Z",
+  "lastUpdated": "2025-04-01T17:07:54.6911861Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -144,6 +144,28 @@
       "name": "YARN Pack 1",
       "iconUrl": "@/icons/SetlistNetwork.png",
       "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "7ccd8422-dd8a-4e3a-8079-97c2b60a4520",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/7ccd8422-dd8a-4e3a-8079-97c2b60a4520/",
+      "release": "2025-04-01T16:52:17.7043766Z",
+      "name": "Mini-Wave 0",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/7ccd8422-dd8a-4e3a-8079-97c2b60a4520/banner.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "ad50365a-eaef-4e80-ac4a-4dbfe8ac0674",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/ad50365a-eaef-4e80-ac4a-4dbfe8ac0674/",
+      "release": "2025-04-01T17:07:54.6911861Z",
+      "name": "Mini-Wave 0",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/ad50365a-eaef-4e80-ac4a-4dbfe8ac0674/banner.png",
       "localeOverrides": {}
     }
   ]

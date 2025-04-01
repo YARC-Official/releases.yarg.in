@@ -1,0 +1,143 @@
+{
+  "type": "setlist",
+  "uuid": "7ccd8422-dd8a-4e3a-8079-97c2b60a4520",
+  "metadata": {
+    "name": "Mini-Wave 0",
+    "description": "An exclusive early sneak peek into our biggest chart launch to date, featuring some of the best songs you\u0027ve never heard of!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/7ccd8422-dd8a-4e3a-8079-97c2b60a4520/banner.png",
+    "initialRelease": "2025-04-01T16:52:17.7043766Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "opus_10",
+        "artist": "De Dubbelrieters",
+        "length": 23169,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Nice Logo",
+        "artist": "Exyl \u0026 Dalux",
+        "length": 137600,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Hard Licker",
+        "artist": "Flalcon",
+        "length": 233984,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Brain Implosion Energy Drink (feat. Kasane Teto and Eleanor Forte)",
+        "artist": "Flanger Moose",
+        "length": 137696,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Code 75",
+        "artist": "FrenchFried",
+        "length": 217505,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Back To School Bitches (Kiraken-G Remix)",
+        "artist": "Gabber Cat",
+        "length": 267615,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "help, the sillies are after me!1!!!1",
+        "artist": "It\u0027s Only Connor",
+        "length": 186000,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Dance Mr. Funnybones (LOOP)",
+        "artist": "PuffballsUnited",
+        "length": 125538,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Still Got It",
+        "artist": "The Coa\u1D1B\u1D1Bablers",
+        "length": 55206,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Abomination",
+        "artist": "The Final Event",
+        "length": 193500,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Wou Wou Wou",
+        "artist": "Yebert",
+        "length": 224827,
+        "releaseDate": "2025-04-01T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "2985be77-9f72-4d1b-840e-bb0ca70dd2a8",
+      "tag": "yarn_april_1-2025-04-01-0",
+      "release": "2025-04-01T16:52:17.7043766Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": []
+        }
+      ]
+    }
+  }
+}
