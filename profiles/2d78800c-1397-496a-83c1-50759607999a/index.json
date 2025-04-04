@@ -3,7 +3,7 @@
     "uuid": "2d78800c-1397-496a-83c1-50759607999a",
     "metadata": {
         "name": "YARG",
-        "description": "YARG (a.k.a. Yet Another Rhythm Game) is a free, open-source, plastic guitar game that is still in development. It supports guitar (five fret), drums (plastic or e-kit), vocals, pro-guitar, and more!",
+        "description": "YARG (a.k.a. Yet Another Rhythm Game) is a free, open-source, plastic guitar game that is still in development. It supports guitar (five fret), drums (plastic or e-kit), vocals, pro-keys, and more!",
         "releaseName": "Stable",
         "iconUrl": "@/icons/Stable.png",
         "bannerBackUrl": "@/banners/Stable.png",

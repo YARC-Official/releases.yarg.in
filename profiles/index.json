@@ -154,7 +154,7 @@
       "release": "2025-04-01T17:33:31.8406513Z",
       "name": "Mini-Wave 0",
       "iconUrl": "@/icons/SetlistNetwork.png",
-      "bannerUrl": "https://releases.yarg.in/profiles/196e82d2-e919-4bf7-8db6-6216f26e5f7c/banner.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     }
   ]
