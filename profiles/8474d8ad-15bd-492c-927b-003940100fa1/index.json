@@ -351,6 +351,24 @@
         "artist": "TrackTribe",
         "length": 208500,
         "releaseDate": "2024-07-22T00:00:00.000Z"
+      },
+      {
+        "title": "Sweet Victory",
+        "artist": "Bob Kulick and David Glen Eisley",
+        "length": 231147,
+        "releaseDate": "2025-04-04T00:00:00.000Z"
+      },
+      {
+        "title": "Bottleneck",
+        "artist": "Groundlift",
+        "length": 246414,
+        "releaseDate": "2025-04-04T00:00:00.000Z"
+      },
+      {
+        "title": "Join the Club",
+        "artist": "Tilly Louise",
+        "length": 147200,
+        "releaseDate": "2025-04-04T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -396,9 +414,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "91e8e235-a633-46b9-9f45-be655fd0f09b",
-      "tag": "official-2025-02-14-0",
-      "release": "2025-02-15T00:26:28.5751246Z",
+      "uuid": "cab8c98a-90d3-4e46-a55b-03b0d0f978ba",
+      "tag": "official-2025-04-04-0",
+      "release": "2025-04-05T01:16:52.4584522Z",
       "content": [
         {
           "platforms": [
@@ -408,7 +426,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-02-14-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-04-04-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
