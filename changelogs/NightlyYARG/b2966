@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "332c58107fbb24770c8dee113a439c8bc4851924",
+      "author": "wyrdough",
+      "summary": "Fix bug with replay filename handling (#1012)",
+      "description": "Fixes #1008"
+    }
+  ]
+}
