@@ -52,6 +52,12 @@
         "releaseDate": "2025-03-01T20:00:00.000Z"
       },
       {
+        "title": "Hell",
+        "artist": "Vandalheart",
+        "length": 238588,
+        "releaseDate": "2025-04-11T20:00:00.000Z"
+      },
+      {
         "title": "Simple Folds",
         "artist": "Zephyrianna, Tsyolin and BoffleFloffle",
         "length": 275130,
@@ -101,9 +107,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "19cd969c-c493-4e1b-9d2c-9985ea16fa83",
-      "tag": "assorted_3-2025-03-01-0",
-      "release": "2025-03-01T19:45:26.4850637Z",
+      "uuid": "88027ae5-a0ec-49eb-8423-eaf0c78a100d",
+      "tag": "assorted_3-2025-04-11-0",
+      "release": "2025-04-11T16:11:46.5898463Z",
       "content": [
         {
           "platforms": [
@@ -113,7 +119,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_3-2025-03-01-0/assorted_3-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_3-2025-04-11-0/assorted_3-0.7z",
               "fileType": "encrypted"
             }
           ]
