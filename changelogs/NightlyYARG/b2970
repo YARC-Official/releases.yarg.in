@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "730d43ec50bd0bbc208cabe65c0e1250073a84ee",
+      "author": "TheNathannator",
+      "summary": "Add visual effects for overstrums/overhits to rectangular guitar/drums",
+      "description": ""
+    },
+    {
+      "sha": "78d76e281bb6adf5727c8ec738928d230478be48",
+      "author": "theli-ua",
+      "summary": "Fix fret flash/smoke making holes in the track (#981)",
+      "description": "change to premultiply blending mode\nfixes #790"
+    },
+    {
+      "sha": "6438636ea3038221cc9bbcf6a5c3583a8dd72815",
+      "author": "TheNathannator",
+      "summary": "Fix Pro Keys being broken from the previous change",
+      "description": ""
+    }
+  ]
+}
