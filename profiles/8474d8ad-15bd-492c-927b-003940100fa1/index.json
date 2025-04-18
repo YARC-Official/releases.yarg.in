@@ -377,16 +377,34 @@
         "releaseDate": "2025-04-04T00:00:00.000Z"
       },
       {
-        "title": "I Wish That I Could Fall",
+        "title": "I Wish That I Could Fall (feat. GUMI)",
         "artist": "Jamie Paige",
-        "length": 281142,
+        "length": 279000,
         "releaseDate": "2025-04-11T00:00:00.000Z"
+      },
+      {
+        "title": "Oxygen",
+        "artist": "Marta Vega",
+        "length": 151343,
+        "releaseDate": "2025-04-18T00:00:00.000Z"
+      },
+      {
+        "title": "Pixel Galaxy",
+        "artist": "Snail\u0027s House",
+        "length": 227200,
+        "releaseDate": "2025-04-18T00:00:00.000Z"
       },
       {
         "title": "Join the Club",
         "artist": "Tilly Louise",
         "length": 147200,
         "releaseDate": "2025-04-04T00:00:00.000Z"
+      },
+      {
+        "title": "Alibi",
+        "artist": "Vera Kay",
+        "length": 219428,
+        "releaseDate": "2025-04-18T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -432,9 +450,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "bdc48e9a-680b-434e-9c9d-15065ba60a8c",
-      "tag": "official-2025-04-12-0",
-      "release": "2025-04-12T17:13:47.4769538Z",
+      "uuid": "6d4c71c7-8b1c-4e8f-8ca3-26c3d0d754dd",
+      "tag": "official-2025-04-18-0",
+      "release": "2025-04-18T21:08:23.6939143Z",
       "content": [
         {
           "platforms": [
@@ -444,7 +462,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-04-12-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-04-18-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
