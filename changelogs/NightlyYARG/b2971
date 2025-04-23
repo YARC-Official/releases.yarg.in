@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "c860fbcbe83d3c7fc011d1e15edb5198643a9399",
+      "author": "wyrdough",
+      "summary": "Fix spurious hot start message on early SP activation (#1015)",
+      "description": ""
+    }
+  ]
+}
