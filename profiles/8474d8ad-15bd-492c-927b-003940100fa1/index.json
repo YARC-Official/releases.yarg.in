@@ -365,6 +365,12 @@
         "releaseDate": "2025-04-04T00:00:00.000Z"
       },
       {
+        "title": "Boom Slayer (feat. Scott Foster Harris)",
+        "artist": "Boom Kitty",
+        "length": 204000,
+        "releaseDate": "2025-04-25T00:00:00.000Z"
+      },
+      {
         "title": "Igowallah",
         "artist": "Daniel Thrasher",
         "length": 254750,
@@ -389,10 +395,22 @@
         "releaseDate": "2025-04-18T00:00:00.000Z"
       },
       {
+        "title": "Don\u0027t Look!",
+        "artist": "Prismia",
+        "length": 198000,
+        "releaseDate": "2025-04-25T00:00:00.000Z"
+      },
+      {
         "title": "Pixel Galaxy",
         "artist": "Snail\u0027s House",
         "length": 227200,
         "releaseDate": "2025-04-18T00:00:00.000Z"
+      },
+      {
+        "title": "Queen of the Night",
+        "artist": "The Vanished People",
+        "length": 165333,
+        "releaseDate": "2025-04-25T00:00:00.000Z"
       },
       {
         "title": "Join the Club",
@@ -450,9 +468,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "6d4c71c7-8b1c-4e8f-8ca3-26c3d0d754dd",
-      "tag": "official-2025-04-18-0",
-      "release": "2025-04-18T21:08:23.6939143Z",
+      "uuid": "895918e7-cad1-4c61-9dfb-a35bdcf270be",
+      "tag": "official-2025-04-25-0",
+      "release": "2025-04-26T00:17:09.9725654Z",
       "content": [
         {
           "platforms": [
@@ -462,7 +480,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-04-18-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-04-25-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
