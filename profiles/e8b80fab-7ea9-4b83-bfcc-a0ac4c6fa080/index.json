@@ -1,0 +1,118 @@
+{
+  "type": "setlist",
+  "uuid": "e8b80fab-7ea9-4b83-bfcc-a0ac4c6fa080",
+  "metadata": {
+    "name": "Children\u0027s Keys Pack 2",
+    "description": "Hungarian Rhapsody No. 2 too hard for you? These 6 classic children\u0027s tunes are great entry point for budding pianists. Learn the real right-hand parts on Pro Keys, or play five-lane versions of both hands on Keys and Bass!",
+    "iconUrl": "@/icons/SetlistKeys.png",
+    "bannerBackUrl": "@/banners/SetlistKeys.png",
+    "initialRelease": "2025-05-02T17:42:06.5359047Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Chopsticks",
+        "artist": "Arthur de Lulli",
+        "length": 56000,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Pop Goes the Weasel",
+        "artist": "Eug\u00E8ne Coulon",
+        "length": 24000,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Hey Diddle Diddle",
+        "artist": "James William Elliott",
+        "length": 26000,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Over the River and Through the Woods",
+        "artist": "Lydia Maria Child",
+        "length": 24000,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Old MacDonald Had a Farm",
+        "artist": "Thomas d\u0027Urfey",
+        "length": 29000,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Three Blind Mice",
+        "artist": "Thomas Ravenscroft",
+        "length": 28000,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "dc1e7bc9-f7d8-4cdb-b267-0889a861b73a",
+      "tag": "childrens_keys_2-2025-05-02-0",
+      "release": "2025-05-02T17:42:06.5359047Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/childrens_keys_2-2025-05-02-0/childrens_keys_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

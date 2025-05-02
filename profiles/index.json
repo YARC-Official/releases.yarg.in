@@ -8,7 +8,7 @@
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-05-02T17:31:34.4652562Z",
+  "lastUpdated": "2025-05-02T17:42:06.5359047Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -166,6 +166,17 @@
       "name": "Classical Keys Pack 2",
       "iconUrl": "@/icons/SetlistKeys.png",
       "bannerUrl": "@/banners/SetlistKeysAlt.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "e8b80fab-7ea9-4b83-bfcc-a0ac4c6fa080",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/e8b80fab-7ea9-4b83-bfcc-a0ac4c6fa080/",
+      "release": "2025-05-02T17:42:06.5359047Z",
+      "name": "Children\u0027s Keys Pack 2",
+      "iconUrl": "@/icons/SetlistKeys.png",
+      "bannerUrl": "@/banners/SetlistKeys.png",
       "localeOverrides": {}
     }
   ]
