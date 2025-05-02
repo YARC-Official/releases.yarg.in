@@ -3,7 +3,7 @@
   "uuid": "fcbd2956-cffe-4ede-959f-177bb634743f",
   "metadata": {
     "name": "Classical Keys Pack 2",
-    "description": "Classical Keys is back wit for piano and accordion. Learn the real right-hand parts on Pro Keys, or play five-lane versions of each hand on Keys and Bass!",
+    "description": "Classical Keys is back with 6 more public domain pieces for piano and accordion. Learn the real right-hand parts on Pro Keys, or play five-lane versions of each hand on Keys and Bass!",
     "iconUrl": "@/icons/SetlistKeys.png",
     "bannerBackUrl": "@/banners/SetlistKeysAlt.png",
     "initialRelease": "2025-05-02T17:31:34.4652562Z",
@@ -95,9 +95,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "57873167-17bb-4c5b-9a3b-9b6ebe4294b8",
-      "tag": "classical_keys_2-2025-05-02-0",
-      "release": "2025-05-02T17:31:34.4652562Z",
+      "uuid": "3a2d1919-c190-4af5-96a8-dab77ff4c09c",
+      "tag": "classical_keys_2-2025-05-02-1",
+      "release": "2025-05-02T21:04:24.044647Z",
       "content": [
         {
           "platforms": [
@@ -107,7 +107,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_2-2025-05-02-0/classical_keys_2-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_2-2025-05-02-1/classical_keys_2-0.7z",
               "fileType": "encrypted"
             }
           ]
