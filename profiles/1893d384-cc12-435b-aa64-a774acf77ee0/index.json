@@ -3,7 +3,7 @@
   "uuid": "1893d384-cc12-435b-aa64-a774acf77ee0",
   "metadata": {
     "name": "Classical Keys Pack 1",
-    "description": "Explore world-famous pieces for piano, organ, and even calliope with YARG's first collection of public domain classical music. Learn authentic right-hand parts on Pro Keys, or play five-lane versions of each hand on Keys and Bass!",
+    "description": "Explore world-famous pieces for piano, organ, and even calliope with YARG\u0027s first collection of public domain classical music. Learn authentic right-hand parts on Pro Keys, or play five-lane versions of each hand on Keys and Bass!",
     "iconUrl": "@/icons/SetlistKeys.png",
     "bannerBackUrl": "@/banners/SetlistKeysAlt.png",
     "initialRelease": "2024-10-23T02:02:51.396Z",
@@ -19,37 +19,37 @@
         "title": "Clair de Lune",
         "artist": "Claude Debussy",
         "length": 330000,
-        "releaseDate": "2024-10-23T02:02:51.396Z"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
-        "title": "Marche Funèbre",
-        "artist": "Frédéric Chopin",
+        "title": "Marche Fun\u00E8bre",
+        "artist": "Fr\u00E9d\u00E9ric Chopin",
         "length": 488000,
-        "releaseDate": "2024-10-23T02:02:51.396Z"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Scherzo No. 1",
-        "artist": "Frédéric Chopin",
+        "artist": "Fr\u00E9d\u00E9ric Chopin",
         "length": 501361,
-        "releaseDate": "2024-10-23T02:02:51.396Z"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Entrance of the Gladiators",
-        "artist": "Julius Fučík",
+        "artist": "Julius Fu\u010D\u00EDk",
         "length": 280272,
-        "releaseDate": "2024-10-23T02:02:51.396Z"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Bridal Chorus",
         "artist": "Richard Wagner",
         "length": 111769,
-        "releaseDate": "2024-10-23T02:02:51.396Z"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Maple Leaf Rag",
         "artist": "Scott Joplin",
         "length": 170142,
-        "releaseDate": "2024-10-23T02:02:51.396Z"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -95,9 +95,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "7cea7cf1-e508-410f-b554-0f0445dd8725",
-      "tag": "classical_keys_1-2024-11-12-0",
-      "release": "2024-11-12T21:44:48.484Z",
+      "uuid": "2cc6fea6-0a81-433d-b993-a0d1e5220b9a",
+      "tag": "classical_keys_1-2025-05-02-0",
+      "release": "2025-05-02T17:17:55.0407239Z",
       "content": [
         {
           "platforms": [
@@ -107,7 +107,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_1-2024-11-12-0/classical_keys_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_1-2025-05-02-0/classical_keys_1-0.7z",
               "fileType": "encrypted"
             }
           ]
