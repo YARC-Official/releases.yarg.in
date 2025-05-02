@@ -1,0 +1,118 @@
+{
+  "type": "setlist",
+  "uuid": "fcbd2956-cffe-4ede-959f-177bb634743f",
+  "metadata": {
+    "name": "Classical Keys Pack 2",
+    "description": "Classical Keys is back wit for piano and accordion. Learn the real right-hand parts on Pro Keys, or play five-lane versions of each hand on Keys and Bass!",
+    "iconUrl": "@/icons/SetlistKeys.png",
+    "bannerBackUrl": "@/banners/SetlistKeysAlt.png",
+    "initialRelease": "2025-05-02T17:31:34.4652562Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Minuet in G Major",
+        "artist": "Christian Petzold",
+        "length": 101500,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Twelfth Street Rag",
+        "artist": "Euday L. Bowman",
+        "length": 162957,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Hungarian Rhapsody No. 2",
+        "artist": "Franz Liszt",
+        "length": 544817,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "The Well-Tempered Clavier Book 1 No. 1: Prelude and Fugue in C Major",
+        "artist": "Johann Sebastian Bach",
+        "length": 132961,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Funicul\u00EC, Funicul\u00E0",
+        "artist": "Luigi Denza",
+        "length": 47178,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Piano Sonata No. 16, Mvt. I: Allegro",
+        "artist": "Wolfgang Amadeus Mozart",
+        "length": 147121,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "57873167-17bb-4c5b-9a3b-9b6ebe4294b8",
+      "tag": "classical_keys_2-2025-05-02-0",
+      "release": "2025-05-02T17:31:34.4652562Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_2-2025-05-02-0/classical_keys_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
