@@ -423,6 +423,24 @@
         "artist": "Vera Kay",
         "length": 219428,
         "releaseDate": "2025-04-18T00:00:00.000Z"
+      },
+      {
+        "title": "I\u0027m a Bug",
+        "artist": "Fries on the Side",
+        "length": 156548,
+        "releaseDate": "2025-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Everybody Do the Flop",
+        "artist": "LilDeuceDeuce",
+        "length": 146100,
+        "releaseDate": "2025-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Moonlight Sonata 3rd Mvt (Big Band Version)",
+        "artist": "The 8-Bit Big Band",
+        "length": 327776,
+        "releaseDate": "2025-05-09T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -468,9 +486,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "b12dc83b-0f1a-4576-b703-43d622829f6b",
-      "tag": "official-2025-04-26-0",
-      "release": "2025-04-26T14:40:08.0229741Z",
+      "uuid": "ebb3331d-7fb5-45e8-8ee0-5e130845baac",
+      "tag": "official-2025-05-09-0",
+      "release": "2025-05-09T20:20:10.2630779Z",
       "content": [
         {
           "platforms": [
@@ -480,7 +498,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-04-26-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-09-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
