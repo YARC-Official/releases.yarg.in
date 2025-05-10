@@ -486,9 +486,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "ebb3331d-7fb5-45e8-8ee0-5e130845baac",
-      "tag": "official-2025-05-09-0",
-      "release": "2025-05-09T20:20:10.2630779Z",
+      "uuid": "babdc265-9521-42f0-a5e1-78dee323aabc",
+      "tag": "official-2025-05-09-1",
+      "release": "2025-05-10T02:45:12.3988798Z",
       "content": [
         {
           "platforms": [
@@ -498,7 +498,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-09-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-09-1/official-0.7z",
               "fileType": "encrypted"
             }
           ]
