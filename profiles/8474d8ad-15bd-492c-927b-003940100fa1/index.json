@@ -425,6 +425,18 @@
         "releaseDate": "2025-04-18T00:00:00.000Z"
       },
       {
+        "title": "Al Gore Rhythm",
+        "artist": "Blight Town",
+        "length": 145875,
+        "releaseDate": "2025-05-16T00:00:00.000Z"
+      },
+      {
+        "title": "1nput This 2 Y0ur Spine",
+        "artist": "Camellia",
+        "length": 318000,
+        "releaseDate": "2025-05-16T00:00:00.000Z"
+      },
+      {
         "title": "I\u0027m a Bug",
         "artist": "Fries on the Side",
         "length": 156548,
@@ -441,6 +453,12 @@
         "artist": "The 8-Bit Big Band",
         "length": 327776,
         "releaseDate": "2025-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Duvet Thief",
+        "artist": "The Covasettes",
+        "length": 219544,
+        "releaseDate": "2025-05-16T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -486,9 +504,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "babdc265-9521-42f0-a5e1-78dee323aabc",
-      "tag": "official-2025-05-09-1",
-      "release": "2025-05-10T02:45:12.3988798Z",
+      "uuid": "e50d76c2-3285-4033-bbd9-6b8feed3ab52",
+      "tag": "official-2025-05-16-0",
+      "release": "2025-05-17T00:37:10.2466521Z",
       "content": [
         {
           "platforms": [
@@ -498,7 +516,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-09-1/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-16-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
