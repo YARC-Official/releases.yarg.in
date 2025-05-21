@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "37a628f992851f621f4439058b329df07e006b7e",
+      "author": "raphaelgoulart",
+      "summary": "Add support for user-supplied song sources (#1030)",
+      "description": "* Add support for user-supplied song sources\n\n* Code style updates in SongSources.cs\n\n* SongSources: rename _icon to IconName"
+    }
+  ]
+}
