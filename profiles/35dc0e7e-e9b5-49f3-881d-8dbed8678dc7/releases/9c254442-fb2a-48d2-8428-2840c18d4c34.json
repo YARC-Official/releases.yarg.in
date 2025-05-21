@@ -1,0 +1,63 @@
+{
+    "uuid": "9c254442-fb2a-48d2-8428-2840c18d4c34",
+    "tag": "b2972",
+    "release": "2025-05-21T13:14:11Z",
+    "content": [
+        {
+            "platforms": [
+                "windows"
+            ],
+            "files": [
+                {
+                    "url": "https://github.com/YARC-Official/YARG-BleedingEdge/releases/download/b2972/YARG_b2972-Windows-x64.zip",
+                    "fileType": "zip"
+                }
+            ]
+        },
+        {
+            "platforms": [
+                "macos"
+            ],
+            "files": [
+                {
+                    "url": "https://github.com/YARC-Official/YARG-BleedingEdge/releases/download/b2972/YARG_b2972-MacOS-Universal.zip",
+                    "fileType": "zip"
+                }
+            ]
+        },
+        {
+            "platforms": [
+                "linux"
+            ],
+            "files": [
+                {
+                    "url": "https://github.com/YARC-Official/YARG-BleedingEdge/releases/download/b2972/YARG_b2972-Linux-x64.zip",
+                    "fileType": "zip"
+                }
+            ]
+        }
+    ],
+    "launchOptions": {
+        "windows": {
+            "executablePath": "./YARG.exe",
+            "arguments": [],
+            "offlineArgument": "-offline",
+            "languageArgument": "-lang",
+            "downloadLocationArgument": "-download-location"
+        },
+        "macos": {
+            "executablePath": "./YARG.app/Contents/MacOS/YARG",
+            "arguments": [],
+            "offlineArgument": "-offline",
+            "languageArgument": "-lang",
+            "downloadLocationArgument": "-download-location"
+        },
+        "linux": {
+            "executablePath": "./YARG",
+            "arguments": [],
+            "offlineArgument": "-offline",
+            "languageArgument": "-lang",
+            "downloadLocationArgument": "-download-location"
+        }
+    }
+}
