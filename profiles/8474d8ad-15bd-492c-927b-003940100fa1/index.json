@@ -437,6 +437,12 @@
         "releaseDate": "2025-05-16T00:00:00.000Z"
       },
       {
+        "title": "We All Float Down Here",
+        "artist": "Four Year Strong",
+        "length": 192746,
+        "releaseDate": "2025-05-23T00:00:00.000Z"
+      },
+      {
         "title": "I\u0027m a Bug",
         "artist": "Fries on the Side",
         "length": 156548,
@@ -447,6 +453,18 @@
         "artist": "LilDeuceDeuce",
         "length": 146100,
         "releaseDate": "2025-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "It Kills Me",
+        "artist": "Roomie",
+        "length": 188000,
+        "releaseDate": "2025-05-23T00:00:00.000Z"
+      },
+      {
+        "title": "Positively Clark Street",
+        "artist": "Telethon",
+        "length": 255647,
+        "releaseDate": "2025-05-23T00:00:00.000Z"
       },
       {
         "title": "Moonlight Sonata 3rd Mvt (Big Band Version)",
@@ -504,9 +522,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "e50d76c2-3285-4033-bbd9-6b8feed3ab52",
-      "tag": "official-2025-05-16-0",
-      "release": "2025-05-17T00:37:10.2466521Z",
+      "uuid": "67ad9230-f802-4586-8953-dfc537eca6d5",
+      "tag": "official-2025-05-23-0",
+      "release": "2025-05-23T23:09:16.0507584Z",
       "content": [
         {
           "platforms": [
@@ -516,7 +534,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-16-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-23-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
