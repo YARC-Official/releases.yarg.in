@@ -373,7 +373,7 @@
       {
         "title": "Igowallah",
         "artist": "Daniel Thrasher",
-        "length": 254750,
+        "length": 174750,
         "releaseDate": "2025-04-11T00:00:00.000Z"
       },
       {
@@ -437,6 +437,12 @@
         "releaseDate": "2025-05-16T00:00:00.000Z"
       },
       {
+        "title": "The Masquerade",
+        "artist": "Cantervice",
+        "length": 224160,
+        "releaseDate": "2025-05-30T00:00:00.000Z"
+      },
+      {
         "title": "We All Float Down Here",
         "artist": "Four Year Strong",
         "length": 192746,
@@ -449,10 +455,22 @@
         "releaseDate": "2025-05-09T00:00:00.000Z"
       },
       {
+        "title": "Luminaire",
+        "artist": "insaneintherainmusic",
+        "length": 370404,
+        "releaseDate": "2025-05-30T00:00:00.000Z"
+      },
+      {
         "title": "Everybody Do the Flop",
         "artist": "LilDeuceDeuce",
         "length": 146100,
         "releaseDate": "2025-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "To Let Go",
+        "artist": "NateWantsToBattle",
+        "length": 240000,
+        "releaseDate": "2025-05-30T00:00:00.000Z"
       },
       {
         "title": "It Kills Me",
@@ -522,9 +540,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "67ad9230-f802-4586-8953-dfc537eca6d5",
-      "tag": "official-2025-05-23-0",
-      "release": "2025-05-23T23:09:16.0507584Z",
+      "uuid": "380fb6ec-3d19-4ac9-b87e-db818363d481",
+      "tag": "official-2025-05-30-0",
+      "release": "2025-05-31T00:01:28.0416818Z",
       "content": [
         {
           "platforms": [
@@ -534,7 +552,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-23-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-30-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
