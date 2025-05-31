@@ -3,7 +3,7 @@
   "uuid": "9b0beeae-196f-457b-9d9e-279499992e4a",
   "metadata": {
     "name": "WANDERKID",
-    "description": "Follow the journey of WANDERKID in JW Francis's sophomore album! Escape with warm lo-fi indie rock vibes and nostalgically jangly guitar.",
+    "description": "Follow the journey of WANDERKID in JW Francis\u0027s sophomore album! Escape with warm lo-fi indie rock vibes and nostalgically jangly guitar.",
     "iconUrl": "@/icons/SetlistWanderkid.png",
     "bannerBackUrl": "@/banners/SetlistWanderkid.png",
     "initialRelease": "2024-09-30T23:13:26.753Z",
@@ -119,9 +119,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "76e90ce6-e7d6-4807-9e47-992aa4a4a460",
-      "tag": "wanderkid-2024-09-30-0",
-      "release": "2024-09-30T23:13:26.753Z",
+      "uuid": "c69941a3-271e-4cbc-8b34-2801f45c1924",
+      "tag": "wanderkid-2025-05-31-0",
+      "release": "2025-05-31T17:54:56.4566071Z",
       "content": [
         {
           "platforms": [
@@ -131,7 +131,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/wanderkid-2024-09-30-0/wanderkid-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/wanderkid-2025-05-31-0/wanderkid-0.7z",
               "fileType": "encrypted"
             }
           ]
