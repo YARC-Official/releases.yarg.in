@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1f50608a63ea8abce6bab12bf2f8f4ab3bc5cb5a",
+      "author": "wyrdough",
+      "summary": "Fix early wait countdown obscuring player name display. (#992)",
+      "description": "- Changed render order of canvas elements in TrackView prefab.\n- Increased scale of wait countdown to 1.7 so that the countdown meter shows around the edge of the player name display."
+    }
+  ]
+}
