@@ -186,8 +186,8 @@
       "url": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/",
       "release": "2025-06-28T23:32:51.2597638Z",
       "name": "Abyss of Time",
-      "iconUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/abyss_of_time.png",
-      "bannerUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/banner_abyssoftime.jpg",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     },
     {
@@ -197,8 +197,8 @@
       "url": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/",
       "release": "2025-06-28T23:40:04.6348917Z",
       "name": "FX4",
-      "iconUrl": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/fx4.png",
-      "bannerUrl": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/banner_fx4.jpg",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     }
   ]
