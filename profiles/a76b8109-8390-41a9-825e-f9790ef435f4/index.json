@@ -1,0 +1,172 @@
+{
+  "type": "setlist",
+  "uuid": "a76b8109-8390-41a9-825e-f9790ef435f4",
+  "metadata": {
+    "name": "Abyss of Time",
+    "description": "Take on challenging charts of 15 tracks from James Paddock\u0027s metal album, courtesy of Keagan Dunn.",
+    "iconUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/abyss_of_time.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/banner_abyssoftime.jpg",
+    "initialRelease": "2025-06-28T23:32:51.2597638Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Abyss of Time",
+        "artist": "James Paddock",
+        "length": 511459,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Aphrodite",
+        "artist": "James Paddock",
+        "length": 345614,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Bleed Your Hate Out",
+        "artist": "James Paddock",
+        "length": 268170,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Death Drive",
+        "artist": "James Paddock",
+        "length": 370711,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Desert Rose",
+        "artist": "James Paddock",
+        "length": 424320,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Destroyer of Worlds",
+        "artist": "James Paddock",
+        "length": 301846,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Impossible",
+        "artist": "James Paddock",
+        "length": 368576,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Inertia",
+        "artist": "James Paddock",
+        "length": 294150,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Mind Like a Minefield",
+        "artist": "James Paddock",
+        "length": 245416,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Scorch the Earth",
+        "artist": "James Paddock",
+        "length": 358000,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Summer Rain",
+        "artist": "James Paddock",
+        "length": 348000,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Swallow",
+        "artist": "James Paddock",
+        "length": 289977,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "The Penalty",
+        "artist": "James Paddock",
+        "length": 394000,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Unclear Warfare",
+        "artist": "James Paddock",
+        "length": 332173,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "We\u0027ve Seen Better Days",
+        "artist": "James Paddock",
+        "length": 349855,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "94993f8d-0570-40a4-9f05-f95cc81aa621",
+      "tag": "yarn_abyss_of_time-2025-06-28-0",
+      "release": "2025-06-28T23:32:51.2597638Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_abyss_of_time-2025-06-28-0/yarn_abyss_of_time-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

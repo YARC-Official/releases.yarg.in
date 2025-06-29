@@ -1,0 +1,142 @@
+{
+  "type": "setlist",
+  "uuid": "30a9b33a-72bf-4a42-afa2-188a862f34c3",
+  "metadata": {
+    "name": "FX4",
+    "description": "Ported from the setlist Zero Gravity 3D: the 10-track chiptune epic FX4 by Jake \u0022virt\u0022 Kaufman. Charts brought to you by 3-UP.",
+    "iconUrl": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/fx4.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/banner_fx4.jpg",
+    "initialRelease": "2025-06-28T23:40:04.6348917Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Below the Waves",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 311074,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "First Flight",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 339506,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "HBO Feature Presentation",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 30417,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Incident Zero",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 349833,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Journey into the Rift",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 334944,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Reconstruct",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 261133,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Singularity",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 315006,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "The Time Vampire",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 297690,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Undone",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 360559,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      },
+      {
+        "title": "Weapon",
+        "artist": "Jake \u0022virt\u0022 Kaufman",
+        "length": 358582,
+        "releaseDate": "2025-06-28T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "c431ba81-0855-4de8-b37c-c645b1693f44",
+      "tag": "yarn_fx4-2025-06-28-0",
+      "release": "2025-06-28T23:40:04.6348917Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_fx4-2025-06-28-0/yarn_fx4-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

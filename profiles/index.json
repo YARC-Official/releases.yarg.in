@@ -8,7 +8,7 @@
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-05-02T17:42:06.5359047Z",
+  "lastUpdated": "2025-06-28T23:40:04.6348917Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -177,6 +177,28 @@
       "name": "Children\u0027s Keys Pack 2",
       "iconUrl": "@/icons/SetlistKeys.png",
       "bannerUrl": "@/banners/SetlistKeys.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "a76b8109-8390-41a9-825e-f9790ef435f4",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/",
+      "release": "2025-06-28T23:32:51.2597638Z",
+      "name": "Abyss of Time",
+      "iconUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/abyss_of_time.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/banner_abyssoftime.jpg",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "30a9b33a-72bf-4a42-afa2-188a862f34c3",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/",
+      "release": "2025-06-28T23:40:04.6348917Z",
+      "name": "FX4",
+      "iconUrl": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/fx4.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/banner_fx4.jpg",
       "localeOverrides": {}
     }
   ]
