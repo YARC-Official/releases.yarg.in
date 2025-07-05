@@ -6,3 +6,15 @@
 
 /profiles/*
   Content-Type: application/json
+
+/*.jpg
+  ! Content-Type
+  Cache-Control: public, max-age=31556952, immutable
+
+/*.png
+  ! Content-Type
+  Cache-Control: public, max-age=31556952, immutable
+
+/*.webp
+  ! Content-Type
+  Cache-Control: public, max-age=31556952, immutable
