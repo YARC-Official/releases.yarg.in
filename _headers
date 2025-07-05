@@ -8,13 +8,21 @@
   Content-Type: application/json
 
 /*.jpg
-  ! Content-Type
+  Content-Type: image/jpeg
+  Cache-Control: public, max-age=31556952, immutable
+
+/*.jpeg
+  Content-Type: image/jpeg
   Cache-Control: public, max-age=31556952, immutable
 
 /*.png
-  ! Content-Type
+  Content-Type: image/png
+  Cache-Control: public, max-age=31556952, immutable
+
+/*.gif
+  Content-Type: image/gif
   Cache-Control: public, max-age=31556952, immutable
 
 /*.webp
-  ! Content-Type
+  Content-Type: image/webp
   Cache-Control: public, max-age=31556952, immutable
