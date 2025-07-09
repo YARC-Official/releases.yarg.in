@@ -8,7 +8,7 @@
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-06-28T23:40:04.6348917Z",
+  "lastUpdated": "2025-07-09T14:12:52.9942264Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -197,6 +197,17 @@
       "url": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/",
       "release": "2025-06-28T23:40:04.6348917Z",
       "name": "FX4",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "1faac656-ec58-4aeb-817f-62111a79ec38",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/1faac656-ec58-4aeb-817f-62111a79ec38/",
+      "release": "2025-07-09T14:12:52.9942264Z",
+      "name": "YARN Pack 2",
       "iconUrl": "@/icons/SetlistNetwork.png",
       "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}

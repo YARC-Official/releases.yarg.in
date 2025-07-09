@@ -1,0 +1,154 @@
+{
+  "type": "setlist",
+  "uuid": "1faac656-ec58-4aeb-817f-62111a79ec38",
+  "metadata": {
+    "name": "YARN Pack 2",
+    "description": "The second grab-bag pack of charts from music artists and charters in the YARG community!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2025-07-09T14:12:52.9942264Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Madtown",
+        "artist": "Before After Again",
+        "length": 276000,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Desolate Memory",
+        "artist": "Benevolence Lost",
+        "length": 281404,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Stranded",
+        "artist": "FiniShay",
+        "length": 228003,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Glass Beach",
+        "artist": "Glass Beach",
+        "length": 443093,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Apple Fritter",
+        "artist": "Guttural",
+        "length": 193037,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "BIRDBRAIN (feat. OK Glass and Kasane Teto)",
+        "artist": "Jamie Paige",
+        "length": 246260,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Machine Love (feat. Kasane Teto)",
+        "artist": "Jamie Paige",
+        "length": 219428,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Alternative Ego",
+        "artist": "Mattias",
+        "length": 425829,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Country",
+        "artist": "Miriam McCombe",
+        "length": 293905,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Keep Your Guard Up",
+        "artist": "raphaelgoulart",
+        "length": 326837,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "All These Darlings and Now Me",
+        "artist": "Sunflo\u0027er",
+        "length": 257502,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Underground Popstars",
+        "artist": "The Dharmites",
+        "length": 172225,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "05b95859-4619-4de6-8b25-3a20b9178446",
+      "tag": "yarn_pack_2-2025-07-09-0",
+      "release": "2025-07-09T14:12:52.9942264Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_2-2025-07-09-0/yarn_pack_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
