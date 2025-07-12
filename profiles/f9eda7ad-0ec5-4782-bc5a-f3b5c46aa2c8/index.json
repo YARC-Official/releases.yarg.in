@@ -101,9 +101,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "e1a962df-27fe-4db4-8d7e-8ee8ab9da68b",
-      "tag": "assorted_rock_2-2025-07-12-0",
-      "release": "2025-07-12T17:48:35.5922995Z",
+      "uuid": "fdc0fde9-c4ad-401e-83e4-c1007b1f1cb0",
+      "tag": "assorted_rock_2-2025-07-12-1",
+      "release": "2025-07-12T19:20:51.27063Z",
       "content": [
         {
           "platforms": [
@@ -113,7 +113,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_rock_2-2025-07-12-0/assorted_rock_2-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_rock_2-2025-07-12-1/assorted_rock_2-0.7z",
               "fileType": "encrypted"
             }
           ]
