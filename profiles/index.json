@@ -8,7 +8,7 @@
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-07-09T14:12:52.9942264Z",
+  "lastUpdated": "2025-07-12T17:48:35.5922995Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -209,6 +209,17 @@
       "release": "2025-07-09T14:12:52.9942264Z",
       "name": "YARN Pack 2",
       "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "f9eda7ad-0ec5-4782-bc5a-f3b5c46aa2c8",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/f9eda7ad-0ec5-4782-bc5a-f3b5c46aa2c8/",
+      "release": "2025-07-12T17:48:35.5922995Z",
+      "name": "Assorted Rock 2",
+      "iconUrl": "@/icons/SetlistDLC.png",
       "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     }

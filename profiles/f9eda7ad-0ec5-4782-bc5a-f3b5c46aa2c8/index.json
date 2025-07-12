@@ -1,0 +1,124 @@
+{
+  "type": "setlist",
+  "uuid": "f9eda7ad-0ec5-4782-bc5a-f3b5c46aa2c8",
+  "metadata": {
+    "name": "Assorted Rock 2",
+    "description": "Cozy and fuzzy is the theme of this second assortment of rock songs, which range in genre from pop-rock to progressive metal.",
+    "iconUrl": "@/icons/SetlistDLC.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2025-07-12T17:48:35.5922995Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Let Me Dance (feat. Miori Celesta)",
+        "artist": "Alohaii",
+        "length": 212000,
+        "releaseDate": "2025-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "Safehouse",
+        "artist": "Aviations",
+        "length": 304124,
+        "releaseDate": "2025-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "Until the Wind Blows Us Away (feat. Leucinjel)",
+        "artist": "Clover from the Clouds",
+        "length": 248571,
+        "releaseDate": "2025-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "Dance Like an Idiot",
+        "artist": "Lemon Demon",
+        "length": 205000,
+        "releaseDate": "2025-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "Surf Song",
+        "artist": "Saturn\u0027s Girlfriend",
+        "length": 183776,
+        "releaseDate": "2025-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "North Carolina",
+        "artist": "The Broken Spokes",
+        "length": 228331,
+        "releaseDate": "2025-07-12T20:00:00.000Z"
+      },
+      {
+        "title": "Like I Used to Be",
+        "artist": "Troubled Minds",
+        "length": 209454,
+        "releaseDate": "2025-07-12T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "e1a962df-27fe-4db4-8d7e-8ee8ab9da68b",
+      "tag": "assorted_rock_2-2025-07-12-0",
+      "release": "2025-07-12T17:48:35.5922995Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_rock_2-2025-07-12-0/assorted_rock_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
