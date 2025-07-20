@@ -1,0 +1,154 @@
+{
+  "type": "setlist",
+  "uuid": "0d02d00e-eac4-4cdd-b92e-1e75eb03af6b",
+  "metadata": {
+    "name": "Plastic Death",
+    "description": "Delve into this ambitious album of contemplative prog and art rock songs. Charts brought to you by ImPhanty.",
+    "iconUrl": "https://releases.yarg.in/profiles/0d02d00e-eac4-4cdd-b92e-1e75eb03af6b/icon.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/0d02d00e-eac4-4cdd-b92e-1e75eb03af6b/banner.png",
+    "initialRelease": "2025-07-20T16:21:33.3063029Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "200",
+        "artist": "Glass Beach",
+        "length": 231406,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Abyss Angel",
+        "artist": "Glass Beach",
+        "length": 356068,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Coelacanth",
+        "artist": "Glass Beach",
+        "length": 396970,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Commatose",
+        "artist": "Glass Beach",
+        "length": 533506,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Cul-de-Sac",
+        "artist": "Glass Beach",
+        "length": 277805,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Guitar Song",
+        "artist": "Glass Beach",
+        "length": 151807,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Motions",
+        "artist": "Glass Beach",
+        "length": 214187,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Puppy",
+        "artist": "Glass Beach",
+        "length": 199683,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Rare Animal",
+        "artist": "Glass Beach",
+        "length": 278783,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Slip under the Door",
+        "artist": "Glass Beach",
+        "length": 329884,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "The Killer",
+        "artist": "Glass Beach",
+        "length": 241212,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
+        "title": "Whalefall",
+        "artist": "Glass Beach",
+        "length": 250335,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "695cdbb9-1bdf-41cc-8b7b-e92a6ccc3c7c",
+      "tag": "yarn_plastic_death-2025-07-20-0",
+      "release": "2025-07-20T16:21:33.3063029Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_plastic_death-2025-07-20-0/yarn_plastic_death-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
