@@ -1,0 +1,88 @@
+{
+  "commits": [
+    {
+      "sha": "f92c1f4010b374f9781d5771fcd9507b5637b3d7",
+      "author": "theli-ua",
+      "summary": "Add venue rendering scaling + FSR3.1 and AA controls (#1009)",
+      "description": "* Add very simple venue camera manager that manages render scale\n\n* Attach venue camera manager when loading venue\n\n* Add fsr3unity\n\n* Hookup settings for simple venue rendering scaling\n\n* Save original renderscale on awake\n\n* Add fsr setting\n\n* Actually add forgotten fsr package\n\n* Copy assets from fsr3 unity\n\n* Fix string\n\n* Add fsr3 package in package lock\n\n* fsr works\n\n* Add FSR AA setting\n\n* Cleanup todos\n\n* Move FSR3Unity from submodule to git package dependency\n\n* Address PR feedback\n\n* Remove fsr3unity from gitmodules\n\n* Reset fsr context when scale changes\n\n* fsr manager ondisable/enable\n\n* Enable Native RenderPass api\n\n* Unlock FSR3 selection for venue aa for everyone now that it works\n\n* Revert enabling native render passes\n\n* Fix getting depth for fsr3\n\n* Fix the jitter finally\n\n* Disable debug view by default\n\n* Auto generate reactive mask\n\n* Restrict FSR to supported  systems\n\n* Apply mipmap bias when using fsr\n\n* cleanup fsr flags\n\n* Do not use editor utilities when applying mipmap bias\n\n* Fix mipmap bias\n\n* no need for random rw for temporary textures for reactive mask\n\n* Pickup fix for motion vector jitter cancellation and drop workaround"
+    },
+    {
+      "sha": "b1f66c1b2025a6ba140e98682e8c439992fe5356",
+      "author": "RileyTheFox",
+      "summary": "Remove LINQ in localize practice sections",
+      "description": ""
+    },
+    {
+      "sha": "de641e6cc9019dd7f1da3832730801d76e549a8a",
+      "author": "Frickitickitavi",
+      "summary": "Generalize and localize practice sections (v2) (#1027)",
+      "description": "* Fresh impl with improved .chart support\n\n* Remove unused import\n\n* Fix \"TrippyPart\" typo\n\n* Address review feedback"
+    },
+    {
+      "sha": "5c0a94a353704dc646957ff08eaee8909d257228",
+      "author": "TheNathannator",
+      "summary": "Update PlasticBand-Unity to 0.9.0",
+      "description": "- Fixes Santroller devices wigging out when playing at high framerates\n- Correctly handles velocities for pad+cymbal hits of the same color on RB drumkits"
+    },
+    {
+      "sha": "c6d71bf3505aa263c1812c74f9639c2f6127e876",
+      "author": "RileyTheFox",
+      "summary": "Merge branch 'dev' of https://github.com/YARC-Official/YARG into dev",
+      "description": ""
+    },
+    {
+      "sha": "88043608f8b625baa6212336c29763a510e20728",
+      "author": "RileyTheFox",
+      "summary": "Merge branch 'theli-ua-canvas' into dev",
+      "description": ""
+    },
+    {
+      "sha": "1ebefdc652986b18610243bcdbf9787a0f0718fc",
+      "author": "RileyTheFox",
+      "summary": "Merge canvas split",
+      "description": ""
+    },
+    {
+      "sha": "f38e849347957ae02f14da7d35812070f94228a1",
+      "author": "theli-ua",
+      "summary": "Fix particle blending (#1025)",
+      "description": "Fixes transparency issues with particle backgrounds (especially vocal percussions)\n\nWhile still not allowing particles make alpha holes in the track"
+    },
+    {
+      "sha": "8a060249381fcf158cc4879f018a44948b44998b",
+      "author": "wyrdough",
+      "summary": "Add multiplier glow effects (#1032)",
+      "description": "* Add \"breathing\" on beatline to sunburst effect.\n\n* Add effects when score multiplier changes.\n\n- Also reworks sunburst effects to only use a single sprite and light for both SP and groove.\n\n* Fix race condition when activating groove and starpower mode.\n- End the sunburst disable tween early when activating groove or starpower sunburst effect to prevent disable tween callback from disabling the sunburst and track light game objects."
+    },
+    {
+      "sha": "e6a9a19a541bcfc0b7ab1271ba8439143238ff7b",
+      "author": "wyrdough",
+      "summary": "Add custom playlist and ad hoc setlist features (#1038)",
+      "description": "* Add setlist feature\n\n- Allows user to select multiple songs to a set, which are then played in sequence before returning to the library menu.\n\n* Allow users to create and curate custom playlists.\n\n* Refinements to playlists and setlist UX\n\n- Ad hoc setlists are now launched with hold+release on yellow\n- All playlists (including favorites) are now found in the playlist library menu\n- Entire playlist can now be added to setlist in one go\n\n* Playlist and setlist improvements\n- Add ability to save current setlist to a playlist\n- Show current setlist in playlist view, allowing deletion of songs or entire setlist\n- Fix bug where exiting playlist select view returned to main menu instead of library\n- Add ability to add playlist to setlist in one go\n\n* Fix instrument selection bug\n\n* Add setlist specific pause menu with skip option.\n\n* address review comments\n\n- Make setlist pause inactive by default\n- Move skip option in setlist pause menu to second to last position\n- Don't allow user to create a playlist named the same as the localized \"Current Setlist\" string.\n- Make rename dialog text field active when dialog is created\n\n* Remove skip option from navigation group when skip is disabled\n\n- Resolves issue where invisible skip option was still selectable using button navigation\n\n* Return player to selected playlist after playing a song from said playlist\n\n* Use blue button instead of yellow hold to start setlist\n\n---------\n\nCo-authored-by: Jacob Chambers <jacobchambers@hotmail.co.uk>"
+    },
+    {
+      "sha": "4d384b5d86853cefff104e759640b013934ec76a",
+      "author": "theli-ua",
+      "summary": "[Visualizer venue support / Sound texture] Introduce Gameplay.TextureManager (#995)",
+      "description": "* Introduce Gameplay.TextureManager\n\nThis serves for integrating GameState into venue materials.\nCurrently supported textures are:\n * Sound spectrum and waveform\n * Chart source icon\n * Chart album cover\n\n* Add texture manager to gameplay scene\n\n* Add simple template/example for visualizer-like shader venue\n\n* Address PR feedback\n\n* Fix style\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\n\n* Add fft/waveform smoothing\n\n* Cleanup consts and fft size\n\n* attempt to better replicate shader toy behavior\n\n* Don't do fft smoothing twice\n\n* allow venues to set the fft and wave smoothing factors\n\n* Clean up FFT fixes. Add gamma correction to sample shader.\n\n* Oops, forgot to remove some unused fields.\n\n* Fix symbol names and formatting. Extract getting source icon into a method\n\nFrom pr feedback\n\n* Move updatefft into update from fixedupdate\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "5bc0800a87c9d11b33b9e834fb553f2c05cfaf9f",
+      "author": "wyrdough",
+      "summary": "Play along with replay (#1035)",
+      "description": "* Allow playing along with a past replay\n\n* Add replay tag to score card, correct logic in HideCursor.\n\n* Mark songs played with replay as such\n- Added PlayedWithReplay column to GameRecord table\n- Added IsReplay column to PlayerScoreRecord table\n- Added tag to score screen card noting which players were actually replays\n- Fix bug causing PlayerScoreRecord not to be saved for play with replay plays"
+    },
+    {
+      "sha": "5acd9a37fb6e7cb81272f6a38c22dc4bf2865c6e",
+      "author": "thomeval",
+      "summary": "Band Streaks (#916)",
+      "description": "* WIP Implementation of Band Streak display.\nAdded \"Strict\" and \"Lenient\" modes, where \"Lenient\" matches GH's combo counting, and \"Strict\" matches Band BoomBox.\nAdded setting to toggle the above in Experiemental Settings.\n\n* Update YARG.Core\n\n* Rename BandComboType to BandComboTypeSetting in SettingsManager to solve name clash\nRemoved duplicate BandComboType enum and update usages\n\n* Fixed incorrect band streak calculation in Lenient mode when a player misses a note.\n\n* Update YARG.Core\n\n* Update YARG.Core"
+    },
+    {
+      "sha": "20c44bb8dba94e809e506602419ab40ca6b87e0d",
+      "author": "theli-ua",
+      "summary": "Fix lyrics canvas vertex colors",
+      "description": ""
+    }
+  ]
+}
