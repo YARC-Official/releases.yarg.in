@@ -76,6 +76,12 @@
         "releaseDate": "2025-07-20T20:00:00.000Z"
       },
       {
+        "title": "The CIA",
+        "artist": "Glass Beach",
+        "length": 282936,
+        "releaseDate": "2025-07-20T20:00:00.000Z"
+      },
+      {
         "title": "The Killer",
         "artist": "Glass Beach",
         "length": 241212,
@@ -131,9 +137,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "695cdbb9-1bdf-41cc-8b7b-e92a6ccc3c7c",
-      "tag": "yarn_plastic_death-2025-07-20-0",
-      "release": "2025-07-20T16:21:33.3063029Z",
+      "uuid": "a4e84bed-7461-407f-a90d-fe9e4214dc0c",
+      "tag": "yarn_plastic_death-2025-07-21-0",
+      "release": "2025-07-21T16:18:08.7616865Z",
       "content": [
         {
           "platforms": [
@@ -143,7 +149,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_plastic_death-2025-07-20-0/yarn_plastic_death-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_plastic_death-2025-07-21-0/yarn_plastic_death-0.7z",
               "fileType": "encrypted"
             }
           ]
