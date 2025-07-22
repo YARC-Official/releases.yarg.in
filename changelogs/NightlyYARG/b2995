@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "4774340821f0f49c704e96e1f9e51e41eccfa33c",
+      "author": "wyrdough",
+      "summary": "don't add favorites playlist to list of user-created playlists (#1054)",
+      "description": "- Prevents favorites playlist appearing twice in playlist menu"
+    }
+  ]
+}
