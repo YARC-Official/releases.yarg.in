@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "198524c358fbdf4ac60a4e73ff7e470525ed440b",
+      "author": "wyrdough",
+      "summary": "Replace FALSE with 0 so score DB queries don't fail on Linux (#1053)",
+      "description": ""
+    },
+    {
+      "sha": "29400486328d1f40570a1b9f4a7d6be323834d1b",
+      "author": "theli-ua",
+      "summary": "Undo jitter cancellation change to fix jitter when using FSR (#1052)",
+      "description": "This reverts commit 72c523cc127668b6e1855494e5056f4212701e34."
+    }
+  ]
+}
