@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "6fbfa2215d4f664f632977be9304a946b71aab1d",
+      "author": "wyrdough",
+      "summary": "fix score box positioning after hud has been edited (#1057)",
+      "description": "- DraggableHudElement was on both the Score Canvas element and the ScoreDisplay prefab, so it has been removed from the prefab."
+    },
+    {
+      "sha": "a9ef66b57fa197186894b66e7f1e9f66c942ca20",
+      "author": "wyrdough",
+      "summary": "Fix bug causing any difficulty to be selectable in play with replay (#1056)",
+      "description": ")\n\n* Fix bug causing any difficulty to be selectable in play with replay\n\n* better fix\n\n- extracts song list generation into OnEnable and uses that for all instrument/difficulty checks instead of rebuilding the list for every player and having to do something different for the difficulty check."
+    }
+  ]
+}
