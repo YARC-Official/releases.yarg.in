@@ -8,7 +8,7 @@
     "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-07-20T16:21:33.3063029Z",
+  "lastUpdated": "2025-07-25T16:19:46.1761723Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -232,6 +232,17 @@
       "name": "Plastic Death",
       "iconUrl": "https://releases.yarg.in/profiles/0d02d00e-eac4-4cdd-b92e-1e75eb03af6b/icon.png",
       "bannerUrl": "https://releases.yarg.in/profiles/0d02d00e-eac4-4cdd-b92e-1e75eb03af6b/banner.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "c0eb74f4-05df-4dfa-8ceb-b699ced444fc",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/",
+      "release": "2025-07-25T16:19:46.1761723Z",
+      "name": "The Slip",
+      "iconUrl": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/icon.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/banner.png",
       "localeOverrides": {}
     }
   ]

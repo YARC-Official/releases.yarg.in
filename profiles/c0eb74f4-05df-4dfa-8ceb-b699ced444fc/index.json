@@ -1,0 +1,130 @@
+{
+  "type": "setlist",
+  "uuid": "c0eb74f4-05df-4dfa-8ceb-b699ced444fc",
+  "metadata": {
+    "name": "The Slip",
+    "description": "Round out \u0022Discipline\u0022 from the official setlist with the rest of Nine Inch Nails\u0027 seventh album, featuring famous tracks that range from caustic and intense to eerie and meditative.",
+    "iconUrl": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/icon.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/banner.png",
+    "initialRelease": "2025-07-25T16:19:46.1761723Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "999,999 / 1,000,000",
+        "artist": "Nine Inch Nails",
+        "length": 327681,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      },
+      {
+        "title": "Corona Radiata",
+        "artist": "Nine Inch Nails",
+        "length": 473454,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      },
+      {
+        "title": "Demon Seed",
+        "artist": "Nine Inch Nails",
+        "length": 301817,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      },
+      {
+        "title": "Echoplex",
+        "artist": "Nine Inch Nails",
+        "length": 286451,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      },
+      {
+        "title": "Head Down",
+        "artist": "Nine Inch Nails",
+        "length": 297049,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      },
+      {
+        "title": "Letting You",
+        "artist": "Nine Inch Nails",
+        "length": 233406,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      },
+      {
+        "title": "Lights in the Sky",
+        "artist": "Nine Inch Nails",
+        "length": 194727,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      },
+      {
+        "title": "The Four of Us Are Dying",
+        "artist": "Nine Inch Nails",
+        "length": 286265,
+        "releaseDate": "2025-07-25T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "d0897dce-fefd-485e-a653-dadf0b60f1bb",
+      "tag": "the_slip-2025-07-25-0",
+      "release": "2025-07-25T16:19:46.1761723Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/the_slip-2025-07-25-0/the_slip-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
