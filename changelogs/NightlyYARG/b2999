@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "39fc4051c0b36f7ed205414ef48aade76f9a7078",
+      "author": "TheNathannator",
+      "summary": "Add binding preset for CRKD guitar PC mode 1",
+      "description": ""
+    },
+    {
+      "sha": "b1513a88e6a95e551dae802ffba01679e2d06eac",
+      "author": "TheNathannator",
+      "summary": "Make gamepad binding preset prompt much less of a hack",
+      "description": "No longer lives in the code for default bindings lol"
+    }
+  ]
+}
