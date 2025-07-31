@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "cc94ecba1b024eb8d4a3204440eaadb7aebc6785",
+      "author": "wyrdough",
+      "summary": "Fix issue with xinput gamepad device binding (#1061)",
+      "description": "* Fix issue with xinput gamepad device binding\n\n- We weren't waiting on the PromptGamePadMode dialog, so bindings were not getting added and the profile was not getting connected.\n\n* unset xinputDialogShowing upon leaving the dialog\n\n* Revert \"unset xinputDialogShowing upon leaving the dialog\"\n\nThis reverts commit c5ce6183a7280313cf037e4e41ee6d1419a46ec8."
+    }
+  ]
+}
