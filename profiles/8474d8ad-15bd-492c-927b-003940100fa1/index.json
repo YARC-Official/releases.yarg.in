@@ -98,7 +98,7 @@
         "title": "Beverly",
         "artist": "Used to Be Valentines",
         "length": 182736,
-        "releaseDate": "2025-02-14T20:00:00.000Z"
+        "releaseDate": "2025-02-14T00:00:00.000Z"
       },
       {
         "title": "Pizza Rolls",
@@ -495,6 +495,42 @@
         "artist": "The Covasettes",
         "length": 219544,
         "releaseDate": "2025-05-16T00:00:00.000Z"
+      },
+      {
+        "title": "Over Again",
+        "artist": "Alex Sandra",
+        "length": 159389,
+        "releaseDate": "2025-08-01T00:00:00.000Z"
+      },
+      {
+        "title": "Jenny B",
+        "artist": "Bumblefoot",
+        "length": 124426,
+        "releaseDate": "2025-08-01T00:00:00.000Z"
+      },
+      {
+        "title": "Eleven",
+        "artist": "Last Dinosaurs",
+        "length": 209828,
+        "releaseDate": "2025-08-01T00:00:00.000Z"
+      },
+      {
+        "title": "Fine",
+        "artist": "Lemon Demon",
+        "length": 270222,
+        "releaseDate": "2025-08-01T00:00:00.000Z"
+      },
+      {
+        "title": "Frank Scored a Video Game",
+        "artist": "Max Boras",
+        "length": 161200,
+        "releaseDate": "2025-08-01T00:00:00.000Z"
+      },
+      {
+        "title": "Show Ya",
+        "artist": "Nana Asteria",
+        "length": 167225,
+        "releaseDate": "2025-08-01T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -540,9 +576,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "a3fbc2d9-9447-45cb-b4c0-98d8e11d014e",
-      "tag": "official-2025-05-31-0",
-      "release": "2025-05-31T16:05:35.8698576Z",
+      "uuid": "2a8df7a0-eb2c-4137-96a6-7799ce5b9898",
+      "tag": "official-2025-08-01-0",
+      "release": "2025-08-01T23:10:11.9494047Z",
       "content": [
         {
           "platforms": [
@@ -552,7 +588,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-05-31-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-08-01-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
