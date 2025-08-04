@@ -4,6 +4,7 @@
   "metadata": {
     "name": "YARG Official Setlist",
     "description": "YARG\u0027s Official Setlist is a multi-genre, full-band full-difficulty, in development setlist brought to you by YARG\u0027s amazing and talented charting team. Its eventual goal is to have 80 to 100 songs, all made with love and lots of care. The setlist contains songs from underappreciated artists, along with more well known songs.",
+    "badge": "Official",
     "iconUrl": "@/icons/Setlist.png",
     "bannerBackUrl": "@/banners/SetlistBack.png",
     "bannerFrontUrl": "@/banners/SetlistFront.png",

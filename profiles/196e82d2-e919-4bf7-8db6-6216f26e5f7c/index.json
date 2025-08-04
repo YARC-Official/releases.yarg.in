@@ -4,6 +4,7 @@
   "metadata": {
     "name": "Mini-Wave 0",
     "description": "An exclusive early sneak peek into our biggest chart launch to date, featuring some of the best songs you\u0027ve never heard of!",
+    "badge": "YARN",
     "iconUrl": "@/icons/SetlistNetwork.png",
     "bannerBackUrl": "@/banners/SetlistBack.png",
     "initialRelease": "2025-04-01T17:33:31.8406513Z",

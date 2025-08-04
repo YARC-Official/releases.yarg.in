@@ -4,6 +4,7 @@
   "metadata": {
     "name": "Assorted Rock 2",
     "description": "Cozy and fuzzy is the theme of this second assortment of rock songs, which range in genre from pop-rock to progressive metal.",
+    "badge": "Official",
     "iconUrl": "@/icons/SetlistDLC.png",
     "bannerBackUrl": "@/banners/SetlistBack.png",
     "initialRelease": "2025-07-12T17:48:35.5922995Z",

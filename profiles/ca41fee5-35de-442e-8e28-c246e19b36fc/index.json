@@ -4,6 +4,7 @@
   "metadata": {
     "name": "Children's Keys Pack 1",
     "description": "If you have a budding pianist in your life (or if the classical songs are too hard for you), try this easy pack of classic children's songs and nursery rhymes. Learn real melodies on Pro Keys, or play five-lane versions of both the melody and harmony with the Keys and Bass parts.",
+    "badge": "Official",
     "iconUrl": "@/icons/SetlistKeys.png",
     "bannerBackUrl": "@/banners/SetlistKeys.png",
     "initialRelease": "2024-10-23T02:02:51.396Z",

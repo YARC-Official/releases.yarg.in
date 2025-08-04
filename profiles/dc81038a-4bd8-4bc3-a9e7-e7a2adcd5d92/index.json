@@ -4,6 +4,7 @@
   "metadata": {
     "name": "YARN Pack 1",
     "description": "Our first grab-bag pack from YARN authors. Check out what they\u0027ve submitted!",
+    "badge": "YARN",
     "iconUrl": "@/icons/SetlistNetwork.png",
     "bannerBackUrl": "@/banners/SetlistBack.png",
     "initialRelease": "2025-03-08T18:24:31.3334654Z",

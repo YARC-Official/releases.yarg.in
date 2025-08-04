@@ -4,6 +4,7 @@
   "metadata": {
     "name": "Assorted Metal 1",
     "description": "Rock out with an assortment of accessible metal songs, drawing from nu-metal, alternative, thrash, and djent!",
+    "badge": "Official",
     "iconUrl": "@/icons/SetlistDLC.png",
     "bannerBackUrl": "@/banners/SetlistBack.png",
     "initialRelease": "2025-03-01T19:45:26.4850637Z",
