@@ -3,12 +3,13 @@
     "backgroundUrl": "@/banners/SetlistWave.png",
     "backgroundAccent": "#DF6B00",
     "useLightText": false,
-    "preHeaderText": "YARG\u0027s Third DLC",
-    "headerText": "Assorted Metal 1",
-    "viewProfileUUID": "c0a10224-2cf2-4584-8dee-778108c7796d",
+    "preHeaderText": "Official Setlist",
+    "headerText": "Wave 11",
+    "viewProfileUUID": "8474d8ad-15bd-492c-927b-003940100fa1",
+    "previewUrl": "https://www.youtube.com/watch?v=pLro3rQ3KA4",
     "localeOverrides": {}
   },
-  "lastUpdated": "2025-07-25T16:19:46.1761723Z",
+  "lastUpdated": "2025-08-04T11:57:29.1761723Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -138,7 +139,7 @@
     {
       "uuid": "dc81038a-4bd8-4bc3-a9e7-e7a2adcd5d92",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/dc81038a-4bd8-4bc3-a9e7-e7a2adcd5d92/",
       "release": "2025-03-08T18:24:31.3334654Z",
       "name": "YARN Pack 1",
@@ -149,7 +150,7 @@
     {
       "uuid": "196e82d2-e919-4bf7-8db6-6216f26e5f7c",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/196e82d2-e919-4bf7-8db6-6216f26e5f7c/",
       "release": "2025-04-01T17:33:31.8406513Z",
       "name": "Mini-Wave 0",
@@ -182,29 +183,31 @@
     {
       "uuid": "a76b8109-8390-41a9-825e-f9790ef435f4",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/",
       "release": "2025-06-28T23:32:51.2597638Z",
       "name": "Abyss of Time",
-      "iconUrl": "@/icons/SetlistNetwork.png",
-      "bannerUrl": "@/banners/SetlistBack.png",
+      "subText": "James Paddock",
+      "iconUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/abyss_of_time.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/a76b8109-8390-41a9-825e-f9790ef435f4/banner_abyssoftime.jpg",
       "localeOverrides": {}
     },
     {
       "uuid": "30a9b33a-72bf-4a42-afa2-188a862f34c3",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/",
       "release": "2025-06-28T23:40:04.6348917Z",
       "name": "FX4",
-      "iconUrl": "@/icons/SetlistNetwork.png",
-      "bannerUrl": "@/banners/SetlistBack.png",
+      "subText": "Jake \"virt\" Kaufman",
+      "iconUrl":	"https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/fx4.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/30a9b33a-72bf-4a42-afa2-188a862f34c3/banner_fx4.jpg",
       "localeOverrides": {}
     },
     {
       "uuid": "1faac656-ec58-4aeb-817f-62111a79ec38",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/1faac656-ec58-4aeb-817f-62111a79ec38/",
       "release": "2025-07-09T14:12:52.9942264Z",
       "name": "YARN Pack 2",
@@ -226,10 +229,11 @@
     {
       "uuid": "0d02d00e-eac4-4cdd-b92e-1e75eb03af6b",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/0d02d00e-eac4-4cdd-b92e-1e75eb03af6b/",
       "release": "2025-07-20T16:21:33.3063029Z",
       "name": "Plastic Death",
+      "subText": "Glass Beach",
       "iconUrl": "https://releases.yarg.in/profiles/0d02d00e-eac4-4cdd-b92e-1e75eb03af6b/icon.png",
       "bannerUrl": "https://releases.yarg.in/profiles/0d02d00e-eac4-4cdd-b92e-1e75eb03af6b/banner.png",
       "localeOverrides": {}
@@ -241,6 +245,7 @@
       "url": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/",
       "release": "2025-07-25T16:19:46.1761723Z",
       "name": "The Slip",
+      "subText": "Nine Inch Nails",
       "iconUrl": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/icon.png",
       "bannerUrl": "https://releases.yarg.in/profiles/c0eb74f4-05df-4dfa-8ceb-b699ced444fc/banner.png",
       "localeOverrides": {}
