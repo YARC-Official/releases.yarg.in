@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "59bba197197d07608e31e0e861137bc961c2fd04",
+      "author": "TheNathannator",
+      "summary": "actually use the right submodule pointer",
+      "description": ""
+    },
+    {
+      "sha": "b104a54ffc28a5acb1eb8e8ba02466db824438a1",
+      "author": "TheNathannator",
+      "summary": "Add explicit message to VocalNoteElement assert",
+      "description": ""
+    }
+  ]
+}
