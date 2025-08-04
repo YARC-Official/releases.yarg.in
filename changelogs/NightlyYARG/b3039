@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "ce2a9ed90cfa8c0f21ff93cabf93497981b4cd81",
+      "author": "wyrdough",
+      "summary": "Don't build core DLL in batch mode (build script already does it for us) (#1071)",
+      "description": ""
+    },
+    {
+      "sha": "6d339ab7e86a87831d3d2f7af5682643932e12f5",
+      "author": "RileyTheFox",
+      "summary": "Only display inconsistent replay popup in editor/nightly/test builds",
+      "description": ""
+    },
+    {
+      "sha": "5efc6f53cf03692c59100df9f5a6fa409678dc3e",
+      "author": "wyrdough",
+      "summary": "Minor cleanups found testing engine-fixes (#1070)",
+      "description": "* engine fixes cleanups\n\n- Make use of more detailed status from ReplayIO.TryReadMetadata to provide more helpful messages when replays can't be played.\n- Fix spelling error in ReplayInfo\n\n* bug smashing\n\n- Fix compile error due to missing \"using System\" in TrackPlayer\n- Fix DrumsNoteElement attempting to access player profile before it is loaded\n- Fix ReplayPause not removing save color profile from navigation group when it is disabled"
+    },
+    {
+      "sha": "7623b98bf74fc198787dd1f5679f51c7c098bf08",
+      "author": "RileyTheFox",
+      "summary": "Update YARG.Core pointer for engine-fixes merge",
+      "description": ""
+    },
+    {
+      "sha": "febf9d26a73aedf88466c38aa76acf6f73475e99",
+      "author": "RileyTheFox",
+      "summary": "Merge pull request #1069 from YARC-Official/engine-fixes",
+      "description": "engine-fixes Branch Merge"
+    },
+    {
+      "sha": "8d1d0e575a276f2804ca016ccf2f67ae71c7b108",
+      "author": "RileyTheFox",
+      "summary": "Merge branch 'dev' into engine-fixes",
+      "description": ""
+    },
+    {
+      "sha": "87b2ab358c68e5dafb67135586b311049002435f",
+      "author": "wyrdough",
+      "summary": "Add command line argument for verbose replays, etc (#1064)",
+      "description": "* add GetLevel_Internal to BassStemMixer so YARG engine-fixes will build against Core engine-fixes\n\n- Extracted from YARG PR #993\n\n* Add support for verbose replays command line arg\n\n- When set, we capture, save and read frame times from replays (assuming the replays have them). Otherwise, frame time data is not captured, and we tell core not to bother us with frame time data in replays that have that data.\n\n* Pass ReplayReadOptions struct to ReplayIO instead of bare bool"
+    }
+  ]
+}
