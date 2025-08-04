@@ -4,6 +4,7 @@
   "metadata": {
     "name": "WANDERKID",
     "description": "Follow the journey of WANDERKID in JW Francis\u0027s sophomore album! Escape with warm lo-fi indie rock vibes and nostalgically jangly guitar.",
+    "badge": "Official",
     "iconUrl": "@/icons/SetlistWanderkid.png",
     "bannerBackUrl": "@/banners/SetlistWanderkid.png",
     "initialRelease": "2024-09-30T23:13:26.753Z",

@@ -4,6 +4,7 @@
   "metadata": {
     "name": "Assorted Rock 1",
     "description": "Join us for our first pack of DLC with a collection of indie performances and electronic rock tracks!",
+    "badge": "Official",
     "iconUrl": "@/icons/SetlistDLC.png",
     "bannerBackUrl": "@/banners/SetlistBack.png",
     "initialRelease": "2024-08-24T16:50:34.439Z",

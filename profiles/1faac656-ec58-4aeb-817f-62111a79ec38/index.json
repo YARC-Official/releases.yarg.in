@@ -4,6 +4,7 @@
   "metadata": {
     "name": "YARN Pack 2",
     "description": "The second grab-bag pack of charts from music artists and charters in the YARG community!",
+    "badge": "YARN",
     "iconUrl": "@/icons/SetlistNetwork.png",
     "bannerBackUrl": "@/banners/SetlistBack.png",
     "initialRelease": "2025-07-09T14:12:52.9942264Z",

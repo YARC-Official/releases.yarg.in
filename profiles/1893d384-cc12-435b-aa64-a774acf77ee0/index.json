@@ -4,6 +4,7 @@
   "metadata": {
     "name": "Classical Keys Pack 1",
     "description": "Explore world-famous pieces for piano, organ, and even calliope with YARG\u0027s first collection of public domain classical music. Learn authentic right-hand parts on Pro Keys, or play five-lane versions of each hand on Keys and Bass!",
+    "badge": "Official",
     "iconUrl": "@/icons/SetlistKeys.png",
     "bannerBackUrl": "@/banners/SetlistKeysAlt.png",
     "initialRelease": "2024-10-23T02:02:51.396Z",
