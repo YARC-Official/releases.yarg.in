@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "4fd10dde2871ad372ddb064eac5d06f767baf399",
+      "author": "wyrdough",
+      "summary": "Remove build-breaking asmdef (#1074)",
+      "description": ""
+    },
+    {
+      "sha": "95b05f245b9a302aab82ac036cdaeb3eb7616fd4",
+      "author": "sonicfind",
+      "summary": ".chart Solo & Beatline hotfixes",
+      "description": ""
+    },
+    {
+      "sha": "d2d19b32dbdbdc3567d87f4b711e3145bdfd87df",
+      "author": "TheNathannator",
+      "summary": "Replace YARG.Core builder by bringing YARG.Core in as a Unity package instead (#1073)",
+      "description": "* Nuke YARG.Core builder and bring it in as a Unity package instead\nAlso update NugetForUnity in the process\n\n* Remove obsolete YARG.Core building step from project setup instructions"
+    }
+  ]
+}
