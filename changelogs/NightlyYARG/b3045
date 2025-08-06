@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d6b3c04f32b1a484bca17023895ec9b29f6e538d",
+      "author": "wyrdough",
+      "summary": "update core submodule pointer (#1075)",
+      "description": ""
+    }
+  ]
+}
