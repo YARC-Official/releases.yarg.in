@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "71ace6ac9d9e73cd9819b8b68a9f1f5abb27b8d1",
+      "author": "TheNathannator",
+      "summary": "Completely re-engineer BeatEventHandler to introduce new beat event modes, granular progress amounts, and distinction between calibration types",
+      "description": ""
+    }
+  ]
+}
