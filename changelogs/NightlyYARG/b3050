@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "011d6eecc92b3a45d7e7bf9c38d5495abff0936c",
+      "author": "TheNathannator",
+      "summary": "Update IDE packages",
+      "description": ""
+    },
+    {
+      "sha": "1091a2cc655d56b9e755a452f7c8871e83ef58fa",
+      "author": "TheNathannator",
+      "summary": "Make EnableNullability.props get imported into project file instead of inlined",
+      "description": ""
+    },
+    {
+      "sha": "85c7a632884f1b0ed79ce7b322e1aa465ff1dadc",
+      "author": "theli-ua",
+      "summary": "Update core pointer (#1082)",
+      "description": ""
+    }
+  ]
+}
