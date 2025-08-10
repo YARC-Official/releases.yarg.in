@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "90ad368bc69da1138d819714bf19a2cd16ff2cf4",
+      "author": "TheNathannator",
+      "summary": "Drive Star Power bar and gold star pulses using beat progress instead of just beat triggers (#1081)",
+      "description": ""
+    }
+  ]
+}
