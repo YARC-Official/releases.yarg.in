@@ -1,0 +1,76 @@
+{
+  "commits": [
+    {
+      "sha": "0050bf60b7f87a4fb10faf0d96be49e9549b40d8",
+      "author": "TheNathannator",
+      "summary": "Add some documentation about the design decisions of the song runner",
+      "description": ""
+    },
+    {
+      "sha": "2ed095126cbb81a37ccaab82bb7c4607c9ebaa7f",
+      "author": "TheNathannator",
+      "summary": "Fix various issues with, and simplify/clarify the handling of, calibration in the song runner",
+      "description": ""
+    },
+    {
+      "sha": "10aa880cab85d79d1e864982e231f7168b847333",
+      "author": "TheNathannator",
+      "summary": "Fix practice mode not working until after restarting the section",
+      "description": ""
+    },
+    {
+      "sha": "f9a71b9d1af734d2588a106a8230a03d4838bf85",
+      "author": "EliteAsian123",
+      "summary": "Change version to `v0.13.0`",
+      "description": ""
+    },
+    {
+      "sha": "8519092b8747c6a34290d54731f9297c7c9d3a68",
+      "author": "EliteAsian123",
+      "summary": "Update MOTD",
+      "description": ""
+    },
+    {
+      "sha": "b7c28a326e1338b685cbfff254a9a5142ac9c300",
+      "author": "TheNathannator",
+      "summary": "Add fallback for missing models in themes (fixes YARG on Fire no longer working on drums)",
+      "description": ""
+    },
+    {
+      "sha": "bad7ba5bae8be7b8aa60200285347b6c825bf610",
+      "author": "TheNathannator",
+      "summary": "Fix strong beat events not working on .mid songs that contain a BEAT track",
+      "description": ""
+    },
+    {
+      "sha": "af32243e492349fc88f93538e0c0126e7967c600",
+      "author": "TheNathannator",
+      "summary": "Improve frame debugger experience by force-pausing song runner while it's active",
+      "description": ""
+    },
+    {
+      "sha": "303af986e37839eb5896b4db6f1024e8846e53ce",
+      "author": "TheNathannator",
+      "summary": "Fix some issues with the gameplay debug menu, and improve its position clamping",
+      "description": ""
+    },
+    {
+      "sha": "ac57ea2c90cfd0e597c4a44a7ca8a257adff1749",
+      "author": "TheNathannator",
+      "summary": "Tweak how input update times are tracked for better update consistency",
+      "description": ""
+    },
+    {
+      "sha": "d58df0eb1ef5a0bed75a33fde16a842e36548941",
+      "author": "TheNathannator",
+      "summary": "Ensure that lag frames don't cause the song position to become bumped forward when starting a song",
+      "description": ""
+    },
+    {
+      "sha": "69dd45fbeab24c3ba292355385c928d5bf091673",
+      "author": "TheNathannator",
+      "summary": "Clean up player visual update functions",
+      "description": ""
+    }
+  ]
+}
