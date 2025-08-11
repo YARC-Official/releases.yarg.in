@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "252988392c5e45985d2127ca0f211db7de4ae567",
+      "author": "TheNathannator",
+      "summary": "Fix compile error",
+      "description": ""
+    },
+    {
+      "sha": "651e50759b1acb85a4e9e9e7a699daa9c854a85d",
+      "author": "sonicfind",
+      "summary": "Fix genre \"Go To\" entries showing single characters",
+      "description": ""
+    }
+  ]
+}
