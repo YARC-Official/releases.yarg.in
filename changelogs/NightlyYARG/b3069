@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "669ec8a1265ba8a5a0bedce72c7fe7a19881084b",
+      "author": "wyrdough",
+      "summary": "Add setting to disable track effects",
+      "description": "- Settings -> Graphics -> Gameplay -> Enable Track Effects"
+    },
+    {
+      "sha": "ca180256ae945d1d1adea4503dfdeb0c7d137b2d",
+      "author": "prgmatic",
+      "summary": "Fix UI elements being squashed when not starting at a 16:9 aspect (#1067)",
+      "description": "* Fix ScaleByParentRect squashing UI elements when not starting at a 16:9 ratio.\n\n* Removed ternary operator from ScaleByParentSize."
+    },
+    {
+      "sha": "e729bbb3c927d232957d9d7eb54a75622eda53cc",
+      "author": "Frickitickitavi",
+      "summary": "Further improvements to practice section parsing and localization (#1065)",
+      "description": "* Practice section fixes\n\n* Fix Kick It! prc substitution\n\n* Manually replace guitar-gtr\n\n* Address PR feedback\n\n* Rm unnecessary using statement"
+    },
+    {
+      "sha": "ce3879bff83e17c9ffc9a5ee6df2c0a5a69d7a2d",
+      "author": "grishhung",
+      "summary": "Adjust rectangle theme note size, position, and rotation (#1076)",
+      "description": "* Resize rectangle theme notes\n\n* Add flame effect to cymbals"
+    },
+    {
+      "sha": "0fdae09d6fc7eb48065fc720377ba7256081e367",
+      "author": "sonicfind",
+      "summary": "Flip video end time check",
+      "description": ""
+    }
+  ]
+}
