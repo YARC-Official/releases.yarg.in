@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "64517636ad845a037d0d1aba34e0be9739c66dfe",
+      "author": "wyrdough",
+      "summary": "update YARG.Core pointer",
+      "description": ""
+    }
+  ]
+}
