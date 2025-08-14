@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "784b5fd6d80dff45e9abd077c1e45a84e66ae2b2",
+      "author": "wyrdough",
+      "summary": "increase circular theme sustain flame size",
+      "description": ""
+    },
+    {
+      "sha": "042e683a83af3e653803fe94c2c3e1ce7029226f",
+      "author": "wyrdough",
+      "summary": "use correct shader for circular theme sustain effects",
+      "description": ""
+    },
+    {
+      "sha": "2e99a8da012563b7b075e3199c248bab4bdb4833",
+      "author": "wyrdough",
+      "summary": "use emissive instead of lens flare for circular theme hopo notes",
+      "description": ""
+    }
+  ]
+}
