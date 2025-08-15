@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "6e5d627fa87d259dc0e41bac1215fe588ec7f6a2",
+      "author": "wyrdough",
+      "summary": "position vocal track below stat bar",
+      "description": "- also fix annoying shader warning"
+    }
+  ]
+}
