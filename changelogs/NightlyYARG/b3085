@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "e6fd568f0f90ac9279d0dbc5fe6e0f5c2a3200e6",
+      "author": "wyrdough",
+      "summary": "Stars PR fixup",
+      "description": "- Should have caught this in review, my bad"
+    },
+    {
+      "sha": "eb5fab38483e5a89054015f42925ed1336cba157",
+      "author": "wyrdough",
+      "summary": "Remove unnecessary player variable in SongContainer",
+      "description": ""
+    }
+  ]
+}
