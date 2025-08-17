@@ -1,6 +1,6 @@
 / /index.json
 
-/profiles /profiles/
+/profiles /profiles/index.json
 /profiles/ /profiles/index.json
 
 /profiles/:profile_uuid/ /profiles/:profile_uuid/index.json
