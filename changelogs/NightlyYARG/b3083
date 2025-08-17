@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "83e3f795b6b425eecc7f02226cd0b7b756afd745",
+      "author": "TheFatBastid",
+      "summary": "UDP Data Stream (#1078)",
+      "description": "* UDP Data Stream\n\nAdds a UDP data stream of various things that YARG is doing. Currently mostly lighting information but can be expanded on. YALCY can read these packets.\n\n* Added AutoGen bool to data stream and venue track\n\n* Missed adding it to the outgoing mail"
+    },
+    {
+      "sha": "f91f5d0ada306e792d8831e7ae7af86f999d43f2",
+      "author": "wyrdough",
+      "summary": "fix YARG.Core pointer from PR merge",
+      "description": ""
+    },
+    {
+      "sha": "a2111f8d97938250211558b0c490cc2dd3d7802a",
+      "author": "Dansla116",
+      "summary": "Implement sorting by stars in song library (#1036)",
+      "description": "* Add sort by 'Stars' feature with UI and backend updates\n\nBackend:\n- Update SongEntry and sorting logic in YARG.Core\n- Integrate new sort mode into SongCache system\nFrontend:\n- Add new menu UI for star sorting option\n- Update assets and localization files (en-US.json)\nOther:\n- Ensure compatibility with existing sorting workflows\n\n* Refine sort by 'Stars' feature with cleanup and enhancements\n\nBackend:\n- Move star query logic to ScoreDatabase.cs\n- Refactor SongEntry and SongCache integration for cleaner star sorting\n- Trigger music library refresh automatically when star ratings change\nFrontend:\n- Update assets for consistent visual alignment\n- Group songs contextually by instrument and difficulty\n- Add secondary sort by intensity and tertiary sort by name\n\n* Refactor star sorting integration and address reviewer feedback\n\nBackend:\nRemove PlayerContext and StarProvider helpers; access player context directly via PlayerContainer\nReplace LINQ FirstOrDefault calls with explicit foreach loops for clarity and performance\nAdd explicit types (i.e. no \"var\") for better readability and type safety\nFrontend:\nReplace Regex header parsing in SongView with direct StarAmount enum matching for simpler, more maintainable logic\nUpdate MusicLibraryMenu to reset and refresh search properly when instrument or difficulty changes\nOther:\nClean up legacy references between gameplay and cache systems, reducing unnecessary coupling\nRespond to prior code review concerns around unnecessary indirection and implicit typing\n\n* Add back try-catch block and default empty return\n\n* Removed unnecessary imports\n\n* Refactor star category sorting logic and simplify grouping\n\nBackend:\n- Remove now-redundant BuildStarCategories() function and inline its logic into the only remaining call site in GetStars()\n- Refactor star grouping using a dictionary keyed by StarAmount for clarity and performance\n- Extract intensity comparison into a dedicated IntensityComparer for maintainability/reuseability\n\nOther:\n- Eliminate unnecessary call to BuildStarCategories() in song loading path\n- Clean up fallback and dead logic related to unused player/instrument checks\n\n* Replace ternary with if-statement for clearer star fallback logic\n\n* Add ShowPlaylist variable back that got accidentally removed during merge conflict resolution"
+    },
+    {
+      "sha": "d542ff546bf86b713755f98946d8a010ef1c479c",
+      "author": "4dispel",
+      "summary": "add button to add/remove song from favorites to score screen (#1079)",
+      "description": "* add button to add/remove song from playlist to score screen\n\n* Apply suggestions from code review\r\n\r\nadded clarity with new lines\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\n\n* add newline for clarity\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "4241211fa2b2ca4293dd51a41aa047b2826e5263",
+      "author": "wyrdough",
+      "summary": "Prevent drum SP activation gems from appearing when SP is already active. (#940)",
+      "description": ""
+    },
+    {
+      "sha": "a1e5c017cf73ae9c06442d27c6f352af9c471dec",
+      "author": "santorfo",
+      "summary": "add temp offset to recalculate accuracy after changing practice speed (#1080)",
+      "description": ""
+    }
+  ]
+}
