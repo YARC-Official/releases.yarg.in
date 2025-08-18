@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "c6402a08f4e6efd7a94f94ff45c5369eedf9b7dd",
+      "author": "4dispel",
+      "summary": "reset navigation scheme properly (#1092)",
+      "description": ""
+    }
+  ]
+}
