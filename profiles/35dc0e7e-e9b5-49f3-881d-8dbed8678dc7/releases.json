@@ -1,5 +1,11 @@
 [
     {
+        "uuid": "7c73605d-b440-43de-bb74-45774b0f97f4",
+        "url": "https://releases.yarg.in/profiles/35dc0e7e-e9b5-49f3-881d-8dbed8678dc7/releases/7c73605d-b440-43de-bb74-45774b0f97f4.json",
+        "tag": "b3089",
+        "release": "2025-08-19T01:12:40Z"
+    },
+    {
         "uuid": "14532b24-296a-4592-b1f9-210844b90955",
         "url": "https://releases.yarg.in/profiles/35dc0e7e-e9b5-49f3-881d-8dbed8678dc7/releases/14532b24-296a-4592-b1f9-210844b90955.json",
         "tag": "b3086",
