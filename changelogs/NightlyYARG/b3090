@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1e149065302b2fce46ab25cc64198cf05904fc16",
+      "author": "wyrdough",
+      "summary": "Improve play count sorting",
+      "description": "- Adds categories for several different tiers of play counts\n- Sorts unplayed songs by previous sort, including category headers"
+    }
+  ]
+}
