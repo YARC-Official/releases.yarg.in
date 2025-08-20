@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "ffe78f38373fa92750cbf4a2a6360f51ef10c3b6",
+      "author": "theli-ua",
+      "summary": "Make difficulty and percentage aligned in songs view (#1060)",
+      "description": "By padding percentage with spaces and using monospaced font rendering for it"
+    },
+    {
+      "sha": "4847b29e99834f49aa335aed19484ad1ac1b66c0",
+      "author": "wyrdough",
+      "summary": "Add starpower metal color presets",
+      "description": ""
+    },
+    {
+      "sha": "6026c1aae35fcf48622469f3de283d4b3587039d",
+      "author": "grishhung",
+      "summary": "Add star power metal and miss effects (#1086)",
+      "description": "* Resize rectangle theme notes\n\n* Add flame effect to cymbals\n\n* Add star power metal and miss effects\n\n* Add star power metal and miss effects\n\n* Remove YARG.Core.hash\n\n* Fix conflicts with CymbalMiddle material\n\n* Add missing newline to CymbalMiddle\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    }
+  ]
+}
