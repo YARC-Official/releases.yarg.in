@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "9ac21fbf185ee8ac7746390dd90ec40783a53220",
+      "author": "wyrdough",
+      "summary": "Don't accidentally turn full library reloads into partial reloads",
+      "description": ""
+    },
+    {
+      "sha": "6f17532058b472616e6321cdef85a02a3134e3b2",
+      "author": "wyrdough",
+      "summary": "add missing localization strings",
+      "description": ""
+    },
+    {
+      "sha": "570e1a916f8afebf0b248f0fec4c6cc3f16c71d0",
+      "author": "theli-ua",
+      "summary": "Set alignment to world for circular sustain effects particle systems (#1097)",
+      "description": ""
+    },
+    {
+      "sha": "e7bda1da2230e4e9d5328df2c42cea5f3b313413",
+      "author": "theli-ua",
+      "summary": "Fix blue cymbal rendering glitch in 7L mode (#1098)",
+      "description": "No idea why though"
+    },
+    {
+      "sha": "0f0f4a8c8d9405abc64fac5ec1b8a126e162ab0a",
+      "author": "wyrdough",
+      "summary": "Score screen surprise (#1100)",
+      "description": "* add score screen vox samples\n\n* add high score vox sample\n\n* update core pointer"
+    },
+    {
+      "sha": "602acc0823bdcaad659a8f913747030ab9e862b8",
+      "author": "wyrdough",
+      "summary": "Start library on recommended songs again",
+      "description": ""
+    }
+  ]
+}
