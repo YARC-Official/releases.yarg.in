@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "42b80b54df54f0203f7034963936046d93a3b47d",
+      "author": "4dispel",
+      "summary": "sustain line uvs scaling with length (#1106)",
+      "description": ""
+    },
+    {
+      "sha": "d6c699d98c7cdd439e9703091186980dad82ff4a",
+      "author": "wyrdough",
+      "summary": "fix pro keys sustain line",
+      "description": ""
+    },
+    {
+      "sha": "f5bfc9cb25d5ad67dd2bf3ce16426b07f65fde74",
+      "author": "4dispel",
+      "summary": "end setlist early and restart song buttons on score screen (#1099)",
+      "description": "* add end setlist and restart buttons\n\n* end setlist button only when relevant\n\n* use localised text for scorescreen buttons\n\n* change text to end setlist\n\n* seperate method for navigation scheme\n\n* refactor SetNavigationScheme\n\n* clean up leftover comments from copy\n\n* Apply suggestions from code review\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "fbd4d944cc717da5fa076093ad3061d7481bdf0f",
+      "author": "wyrdough",
+      "summary": "delete drum fills that don't have an activation note",
+      "description": ""
+    },
+    {
+      "sha": "09cb7e6307cc14722866e02ffbfd354f73145d56",
+      "author": "wyrdough",
+      "summary": "fix drum SP activation leadup being misplaced",
+      "description": ""
+    },
+    {
+      "sha": "9c2a95d089836f90cb84a5614696a61746733874",
+      "author": "wyrdough",
+      "summary": "fix replay analyzer for drums",
+      "description": ""
+    }
+  ]
+}
