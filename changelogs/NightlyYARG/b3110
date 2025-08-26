@@ -1,0 +1,64 @@
+{
+  "commits": [
+    {
+      "sha": "68d7c005f85c50313f4fea4c1c59c2df032ab646",
+      "author": "wyrdough",
+      "summary": "don't scale sustain forward offset by note speed",
+      "description": "- Avoids jitteriness at high note speeds"
+    },
+    {
+      "sha": "d2b30168235410d9e8af9d9b76274186bbec6d09",
+      "author": "wyrdough",
+      "summary": "update core pointer for activation customization",
+      "description": ""
+    },
+    {
+      "sha": "3d39b5eeaff3615edebf0349a12c14ce8ba57f15",
+      "author": "grishhung",
+      "summary": "Add activation customization (#1096)",
+      "description": "* Resize rectangle theme notes\n\n* Add flame effect to cymbals\n\n* Add star power metal and miss effects\n\n* Add star power metal and miss effects\n\n* Remove YARG.Core.hash\n\n* Fix conflicts with CymbalMiddle material\n\n* Add missing newline to CymbalMiddle\n\n* Add activation customization\n\n* Fix improper indentation\n\n* Localize star power activation strings\n\n* Make color pulsing method protected\n\n* Break drum fill population into its own method\n\n* Reduce use of ternaries\n\n* Rework drum fill effect setup to deal with fills that have no activator note\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "5a285d355adc579f8007329372e8bce6193b7281",
+      "author": "wyrdough",
+      "summary": "don't try to set nonexistent shader properties on open sustain",
+      "description": ""
+    },
+    {
+      "sha": "fcdbb6ff5ef6eb94f20bd1c5a197bf7777157bfc",
+      "author": "theli-ua",
+      "summary": "Fix open sustains curving (#1104)",
+      "description": "* Use meshes directly for sustains instead of line renderers\n\n* sustains are actually rendering now\n\n* Sustains subdivide, render with correct orientation, my head hurts\n\n* Fix sustain uv start/end reversed\n\n* Add Color input to open sustain shadergraph\n\n* Fix track effects shader covering open sustain"
+    },
+    {
+      "sha": "82bdabee05bb81b2e930fbc38654e45ace7012e1",
+      "author": "theli-ua",
+      "summary": "Fix curve shader discontinuity (#1105)",
+      "description": "* Fix curve shader discontinuity\n\nIcf the vertex happens to be in the very middle of the highway it could cause division by zero\nwhich will cause weird artifacts.\nThis was also likely the root cause for 7L middle cymbal rendering weird\nand therefore that change can be reverted once this is merged\n\n* Revert \"Fix blue cymbal rendering glitch in 7L mode (#1098)\"\n\nThis reverts commit e7bda1da2230e4e9d5328df2c42cea5f3b313413."
+    },
+    {
+      "sha": "0a173cc31c4a3568ad5d20a8c9e52b993ada9c74",
+      "author": "wyrdough",
+      "summary": "fix play a show making setlist where some players must sit out",
+      "description": ""
+    },
+    {
+      "sha": "272e770227f027d9565a79cd0f2e359ee2bdf206",
+      "author": "wyrdough",
+      "summary": "Clean up leftover junk from bad rebase",
+      "description": ""
+    },
+    {
+      "sha": "195fb32f88422689aa05b5786d930dc5c1a1579f",
+      "author": "wyrdough",
+      "summary": "Don't overwrite category names with stars unless star sort is active",
+      "description": ""
+    },
+    {
+      "sha": "61dcb63c6fcfd372de0141cf85a0e4bdd26630aa",
+      "author": "wyrdough",
+      "summary": "reset note offset in practice mode when changing sections",
+      "description": ""
+    }
+  ]
+}
