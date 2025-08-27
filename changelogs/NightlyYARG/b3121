@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "833a6a82bc0039a7b1761e911311e655500b6b1c",
+      "author": "wyrdough",
+      "summary": "don't pass null to engine manager when registering from vocals player",
+      "description": ""
+    },
+    {
+      "sha": "21dbb66d5dd83b468e13639bee64636d7af91cd5",
+      "author": "wyrdough",
+      "summary": "make library back button work in show mode",
+      "description": ""
+    },
+    {
+      "sha": "f8ca6f8cf971bcf3c09ee4740f9f914c32ba788c",
+      "author": "4dispel",
+      "summary": "prevent starting a show with 0 players (#1108)",
+      "description": ""
+    },
+    {
+      "sha": "69f882aea6a1b3f759810bc69d447a5940b0a0e4",
+      "author": "wyrdough",
+      "summary": "fix open chord visual glitch",
+      "description": "- Moves open note away from camera 0.0015 and other notes toward by 0.001"
+    }
+  ]
+}
