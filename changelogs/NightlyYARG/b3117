@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "51ff653b60fa00ef1320b0880871ffd8b29587e5",
+      "author": "wyrdough",
+      "summary": "allow slight SP phrase timing difference to still create unisons",
+      "description": "- Currently set to 1/16th note minus a tick"
+    }
+  ]
+}
