@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "e22795bc0f471fa336a602259da9632c3cff993e",
+      "author": "wyrdough",
+      "summary": "send strum trigger for hopos/taps, too",
+      "description": ""
+    },
+    {
+      "sha": "dd82989091e8a48f2e9a210f1c24e75864bfaad8",
+      "author": "Mekkabit",
+      "summary": "Fix pp hue shift direction, add spotlights to neon manager (#1111)",
+      "description": "* Fix hue shift direction of contrast green/blue in post processing\n\n* Add spotlights to the neon manager"
+    },
+    {
+      "sha": "dd57d06c33d7d7a77b74c7fe24fdd3fe7e10545a",
+      "author": "wyrdough",
+      "summary": "Venue event support (#1109)",
+      "description": "* support a few venue camera events\n\n* Add option for vocalist camera\n\n* Add components for venue camera postprocessing and cuts as well as experimental support for venue spotlights.\n\n* add venue character component and manager\n\n* minor tweaks, mainly delaying switch to idle state\n\n* add support for character animations read from chart, spotlight following, and more camera cuts\n\n* support more camera cut subjects\n\n* Parse text events for hand and strum maps, etc.\n\n- Switch to animation triggers for most events\n- Send animation triggers for strums (on bass only for now) and hand map changes\n- Add full drum animation track support\n\n* Handle bend and drop d animations\n\n* more character animation stuff\n\n- implement hand maps\n- add best-effort animations from pro drums chart when chart has no drum animations\n- save animation layers and states for objects with the venuecharacter component when exporting venue\n\n* Add venue camera postprocessing volume components in separate render pass\n\n- Also switched hand position animations to new animation trigger system.\n\n* More postprocessing work\n\n- Most importantly, fix memory leak in venue PP render pass.\n- Add some new PP types\n- Fix misuse of curve parameters\n\n* tweak some existing effects, add low fps effect\n\n- All credit to @Mekkabit for providing better curves for camera negative and scanlinesblue/green.\n\n* Fix random camera switching when no camera cut events exist\n\n* Run VenuePostProcess pass after UberPP. Adjust some effects.\n\n- Mirror shader now mirrors right half of screen to left.\n- Another pile of effects adjustments from @Mekkabit\n\n* Reorder posterization and trails. Make posterization steps adjustable in VenueCamera.\n\n* venue events\n\n- Beginnings of support for intense/mellow/etc\n- Add some not quite yet working infrastructure for easing into/out of postprocessing events\n\n* Move some animation stuff around...\n\n* Rebase on dev, fix PP animation bug, update mirror shader\n\n* ACTUALLY Final change - differentiating all cues pt 2\n\n* Add lighting changes from @Mekkabit\n\n* Add openvat package for venue crowds\n\n* Add support for singer idle/playing states\n\n- Also gets rid of hardcoded Idle/Playing state names, so the ones specified in editor actually work\n\n* Add support for stage effects\n\n- Particle effects can be triggered by stage events (bonusfx, fog)\n\n* Handle camera cut constraints\n\n* When more than one stage camera is defined, only enable one.\n\n* Add UnclampedSpeedAdjustment animation parameter\n\n* fix speed adjustment so it doesn't try to set parameters that don't exist in the venue\n\n* minor camera manager cleanups\n\n* more minor cleanups\n\n* move some stuff around\n\n* Fix post process pass profiler, etc\n\n* use characterstates, handmaps, and strummaps parsed in core\n\n* take doubles in animation/tempo adjustment to align with engine-fixes\n\n* beginnings of moving to a unified animation track\n\n* Finish migrating animation events parsing to core\n\n* Update to deal with changes from current dev\n\n* Add ability for venue author to explicitly set animation type to animation state name mapping\n\n* fix AnimationDictionary, clean up other stuff\n\n* update README with openvat-unity reference\n\n* fix automatic drum animations not triggering\n\n* update yarg.core pointer after PR merge\n\n---------\n\nCo-authored-by: Mekkabit <123285845+Mekkabit@users.noreply.github.com>"
+    }
+  ]
+}
