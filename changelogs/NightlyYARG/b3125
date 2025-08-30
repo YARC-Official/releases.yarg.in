@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "529404e18463742890ca2b683c2ade9e292eaf58",
+      "author": "wyrdough",
+      "summary": "reset generic animation triggers before setting new trigger",
+      "description": "- Fixes character immediately returning to idle state in some songs"
+    }
+  ]
+}
