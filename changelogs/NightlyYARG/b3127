@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "28fb16fc52921fe73beee21031aa5bcc290262e6",
+      "author": "wyrdough",
+      "summary": "Fix some potential exceptions when processing camera cuts",
+      "description": ""
+    },
+    {
+      "sha": "549ae2cd17fc5dc1e4fe1f886e562e1e59ba53cf",
+      "author": "wyrdough",
+      "summary": "Use menu background as default gameplay background",
+      "description": ""
+    }
+  ]
+}
