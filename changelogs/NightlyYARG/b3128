@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "23e832f94bbaa72816d38e95c5de51d6de1c37e6",
+      "author": "wyrdough",
+      "summary": "load venues from launcher download path",
+      "description": ""
+    }
+  ]
+}
