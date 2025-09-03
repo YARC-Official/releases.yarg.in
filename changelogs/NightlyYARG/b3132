@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "1f956a9b342d46679bc6cf8155326d52b0cd8907",
+      "author": "wyrdough",
+      "summary": "fix core pointer",
+      "description": ""
+    },
+    {
+      "sha": "a8d861a7eae26f427d64d20860da475069e97636",
+      "author": "theli-ua",
+      "summary": "Fix pro keys when vocals player is present (#1116)",
+      "description": "Pro keys materials expect highway to be positioned at\n100*PlayerIndex, but as part of rendering overhaul highways are\npositioned at 100*highwayIndex where vocal players are not counted\nin highwayIndex. Seeing as the only usage of playerIndex was for\npro keys materials - rename it into HighwayIndex and repurpose."
+    },
+    {
+      "sha": "3c20aa803b7437118e7d5493313bf1597e0792a3",
+      "author": "theli-ua",
+      "summary": "Slightly increase circular hopo intensity (#1103)",
+      "description": "* Remove circular note hopo lens flare\n\n* Bump circular theme hopo emission intensity"
+    },
+    {
+      "sha": "4b5fae0c1a653c40004b3321e8994d1b3f83335c",
+      "author": "grishhung",
+      "summary": "Re-add fret glow effects (#1112)",
+      "description": "* Increase glow of fret effects\n\n* Fix bug where 5L and split view don't show up properly\n\n* Fix animation trigger bugs\n\n* Add cymbal animation back again\n\n* Apply thicker trim texture\n\n* Make star power bar flash more significantly\n\n* Address comments\n\n* Change rectangle fret brightness coefficient to 5\n\n* Fix bug where freestyle did not work as intended"
+    }
+  ]
+}
