@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "c4176eb7dd4391e5c140d1c562cb01a2521b100f",
+      "author": "wyrdough",
+      "summary": "Show menu left/right navigation button",
+      "description": ""
+    },
+    {
+      "sha": "9454c16c332636935ca6a619a211a237056a4422",
+      "author": "wyrdough",
+      "summary": "Allow menu left/right to reorder playlists",
+      "description": "- No UI indicating this is possible yet, sorry"
+    },
+    {
+      "sha": "65b8fcd3a2ad7e4200fb5cb6797467310adee1e2",
+      "author": "wyrdough",
+      "summary": "Menu left/right skips to previous/next section",
+      "description": ""
+    },
+    {
+      "sha": "4ba509c664385ac5c8a8f67d21bd4cfe1b6b97c8",
+      "author": "wyrdough",
+      "summary": "Create profiles automatically for plastic band instruments.",
+      "description": ""
+    }
+  ]
+}
