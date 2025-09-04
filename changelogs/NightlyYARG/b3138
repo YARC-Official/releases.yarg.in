@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "a6f186a8b3bf769a7a7a706c28f35d96d941018c",
+      "author": "wyrdough",
+      "summary": "fix pro keys bot assert spam",
+      "description": ""
+    },
+    {
+      "sha": "72d0ea5ec27b65e2bbe6d5ce18eefd056ba54cc4",
+      "author": "wyrdough",
+      "summary": "interim fix for pro keys ghosting",
+      "description": ""
+    }
+  ]
+}
