@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "3cd45d658e3d851fe09a004f3ba6e76bb9ecb4f2",
+      "author": "wyrdough",
+      "summary": "restore library index when exiting show mode or completing a setlist",
+      "description": ""
+    }
+  ]
+}
