@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "3661885d76a92572a67198d9181edc610ebba3dc",
+      "author": "wyrdough",
+      "summary": "clear play a show index when starting a song normally",
+      "description": "- Avoids returning to the bookmarked song after exiting play a show and then playing another song normally"
+    }
+  ]
+}
