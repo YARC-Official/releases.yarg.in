@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "66c869c2f7d61aad7560d67f53b4c8ae3d9d1d54",
+      "author": "wyrdough",
+      "summary": "Fix multiple songs being selected in one round in play a show (thanks, Jaden)",
+      "description": ""
+    }
+  ]
+}
