@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "3b2cbd2e342a4efac8e8381202c914e7f4656f45",
+      "author": "wyrdough",
+      "summary": "Require button press to reconnect device",
+      "description": "- We're ignoring keyboard/mouse devices for now. No auto creation and no reconnect with button press. (They will be reconnected by the old auto connect logic if they were connected the last time the game was closed)"
+    },
+    {
+      "sha": "283a0e748acbe03a7fd1be8648a67a6d6409ae63",
+      "author": "wyrdough",
+      "summary": "Add GetPosition and GetWhammyPitch methods to StemChannel (BortSampson)",
+      "description": ""
+    },
+    {
+      "sha": "d1d48c81f93cbd3b58f1b05cab2267f0c8f952a9",
+      "author": "polson",
+      "summary": "Fix whammy desync (#1118)",
+      "description": "* Fix sync when whammy is enabled\n\n* Cleaner implementation\n\n---------\n\nCo-authored-by: polson <polson@github.com>"
+    }
+  ]
+}
