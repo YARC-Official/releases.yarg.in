@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1455ce5560c91275bdde7c1e03d2fb68132a5158",
+      "author": "polson",
+      "summary": "Fix issues with audio buffer and AV sync (#1122)",
+      "description": "* Fix issues with audio buffer and AV sync\n\n---------\n\nCo-authored-by: polson <polson@github.com>"
+    }
+  ]
+}
