@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "7427162e381eae582284ffed04bb09cd1293b30b",
+      "author": "thomeval",
+      "summary": "Allow scrolling the score screen results without a mouse (#1115)",
+      "description": "* Implemented vertical and horizontal scrolling to Score Screen using menu navigation buttons (typically a D-Pad). This allows scrolling the list of scores without having to use a mouse.\n\n* Addressed PR feedback. Introduced IScoreCard interface to resolve awkward handling of ScoreCard types\nAdded missing localization text for \"Scroll\""
+    },
+    {
+      "sha": "5505061f63649998f7f37b60e046c5d863c12df4",
+      "author": "wyrdough",
+      "summary": "Fail mode frontend support (#1124)",
+      "description": "* Initial implementation of fail meter.\n\nCreate draggable FailMeter prefab with associated script to query EngineManager for current \"happiness\" score.\nAdd functionality to EngineManager to listen for note hits and misses and overstrums and update \"happiness\" score as appropriate.\nAdd No Fail Mode setting that disables the fail meter and prevents TrackPlayer et al from subscribing to the OnSongFail event.\n\nCurrent limitations:\n\n- We don't actually stop the song when the meter goes to zero.\n- We only use the average score across an entire band for anything.\n- Individual player performance is not displayed.\n\n* Enhancements to fail meter, add fail and no fail modes.\n\n- Adjusted threshold for fail meter turning red from 20% to 33%\n- Added actual fail mode functionality with fail-skinned pause screen to force player to stop playing\n- Added no fail mode setting that disables fail meter and song stoppage\n- Added \"you lose\" SFX that plays on song fail. (Credit to @W'Livi on the discord for supplying the clip)\n\n* Add option to enable no fail and restart song on the fail screen.\n\n* Mute crowd stem when fail meter drops below threshold value.\n\n* Initial support for per-player fail meter icons\n\n* Improve per-player fail meter icons. Add meter animation on low crowd happiness.\n\n* Adjust positioning of meter and icons.\n\n- Also caches x pos tweeners\n\n* Add fail trigger logic to drums and pro keys\n\n* Update gameplay scene to use the fail meter and fail pause menu\n\n* update fail meter graphic\n\n* Update fail screen\n\n* clean up FailMeter.cs. Cache band state tweens to avoid generating excess garbage.\n\n- Also update YARG.Core pointer"
+    }
+  ]
+}
