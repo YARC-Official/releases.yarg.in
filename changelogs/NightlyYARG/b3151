@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "136fbd20ba183415f17a8c07c29200e5444df786",
+      "author": "wyrdough",
+      "summary": "Update fail meter graphic. Add yellow color for middle section.",
+      "description": ""
+    }
+  ]
+}
