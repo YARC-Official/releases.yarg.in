@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "53b823f6110792fb61bcd6f8e4e4a82390e31972",
+      "author": "wyrdough",
+      "summary": "Fix issue with JP lyrics not rendering correctly",
+      "description": "- TMP import settings for NotoSans changed to enable multi atlas textures (thanks to poliwhirl for figuring out the cause)"
+    },
+    {
+      "sha": "ea54f85d4be0b69ae15cf5ea7bd9ae1a29c8e1a6",
+      "author": "wyrdough",
+      "summary": "Fix score card scroll view offset",
+      "description": "- Scrollview doesn't fully know its contents until end of frame, so we have to wait before setting the horizontal offset."
+    }
+  ]
+}
