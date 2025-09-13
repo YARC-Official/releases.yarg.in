@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "abb5e7f7048273237574893ee1f59edc1087a5ca",
+      "author": "wyrdough",
+      "summary": "add back blue pip to indicate dynamic hit window",
+      "description": ""
+    },
+    {
+      "sha": "d233b24db41b46db012688ddf440c71c09c60aba",
+      "author": "wyrdough",
+      "summary": "resurrect preset indicator pips",
+      "description": "- they no longer appear as ghostly apparitions somewhere on the track or in the fret array\n- made yarg-specific copy of URP Lit shader with necessary include to position object properly"
+    }
+  ]
+}
