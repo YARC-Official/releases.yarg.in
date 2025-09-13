@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "f35f60199d21ab2749cc4a48f18b575fbdd4ad4f",
+      "author": "polson",
+      "summary": "Fix issues with volume quick settings not persisting (#1125)",
+      "description": "Co-authored-by: polson <polson@github.com>"
+    },
+    {
+      "sha": "21f0a771a503c5835c437e1e13cb65d30d8ae9d5",
+      "author": "wyrdough",
+      "summary": "Fix preview audio & fail meter harmony coloring core",
+      "description": ""
+    },
+    {
+      "sha": "692c5067fd8c861f1a18c81cf8ef10b2940e3a26",
+      "author": "thomeval",
+      "summary": "Use Harmony Instrument Icons on Fail Meter / Active Player List (#1127)",
+      "description": "* Implemented Harmony Instrument icons to Fail Meter and Active Players display.\nRefactor player instrument icons into separate Provider class.\nActive Player List now shows sitting out players with a grayed out icon.\n\n* Update YARG.Core\n\n* Update YARG.Core (the sequel)"
+    },
+    {
+      "sha": "a8ed7c71233d86210556321119f2c3d2d344d85b",
+      "author": "polson",
+      "summary": "Fix issue where preview source streams were getting disposed twice (#1126)",
+      "description": "Co-authored-by: polson <polson@github.com>"
+    },
+    {
+      "sha": "d1214b3893c556b9d4b51d2d940344edc16786a0",
+      "author": "wyrdough",
+      "summary": "Add no fail mode toggle to quick settings",
+      "description": ""
+    }
+  ]
+}
