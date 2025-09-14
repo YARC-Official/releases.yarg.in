@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "91be84827bc7f4b25fb8f53625c8c5231086f8b1",
+      "author": "wyrdough",
+      "summary": "fix shader not getting included in build",
+      "description": ""
+    }
+  ]
+}
