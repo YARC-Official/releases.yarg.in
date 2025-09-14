@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "f0764ee529e082868676fe31a117da7f9e62a8d5",
+      "author": "wyrdough",
+      "summary": "only apply alpha mask to main render camera",
+      "description": ""
+    }
+  ]
+}
