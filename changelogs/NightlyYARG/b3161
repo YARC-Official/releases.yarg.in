@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "d928acaa20eca2ee0f451a96895d52792bf59a33",
+      "author": "wyrdough",
+      "summary": "Move fail sound from sfx to vox so it will be disabled if vox samples are disabled. Don't allow escape to unpause after fail.",
+      "description": ""
+    },
+    {
+      "sha": "80ab86b79e0102468d7222924830386f66564387",
+      "author": "theli-ua",
+      "summary": "Fix fading to use per-pixel distance to camera (#1107)",
+      "description": "* Fix fading\n\nUse actual distance from camera for fading\n(which makes fade follow the curve instead of weird horizontal cut).\nAlso use actual corresponding cameras to calculate linear depth for fading shader code.\n\n* Remove unused highways shader code\n\n* Account for clash avoidance offset when applying fade\n\n* Reinstate WorldToViewport\n\n* Generate fade alpha mask in a separate rendering pass"
+    },
+    {
+      "sha": "b410225733853f17c0fff7e0ee7c0efccc378358",
+      "author": "Frickitickitavi",
+      "summary": "Chart/metadata-determined vocal scroll speed and MVP static vocals (#1114)",
+      "description": "* First implementation of chart-based vocal scroll speed\n\n* Dynamic scaling factor\n\n* Create static vocals setting\n\n* Phrase spawning works, lyric highlighting does not\n\n* Implement syllable highlighting\n\n* Smooth shifting and last-note timing rather than phrase-end\n\n* Imminence spacing\n\n* Harmony static lyrics\n\n* Fix short gap edge case\n\n* Handle percussion phrases\n\n* Tunable left edge, reset gap status in tracker\n\n* Reset no more static phrases on practice section reset\n\n* Practice mode bug fixes\n\n* Implement = hyphenation\n\n* Cover tiny-phrase shifting edge case\n\n* Honor $ in static vocals\n\n* Static phrase line scaling\n\n* HARM2 phrase support\n\n* Handle static lyric merging (known bug for scrolling mode)\n\n* Fix recycled syllables bug\n\n* SP coloring\n\n* Fix scrolling 2L bug, revert submodule version\n\n* Rv YARG.Core pointer\n\n* Rm unused import\n\n* Fix core pointer"
+    }
+  ]
+}
