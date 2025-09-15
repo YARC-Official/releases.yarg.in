@@ -1,0 +1,59 @@
+{
+    "type": "venue",
+    "uuid": "7bebb8c1-40c4-4f19-acba-aed1f6ad3e66",
+    "metadata": {
+        "name": "Outdoor Festival",
+        "description": "Axel's Outdoor Festival venue with lighting and characters",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/StageBanner.png",
+        "initialRelease": "2025-09-15T01:28:55.450617+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "Axel",
+        "venueType": "ThreeDWithCharacters",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/7bebb8c1-40c4-4f19-acba-aed1f6ad3e66/OutdoorFestival-1.jpg",
+                "caption": "Overview"
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/7bebb8c1-40c4-4f19-acba-aed1f6ad3e66/OutdoorFestival-2.jpg",
+                "caption": "Characters"
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/7bebb8c1-40c4-4f19-acba-aed1f6ad3e66/OutdoorFestival-3.jpg",
+                "caption": "Characters with motion blur"
+            }
+        ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_Credits#Outdoor_Festival"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "a1288214-ead5-4d4a-9e27-b2b122489f55",
+            "tag": "Outdoor_Festival-2025-09-15-0",
+            "release": "2025-09-15T01:28:55.450617+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Outdoor_Festival-2025-09-15-0/Outdoor_Festival-2025-09-15-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

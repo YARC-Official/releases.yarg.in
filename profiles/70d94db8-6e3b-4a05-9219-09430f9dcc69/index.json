@@ -1,0 +1,59 @@
+{
+    "type": "venue",
+    "uuid": "70d94db8-6e3b-4a05-9219-09430f9dcc69",
+    "metadata": {
+        "name": "Outdoor Concert",
+        "description": "Axel's Outdoor Concert venue. Includes lighting and characters with animations.",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/StageBanner.png",
+        "initialRelease": "2025-09-15T01:34:25.672663+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "Axel",
+        "venueType": "ThreeDWithCharacters",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/70d94db8-6e3b-4a05-9219-09430f9dcc69/OutdoorConcert-1.jpg",
+                "caption": "Overview"
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/70d94db8-6e3b-4a05-9219-09430f9dcc69/OutdoorConcert-2.jpg",
+                "caption": "Drummer"
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/70d94db8-6e3b-4a05-9219-09430f9dcc69/OutdoorConcert-3.jpg",
+                "caption": "Singer with motion blur"
+            }
+        ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_Credits#Outdoor_Concert"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "9d8ca56b-2771-41b4-a81c-1a1d4a6c8179",
+            "tag": "Outdoor_Concert-2025-09-15-0",
+            "release": "2025-09-15T01:34:25.672663+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Outdoor_Concert-2025-09-15-0/Outdoor_Concert-2025-09-15-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

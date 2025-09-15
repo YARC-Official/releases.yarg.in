@@ -1,0 +1,51 @@
+{
+    "type": "venue",
+    "uuid": "c5174b5b-32b6-40f9-97f5-a3b4465953ea",
+    "metadata": {
+        "name": "Chill Vibe Desk",
+        "description": "Agentevil's Chill Vibe Desk venue. Includes album and source art as well as an audio visualizer.",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/StageBanner.png",
+        "initialRelease": "2025-09-15T01:32:11.008259+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "Agentevil",
+        "venueType": "ThreeD",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/c5174b5b-32b6-40f9-97f5-a3b4465953ea/ChillVibeDesk-1.jpg",
+                "caption": "Chill Vibe Desk"
+            }
+        ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_Credits#Chill_Vibe_Desk"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "e7006b16-ce6f-4dc6-ae07-9e5216cdfedf",
+            "tag": "Chill_Vibe_Desk-2025-09-15-0",
+            "release": "2025-09-15T01:32:11.008259+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Chill_Vibe_Desk-2025-09-15-0/Chill_Vibe_Desk-2025-09-15-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

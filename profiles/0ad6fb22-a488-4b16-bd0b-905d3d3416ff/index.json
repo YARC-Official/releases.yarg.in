@@ -1,0 +1,51 @@
+{
+    "type": "venue",
+    "uuid": "0ad6fb22-a488-4b16-bd0b-905d3d3416ff",
+    "metadata": {
+        "name": "Starfield Visualizer",
+        "description": "An audio reactive star field. Ported from ShaderToy by wyrdough.",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/VisualizerBanner.png",
+        "initialRelease": "2025-09-15T01:39:24.341939+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "wyrdough",
+        "venueType": "AudioReactive",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/0ad6fb22-a488-4b16-bd0b-905d3d3416ff/StarfieldVisualizer.jpg",
+                "caption": "Starfield Visualizer"
+            }
+        ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_Credits#Starfield_Visualizer"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "992f5949-b84b-42ba-9776-13a16ca75a2c",
+            "tag": "Starfield_Visualizer-2025-09-15-0",
+            "release": "2025-09-15T01:39:24.341939+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Starfield_Visualizer-2025-09-15-0/Starfield_Visualizer-2025-09-15-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

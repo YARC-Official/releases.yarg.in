@@ -1,0 +1,51 @@
+{
+    "type": "venue",
+    "uuid": "6c72766d-05a7-4fdf-ab04-2b9acf8778dc",
+    "metadata": {
+        "name": "Synthwave Sunset",
+        "description": "A synthwave scene that reacts to audio. Ported from ShaderToy by wyrdough.",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/VisualizerBanner.png",
+        "initialRelease": "2025-09-15T01:40:33.072937+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "wyrdough",
+        "venueType": "AudioReactive",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/6c72766d-05a7-4fdf-ab04-2b9acf8778dc/SynthwaveSunset.jpg",
+                "caption": "Synthwave Sunset"
+            }
+        ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_Credits#Synthwave_Sunset"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "a6f34d83-548a-4d70-82d9-8ba50e8b49ad",
+            "tag": "Synthwave_Sunset-2025-09-15-0",
+            "release": "2025-09-15T01:40:33.072937+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Synthwave_Sunset-2025-09-15-0/Synthwave_Sunset-2025-09-15-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

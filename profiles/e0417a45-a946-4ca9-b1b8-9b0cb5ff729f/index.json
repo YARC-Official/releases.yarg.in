@@ -1,0 +1,51 @@
+{
+    "type": "venue",
+    "uuid": "e0417a45-a946-4ca9-b1b8-9b0cb5ff729f",
+    "metadata": {
+        "name": "Basic Audio Visualizer",
+        "description": "A basic bar graph-style audio visualizer, ported from ShaderToy by Anton.",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/VisualizerBanner.png",
+        "initialRelease": "2025-09-15T01:37:08.046810+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "Anton",
+        "venueType": "AudioReactive",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/e0417a45-a946-4ca9-b1b8-9b0cb5ff729f/BasicAudioVisualizer.jpg",
+                "caption": "Basic Audio Visualizer"
+            }
+        ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_Credits#Basic_Audio_Visualizer"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "50751144-1b1a-41d2-9c43-2a7ed12d9c7c",
+            "tag": "Basic_Audio_Visualizer-2025-09-15-0",
+            "release": "2025-09-15T01:37:08.046810+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Basic_Audio_Visualizer-2025-09-15-0/Basic_Audio_Visualizer-2025-09-15-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
