@@ -28,5 +28,15 @@
     "iconUrl": "@/icons/Setlist.png",
     "selectedByDefault": true,
     "localeOverrides": {}
+  },
+  {
+    "uuid": "6d4b15b3-3985-4195-bdf2-8165f7f63e57",
+    "type": "venue",
+    "url": "https://releases.yarg.in/profiles/7bebb8c1-40c4-4f19-acba-aed1f6ad3e66/",
+    "name": "Outdoor Festival",
+    "subText": "A place to do some YARGin.",
+    "iconUrl": "@/icons/Venue.png",
+    "selectedByDefault": true,
+    "localeOverrides": {}
   }
 ]
