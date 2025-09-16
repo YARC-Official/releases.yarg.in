@@ -1,0 +1,52 @@
+{
+  "commits": [
+    {
+      "sha": "154d07e4994694e78a217892a766a73c8079378f",
+      "author": "wyrdough",
+      "summary": "remove spurious using that broke mac and linux builds",
+      "description": ""
+    },
+    {
+      "sha": "aa1b42f5d1627d8c3295dc79497c8c88a5d5227b",
+      "author": "wyrdough",
+      "summary": "wait half a second before creating a profile for newly connected devices",
+      "description": "- This should help with santroller-based devices (I hope)"
+    },
+    {
+      "sha": "f6ad910caa6b1323d07c54a2adb574ee3f0383f0",
+      "author": "Frickitickitavi",
+      "summary": "Five-lane keys (#1089)",
+      "description": "* Implemented, but dealing with genericization issues\n\n* +unstaged files\n\n* Fix theme caching bug\n\n* Simplify 5L Keys player theme caching\n\n* 5L keys score cards\n\n* Decouple game modes from visual styles\n\n* 5LK range shifts and profile setting (no modifier yet)\n\n* Remove accidentally-committed files\n\n* Implement 5L Keys no range shifts modifier\n\n* Add FiveLaneKeysPlayer to GameManager::PlayerDebug\n\n* 5L Keys-aware UI string updates\n\n* 5L Keys replays\n\n* 5L Keys score card prefab, reduce use of ToNativeGameMode()\n\n* Rename FiveFret prefabs for consistency and differentiation\n\n* Undo accidental YARG.Core submodule commit\n\n* Fix outdated GameMode.ProKeys reference\n\n* Update 5L Keys visuals to match 5F Guitar changes\n\n* Default new Keys profiles to PK instead of 5F Guitar\n\n* Revert GameMode.Keys to GameMode.ProKeys\n\n* Update usages of ProKeys namespace to Keys namespace\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "b957d107e090603f3ee2d20dea9921fef727bdaf",
+      "author": "wyrdough",
+      "summary": "update core pointer for static lyric hyphen fix",
+      "description": ""
+    },
+    {
+      "sha": "c99131aa359fcef6dfd5f18685ac457eaa6f47ba",
+      "author": "thomeval",
+      "summary": "Fix replays failing to load. (#1129)",
+      "description": ""
+    },
+    {
+      "sha": "eb1bc26ff36a0fd3053f424d8633288d4296d8d3",
+      "author": "wyrdough",
+      "summary": "Fix null reference when FailMeter is disabled before being initialized.",
+      "description": ""
+    },
+    {
+      "sha": "e358555ccb7fd5c0baf408fa46aa8c58fe686fa7",
+      "author": "Frickitickitavi",
+      "summary": "Fix = and perc bugs in static vocals (#1128)",
+      "description": ""
+    },
+    {
+      "sha": "b5c6b99739ef9c00545771d0f26d3eb48b00f41b",
+      "author": "wyrdough",
+      "summary": "better fix for vocals highway alpha mask",
+      "description": ""
+    }
+  ]
+}
