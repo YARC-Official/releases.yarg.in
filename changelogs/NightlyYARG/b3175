@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "e28c387cc6359adf9c41d34aa1d24209b2e4c023",
+      "author": "thomeval",
+      "summary": "Configurable Rock Meter Presets / Improve Rock Meter for Vocalists (#1134)",
+      "description": "* WIP Implementation of configurable Rock Meter Presets, allowing players to make the Rock Meter, stricter, more lenient, and more.\nRock Meter Presets can be customized in the Presets settings menu. Five presets are configured by default: Casual, Easy, Normal, Hard and Unfair.\n\n* Revert YARG.Core pointer change\n\n* Fix Rock Meter Preset setting not showing for vocalists in Profile Settings\nFix Presets not being set to default when a profile's saved preset Guid doesn't exist.\n\n* Added one missing localisation string and renamed \"Star Power Effect Multiplier\" to \"Star Power Multiplier\".\n\n* Fix merge conflicts\n\n* Reset YARG.Core pointer to master\n\n* update YARG.Core pointer\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "e13508c89b53cb0013f0e7bfe0c3b3b3365d019a",
+      "author": "wyrdough",
+      "summary": "Fix replay inconsistency when SP active at end of song",
+      "description": "- We now save the actual end time of the song as the replay length instead of the time of the last input. ReplayAnalyzer then uses that to calculate when it should consider the song over instead of guessing from the chart end time plus 2 seconds."
+    },
+    {
+      "sha": "e2ec2c85e0200ce60c090cf46e16554736c211b8",
+      "author": "wyrdough",
+      "summary": "Add default 5LK bindings for keytar",
+      "description": ""
+    },
+    {
+      "sha": "5cdff7293fe4c727480642a81e9b0819ec7fde7f",
+      "author": "Frickitickitavi",
+      "summary": "Fix engine preset localization key (#1132)",
+      "description": ""
+    }
+  ]
+}
