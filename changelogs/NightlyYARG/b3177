@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "61f7a4f77be6229531e3f9d4d311cc0e975b3371",
+      "author": "wyrdough",
+      "summary": "Limit rock meter preset starting happiness to min 0.01",
+      "description": ""
+    },
+    {
+      "sha": "4311504a25e052200c5b1d34c5ea0efb128427d4",
+      "author": "Frickitickitavi",
+      "summary": "Handle charts with malformed HARM phrases in static vocals mode (#1135)",
+      "description": ""
+    }
+  ]
+}
