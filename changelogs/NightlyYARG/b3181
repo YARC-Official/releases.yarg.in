@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "5c6f221a5ea5dc282face4547821cdb4f554afac",
+      "author": "wyrdough",
+      "summary": "Pre-generate missing drum animations",
+      "description": ""
+    },
+    {
+      "sha": "f2092c6a852fddf987f288c278f0efa4749eb43b",
+      "author": "wyrdough",
+      "summary": "Auto generate vocals character states if none exist in chart",
+      "description": ""
+    },
+    {
+      "sha": "561ba983dfd7eabce07d48ce8e3aeb4495a9ff89",
+      "author": "wyrdough",
+      "summary": "update rider editor plugin to 3.0.37",
+      "description": ""
+    },
+    {
+      "sha": "038715fc0f50062c181e30c2d610e6132698f9f1",
+      "author": "grishhung",
+      "summary": "Highway animation 2025 (#1017)",
+      "description": "* Add highway animation for chart start\n\n* Change all edited files to LF\n\n* Reorder HUD drawing to fix text perfs not appearing\n\n* Add missing Visuals GameObject\n\n* Add highway animation for chart start\n\n* Change all edited files to LF\n\n* Reorder HUD drawing to fix text perfs not appearing\n\n* Add missing Visuals GameObject\n\n* Fix invisible text/add practice mode check for highway animations\n\n* Fix merge line duplication StrikelinePositioner.cs\n\n* Fix merge line duplication in CameraPositioner.cs\n\n* Stop StrikelinePositioner coroutine only if nonnull\n\n* Stop CameraPositioner coroutine only if nonnull\n\n* Add animations for SP activation, multiplier break, and song end\n\n* Fix lower and raise being reversed\n\n* Make SP activation animation smoother\n\n* Use visualTime instead of songTime\n\n* fix highway lower animation and poor interaction with new highway alpha fade\n\n- Also adjusted scoop to be less dramatic\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    }
+  ]
+}
