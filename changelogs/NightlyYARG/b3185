@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "546a59b06990fde198662d8ae1c3c32a66b51172",
+      "author": "wyrdough",
+      "summary": "Remove no player warning from music library when player is auto-connected",
+      "description": ""
+    },
+    {
+      "sha": "2b14c1f7382e3d87aff4a73e57702fefcbf93172",
+      "author": "wyrdough",
+      "summary": "wait half a second before enabling navigation on fail screen",
+      "description": ""
+    },
+    {
+      "sha": "b621033b8fbffcb8a6e926cad8b22c8feea5c653",
+      "author": "wyrdough",
+      "summary": "fix kick bounce/miss animations conflicting",
+      "description": "- Refactor highway animation to use tweens for everything, no more coroutines"
+    },
+    {
+      "sha": "5d6f7f85cfbfcd341b672636b59e6aec5e8f614f",
+      "author": "wyrdough",
+      "summary": "update rider editor plugin...again",
+      "description": ""
+    }
+  ]
+}
