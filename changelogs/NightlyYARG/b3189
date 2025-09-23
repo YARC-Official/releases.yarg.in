@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "1398ad5ae828b582c651962dbd25ae0b493ef618",
+      "author": "wyrdough",
+      "summary": "Raise highway sooner when chart has early first note",
+      "description": ""
+    },
+    {
+      "sha": "d82faec6be564e2ef7f62e73f86cd393bffac303",
+      "author": "wyrdough",
+      "summary": "inhibit start action on fail screen",
+      "description": ""
+    },
+    {
+      "sha": "157cd3199402440aa407d1bf1117e88d7d3b588c",
+      "author": "wyrdough",
+      "summary": "Refactor auto generation of character animations",
+      "description": ""
+    },
+    {
+      "sha": "f343a779be7cc579ce6375ce766ee108d7f61a07",
+      "author": "Frickitickitavi",
+      "summary": "Remove fat-finger timer from 5L Keys debugger (#1139)",
+      "description": "* Remove 5LK fat finger logic from debugger\n\n* update YARG.Core pointer\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    }
+  ]
+}
