@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "f2d08c6c6922dcdb0e1c262054c0f31ebfa46930",
+      "author": "wyrdough",
+      "summary": "Add setting to disable highway raise/lower animations",
+      "description": "- Also fix some bugs I wrote in CameraPositioner and StrikelinePositioner and remove no longer needed Update method from CameraPositioner."
+    }
+  ]
+}
