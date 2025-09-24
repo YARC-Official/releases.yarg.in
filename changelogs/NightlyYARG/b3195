@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "2c81751f2565f2e21e4dc654a74ab83dc0d3f74a",
+      "author": "thearst3rd",
+      "summary": "Add missing metal/miss effects to five lane key note elements (#1142)",
+      "description": ""
+    },
+    {
+      "sha": "b0bc0012c7d1455b37ec56b3a70a32969dea9326",
+      "author": "polson",
+      "summary": "Fix issues where stem files were getting locked by os (#1140)",
+      "description": "* Fix issues where stem files were getting locked by os\n\n* Fix issues with CON files\n\n* Update YARG.Core pointer\n\n---------\n\nCo-authored-by: polson <polson@github.com>"
+    },
+    {
+      "sha": "fdf02ed528c6be4ded5e04ab03a59e61051854b5",
+      "author": "wyrdough",
+      "summary": "Move fail and stem muting logic from players to GameManager",
+      "description": ""
+    },
+    {
+      "sha": "d2d83c313cd23f0405c2a13c175b5ca28615867c",
+      "author": "wyrdough",
+      "summary": "Make 5LK able to trigger song failure.",
+      "description": "- Also, replay players can no longer trigger a fail"
+    },
+    {
+      "sha": "54f76b8d152e16fab4f07a3a38ab3cfdb8ac76ab",
+      "author": "wyrdough",
+      "summary": "fix strikeline animation timing calculation",
+      "description": ""
+    }
+  ]
+}
