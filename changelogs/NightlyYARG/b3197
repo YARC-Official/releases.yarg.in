@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "472447852d6c12b8fa545104edd8357e311d22ae",
+      "author": "Frickitickitavi",
+      "summary": "Add Elite Drums binding to support YARG.Core downcharting PR (#1084)",
+      "description": "* Add ED binding\n\n* Update YARG.Core pointer"
+    },
+    {
+      "sha": "ff2853ce2d052159137ec6f71298edfff0829ad0",
+      "author": "wyrdough",
+      "summary": "fix highway raise delay calculation when first note is exactly at time 0",
+      "description": ""
+    }
+  ]
+}
