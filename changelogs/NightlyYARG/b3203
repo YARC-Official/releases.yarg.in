@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "21708942990ba236c687a5833d9060c901828bbc",
+      "author": "wyrdough",
+      "summary": "fix inadvertant using breaking linux/windows build",
+      "description": ""
+    },
+    {
+      "sha": "280f3f8dd97e21880f4f31a382febafed705458e",
+      "author": "wyrdough",
+      "summary": "Clean up unused localization strings",
+      "description": ""
+    },
+    {
+      "sha": "f50e0b666e386e1306970835e87380fde0307e8b",
+      "author": "wyrdough",
+      "summary": "Add more song credits and combine any that are duplicative",
+      "description": ""
+    },
+    {
+      "sha": "9a8facd34cd15f631a737486c63a1a5dfd4a36f4",
+      "author": "wyrdough",
+      "summary": "Add charter credit to song credit section. Fix spurious comma in two element lists.",
+      "description": ""
+    },
+    {
+      "sha": "cf3df2d0852fa55fc5bd70e8b0b5286196bff9a7",
+      "author": "wyrdough",
+      "summary": "fix credits link to short version of bluesky handle",
+      "description": ""
+    },
+    {
+      "sha": "9db28a69384677b9aec75e5a72eff454d506631c",
+      "author": "wyrdough",
+      "summary": "Support Bluesky in credits",
+      "description": ""
+    }
+  ]
+}
