@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "a31838ac3c33b56606819a6890bb9b59866086f8",
+      "author": "wyrdough",
+      "summary": "parse more ini credits",
+      "description": ""
+    },
+    {
+      "sha": "eb68a054b5732bbbc5dbf6c233e39029a0d6d74c",
+      "author": "wyrdough",
+      "summary": "Refuse to run with bad persistent data path (Fixes #1119)",
+      "description": ""
+    }
+  ]
+}
