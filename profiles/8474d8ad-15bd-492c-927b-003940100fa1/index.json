@@ -532,6 +532,36 @@
         "artist": "Nana Asteria",
         "length": 167225,
         "releaseDate": "2025-08-01T00:00:00.000Z"
+      },
+      {
+        "title": "Formless Collective",
+        "artist": "A Pretext to Human Suffering",
+        "length": 178666,
+        "releaseDate": "2025-09-26T00:00:00.000Z"
+      },
+      {
+        "title": "Splinter",
+        "artist": "FIG",
+        "length": 176000,
+        "releaseDate": "2025-09-26T00:00:00.000Z"
+      },
+      {
+        "title": "Need 2",
+        "artist": "Pinegrove",
+        "length": 200336,
+        "releaseDate": "2025-09-26T00:00:00.000Z"
+      },
+      {
+        "title": "Strangers Once Again (feat. Treb and Ofir Tabakov)",
+        "artist": "Tanger",
+        "length": 200526,
+        "releaseDate": "2025-09-26T00:00:00.000Z"
+      },
+      {
+        "title": "Oh, Krissy Baby!",
+        "artist": "WhyLucas",
+        "length": 187397,
+        "releaseDate": "2025-09-26T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -577,9 +607,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "7b06e281-fce4-43b4-b6a8-71f2b6b34aec",
-      "tag": "official-2025-09-14-0",
-      "release": "2025-09-14T18:58:55.3069784Z",
+      "uuid": "aef5d385-018f-47cd-9cb8-f385b58f9b37",
+      "tag": "official-2025-09-26-0",
+      "release": "2025-09-26T23:58:44.621084Z",
       "content": [
         {
           "platforms": [
@@ -589,7 +619,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-09-14-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-09-26-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
