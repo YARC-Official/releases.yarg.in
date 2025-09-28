@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "cfc8c0ee63e55469edec113390553c7ac90a97eb",
+      "author": "polson",
+      "summary": "Allow calibration when using controller (#1148)",
+      "description": ""
+    },
+    {
+      "sha": "81b13f2a2fc57d1a416a2cc3ba80531a7c82fa3a",
+      "author": "Supersonicboss1",
+      "summary": "Add new credits roles and headers (#1150)",
+      "description": ""
+    }
+  ]
+}
