@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "f97a2bc4fb54c230890ed4dba4fdf6984d540245",
+      "author": "polson",
+      "summary": "Fix mono stems coming out of one channel (#1147)",
+      "description": "Co-authored-by: polson <polson@github.com>"
+    }
+  ]
+}
