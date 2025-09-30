@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "2b1958a372de0f4d0ca382b30bd0548f08d9e10c",
+      "author": "wyrdough",
+      "summary": "Fix 5F/5LK range indicator bar",
+      "description": ""
+    }
+  ]
+}
