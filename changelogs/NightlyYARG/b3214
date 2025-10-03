@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "590ab45b0fb32215a6294f415c156ac3b0a3a0be",
+      "author": "wyrdough",
+      "summary": "Update to Unity 2021.3.45f2",
+      "description": ""
+    },
+    {
+      "sha": "c4e69042ad77330e03548a0d3d48841efc474596",
+      "author": "TheFatBastid",
+      "summary": "Export readability improvement (#1154)",
+      "description": "Adds a break so it goes from:\r\n\r\nArtist1\r\n--------------------\r\nArtist1 - Song1\r\nArtist2\r\n--------------------\r\nArtist2 - Song1\r\n\r\nTo this:\r\n\r\nArtist1\r\n--------------------\r\nArtist1 - Song1\r\n\r\nArtist2\r\n--------------------\r\nArtist2 - Song1\r\n\r\nI guess it does add an extra break at the end of the file. Worry about that later 'cuz who cares. No one is even reading this..."
+    },
+    {
+      "sha": "06b0fc599dd0107bf5dd1bbde947405e3f2927a8",
+      "author": "polson",
+      "summary": "Fix double press red/green on score screen (#1153)",
+      "description": ""
+    }
+  ]
+}
