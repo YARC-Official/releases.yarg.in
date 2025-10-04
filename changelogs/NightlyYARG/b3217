@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "3afa7c3985e67d47e805bfe9db9375f1f815e368",
+      "author": "wyrdough",
+      "summary": "Rework sample definitions, add fade in/out to sample channels",
+      "description": ""
+    },
+    {
+      "sha": "63c74f765d52c66afac74dc66596fc2da689c83e",
+      "author": "wyrdough",
+      "summary": "crowd improvements",
+      "description": ""
+    },
+    {
+      "sha": "0b52e5b74d049e314b49282e92520b93f292c4ed",
+      "author": "TheFatBastid",
+      "summary": "Update README.md (#1159)",
+      "description": ""
+    }
+  ]
+}
