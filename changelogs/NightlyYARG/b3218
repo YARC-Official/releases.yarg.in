@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "43f48ad0833cdf14e38d544a2f674e58ee47eb97",
+      "author": "wyrdough",
+      "summary": "fix no fail mode not actually working",
+      "description": "- Also reset meter status when disabling no fail mid-song to avoid possible insta-fail."
+    }
+  ]
+}
