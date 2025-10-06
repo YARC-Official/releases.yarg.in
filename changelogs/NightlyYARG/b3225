@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "011f503858ef38b93d498a21f6f04eb08bd405c1",
+      "author": "wyrdough",
+      "summary": "Increase version number to v0.13.1 for security update",
+      "description": ""
+    },
+    {
+      "sha": "8e58aeca237633456cfa694632392169cf45805e",
+      "author": "wyrdough",
+      "summary": "Explicitly dispose CrowdEventHandler at the end of a song.",
+      "description": ""
+    },
+    {
+      "sha": "1189e3421192da7848e7c62fb62dd10506645020",
+      "author": "wyrdough",
+      "summary": "Fail meter improvements",
+      "description": "- Don't allow fail in practice mode\n- Rework fail meter show/hide so it can't get out of sync with no fail state\n- Invalidate score if no fail is toggled off during gameplay and crowd happiness is reset to prevent an insta-fail."
+    },
+    {
+      "sha": "9b3bcb006af1eb90f46cbfac624b0e6bd479a7a1",
+      "author": "wyrdough",
+      "summary": "Add one parameter to VocalsEngine.PhraseHitEvent (thomeval)",
+      "description": ""
+    },
+    {
+      "sha": "bf4ab4d7ad19be05f7d4f1ce2b3420b886714e80",
+      "author": "thomeval",
+      "summary": "Text Notifications for Vocalists (#1138)",
+      "description": "* Implemented Text Notifications for vocalists. This includes: Hot Start, Strong Finish, X-Phrase Streak, Full Combo and New High Score\nVocalsPlayerHUD now uses TextNotifications instead of its own duplicate implementation of the same functionality. Existing phrase result notifications (AWESOME, etc) now use TextNotifications as well.\nPhrase Streak notifications can be disabled in the Settings menu (similar to Note Streak notifications for other instruments)\nNote that some text notifications will cause phrase result notifications to be skipped. For example, a 10-Phrase streak implies an AWESOME rating.\n\n* Addressed PR feedback\n\n* Revert changes to gameplay.unity file"
+    },
+    {
+      "sha": "c880bd487aade643716940574f116879868c0194",
+      "author": "bullseye126",
+      "summary": "Added setting to choose how to display Discord rich presence (#1151)",
+      "description": "* Added setting to turn on/off Discord rich presence\n\nThis setting has 3 options: Show, limited and hide. \"Limited\" will still show the activity card, but not the song you're currently playing.\n\n* Fix for possible duplicate subscriptions to GameStateChange\n\nUnsubscribes from GameStateChange in TryDispose() and resubscribes when calling Initialize()\n\n* Fix for discord activity changing before localization was loaded\n\nInitialize() is now only called once in LoadingScreen and sets _initialized to true in order to tell if it's safe to change the discord activity.\n\n---------\n\nCo-authored-by: Latif <56488217+latif-1005745@users.noreply.github.com>"
+    },
+    {
+      "sha": "f40a19bc0f9a1874cfe17e03151f720aa300cd30",
+      "author": "wyrdough",
+      "summary": "Update README.md with new Unity version",
+      "description": ""
+    }
+  ]
+}
