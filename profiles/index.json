@@ -9,7 +9,7 @@
         "previewUrl": "https://www.youtube.com/watch?v=pLro3rQ3KA4",
         "localeOverrides": {}
     },
-    "lastUpdated": "2025-08-04T11:57:29.1761723Z",
+    "lastUpdated": "2025-10-07T10:45:04.068668+00:00",
     "profiles": [
         {
             "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -268,7 +268,7 @@
             "category": "ThreeD",
             "url": "https://releases.yarg.in/profiles/c5174b5b-32b6-40f9-97f5-a3b4465953ea/",
             "release": "2025-09-15T01:32:11.008259+00:00",
-            "name": "Chill Vibe Desk",
+            "name": "Spooky Vibe Desk",
             "subText": "",
             "iconUrl": "@/icons/Venue.png",
             "bannerUrl": "@/banners/StageBanner.png",
