@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "79b69d22781c21aedd12c2ab9d66f25b88ec14b8",
+      "author": "wyrdough",
+      "summary": "Promote whammy fx out of experimental, enable by default",
+      "description": ""
+    },
+    {
+      "sha": "508d16bb263979d5765bb3338e71366081365685",
+      "author": "wyrdough",
+      "summary": "Add log message when loading events from milo",
+      "description": ""
+    }
+  ]
+}
