@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "9ad03684656f9c9295b5175746cdf30a656faaad",
+      "author": "wyrdough",
+      "summary": "Band bonus score core pointer update",
+      "description": ""
+    },
+    {
+      "sha": "ef471bb6d0fb93a722c9177d14f0ef038977918b",
+      "author": "thomeval",
+      "summary": "Band Score Multipliers (#1155)",
+      "description": "* Implement Band Score Multipliers. This awards additional points to the entire band based on the number of players that currently have Star Power active. Note that Band Score Multipliers do *not* make it easier to earn stars, either individually, or as a band.\n\n* Renamed one field in ScoreBox.cs\n\n* Update Assets/Script/Menu/ScoreScreen/ScoreCards/ScoreCard.cs\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\n\n* Resolved PR feedback\n\n* Exclude BandBonusScore from all individual scores (allows consistent individual scores whether playing alone or in a band)\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "3038343fb31bd209b6915ad7d3c98850560b149a",
+      "author": "polson",
+      "summary": "Lower track on song fail (#1163)",
+      "description": "* Lower track on song fail\n\n* Only lower the track once\n\n* More cleanup\n\n* Handle conflicting tweens\n\n* Better scoop handling\n\n---------\n\nCo-authored-by: polson <polson@github.com>"
+    },
+    {
+      "sha": "7ec359db86dccf184f1ed718632fca0caa2a2398",
+      "author": "wyrdough",
+      "summary": "fix core pointer for milo reader",
+      "description": ""
+    },
+    {
+      "sha": "c5e1cac4dd317ee14d74b4feee29abac58886aef",
+      "author": "wyrdough",
+      "summary": "Use venue data from milo when there is no venue data in midi (#1165)",
+      "description": "* Use milo anim track for venue events if midi has none\n\n* Improve readability of milo path"
+    }
+  ]
+}
