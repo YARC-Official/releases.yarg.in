@@ -1,0 +1,142 @@
+{
+  "type": "setlist",
+  "uuid": "ece69c0a-ece1-4e42-8c5a-d76aba4fa048",
+  "metadata": {
+    "name": "YARN Pack 3",
+    "description": "YARN is back with another variety pack of community-submitted charts!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2025-10-11T20:25:46.7071527Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "phleps",
+        "artist": "C418",
+        "length": 107326,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "BUTCHER VANITY (ft. Yi Xi)",
+        "artist": "FLAVOR FOLEY",
+        "length": 190985,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "Don\u0027t Touch My Plushies",
+        "artist": "Japanese Dream",
+        "length": 169513,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "Cascade",
+        "artist": "Kubbi",
+        "length": 261626,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "Kimi no Taion (feat. Eleanor Forte)",
+        "artist": "Kuwagata-P (feather268)",
+        "length": 243613,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "Retry Now (feat. Hatsune Miku)",
+        "artist": "NAKISO",
+        "length": 124965,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "Alive (feat. Jeremy Fagan)",
+        "artist": "Not For Nothing",
+        "length": 274708,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "n u l l s t a r _",
+        "artist": "[SIGNALER] vs. Catonieca",
+        "length": 207595,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "Guardian Angel",
+        "artist": "Silverhawk",
+        "length": 425364,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      },
+      {
+        "title": "Year of the Toad (YOTT)",
+        "artist": "YOONIE x N\u012AKAU",
+        "length": 204361,
+        "releaseDate": "2025-10-11T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {}
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "3f0163e8-6c9b-4225-877d-764bc5519d25",
+      "tag": "yarn_pack_3-2025-10-11-0",
+      "release": "2025-10-11T20:25:46.7071527Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_3-2025-10-11-0/yarn_pack_3-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
