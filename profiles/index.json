@@ -325,7 +325,7 @@
     {
       "uuid": "eb911ee6-4ccf-4d93-ada5-af325f2acae4",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/eb911ee6-4ccf-4d93-ada5-af325f2acae4/",
       "release": "2025-10-11T20:18:38.578671Z",
       "name": "The Water Cycle",
@@ -336,7 +336,7 @@
     {
       "uuid": "ece69c0a-ece1-4e42-8c5a-d76aba4fa048",
       "type": "setlist",
-      "category": "official_setlist",
+      "category": "yarn_setlist",
       "url": "https://releases.yarg.in/profiles/ece69c0a-ece1-4e42-8c5a-d76aba4fa048/",
       "release": "2025-10-11T20:25:46.7071527Z",
       "name": "YARN Pack 3",
