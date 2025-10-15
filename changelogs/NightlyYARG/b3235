@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "0b98f34c3f0170a3f52048dac3f7ac094cdc1031",
+      "author": "thomeval",
+      "summary": "Implement \"Out of Range Flasher\" for Pro Keys players. This causes a red indicator to flash on the left or right side of the highway whenever a player hits a key that is currently outside of the visible range. (#1169)",
+      "description": ""
+    },
+    {
+      "sha": "9b0ad201689726cd2d274687b14b999a8cac4070",
+      "author": "TheFatBastid",
+      "summary": "Added Spotlights and Singalongs to the UDP datastream (#1171)",
+      "description": "* Added Spotlights and Singalongs to the UDP datastream\n\nWhile both are in the Performer venue track, I split them into their own bytes in the datastream.\n\n* Performer datastream byte now correctly works with overlapping events"
+    },
+    {
+      "sha": "99100557439ec1fc0333d6f972122af30caf299d",
+      "author": "thomeval",
+      "summary": "Fix instrument icons on Rock Meter overlapping (#1156)",
+      "description": ""
+    }
+  ]
+}
