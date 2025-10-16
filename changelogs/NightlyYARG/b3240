@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "3c9c2c7793a9498aa0cd7ed2fa253f7157c50031",
+      "author": "wyrdough",
+      "summary": "Better indicator pip fix (thanks @theli-ua)",
+      "description": ""
+    },
+    {
+      "sha": "3d8b69589a66485f12f6792251e56439a6584265",
+      "author": "wyrdough",
+      "summary": "Fix handling of short stems (h/t @Frickitickitavi and @polson)",
+      "description": ""
+    },
+    {
+      "sha": "10ece6f34bde29e3767e775869337a00c2962bd9",
+      "author": "Supersonicboss1",
+      "summary": "Update CountdownDisplay for YARG.Core changes (#1101)",
+      "description": "* Update CountdownDisplay for YARG.Core changes\n- Replace `END_COUNTDOWN_SECOND` with HIDE_DELAY\n- Guard against negative time remaining\n\n* Fix countdown display not counting down on whole measures"
+    },
+    {
+      "sha": "0292378e8715ee577c11f13bd599e4f062502798",
+      "author": "thearst3rd",
+      "summary": "Add engine preset setting to disable star power overlap (#1094)",
+      "description": "* Add engine preset setting to disable star power overlap\n\n* ProKeys -> Keys\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "f8dc3207c9e1a21655f48f4316d3813a2aa055a7",
+      "author": "wyrdough",
+      "summary": "Add No SP Overlap icon (for #1094)",
+      "description": ""
+    }
+  ]
+}
