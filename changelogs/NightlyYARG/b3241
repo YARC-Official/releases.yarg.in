@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "ccc1d00cd6971bf58e1a6c95c0ec575ef6ce46b1",
+      "author": "wyrdough",
+      "summary": "Fix animation loading issues",
+      "description": ""
+    }
+  ]
+}
