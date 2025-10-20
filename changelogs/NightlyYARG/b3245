@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "cf509ef7da32ad2d7e1f90ad72062823dd5eef8e",
+      "author": "wyrdough",
+      "summary": "Add setting to disable automatic profile creation",
+      "description": ""
+    },
+    {
+      "sha": "73864751b9e83bbd226eed927c1a3b84daff8968",
+      "author": "wyrdough",
+      "summary": "fix drums/5lk star power strip on miss",
+      "description": ""
+    }
+  ]
+}
