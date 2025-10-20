@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "862c89b89b3ab37a78d40da450e9facd906446a2",
+      "author": "thomeval",
+      "summary": "Added \"Disconnect\" option to Difficulty Select Menu (#1160)",
+      "description": "* Added \"Disconnect\" option to Difficulty Select Menu\n\n* Reduced size of Disconnect and Sit Out menu items in Difficulty Select screen\n\n* Fixed one missing Prefab reference"
+    },
+    {
+      "sha": "884b528013ec61d850dd42c26fec465d23992cb2",
+      "author": "wyrdough",
+      "summary": "Make sure short stem seek position is always at least 0.",
+      "description": ""
+    }
+  ]
+}
