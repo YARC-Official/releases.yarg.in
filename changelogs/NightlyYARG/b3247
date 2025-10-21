@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "366588bde90ea7cade2c241b5970c34ef8052d92",
+      "author": "wyrdough",
+      "summary": "Control all highway animations with the highway animation setting.",
+      "description": ""
+    },
+    {
+      "sha": "21bcebed7eb055da8bb6e1f9c3880915ef8bc9d9",
+      "author": "grishhung",
+      "summary": "Angle highways in multiplayer to prevent fail meter icons from getting too close to the highways (#1172)",
+      "description": "* Add angling for tracks only\n\n* Add setting for highway tilt\n\n* Fix note streak setting ambiguity\n\n* Fix crowd effects being too quiet by default\n\n* Adjust text notification position\n\n* Fix bug where player count would not reset\n\n* Make countdown timer correspond to tilt\n\n* Fix HUD misplacement\n\n* Extend time that names are on screen\n\n* Update DisplayTime in Unity as well\n\n* Change time to include total by default\n\n* Adjust HUD instrument icon position\n\n* Update vocals performance text font"
+    }
+  ]
+}
