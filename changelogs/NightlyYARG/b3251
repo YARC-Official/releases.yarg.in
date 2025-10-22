@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "f9d7512534a362a248d8a947cefff9ec651c0796",
+      "author": "wyrdough",
+      "summary": "fix sp enter/exit causing circular notes to incorrectly use sp model",
+      "description": ""
+    },
+    {
+      "sha": "d88b659dcb9d0ccad47744df8e315e72fb8ec228",
+      "author": "wyrdough",
+      "summary": "Expose default colors (core PR 299)",
+      "description": ""
+    },
+    {
+      "sha": "38df6b0305a1bc14650ebf60e3a5178693ad0075",
+      "author": "polson",
+      "summary": "Fix BASS already initialized error on startup (#1177)",
+      "description": ""
+    },
+    {
+      "sha": "9412a832ca83f5bd12d0fa47af574c5da51fcd64",
+      "author": "grishhung",
+      "summary": "Add needles to crowd meter (#1181)",
+      "description": "* Upgrade fail meter visuals\n\n* Fix fail meter positioning jank\n\n* Fix HUD position to work with both single and multiplayer"
+    }
+  ]
+}
