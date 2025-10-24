@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "6a03aa2fd83c060c0ebd95470cafac8984c97dd1",
+      "author": "joewestcott",
+      "summary": "Bump HIDrogen from v0.4.3 to v0.5.0. (#1185)",
+      "description": "* bump HIDrogen to v0.5.0\n\n* Add userspace driver info to README.md"
+    },
+    {
+      "sha": "7f6f7971e6a69c33b00a935cc7d95a1b2b6bf062",
+      "author": "grishhung",
+      "summary": "Re-add vignette on side of highway that was previously removed (#1184)",
+      "description": "* Add vignette to highway\n\n* Correct sunburst light color"
+    },
+    {
+      "sha": "ee57c5228ffb7a61f86f5f51d21b1afa0c96d019",
+      "author": "grishhung",
+      "summary": "Make uses of lane and fret consistent in labels (#1183)",
+      "description": "* Make uses of lane and fret consistent in labels\n\n* Fix co-op label capitalization\n\n* Remove guitar words from instrument selection"
+    }
+  ]
+}
