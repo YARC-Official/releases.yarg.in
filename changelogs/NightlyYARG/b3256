@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "103c262332009b9ecb2b7d595348d2812158e67b",
+      "author": "wyrdough",
+      "summary": "Ya need to include the new asset, goofball",
+      "description": ""
+    },
+    {
+      "sha": "75c8d9159f8f67f26b7774a0c090fb62a79e91c9",
+      "author": "wyrdough",
+      "summary": "add alternating background to settings lists",
+      "description": ""
+    }
+  ]
+}
