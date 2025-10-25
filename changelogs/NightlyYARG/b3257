@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d680bd5e5ce89d26b7cc3f192f762db9edb806b8",
+      "author": "wyrdough",
+      "summary": "fix venue render resolution not being respected in venues with multiple cameras",
+      "description": ""
+    }
+  ]
+}
