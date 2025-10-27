@@ -1,0 +1,58 @@
+{
+  "commits": [
+    {
+      "sha": "a0617e9b0925b2b5f341e95f7932b675e4e86ce3",
+      "author": "wyrdough",
+      "summary": "Update YARG.Core pointer (Core PR #290, #294)",
+      "description": ""
+    },
+    {
+      "sha": "0a5ac2d054f6fddb1453bcec039ea761767663e7",
+      "author": "poliwhirlge",
+      "summary": "Add option for note height scaling (#1136)",
+      "description": "* Add option for note height scaling\n\n* Update track preview note height when changed\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "15be66d2c3691de4da2323e3f9b45f1c7db07c37",
+      "author": "Frickitickitavi",
+      "summary": "Add MIDI Drumkit profile type (#1145)",
+      "description": "* Add ED binding\n\n* Establish Ekit profile type and possible instruments\n\n* Fix old function name and update localizations\n\n* Route bindings correctly\n\n* Suppress ED options\n\n* Assign icon to MIDI Drums profile\n\n* Show MIDI drums scorecards\n\n* Fix ED asset names\n\n* Fix YARG.Core pointer\n\n* Fix YARG.Core pointer\n\n* Use 'drumkit' instead of 'drums' in profile type names\n\n* Fix YARG.Core pointer\n\n* List MIDI Drumkit profile type first (most preferred)\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "23a979136e88e73b8daba6b588e7a6cded58dc15",
+      "author": "polson",
+      "summary": "Fix whammy drift in music library and player (#1186)",
+      "description": "* Fix whammy drift in music library and player\n\n* More efficient Timer implementation\n\n* Fix issue where mixer buffer was getting set again on creation\n\n* Cleanup"
+    },
+    {
+      "sha": "c59cbd043688260518326036b9ec653556e33d6d",
+      "author": "joewestcott",
+      "summary": "Fix 360 keytar mapping (#f6ad910c bugfix) (#1189)",
+      "description": ""
+    },
+    {
+      "sha": "00ea62088067c347c611da9a23c057a6812a1f53",
+      "author": "wyrdough",
+      "summary": "Missed a deletion in the venue commit, oops",
+      "description": ""
+    },
+    {
+      "sha": "c398e4a10c64a1cd10e8bb757511c04c586e40ce",
+      "author": "wyrdough",
+      "summary": "Quick binding for Drums and Pro Keys (#1178)",
+      "description": "* friendly binding dialog\n\n* friendly drums binding dialog\n\n* add quick bind option for drums and keys\n\n- Fixed up dialogs to work without the rest of the onboarding stuff.\n- Added localization strings for binding dialog messages.\n- Make skip option actually work.\n- Don't clear possibly existing menu bindings since quick bind doesn't set menu bindings.\n\n* Restore inadvertently removed ListToggleSetting prefab\n\n* Gotta restore the .meta too"
+    },
+    {
+      "sha": "1355c7c7d6ffd505e7ff3960da59f663865446aa",
+      "author": "wyrdough",
+      "summary": "adjust sustain textures",
+      "description": ""
+    },
+    {
+      "sha": "618c14a5c56a505581d1e7d732f9bec66c25d432",
+      "author": "wyrdough",
+      "summary": "rework venue rendering",
+      "description": "- No longer using separate postprocess pass, we're instead rendering to a texture the same way the highways are and compositing in UI."
+    }
+  ]
+}
