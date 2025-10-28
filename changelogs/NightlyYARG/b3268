@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "9145e096c21d7d9b0c3a661ed2b265444e1e4409",
+      "author": "wyrdough",
+      "summary": "fix venue render issues",
+      "description": "- Render resolution setting is respected again\n- Use DefaultHDR texture format for venue camera render texture (should fix banding)"
+    }
+  ]
+}
