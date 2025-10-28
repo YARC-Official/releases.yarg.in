@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1dd24bcf1ee9d1e5458017a619fdb7c30fece2f2",
+      "author": "wyrdough",
+      "summary": "midi drums modifier and sustain cutoff threshold mismatch fixes",
+      "description": ""
+    }
+  ]
+}
