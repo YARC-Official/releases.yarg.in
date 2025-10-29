@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "29720ffb2606a49e0059e7ebb032d0f327a0ec57",
+      "author": "wyrdough",
+      "summary": "Make venue events handle time jumps",
+      "description": "- Animated postprocessing transitions are still not right, but it's progress"
+    },
+    {
+      "sha": "14ea0c69d0862c16dc272fa5cd103e6172e91917",
+      "author": "wyrdough",
+      "summary": "create less garbage in TextureManager",
+      "description": ""
+    },
+    {
+      "sha": "3c5888d342caafd80521c53e262d86c2a02be610",
+      "author": "wyrdough",
+      "summary": "clean up unused junk in FailMeter",
+      "description": ""
+    },
+    {
+      "sha": "372af1991b084ee8a59eb9beb6ffdadf0f4d5771",
+      "author": "wyrdough",
+      "summary": "better venue fps cap implementation",
+      "description": ""
+    }
+  ]
+}
