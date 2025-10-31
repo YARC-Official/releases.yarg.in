@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "cafd9604123f927962bb7be30429d516dfd16a72",
+      "author": "wyrdough",
+      "summary": "add 5 lane, midi drums, 5L keys quick bind",
+      "description": ""
+    },
+    {
+      "sha": "d56c09ab5f374f83be8245864e8ca78b7b5b9baf",
+      "author": "wyrdough",
+      "summary": "refactor input binding capture into separate class",
+      "description": ""
+    },
+    {
+      "sha": "be4c954646e5b13bed09b1c266bed6e9617e6b6a",
+      "author": "grishhung",
+      "summary": "Add fade effects and various fixes for vocals graphics (#1188)",
+      "description": "* Add vignette to highway\n\n* Correct sunburst light color\n\n* Add vocals track fade and remove HARM3 when not used\n\n* Address various comments regarding vocal fade"
+    }
+  ]
+}
