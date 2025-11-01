@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "8b0f75a39f26b8f8d444aa4363b96de1ac497579",
+      "author": "wyrdough",
+      "summary": "add control text to quick binding dialog",
+      "description": ""
+    },
+    {
+      "sha": "9253a1999ff95ff8217fc822dac8b0bcbcae36a6",
+      "author": "wyrdough",
+      "summary": "render vocal notes behind vocal needle",
+      "description": ""
+    }
+  ]
+}
