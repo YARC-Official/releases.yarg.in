@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "3ffa848d63545bd448e214d3131ea57d27eaa309",
+      "author": "wyrdough",
+      "summary": "Fix note models not being switched when SP phrase missed",
+      "description": ""
+    }
+  ]
+}
