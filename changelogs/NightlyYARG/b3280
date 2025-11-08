@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d14a50c783112cc63d7833206f11b1519540b2f5",
+      "author": "wyrdough",
+      "summary": "fix charted venue camera cuts not being respected",
+      "description": ""
+    }
+  ]
+}
