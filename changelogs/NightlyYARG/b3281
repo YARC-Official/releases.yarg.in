@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "712974633b7782b9ba1c073ab03300b47ebd43e9",
+      "author": "wyrdough",
+      "summary": "Limit connected profiles to 32 (necessary to keep OpenGL from blowing up)",
+      "description": ""
+    }
+  ]
+}
