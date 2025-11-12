@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "56bdcbc20c5fb3e56dcc459fb99953e392878d47",
+      "author": "wyrdough",
+      "summary": "prevent neverending solos when using no kicks modifier",
+      "description": ""
+    },
+    {
+      "sha": "277af5a1982009627651270c9ec650d5d2fdff71",
+      "author": "wyrdough",
+      "summary": "make sure drum activation phrases don't get lost when using no kicks",
+      "description": ""
+    }
+  ]
+}
