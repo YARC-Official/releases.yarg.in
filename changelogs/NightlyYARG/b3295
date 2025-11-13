@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "3ea83491f6331fa5399d5b91a417a255a19d9619",
+      "author": "wyrdough",
+      "summary": "fix hit notes continuing to exist when SP status changes in same frame as note hit",
+      "description": ""
+    },
+    {
+      "sha": "6106fae3eac07cb375e924cad7fda5b1998a263d",
+      "author": "wyrdough",
+      "summary": "actually use the new beatline shader",
+      "description": ""
+    },
+    {
+      "sha": "9abf6e413c2159faf26cf79c6f9779f0cd59ed1d",
+      "author": "wyrdough",
+      "summary": "don't leak VRAM in venues",
+      "description": ""
+    }
+  ]
+}
