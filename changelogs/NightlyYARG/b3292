@@ -1,0 +1,58 @@
+{
+  "commits": [
+    {
+      "sha": "f0122242fc6b6a5064533db03de35da2c565c573",
+      "author": "grishhung",
+      "summary": "Fix ordering of players on the fail meter (#1208)",
+      "description": ""
+    },
+    {
+      "sha": "402052d99d18bf309d4a12c5f3a18eb7d9226377",
+      "author": "grishhung",
+      "summary": "Bake in trim shadows into beat lines and soften measure lines overall (#1207)",
+      "description": ""
+    },
+    {
+      "sha": "24fa0d7e13af664bcdfe5582df973d95822d9a35",
+      "author": "wyrdough",
+      "summary": "change track SP visual behavior on SP activation",
+      "description": ""
+    },
+    {
+      "sha": "baa94567c4e40337745e6b7c831ee5da8db329ab",
+      "author": "wyrdough",
+      "summary": "whammy fx, pro keys consts",
+      "description": ""
+    },
+    {
+      "sha": "8e1b65de0790d803e0dc1dd0599c3f500400b358",
+      "author": "joewestcott",
+      "summary": "5LKPlayer: improve toucheffects (#1195)",
+      "description": ""
+    },
+    {
+      "sha": "7ef84be380b6150b34c7870ddd348ae7bd1786cd",
+      "author": "grishhung",
+      "summary": "Rework sustain shaders to appear more active (#1205)",
+      "description": ""
+    },
+    {
+      "sha": "d9031184fe910eb7dd58c17df8a910de4b9f80a2",
+      "author": "Frickitickitavi",
+      "summary": "Fix PK range boundaries (#1206)",
+      "description": ""
+    },
+    {
+      "sha": "3eedf6c74738f4e8e93eee13e63162706aa04e26",
+      "author": "grishhung",
+      "summary": "Add star power phrase completion whoosh effect (revision) (#1204)",
+      "description": "* Add SP trim effect upon activation\n\n* Disable SP completion effect when not needed"
+    },
+    {
+      "sha": "7b39186bcaf634234ba2a464a08798db0a20ed68",
+      "author": "polson",
+      "summary": "Use mixer add channel delay to handle pitch fx syncing (#1192)",
+      "description": "* Use TempoStream across Mixer\n\nHandle tempo stream position changes correctly\n\nRefactoring to simplify position handling\n\n* Cleanup\n\n* Free streams properly\n\n* Move wrapped tempo stream class back into BassStemMixer\n\n* More cleanup\n\n* More cleanup\n\n* Add and remove channels when setting position\n\n* Cleanup\n\n* More cleanup\n\n* Cleanup"
+    }
+  ]
+}
