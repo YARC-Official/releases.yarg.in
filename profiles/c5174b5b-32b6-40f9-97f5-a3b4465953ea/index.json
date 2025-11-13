@@ -2,8 +2,8 @@
     "type": "venue",
     "uuid": "c5174b5b-32b6-40f9-97f5-a3b4465953ea",
     "metadata": {
-        "name": "Spooky Vibe Desk",
-        "description": "Agentevil's Halloween Special Vibe Desk venue. Includes album and source art as well as an audio visualizer.",
+        "name": "Vibe House Thanksgiving",
+        "description": "Agentevil's Thanksgiving themed Vibe Desk venue. Includes album and source art as well as an audio visualizer.",
         "iconUrl": "@/icons/Venue.png",
         "bannerBackUrl": "@/banners/StageBanner.png",
         "initialRelease": "2025-09-15T01:32:11.008259+00:00",
@@ -28,9 +28,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "d82030ce-c15a-4e83-a23a-73cf9f61fc51",
-            "tag": "Spooky_Vibe_Desk-2025-10-07-0",
-            "release": "2025-10-07T10:44:53.018516+00:00",
+            "uuid": "bb45e81e-acbb-4c5c-8db7-23f46bc72a13",
+            "tag": "Vibe_House_Thanksgiving-2025-11-13-0",
+            "release": "2025-11-13T21:19:05.940489+00:00",
             "content": [
                 {
                     "platforms": [
@@ -40,7 +40,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Spooky_Vibe_Desk-2025-10-07-0/Spooky_Vibe_Desk-2025-10-07-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Vibe_House_Thanksgiving-2025-11-13-0/Vibe_House_Thanksgiving-2025-11-13-0.7z",
                             "fileType": "7z"
                         }
                     ]
