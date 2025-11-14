@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "6f19202235062ef2a62a8f8bc471f200a33599ad",
+      "author": "wyrdough",
+      "summary": "fix sunburst color bleeding into multiplier ring",
+      "description": ""
+    },
+    {
+      "sha": "e2f2aa1e7bd3c75380bf8e5692e7185fe9c14014",
+      "author": "polson",
+      "summary": "Fix song end callback not working (#1215)",
+      "description": ""
+    },
+    {
+      "sha": "0ac6dce3ece4d5ffbc449fb49d8873b7bcbb3e1e",
+      "author": "grishhung",
+      "summary": "Make band multiplier and doubled individual multiplier mutually exclusive (#1213)",
+      "description": "* Make band multiplier and doubled individual multiplier mutually exclusive\n\n* Make lyrics actually use the fade shader\n\n* Prevent SP from activating on unison to prevent stuttering\n\n* Restore SP activation animation\n\n* Change TotalPlayers to lambda expression\n\n* Use _players instead of YargPlayers for active player count\n\n* Make lyrics actually use the fade shader\n\n* Prevent SP from activating on unison to prevent stuttering\n\n* Restore SP activation animation\n\n* Change TotalPlayers to lambda expression\n\n* Use _players instead of YargPlayers for active player count\n\n* Remove unnecessary player count calculation in CreatePlayers()"
+    },
+    {
+      "sha": "6d7a4c97b3489de4ac16c665099e82444d61ba25",
+      "author": "grishhung",
+      "summary": "Fix sustains getting cut off in the x direction (#1212)",
+      "description": "* Fix sustains getting cut off in the x direction\n\n* Make band multiplier and doubled individual multiplier mutually exclusive"
+    },
+    {
+      "sha": "a7370be251b251e78fc145788a4cfca121f7ac21",
+      "author": "Frickitickitavi",
+      "summary": "Add drum profile settings to MIDI Drumkit profile, +misc adjacent fixes (#1201)",
+      "description": "* Add profile settings to Ekit\n\n* Dynamic profile setting names\n\n* Differentiate 4L and 5L names\n\n* Use 'drumkit' in profile type names"
+    }
+  ]
+}
