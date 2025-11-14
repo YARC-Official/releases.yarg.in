@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "7dcb1b182225cc783c92d560a7aa99fdb06efe47",
+      "author": "Supersonicboss1",
+      "summary": "Fix song videos not pausing in practice mode (#1211)",
+      "description": ""
+    }
+  ]
+}
