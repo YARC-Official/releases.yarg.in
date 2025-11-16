@@ -1,0 +1,137 @@
+{
+  "type": "setlist",
+  "uuid": "35ac4d5e-e145-4dbd-96f1-7434981279a7",
+  "metadata": {
+    "name": "Assorted Metal 2",
+    "description": "Assorted Metal is back with a vengeance, featuring 9 extreme-leaning metal songs. Get ready to growl!",
+    "iconUrl": "@/icons/SetlistDLC.png",
+    "bannerBackUrl": "@/icons/SetlistBack.png",
+    "initialRelease": "2025-11-16T00:38:05.7433922Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "I.E.D. Vanflip",
+        "artist": "Funeral Wake",
+        "length": 203137,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "Event Horizon",
+        "artist": "Heartsick",
+        "length": 215720,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "Introspective Nightmares",
+        "artist": "Narcotic Wasteland",
+        "length": 303503,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "The Lonesome Tongues",
+        "artist": "Our Common Collapse",
+        "length": 294947,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "Born of Dirt",
+        "artist": "Senza",
+        "length": 128451,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "Mr. Jackalope (And His Restless Haunting) / When Days End",
+        "artist": "Silverhawk",
+        "length": 303888,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "Funeral Waltz",
+        "artist": "Talsur",
+        "length": 755874,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "Train Wreck",
+        "artist": "The HIRS Collective",
+        "length": 35500,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      },
+      {
+        "title": "Deceptive Consequences",
+        "artist": "Unrelenting Ferocity",
+        "length": 184156,
+        "releaseDate": "2025-11-15T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "Official"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "47503fcb-cf93-4628-be89-5920d77351d4",
+      "tag": "assorted_metal_2-2025-11-15-0",
+      "release": "2025-11-16T00:38:05.7433922Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_metal_2-2025-11-15-0/assorted_metal_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
