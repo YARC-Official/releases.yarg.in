@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "e1f58677934d879bf32b477a1c4f1d7f10f4b8f1",
+      "author": "wyrdough",
+      "summary": "fix track freezing when SP is activated with no multiplier",
+      "description": ""
+    }
+  ]
+}
