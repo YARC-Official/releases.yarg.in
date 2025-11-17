@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "04fe802d0dbbb99b72217ef5498527d30e15c4ff",
+      "author": "wyrdough",
+      "summary": "Add more venue debugging to debug menu",
+      "description": ""
+    },
+    {
+      "sha": "ba9e086f1d505cefc2560398d5a998b1726616d9",
+      "author": "wyrdough",
+      "summary": "show band multiplier when playing with replay",
+      "description": ""
+    }
+  ]
+}
