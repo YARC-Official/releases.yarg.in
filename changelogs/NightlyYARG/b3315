@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "58f32abfbf9dd5df8d352a8d788a307ed7e33308",
+      "author": "wyrdough",
+      "summary": "if we're gonna do it, may as well go to .12f1",
+      "description": ""
+    },
+    {
+      "sha": "425971ce4111b121bbfeb9ccc592e0e87c5067b0",
+      "author": "wyrdough",
+      "summary": "update readme and add missing SoftMaskable shaders",
+      "description": ""
+    }
+  ]
+}
