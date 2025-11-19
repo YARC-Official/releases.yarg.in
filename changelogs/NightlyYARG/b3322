@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "fbf7159063f6d628400857846abddc1b7b0bda60",
+      "author": "wyrdough",
+      "summary": "fix drum animation midi note numbers",
+      "description": ""
+    },
+    {
+      "sha": "b0c3052dc60e33319d79f2ca2742a66ac1e01a49",
+      "author": "wyrdough",
+      "summary": "(maybe) fix error when venue has no pyro/fog",
+      "description": ""
+    },
+    {
+      "sha": "af699cab6729ffe3dee2bf185748066a888e1fc9",
+      "author": "wyrdough",
+      "summary": "Don't jump the shark when FSR3 is enabled",
+      "description": ""
+    },
+    {
+      "sha": "c91890c3cd4d6b7603fb4792224d3b45781d5e70",
+      "author": "wyrdough",
+      "summary": "Make keys and pro keys FC tag work when chart has chords",
+      "description": ""
+    },
+    {
+      "sha": "70ef5834dc0717281db789ee67f2f2bbb776149b",
+      "author": "wyrdough",
+      "summary": "Add nullable annotations where required",
+      "description": ""
+    },
+    {
+      "sha": "f561dc271004daf1b1598c0ac902a5d725122f3e",
+      "author": "wyrdough",
+      "summary": "Update obsolete Unity API calls.",
+      "description": "- Volume component class attributes changed\n- FindObjectOfType -> Find(First/Any)ObjectByType"
+    },
+    {
+      "sha": "6e17d2dd446d75b84fe16f0ec9fe50de4b4abe5d",
+      "author": "wyrdough",
+      "summary": "upgrade packages",
+      "description": ""
+    }
+  ]
+}
