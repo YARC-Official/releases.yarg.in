@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "37093a24e4cfed476aa4b9f5cd96d0a3724784da",
+      "author": "wyrdough",
+      "summary": "Make graphics/track settings preview background black",
+      "description": "- Fixes issue where track alpha mask being somewhat larger than the track itself (to accomodate kick/open ends) caused a black halo around the track preview"
+    },
+    {
+      "sha": "d64705ad90c3e5ca8e959a989a64b27490f6ab10",
+      "author": "wyrdough",
+      "summary": "Add extra light in gameplay scene",
+      "description": "- This does solve the immediate problem of the gameplay light not illuminating the combo meter wing, but may need to be adjusted by enabling lighting layer masks and having it not affect the track itself"
+    },
+    {
+      "sha": "ff5aa0e6f891c4ea2d488afd5ddd9a21478fee42",
+      "author": "wyrdough",
+      "summary": "Fix combo meter visual issues",
+      "description": "- Enabled alpha clipping on combometer shader graph\n- Darkened FC ring color to better match Unity 2021 look"
+    }
+  ]
+}
