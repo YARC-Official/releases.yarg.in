@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "a341c3d8793ef857e59df370acf224d799da56b6",
+      "author": "wyrdough",
+      "summary": "add average offset to player debug menu",
+      "description": ""
+    },
+    {
+      "sha": "28a0bb44d39789425432acfddaca38b4ef3c9a04",
+      "author": "bobschlomboggi",
+      "summary": "Playlist information for OuvertBot (#1218)",
+      "description": "* Added code to include playlist information for each song in files generated for OuvertBot and its plain text equivalent.\n\n* Plaintext list does not output playlist information if song is not in a playlist\n\n* Output json now does not display 'null' for missing playlist title, instead removes the line for playlist entirely.\n\n* I suspect my last commit broke the code because I may or may not have omitted a curly brace.\n\n* Update Assets/Script/Song/SongExport.cs\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "7b3a016047349144b110a458e120b865e393e6ae",
+      "author": "wyrdough",
+      "summary": "update core for average offset pr",
+      "description": ""
+    },
+    {
+      "sha": "1c181e259546a0c41d6ea831f0ab829f69b53d27",
+      "author": "satellitnorden",
+      "summary": "Implement an \"Average Offset\" text field in the score screen (#1197)",
+      "description": "* Add average offset to score card. (:\n\n* Use 'GetAverageOffset()' instead"
+    },
+    {
+      "sha": "4f707d1cb43b13dc186bca9e9fa74680722840d3",
+      "author": "wyrdough",
+      "summary": "drum dynamics effects core",
+      "description": ""
+    },
+    {
+      "sha": "8829a0b7a4225bbd83cbeb07391deba6284f5918",
+      "author": "grishhung",
+      "summary": "Add dynamics hit effects (#1217)",
+      "description": ""
+    }
+  ]
+}
