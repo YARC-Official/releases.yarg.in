@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "582a64522d3dd8ad6580044b88e1bd8e4900a705",
+      "author": "wyrdough",
+      "summary": "Update Crowdin link for new project",
+      "description": ""
+    },
+    {
+      "sha": "6344a4da90e496c812803ea97338dfb7b64cdc28",
+      "author": "wyrdough",
+      "summary": "remove skybox reflections",
+      "description": "- This makes Chill Desk look kinda dark, but I don't have any better solutions at present"
+    },
+    {
+      "sha": "ddecbdbd6802e4c43d6f76905f13602333c6fe9e",
+      "author": "wyrdough",
+      "summary": "Switch to StandaloneFileBrowser fork that works on more Linux distros",
+      "description": ""
+    },
+    {
+      "sha": "f6d96623645b653f7910251d75f4380ac743e168",
+      "author": "wyrdough",
+      "summary": "fix nuisance error in editor",
+      "description": ""
+    }
+  ]
+}
