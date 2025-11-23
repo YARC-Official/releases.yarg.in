@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "eef11c0868876b412e978584f2baa602bc6dec2e",
+      "author": "wyrdough",
+      "summary": "Interim custom track texture support",
+      "description": "- Drop two textures in the highwayPresets folder, one named \"baseTexture.png\" and one named \"sideTexture.png\". Those will be used as your track texture instead of the defaults.\n- baseTexture is the normal texture. sideTexture is what gets highlighted when SP is active"
+    }
+  ]
+}
