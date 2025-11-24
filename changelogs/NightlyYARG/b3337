@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "be91bf1b0b2c07b97ec28ebe7cf53795f7d0405a",
+      "author": "wyrdough",
+      "summary": "set parallax to 1.0 for both base and side track layers when loading custom textures",
+      "description": ""
+    }
+  ]
+}
