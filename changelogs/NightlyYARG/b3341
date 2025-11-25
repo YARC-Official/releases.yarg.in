@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "6d17973d9aa90280a1fb72693421a71194eb09e0",
+      "author": "wyrdough",
+      "summary": "allow waviness to be set in highway preset",
+      "description": ""
+    },
+    {
+      "sha": "4084937730bcc13fdebb14da29414aacc3ff0406",
+      "author": "wyrdough",
+      "summary": "apparently there was another asset, le sigh",
+      "description": ""
+    },
+    {
+      "sha": "c6d47f97b2dee20af3b9632af5cdee3ffa25cf98",
+      "author": "wyrdough",
+      "summary": "Missed a new prefab, oops",
+      "description": ""
+    },
+    {
+      "sha": "f4dc587637363ad4d26811fa5b1f074bad7c7fc4",
+      "author": "wyrdough",
+      "summary": "Add highway texture customization to highway preset.",
+      "description": "- Textures are selected using a file browser and are copied to the custom content folder.\n- On export, custom textures are bundled with the exported highway preset.\n- On import, custom textures are copied to the custom content folder.\n- When copying a preset, the textures are also copied\n- When deleting a preset, the textures are also deleted\n- When renaming a preset, the texture folder is also renamed\n- Hopefully I didn't miss anything..."
+    }
+  ]
+}
