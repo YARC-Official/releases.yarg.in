@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "ece55436ba5d8b3081884d9c3deee624af6a9513",
+      "author": "wyrdough",
+      "summary": "Make DOTween clean up its own tweens",
+      "description": "- Fixes log spam when hitting stop in editor while tweens are active"
+    }
+  ]
+}
