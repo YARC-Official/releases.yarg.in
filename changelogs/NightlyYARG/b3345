@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "a28e6e8268e13ecf348b8b90fd8ea2c1dd928dea",
+      "author": "wyrdough",
+      "summary": "\"some newer version of nightly idk\"",
+      "description": "- Added new Translator role to en-US localization"
+    }
+  ]
+}
