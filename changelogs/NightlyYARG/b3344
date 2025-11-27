@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "2caaaebd8a3c124f33ae66ce262cea57ab02a5a4",
+      "author": "polson",
+      "summary": "Fix lane spacing on non 16:9 screens (#1190)",
+      "description": "* Fix lane spacing on non 16:9 screens\n\n* Fix issues with HUD and culling\n\n* Fix more scaling issues\n\n* Defer recreating texture so highway doesn't blink\n\n* More fixes and WIP\n\n* Scale lanes without overlap no matter the camera preset\n\n* Position and scale hud correctly\n\n* WIP\n\n* More WIP\n\n* Fix vocals track scaling, mostly\n\n* More vocals HUD fixes\n\n* Cleanup and fix gameplay scene (whoops)\n\n* Use strike line for positioning instead of bottom of track\n\n* More adjustments and cleanup\n\n* Cleanup\n\n* Handle vocals only scaling\n\n* More cleanup\n\n* Fix ordering of ScreenSizeDetector\n\n* Fix vocals again\n\n* More tweaks\n\n* Cleanup comments\n\n* Remove unused code\n\n* Remove unused monobehaviors from Gameplay scene\n\n* Fix vocals scaling again\n\n* remove unneeded usings from changed files"
+    },
+    {
+      "sha": "b6c7e1b9b2ee2915a53b690c16936df51dcdf474",
+      "author": "ojsl1",
+      "summary": "tiny change to fix build failure (#1224)",
+      "description": ""
+    },
+    {
+      "sha": "816810ddbf16991c7ae9905342861f1abc82c1b0",
+      "author": "wyrdough",
+      "summary": "Add Solo Taps preset color, etc",
+      "description": "- Made combo meter and indicator stripe colors specified in Unity, not in code.\n- Preset dropdown now only shows presets applicable to the selected game mode"
+    }
+  ]
+}
