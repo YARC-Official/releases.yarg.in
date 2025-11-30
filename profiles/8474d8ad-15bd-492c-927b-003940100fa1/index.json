@@ -90,6 +90,12 @@
         "releaseDate": "2025-02-01T00:00:00.000Z"
       },
       {
+        "title": "God Only Knows (feat. Kasane Teto)",
+        "artist": "Bitbreaker",
+        "length": 281798,
+        "releaseDate": "2025-11-29T00:00:00.000Z"
+      },
+      {
         "title": "Song of November",
         "artist": "Frantic Memories",
         "length": 143505,
@@ -607,9 +613,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "72c9eae6-afd3-4462-879c-2f4fb83232a3",
-      "tag": "official-2025-11-18-0",
-      "release": "2025-11-18T18:57:47.5617771Z",
+      "uuid": "389ace0e-8f1e-4ea4-8311-9e213de44f17",
+      "tag": "official-2025-11-29-0",
+      "release": "2025-11-30T01:45:44.1537603Z",
       "content": [
         {
           "platforms": [
@@ -619,7 +625,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-11-18-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-11-29-0/official-1.7z",
               "fileType": "encrypted"
             }
           ]
