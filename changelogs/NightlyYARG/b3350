@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "d27cd2ef6d28fce40e1913d87c42e0dac6106126",
+      "author": "TheNathannator",
+      "summary": "Fix Xbox One instrument crashes (bump HIDrogen to v0.5.2) (#1225)",
+      "description": ""
+    },
+    {
+      "sha": "e2a58f40192647b247eb5da6e331966c383509da",
+      "author": "wyrdough",
+      "summary": "Fix circular tap note issues, revert lighting changes",
+      "description": "- Turns out view direction shader functions changed in U6 and we weren't overriding them any more"
+    },
+    {
+      "sha": "a94be659c019391178676ddb03cbbf033245a5d1",
+      "author": "wyrdough",
+      "summary": "disable unity splash screen",
+      "description": ""
+    }
+  ]
+}
