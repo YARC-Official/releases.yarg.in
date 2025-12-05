@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "d8ba77718cf960aab3d76770f79b18a1d4aab4fa",
+      "author": "wyrdough",
+      "summary": "fix submodule asmdef to only include Editor platform",
+      "description": ""
+    },
+    {
+      "sha": "3b9f6ca2aba02b86290eef806bfe8b76fea897df",
+      "author": "JonathanHRDavis",
+      "summary": "Failed to load audio error fix for playable CON files with missing stems (#1230)",
+      "description": ""
+    },
+    {
+      "sha": "f7a2f8c4c0d17a88163060287ec3caf4e8b166ff",
+      "author": "gingerphoenix10",
+      "summary": "Fixes occasional errors with Addressables being unsafely loaded from outside the main thread (#1229)",
+      "description": "* Fix occasional error with Addressables being unsafely loaded\n\n* Update Unity version labels in README\n\n* More addressable fixes\n\n* Yet another Addressables fix"
+    },
+    {
+      "sha": "62570ca991dbb0f2740e8952967b660cf0d098c4",
+      "author": "4dispel",
+      "summary": "add toggle for venue post processing (#1227)",
+      "description": "* add toggle for venue post processing\n\n* set post-processing immediately after setting change\n\n* clean up unused graphics manager attribute\n\n* fix initialization"
+    },
+    {
+      "sha": "748bc12e6d8b42e927688b7e336594a55bfafa81",
+      "author": "wyrdough",
+      "summary": "Use preferred instrument in instrument selection",
+      "description": ""
+    },
+    {
+      "sha": "4fa95d37c87b023cf420b0f292187753e3d15f0d",
+      "author": "TheNathannator",
+      "summary": "Various bits of project tidy (#1226)",
+      "description": "* some random meta files that someone missed somewhere\n\n* Fix improper null handling in HighwayCameraRendering\n\n* Use Microsoft.VisualStudio.SolutionPersistence to add YARG.Core projects to Unity-generated solution\n\n* Update VS Code settings and gitignore to match VS package's transition to .slnx files\n\n* Tweak readme phrasing around the .NET SDK"
+    }
+  ]
+}
