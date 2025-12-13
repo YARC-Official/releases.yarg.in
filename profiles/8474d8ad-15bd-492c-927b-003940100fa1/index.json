@@ -568,6 +568,36 @@
         "artist": "WhyLucas",
         "length": 187397,
         "releaseDate": "2025-09-26T00:00:00.000Z"
+      },
+      {
+        "title": "Empires",
+        "artist": "Electric Swing Circus",
+        "length": 196162,
+        "releaseDate": "2025-12-12T00:00:00.000Z"
+      },
+      {
+        "title": "Flight of the Bumblebee",
+        "artist": "FamilyJules",
+        "length": 147804,
+        "releaseDate": "2025-12-12T00:00:00.000Z"
+      },
+      {
+        "title": "Bedroom Community",
+        "artist": "Glass Beach",
+        "length": 364421,
+        "releaseDate": "2025-12-12T00:00:00.000Z"
+      },
+      {
+        "title": "No Nations",
+        "artist": "Jets Overhead",
+        "length": 180561,
+        "releaseDate": "2025-12-12T00:00:00.000Z"
+      },
+      {
+        "title": "Oopsie Daisy",
+        "artist": "JubyPhonic",
+        "length": 188000,
+        "releaseDate": "2025-12-12T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -613,9 +643,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "2e5185b6-f09f-4e12-a7b8-daf98464258c",
-      "tag": "official-2025-11-29-1",
-      "release": "2025-11-30T03:32:06.4038355Z",
+      "uuid": "e6118c01-3ea8-4b84-abdb-c4b085bd86f6",
+      "tag": "official-2025-12-12-0",
+      "release": "2025-12-13T00:15:07.697545Z",
       "content": [
         {
           "platforms": [
@@ -625,7 +655,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-11-29-1/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-12-12-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
