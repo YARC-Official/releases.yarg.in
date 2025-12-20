@@ -1,0 +1,119 @@
+{
+  "type": "setlist",
+  "uuid": "3bf6897a-c67c-4285-869d-0ede0c2ffe14",
+  "metadata": {
+    "name": "Christmas Keys 2",
+    "description": "Our second annual pack of public domain Christmas classics!",
+    "iconUrl": "@/icons/SetlistKeys.png",
+    "bannerBackUrl": "@/banners/SetlistKeysChristmas.png",
+    "initialRelease": "2025-12-19T22:06:33.87467Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "The First No\u00EBl",
+        "artist": "Davies Gilbert",
+        "length": 47700,
+        "releaseDate": "2025-12-19T00:00:00.000Z"
+      },
+      {
+        "title": "Silent Night",
+        "artist": "Franz Xaver Gruber and Joseph Mohr",
+        "length": 46000,
+        "releaseDate": "2025-12-19T00:00:00.000Z"
+      },
+      {
+        "title": "The Twelve Days of Christmas",
+        "artist": "Frederic Austin",
+        "length": 278621,
+        "releaseDate": "2025-12-19T00:00:00.000Z"
+      },
+      {
+        "title": "Angels We Have Heard on High",
+        "artist": "James Chadwick and Edward Shippen Barnes",
+        "length": 51818,
+        "releaseDate": "2025-12-19T00:00:00.000Z"
+      },
+      {
+        "title": "O Come, All Ye Faithful",
+        "artist": "John Francis Wade",
+        "length": 49090,
+        "releaseDate": "2025-12-19T00:00:00.000Z"
+      },
+      {
+        "title": "Shchedryk",
+        "artist": "Mykola Leontovych",
+        "length": 50762,
+        "releaseDate": "2025-12-19T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "Official"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "eef2d1af-2b5e-414e-99ee-4472017f06e0",
+      "tag": "christmas_keys_2-2025-12-19-0",
+      "release": "2025-12-19T22:06:33.87467Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/christmas_keys_2-2025-12-19-0/christmas_keys_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
