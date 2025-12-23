@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "7feee0ecfc6ab9b7ebd65a71fe324f21e91f63ea",
+      "author": "theli-ua",
+      "summary": "Fix background image/video rendering (#1231)",
+      "description": "It was hidden under opaque venue output texture."
+    }
+  ]
+}
