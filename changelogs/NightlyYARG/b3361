@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "029494266a5595f0fdec3b025388d9471aa21727",
+      "author": "4dispel",
+      "summary": "limit venue lighting to venue layer (#1233)",
+      "description": "* limit venue lighting to venue layer\n\n* use layer name instead of index"
+    }
+  ]
+}
