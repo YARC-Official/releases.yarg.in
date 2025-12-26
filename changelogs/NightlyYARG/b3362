@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "7a04e54bdfbf75db7d52682f2ca5c5d76130f920",
+      "author": "theli-ua",
+      "summary": "Increase view of the highway rendering camera (#1240)",
+      "description": "This prevents track effects on the edges of the screen to be culled away."
+    }
+  ]
+}
