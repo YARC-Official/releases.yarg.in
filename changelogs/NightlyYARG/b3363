@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "4204095fff09312db56618c1700fe5ecef56165a",
+      "author": "Frickitickitavi",
+      "summary": "Reduce scaling factor aggressiveness from 0.3 to 0.2 (#1243)",
+      "description": ""
+    }
+  ]
+}
