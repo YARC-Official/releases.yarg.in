@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "253aa9efeaa1d005b0c526bfb9f23f33a0f9c7f4",
+      "author": "wyrdough",
+      "summary": "Update core pointer for song scanning fixes",
+      "description": ""
+    },
+    {
+      "sha": "28ab32fd7c701817a2b04c5956435842010846c9",
+      "author": "polson",
+      "summary": "Fix issues with hud position not saving for top elements (#1251)",
+      "description": "* Fix issues with hud position not saving for top elements\n\n* Don't use null conditional on Unity object"
+    },
+    {
+      "sha": "33f85d95b0fe5f3c71ab214b34da03bb3bda4057",
+      "author": "polson",
+      "summary": "Fix issue where practice mode with range shifts didnt start when no notes in section (#1253)",
+      "description": ""
+    }
+  ]
+}
