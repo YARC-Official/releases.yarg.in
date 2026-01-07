@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "c746366a3e0f9e6f3bb63d49827e87d2e2a4116a",
+      "author": "wyrdough",
+      "summary": "Make resolution strings in settings nicer",
+      "description": ""
+    },
+    {
+      "sha": "309ff40ccb811e6ccca7253b81ba8bad95475c48",
+      "author": "wyrdough",
+      "summary": "Make recommended category bigger",
+      "description": ""
+    }
+  ]
+}
