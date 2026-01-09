@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "a888ed8e5d71afff9dd583a8afe49a850c351626",
+      "author": "sjdaws",
+      "summary": "Add section to readme for LFS fetch (#1241)",
+      "description": ""
+    },
+    {
+      "sha": "7db1088e4e6df0d7527d78f239f10ba1dbff1f57",
+      "author": "Ape",
+      "summary": "Fix non-deterministic high-score selection in SQLite queries (#1247)",
+      "description": "The previous queries relied on GROUP BY without proper aggregation,\nwhich lets SQLite return an arbitrary row for each song; that could be a\nlower score/stars/percent than the true best. This commit replaces those\ngrouped queries with deterministic lookups using ORDER BY ... LIMIT 1."
+    },
+    {
+      "sha": "44645f36a13ffceba75dab1f3157b9b02cc39d4f",
+      "author": "polson",
+      "summary": "Add instrument difficulties to ouvert export (#1256)",
+      "description": "Co-authored-by: Phil Olson <polson@github.com>"
+    }
+  ]
+}
