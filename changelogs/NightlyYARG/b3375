@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "f3cfaebef2f996e6292b429db82068a993e97819",
+      "author": "theli-ua",
+      "summary": "Cleanup erroneous meta files (#1246)",
+      "description": "Looks like garbage left from some merge"
+    },
+    {
+      "sha": "3533217309cf5dd93e6d73d5ea60813b2bc1e663",
+      "author": "theli-ua",
+      "summary": "Fix some minor resource leaks (mostly around render textures) (#1245)",
+      "description": "* Release rendertextures in highway rendering component\n\nAs with other \"native engine object\" types, it is\nimportant to pay attention to the lifetime of any\nrender textures and release them when you are finished\nusing them, as they will not be garbage collected like normal managed types.\n\n* Find and unload unused assets on scene load\n\n* Release curve textures in camera manager explicitly"
+    },
+    {
+      "sha": "10f40cce899c72bca102daad18619da79027f3e6",
+      "author": "Ape",
+      "summary": "Preserve the current song on music library search update (#1258)",
+      "description": "Previously, updating the music library search would reset to the first\nsong on the list. Now, it preserves the current song if possible\n(falling back to the first song if needed). This makes the UX better\nespecially when clicking an artist name to filter the list."
+    },
+    {
+      "sha": "a30e9e76032178a8c04393da8f159679b96e5b56",
+      "author": "Supersonicboss1",
+      "summary": "Include FoveatedRenderingKeywords.hlsl on all particle shader passes (#1266)",
+      "description": "- This fixes the hit particles on Metal platforms, notably MacOS"
+    }
+  ]
+}
