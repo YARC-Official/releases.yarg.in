@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "49a98d3bc819d8b020bf3ded8b24af592ab47923",
+      "author": "wyrdough",
+      "summary": "Core pointer update for vocals notes crossing phrase boundary and latin1 dta parsing fixes (thank you thomeval and trainlos)",
+      "description": ""
+    },
+    {
+      "sha": "2c37ad9fb1a1c74012d9c17b7ae48fc6fd942558",
+      "author": "thomeval",
+      "summary": "Harmonies: Track notes that cross over phrase boundaries (#1001)",
+      "description": "* Harmonies: Properly handle notes that extend past a phrase boundary\nFixed incorrect number of SP phrases for HARM2/HARM3 charts\n\n* Update YARG.Core\n\n* Update YARG.Core\n\n* Update YARG.Core\n\n* Reset YARG.Core pointer to latest master commit"
+    },
+    {
+      "sha": "6b2a5ae22789c3f1e200e1706c5bba5928cfdc7f",
+      "author": "wyrdough",
+      "summary": "Update 5 lane drums friendly binding art",
+      "description": ""
+    }
+  ]
+}
