@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "36dc94d9e1f4c0b00f3d8a80ebf0a68335355f9a",
+      "author": "wyrdough",
+      "summary": "Update core pointer for Bort's volume normalization PR",
+      "description": ""
+    },
+    {
+      "sha": "63a4875ea26afb4b80ba8795842fd0d0293097cc",
+      "author": "polson",
+      "summary": "Implement normalization (#1146)",
+      "description": "* Normalize audio\nTweaks and cleanup\n\nBetter RMS calc\n\nAdd missing normalization flag check\n\nStart calculating gain right away\n\nActually use the cancellation token correctly\n\nFaster RMS calc\n\n* Change to relative updates for smoothness\n\n* Dispose cancellationToken properly and remove start position call\n\n* Remove unnecessary call to get data\n\n* Fix incorrect StreamFree call in mixer\n\n---------\n\nCo-authored-by: polson <polson@github.com>"
+    },
+    {
+      "sha": "db3fab21cfd4f076e9a2c99c0bc1e8c279ecc424",
+      "author": "Ape",
+      "summary": "Fix NullReferenceException in color profile editor (#1232)",
+      "description": ""
+    }
+  ]
+}
