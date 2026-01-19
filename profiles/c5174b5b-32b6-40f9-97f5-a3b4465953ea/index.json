@@ -2,8 +2,8 @@
     "type": "venue",
     "uuid": "c5174b5b-32b6-40f9-97f5-a3b4465953ea",
     "metadata": {
-        "name": "Vibe House Xmas",
-        "description": "Agentevil's Xmas themed Vibe Desk venue. Includes album and source art as well as an audio visualizer.",
+        "name": "Chill Vibe Desk",
+        "description": "Agentevil's Vibe Desk venue. Includes album and source art as well as an audio visualizer.",
         "iconUrl": "@/icons/Venue.png",
         "bannerBackUrl": "@/banners/StageBanner.png",
         "initialRelease": "2025-09-15T01:32:11.008259+00:00",
@@ -28,9 +28,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "f355dec0-3202-40e1-ad55-296831327c36",
-            "tag": "Vibe_House_Xmas-2025-12-19-0",
-            "release": "2025-12-19T19:54:35.311688+00:00",
+            "uuid": "5d8fbc28-44b4-4f9c-b6ca-4b10370d9e6b",
+            "tag": "Chill_Vibe_Desk-2026-01-19-0",
+            "release": "2026-01-19T10:21:30.158729+00:00",
             "content": [
                 {
                     "platforms": [
@@ -40,7 +40,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Vibe_House_Xmas-2025-12-19-0/Vibe_House_Xmas-2025-12-19-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Chill_Vibe_Desk-2026-01-19-0/Chill_Vibe_Desk-2026-01-19-0.7z",
                             "fileType": "7z"
                         }
                     ]
