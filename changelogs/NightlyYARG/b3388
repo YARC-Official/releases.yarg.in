@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "440fa1b466c43ede2de42c4e4fb7d14c3c017936",
+      "author": "wyrdough",
+      "summary": "adjust sustain line position",
+      "description": "- should help with the spurious edge in the fade region"
+    },
+    {
+      "sha": "e974cd03bb0a34a1fa0954e619d6a235540e9897",
+      "author": "wyrdough",
+      "summary": "Only connect profile on button press, not axis control changes",
+      "description": ""
+    },
+    {
+      "sha": "0d8846093d7c66e1659a21c2b2783e667ce76e49",
+      "author": "wyrdough",
+      "summary": "Profile cleanup",
+      "description": "- Use localization for profile auto creation toasts\n- Refresh profile list when profile connected by means other than the connect button"
+    },
+    {
+      "sha": "173a72544107d42d5280fac21335078050bea4f6",
+      "author": "4dispel",
+      "summary": "add song backgrounds as venue textures (#1254)",
+      "description": "* make video texture available to venues\n\n* fix video start time\n\n* release video texture to prevent leaks\n\n* move song background setup to one method\n\n* clean up from refactor\n\n* maintain material texture if no background found\n\n* refactor assigning materials back into process materials and add more material options\n\n* background texture scales with material texture\n\n* fix oversights mentioned in review\n\n* make loading video backgrounds a method\n\n* create render texture after identifying final dimensions"
+    },
+    {
+      "sha": "d2259a2ca9147af3d8d29963bbe384d7ec891695",
+      "author": "polson",
+      "summary": "Fix negative input calibration messing up vocal needle (#1267)",
+      "description": ""
+    }
+  ]
+}
