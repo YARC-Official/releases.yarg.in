@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "47ee68612bdd6e69a6e378e2f45fe63fa52ccecc",
+      "author": "wyrdough",
+      "summary": "Fix sunburst color bleeding onto FC ring",
+      "description": ""
+    },
+    {
+      "sha": "50acae2e13ee9fd55c98955543107fbc30321e2f",
+      "author": "wyrdough",
+      "summary": "Update core pointer for #317 (thanks Nyxyxylyth)",
+      "description": ""
+    }
+  ]
+}
