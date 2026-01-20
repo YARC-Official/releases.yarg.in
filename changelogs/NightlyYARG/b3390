@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "d4428eb1203f5215014160677ac8d6b25628cb5f",
+      "author": "theli-ua",
+      "summary": "Have opaque objects overwrite fading value of transparents (#1271)",
+      "description": "* Revert \"adjust sustain line position\"\n\nThis reverts commit 440fa1b466c43ede2de42c4e4fb7d14c3c017936.\n\n* Move sustain material into transparents queue where it belongs\n\n* Have opaque objects overwrite fading value of transparents\n\nThe reason is we don't want transparent objects that are over\nopaque ones to reduce fade value (as they are closer to the viewer/camera).\n\nWe do still want to render transparents in the fade calculation rendering pass\nsince there is a case for transparent particles that are not over the highway.\n\nThis fixes rough edges around sustain in the fading zone."
+    },
+    {
+      "sha": "efa0f8f47647740c74e66864adf51016d54ee814",
+      "author": "wyrdough",
+      "summary": "Don't attempt to create settings for settings marked as type ignore",
+      "description": ""
+    }
+  ]
+}
