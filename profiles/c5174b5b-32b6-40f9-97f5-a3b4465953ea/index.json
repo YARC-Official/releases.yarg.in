@@ -28,9 +28,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "5d8fbc28-44b4-4f9c-b6ca-4b10370d9e6b",
-            "tag": "Chill_Vibe_Desk-2026-01-19-0",
-            "release": "2026-01-19T10:21:30.158729+00:00",
+            "uuid": "8b51f626-9725-4aef-8f90-2f9ea14e4307",
+            "tag": "Chill_Vibe_Desk-2026-01-21-0",
+            "release": "2026-01-21T08:45:24.830850+00:00",
             "content": [
                 {
                     "platforms": [
@@ -40,7 +40,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Chill_Vibe_Desk-2026-01-19-0/Chill_Vibe_Desk-2026-01-19-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Chill_Vibe_Desk-2026-01-21-0/Chill_Vibe_Desk-2026-01-21-0.7z",
                             "fileType": "7z"
                         }
                     ]
