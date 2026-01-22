@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "3c52bba592b74c22104a0d57c4d83f0d458ecc50",
+      "author": "wyrdough",
+      "summary": "make TimeInStarpower frame independent (theli-ua)",
+      "description": ""
+    },
+    {
+      "sha": "750b02b4cacd0c8ca0567035032fdf0a7452a30d",
+      "author": "Supersonicboss1",
+      "summary": "Fix SP sunburst effect getting overridden by multiplier increase effect (#1274)",
+      "description": ""
+    }
+  ]
+}
