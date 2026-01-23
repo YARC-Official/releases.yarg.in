@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "1c6923ea70e1aae956f0b01faedc59e05486d093",
+      "author": "polson",
+      "summary": "Scale highway pop in animation delay by song speed (#1277)",
+      "description": ""
+    },
+    {
+      "sha": "717c1d9c6ca1a53fa9307a46b4de3a168eec9220",
+      "author": "polson",
+      "summary": "Add CSV Export to settings (#1167)",
+      "description": ""
+    },
+    {
+      "sha": "18c8a63e2d2c6a0a30ee15c0553f3d2b89621271",
+      "author": "polson",
+      "summary": "Add global calibration to quick settings (#1164)",
+      "description": "* First implementation of quick calibration settings\n\nLocalization and UI cleanup\n\nCleanup\n\n* Better UI"
+    },
+    {
+      "sha": "26395bfdc2780e8152b2b9b33df5db6e9ebaae5d",
+      "author": "thomeval",
+      "summary": "Highlight active instrument filters in Music Select Screen. (#1179)",
+      "description": ""
+    }
+  ]
+}
