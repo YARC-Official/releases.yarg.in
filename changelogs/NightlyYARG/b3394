@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "684836b1a50a28e25452d0d063ec43570182211e",
+      "author": "Ape",
+      "summary": "Improve the score box star graphic (#1272)",
+      "description": "This doesn't change the design, but implements a few technical tweaks to\nmake the graphic look better."
+    },
+    {
+      "sha": "6441e78c494bf2f78c134a2d8aef7638dc4ce269",
+      "author": "wyrdough",
+      "summary": "Adjust automatic camera cut timing",
+      "description": ""
+    }
+  ]
+}
