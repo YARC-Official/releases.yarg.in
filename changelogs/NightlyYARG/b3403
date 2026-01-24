@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "102596db78beede50fcc00c036d706f146661468",
+      "author": "wyrdough",
+      "summary": "Fix vocal needle ordering",
+      "description": ""
+    }
+  ]
+}
