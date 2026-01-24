@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "8dc66112bb62ec1a3fbdb4a5964949f6eb54f54a",
+      "author": "wyrdough",
+      "summary": "disable unsupported device warning toast",
+      "description": ""
+    },
+    {
+      "sha": "3165acb58a49ab7f2a21df78bb11ef293d90640c",
+      "author": "WalterRalts",
+      "summary": "Chord names (#1263)",
+      "description": "* Draft of chord names\n\n* Added common chords, removed broken chords\n\n* Move chord names a little to the left\n\n* Make a new setting to activate chords\n\n* Code cleaning\n\n* x 2\n\n* x3\n\n* x 4\n\n* Revert \"x 4\"\n\nThis reverts commit 0459b2f68ba4bc762ab2292c3c1b56e8a30c9d7d.\n\n* Remove Flat symbol.\n\n* LearningGuides setting default is now false\n\n* StringBuilder classed the text\n\n* SetText() instead of ToString()\n\n* Tweaks\n\n- remove unnecessary usings from ProKeysChordBarElement.cs\n- Switch font material to use non-mobile version of TMP shader\n- add text outline\n- move setting to gameplay category\n\n* Unity material and font version upgrades\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "e5790c3a6f29ec65da69b900ea9b6dbded6c38b5",
+      "author": "wyrdough",
+      "summary": "Fix crowd channel getting lost when using songs_updates (trainlos)",
+      "description": ""
+    }
+  ]
+}
