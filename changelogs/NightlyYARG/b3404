@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "5bc799864ea42263cb1f2251a13e6832a310f2fb",
+      "author": "WalterRalts",
+      "summary": ".3 units text size reduction for chord names (#1279)",
+      "description": ""
+    }
+  ]
+}
