@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "f6e5ef99bcb71dd7c102391b4b69631b7bfc7b60",
+      "author": "wyrdough",
+      "summary": "Disable library menu when chart requires rescan popup is clicked",
+      "description": ""
+    },
+    {
+      "sha": "36a903ac37ae40117fa5540a1d94d4cba3af9267",
+      "author": "polson",
+      "summary": "Fix issue where missing a star power note broke inputs (#1252)",
+      "description": ""
+    },
+    {
+      "sha": "4dfe861803d56abf3a3b0776fd36467bb6ac4a42",
+      "author": "wyrdough",
+      "summary": "update editor integration packages",
+      "description": ""
+    },
+    {
+      "sha": "771815f8e0fb923952f7e7302d371037a53e247d",
+      "author": "wyrdough",
+      "summary": "We don't need TAA in the list twice",
+      "description": ""
+    },
+    {
+      "sha": "5a107783ce1c67089ba5e09827d8abdfc39437bb",
+      "author": "theli-ua",
+      "summary": "Remove FSR3 in favor of Unity's own TAA (#1280)",
+      "description": "* Remove FSR3 in favor of Unity's own TAA\n\nSince noone cares about it its not worh fixing it.\n\n* Bump linux win/osx toolchains as well to stay in sync"
+    },
+    {
+      "sha": "c8196394743f7ffd2c8c0376f5639529e1bb1ac7",
+      "author": "wyrdough",
+      "summary": "Update vocal needle addressable paths",
+      "description": ""
+    }
+  ]
+}
