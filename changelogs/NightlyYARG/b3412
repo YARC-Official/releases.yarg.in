@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "23b1fb2d11b03c17ddf1b841971f6b8ab81fa560",
+      "author": "polson",
+      "summary": "Fix quick settings prefab to show calibration option again (#1282)",
+      "description": ""
+    },
+    {
+      "sha": "a730ce600cf36d53a591a409b630cd589dc6618c",
+      "author": "wyrdough",
+      "summary": "Properly resize venue rendering when screen size changes",
+      "description": ""
+    },
+    {
+      "sha": "fe36639700e37a07ad46bf70b451fa51927599ad",
+      "author": "wyrdough",
+      "summary": "Reduce max tilt multiplier to avoid track overlaps",
+      "description": ""
+    }
+  ]
+}
