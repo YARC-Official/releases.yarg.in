@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1a4150698e2cad8a3a90cbf058707f908ecb5cb9",
+      "author": "polson",
+      "summary": "Fix issue where solo box was overlapping track (#1281)",
+      "description": "* Fix issue where solo box was overlapping track\n\n* Move restart section to the left\n\n* Fix issue with lane height and more hud adjustments\n\n* Revert offset changes\n\n* Clean up"
+    }
+  ]
+}
