@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "9dd841d854abc35fbab2aeac39afb09a6117f161",
+      "author": "wyrdough",
+      "summary": "Missed a font update in previous commit",
+      "description": ""
+    },
+    {
+      "sha": "4e03f92b9f30c77f8f4e4be47d8c200f001f3bbd",
+      "author": "wyrdough",
+      "summary": "Fix mirror venue effect always using same wipe",
+      "description": ""
+    },
+    {
+      "sha": "b98ff6e5e3b2d79939aa7e36d00bbaf19757530e",
+      "author": "wyrdough",
+      "summary": "Add .meta files for new languages",
+      "description": ""
+    },
+    {
+      "sha": "bcabff16ca7d5000d5736527966058bba58ed0e0",
+      "author": "github-actions[bot]",
+      "summary": "New Crowdin translations by GitHub Action (#1284)",
+      "description": "Co-authored-by: Crowdin Bot <support+bot@crowdin.com>"
+    },
+    {
+      "sha": "bc837ccd60502d09f12870fbaa660972f996673a",
+      "author": "wyrdough",
+      "summary": "Fix unintended changes to font settings",
+      "description": ""
+    },
+    {
+      "sha": "a380b3e7ee222903981c9765b44086ee73adaa50",
+      "author": "wyrdough",
+      "summary": "Rearrange credits menu",
+      "description": ""
+    },
+    {
+      "sha": "9fa7be35e424ad8998e3d7f7d4a77e84791a1fb1",
+      "author": "wyrdough",
+      "summary": "Update version and MOTD",
+      "description": ""
+    }
+  ]
+}
