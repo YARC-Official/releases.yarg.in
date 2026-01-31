@@ -598,6 +598,36 @@
         "artist": "JubyPhonic",
         "length": 188000,
         "releaseDate": "2025-12-12T00:00:00.000Z"
+      },
+      {
+        "title": "Better Off Worse (feat. Flower)",
+        "artist": "CircusP",
+        "length": 242982,
+        "releaseDate": "2025-01-30T00:00:00.000Z"
+      },
+      {
+        "title": "Human God",
+        "artist": "Hadson",
+        "length": 210666,
+        "releaseDate": "2025-01-30T00:00:00.000Z"
+      },
+      {
+        "title": "Stress",
+        "artist": "Jim\u0027s Big Ego",
+        "length": 255191,
+        "releaseDate": "2025-01-30T00:00:00.000Z"
+      },
+      {
+        "title": "Salt the Wound",
+        "artist": "Surefire",
+        "length": 177606,
+        "releaseDate": "2025-01-30T00:00:00.000Z"
+      },
+      {
+        "title": "Chocolate Rain (Sweet Like Chocolate Remix)",
+        "artist": "Tay Zonday",
+        "length": 309333,
+        "releaseDate": "2025-01-30T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -643,9 +673,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "e6118c01-3ea8-4b84-abdb-c4b085bd86f6",
-      "tag": "official-2025-12-12-0",
-      "release": "2025-12-13T00:15:07.697545Z",
+      "uuid": "92a0e739-b299-4541-a312-d0de8a7f6967",
+      "tag": "official-2026-01-30-0",
+      "release": "2026-01-31T01:11:56.2488132Z",
       "content": [
         {
           "platforms": [
@@ -655,7 +685,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2025-12-12-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-01-30-0/official-0.7z",
               "fileType": "encrypted"
             }
           ]
