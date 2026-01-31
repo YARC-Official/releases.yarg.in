@@ -74,18 +74,6 @@
         "artist": "YOONIE x N\u012AKAU",
         "length": 204361,
         "releaseDate": "2025-10-11T00:00:00.000Z"
-      },
-      {
-        "title": "Year of the Toad (YOTT)",
-        "artist": "YOONIE x N\u012AKAU",
-        "length": 204361,
-        "releaseDate": "2025-10-11T00:00:00.000Z"
-      },
-      {
-        "title": "n u l l s t a r _",
-        "artist": "[SIGNALER] vs. Catonieca",
-        "length": 207595,
-        "releaseDate": "2025-10-11T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -131,9 +119,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "7b0de557-9b7a-4967-8d12-a7f0d0000225",
-      "tag": "yarn_pack_3-2026-01-24-0",
-      "release": "2026-01-24T22:09:35.0647528Z",
+      "uuid": "e838a8c5-3ddd-4cd7-8e7a-99edc0f32580",
+      "tag": "yarn_pack_3-2026-01-30-0",
+      "release": "2026-01-31T03:17:50.7053014Z",
       "content": [
         {
           "platforms": [
@@ -143,7 +131,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_3-2026-01-24-0/yarn_pack_3-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_3-2026-01-30-0/yarn_pack_3-0.7z",
               "fileType": "encrypted"
             }
           ]
