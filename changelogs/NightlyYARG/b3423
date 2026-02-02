@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "3f45184fcce656ff971db74c2ad48fd750c3cec8",
+      "author": "wyrdough",
+      "summary": "Trill/tremolo lane support (#1287)",
+      "description": "* Initial lanes implementation 9/22/24\n\nCreated TrackPlayer pool for lane elements\n\nRendering behavior for lanes\n\nRemove DetectLanes usage\n\nCreate separate prefabs for pro keys overlay colors and pro keys white key highlights. Use only overlay material for overlays, and use only highlight material for highlights\n\nUse flag booleans instead of comparing flags\n\nReplace separate lane components with single mesh and armature\n\nMaterial sorting order adjustments after lane model change\n\n* Updated lane model to support open lanes\n\n* LaneElement open lane controls\n\n* Chord tremolo support\n\n* UI changes for new engine parameter\n\n* Adjusted lane sizing for guitar and drums players\n\n* Fix display of drum chords and guitar open chords in tremolo phrases\n\n* Fix for mid-lane disco flips\n\n* Prevent spawning lanes in settings preview mode\n\n* Make lane spawning its own method in TrackPlayer\n\n* Fix for Pro Keys lanes generated during the middle of a range shift animation\n\n* Fixed incorrect usage of IsBlackKey and IsWhiteKey\n\n* Bring lanes current, fix up missing fields in prefabs and lane position calculations for 5 fret and 5LK.\n\n* lanes core pointer\n\n* not quite working fix for 7 lane drums\n\n* Add missing ModifyLaneFromNote methods (fixes open note rendering)\n\n* make lefty flip work\n\n* fix 7 lane pro drums lane colors\n\n* since I already committed a core pointer, gotta keep it up to date...\n\n* Don't spawn lanes if lanes are disabled in profile\n\n* Remove submarine code from TrackElement.cs\n\n* Lanes core pointer update\n\n---------\n\nCo-authored-by: sunset-cf <cfische5@gmail.com>"
+    },
+    {
+      "sha": "0e3f10fe1f3379139533b0dbd9b3c03025a727a6",
+      "author": "polson",
+      "summary": "Fix issue where setting buffer on currently playing audio wasn't working (#1290)",
+      "description": ""
+    }
+  ]
+}
