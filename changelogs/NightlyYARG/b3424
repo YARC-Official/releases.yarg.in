@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "ed4684a2dd6caf3f111bece87c3ead12e517b4de",
+      "author": "trainlos",
+      "summary": "Show pro drums icon (#1283)",
+      "description": "Replaces 4L drums icon with Pro Drums icon in the library sidebar when Pro is available"
+    },
+    {
+      "sha": "8893bff540434e877838ce8c13e4a4568c613d4b",
+      "author": "wyrdough",
+      "summary": "core pointer for lanes replay update",
+      "description": ""
+    },
+    {
+      "sha": "7fc84b267a8c4898cd9675bde7a957991c1b23d3",
+      "author": "wyrdough",
+      "summary": "Core pointer for MIDI drums fix",
+      "description": ""
+    },
+    {
+      "sha": "690109c3806bc7c640bf57957e9e290aab5a09e5",
+      "author": "wyrdough",
+      "summary": "Linux needs that \"using System.IO\", bud",
+      "description": ""
+    },
+    {
+      "sha": "9d8ed9817d1382230d5996bbab22bc7923985f15",
+      "author": "wyrdough",
+      "summary": "Replace StandaloneFileBrowser with SimpleFileBrowser.",
+      "description": "- Definitely fixes the issue with exporting venues\n- May work better on Linux since it doesn't rely on platform specific shared libraries to show the dialog"
+    }
+  ]
+}
