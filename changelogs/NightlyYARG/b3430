@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "2cbb06a50f5bcb1f974b025821f90f590df5afe8",
+      "author": "wyrdough",
+      "summary": "Fix positioning of adjacent key pro keys trill lanes",
+      "description": ""
+    },
+    {
+      "sha": "02fd2344bf49deaad178c71e4dd042bc118a3af9",
+      "author": "wyrdough",
+      "summary": "Update HIDrogen to 0.5.3 (fixes Bluetooth crashes on Linux)",
+      "description": ""
+    }
+  ]
+}
