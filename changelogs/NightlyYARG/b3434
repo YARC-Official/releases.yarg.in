@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "a553d7ba66005e9fbfa1151d440ea723c1931e92",
+      "author": "wyrdough",
+      "summary": "Fix localization json error(?)",
+      "description": "- Also updates core pointer for Core PR #315"
+    },
+    {
+      "sha": "3c7b0f5e34b1d8144efaaf0af3fca97e8cdaf6e0",
+      "author": "TheFatBastid",
+      "summary": "Queue instrument notes to prevent missed ticks in UDP data stream. (#1293)",
+      "description": "* Queue instrument notes to prevent missed ticks\n\nAdd per-instrument queues and synchronization to buffer note values so notes aren't missed between timer ticks.\n\n* Update DataStreamController.cs\n\n* Fix division in default size calculation"
+    },
+    {
+      "sha": "f7fc202710e1c80040d239e336e5ed71a4e2f345",
+      "author": "theli-ua",
+      "summary": "Migrate to Unity 6.3 (#1273)",
+      "description": "* Migrate to Unity 6.3\n\n6.2 is not supported. 6.3 is an LTS version and migration is very\nstraightforward with no code changes.o\n\nMotivation is to use newer urp version while working on rendergraph migration.\nThis will need to happen at some point anyway (as 6.2 is not supported version)\n\n* Upgrade FadePass from legacy URP to RenderGraph\n\n- Replace Execute() with RecordRenderGraph()\n- Use ContextContainer for data access\n- Create RendererListHandles during pass setup\n- Import texture using RTHandles for RenderGraph compatibility\n- Simplify render function using pre-created handles\n\nCo-authored-by: Kiro <kiro@amazon.com>\n\n* update mat queue\n\n* Disable URP compatibility mode\n\n* Explicitly specify depth buffer bits for camera output textures\n\nAs required by rendergraph\n\n* Fix fadepass (by reading/writing to depth buffer)\n\n* Update fsr passes for rendergraph\n\n* Update to 6000.3.51f\n\n* Update to 6000.3.5f2\n\n* Add depth to venue output texture\n\nIt is needed for things like taa and some others to work properly\n\n* Add depth to highway preview texture\n\nSo that rendergraph stop bitching about it\n\n* Update rendering settings\n\n* Update Unity version in readme.md\n\n* Update readme harder\n\n---------\n\nCo-authored-by: Kiro <kiro@amazon.com>"
+    },
+    {
+      "sha": "dc0cad68e6bbc690422663011b9eca2d18670779",
+      "author": "4dispel",
+      "summary": "Add Modifier to make Opens into Green notes (#1261)",
+      "description": "* add OpensToGreens Icon\n\n* add localized string\n\n* cut off sustain sixteenth before next note\n\n* make scrollbar scroll with selection\n\n* return early if scrollbar not found\n\n* start the modifier menu navigation at the top instead of at done to prevent being out of bounds early"
+    },
+    {
+      "sha": "bed766a8073673c8778865a4b2f7817cd9431e71",
+      "author": "sjdaws",
+      "summary": "Combined metronome and output selection (#1276)",
+      "description": "* Add basic metronome\n\n* Allow selection of output device\n\n* Add output channel selection\n\n* Fix issue with non-default device and alternate channels on open\n\n* Ensure channels reset to default when default changes\n\n* Add higher quality audio samples\n\n* User selectable metronome sound\n\n* Allow metronome outchannel selection\n\n* Clean up, fix metronome channel selection\n\n* Merge branch 'dev' into output-selection-metronome\n\n* Add additional languages\n\n* Correctly dispose of samples when changing device\n\n* Add 'None' metronome type, default metronome to None, default metronome volume to 50%\n\n* Use audio handler for subscriptions\n\n* Fix formatting as per review\n\n* Set sample volumes on creation\n\n* Update YARG.Core pointer\n\n---------\n\nCo-authored-by: polson <302882+polson@users.noreply.github.com>"
+    }
+  ]
+}
