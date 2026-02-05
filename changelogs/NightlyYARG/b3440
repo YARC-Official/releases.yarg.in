@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "19ec0288483f983d1c5f4a1d9f8fd4dac030cb62",
+      "author": "wyrdough",
+      "summary": "Add unnecessary multiplayer asset to git since Unity 6.3 won't not generate it and keeps bugging me",
+      "description": ""
+    },
+    {
+      "sha": "cf894b10b838305a7aae0f653826838d83bd4669",
+      "author": "wyrdough",
+      "summary": "Fix average offset calculation",
+      "description": ""
+    }
+  ]
+}
