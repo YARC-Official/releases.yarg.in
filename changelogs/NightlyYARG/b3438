@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "a64f1b651b4ad094b5b9fca684cec06995cb6cd0",
+      "author": "4dispel",
+      "summary": "fix venue load failing without default for video texture (#1297)",
+      "description": "* fix venue load failing without default for video texture\n\n* fix style of null check pattern"
+    },
+    {
+      "sha": "bcfba098c4742c67f9448efebade4712a0860328",
+      "author": "polson",
+      "summary": "Fix issue with venue texture rendering (#1296)",
+      "description": ""
+    },
+    {
+      "sha": "b802333372e802e15b48d21d43d2d0f9d1e60068",
+      "author": "polson",
+      "summary": "Implement auto calibration for audio (#1294)",
+      "description": "* First implementation of quick calibration settings\n\nLocalization and UI cleanup\n\nCleanup\n\n* Better UI\n\n* Add Auto calibration options\n\n* Fix issues with calibration text box\n\nSimplify auto calibrator\n\n* Add auto calibration option to calibration quick settings\n\n* Make toggle work properly\n\n* Simplify auto calibrator\n\n* Cleanup\n\n* Don't use the account for hardware latency value in the auto calibrator\n\n* Dont record accuracy of bots\n\n* Better auto calibration with damping\n\n* Better auto calibration again\n\n---------\n\nCo-authored-by: polson <polson@github.com>"
+    }
+  ]
+}
