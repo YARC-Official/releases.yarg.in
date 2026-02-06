@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "5891660581371a788cefb67a630606323c0acea7",
+      "author": "Ape",
+      "summary": "Add missing imports (#1298)",
+      "description": "Without these the build fails with:\n\nAssets/Script/Audio/Bass/BassAudioManager.cs(161,21): error CS0103: The name 'ToastManager' does not exist in the current context\nAssets/Script/Helpers/FileExplorerHelper.cs(150,39): error CS0103: The name 'Path' does not exist in the current context"
+    },
+    {
+      "sha": "d54faeaf28a1aaa6808a6076695f9c87ba14c44f",
+      "author": "wyrdough",
+      "summary": "Forgot to return early on initialization failure so we avoid more exceptions before the user has a chance to see the error toast and everything blows up.",
+      "description": ""
+    },
+    {
+      "sha": "0ce506dc482f089fb2136a8dea8de87844fed73f",
+      "author": "wyrdough",
+      "summary": "Improve error handling/UX when BASS fails to initialize.",
+      "description": "* Wrap Bass.Init() call in try/catch since it completely forks Linux builds to the point we can't give any feedback after it throws.\n\n* Add Linux-specific log and toast messages telling the user to pls install pipewire-alsa or equivalent."
+    },
+    {
+      "sha": "2584770bd8afe3f86750aa8f9fe82a62b0bba3de",
+      "author": "wyrdough",
+      "summary": "Update profile auto creation to use unique names.",
+      "description": ""
+    },
+    {
+      "sha": "9d0aa0e4963fb86fae69d9d34a73aad2e3ca2b51",
+      "author": "mikikiv",
+      "summary": "use unique names when creating new profile (#1066)",
+      "description": "* use unique names when creating new profile\n\n* Update Assets/Script/Menu/ProfileList/ProfileListMenu.cs\n\n* only append a number onto the profile name if the profile already exists\n\n* format"
+    },
+    {
+      "sha": "82c6ca4681f23d59618c6b1a14d134d4f19ffcfe",
+      "author": "wyrdough",
+      "summary": "Rewrite ListMenu scroll input handling, handle SimpleFileBrowser differently.",
+      "description": "* ListMenu now implements IScrollHandler so scroll inputs can be intercepted by raycast receivers drawn on top of the menu.\n* Added slightly customized SimpleFileBrowser prefab to PersistentScene so we can draw a tint behind the file browser window that prevents navigation menu clicks (and looks nicer)"
+    }
+  ]
+}
