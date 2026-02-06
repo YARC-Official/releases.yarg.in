@@ -1,0 +1,58 @@
+{
+  "commits": [
+    {
+      "sha": "b5a2a42600332a4f0b1e60cce1b34c715da27866",
+      "author": "wyrdough",
+      "summary": "Add missing cast to sbyte in SongExport",
+      "description": ""
+    },
+    {
+      "sha": "4c49af0269feb0e72be5a569539165db402bdc3f",
+      "author": "wyrdough",
+      "summary": "Update YARG.Core pointer for end-of-chart lane fix",
+      "description": ""
+    },
+    {
+      "sha": "33f58729edc9be23b68241cb1ae8cbfed7e6921f",
+      "author": "trainlos",
+      "summary": "Include more data in CSV export (#1285)",
+      "description": "* moar csv\n\n* use zero when intensity value isn't provided\n\n* Add \"Difficulty\" to column headers"
+    },
+    {
+      "sha": "78eb02c38829a2cfc6a2d85d8b8c1132e9a86681",
+      "author": "polson",
+      "summary": "Add option to save scores when bots are present (#1268)",
+      "description": "* Add option to save scores when bots are present\n\n* Add in human band bonus scores\n\n* Add HasBots field to GameRecord\n\n* Fix integer division when calculating human band stars\n\n* Use replay validation for score calculation isntead\n\n* Show band scores if there's more than one human profile connected\n\n* Cleanup"
+    },
+    {
+      "sha": "741efc4b00bef42314f2c688a45e3b982aa9eb6d",
+      "author": "github-actions[bot]",
+      "summary": "Translation Updates (#1289)",
+      "description": ""
+    },
+    {
+      "sha": "b5d4ba84cf3136427bd947e4b3e960fe0878742f",
+      "author": "polson",
+      "summary": "Update YARG.Core pointer",
+      "description": ""
+    },
+    {
+      "sha": "e9169d6ab18a1e46183e911b29258e69ebe463e1",
+      "author": "polson",
+      "summary": "Simplify multichannel stems in BassStemMixer (#1182)",
+      "description": "* Simplify multichannel stems in BassStemMixer\n\n* Cleanup\n\n* More cleanup"
+    },
+    {
+      "sha": "3345a72444dd0e26fea8572d97e4fe77306a8beb",
+      "author": "TheFatBastid",
+      "summary": "UDP fixes: Added Practice to scene byte. Fixed Pause byte. (#1295)",
+      "description": "* Queue instrument notes to prevent missed ticks\n\nAdd per-instrument queues and synchronization to buffer note values so notes aren't missed between timer ticks.\n\n* Update DataStreamController.cs\n\n* Fix division in default size calculation\n\n* Fixed pause byte not working\n\n* Added Practice scene in Data Stream\n\nAdded it to the Scene byte, while technically not a scene, I figure it was okay to overwrite 'gameplay' as you can't be in practice without being in gameplay so it implied.\n\n* Drain note queues and OR note bitmasks\n\nIn my infinite wisdom when implementing queues, I had them added at frame rate speed but only dequeued at udp send speed, causing backlogs and problems. Also, OR'ed stuff together so it should always be current now."
+    },
+    {
+      "sha": "3b51316835abb261fde06773f26e83510ff5ad81",
+      "author": "polson",
+      "summary": "Use visual calibration for vocals visuals (#1291)",
+      "description": ""
+    }
+  ]
+}
