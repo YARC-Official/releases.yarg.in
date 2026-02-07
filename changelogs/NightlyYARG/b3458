@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "5f554932eedb2e091ddbd1e2722716b3fe08d996",
+      "author": "polson",
+      "summary": "Reset valid score flag when loading song (#1304)",
+      "description": ""
+    },
+    {
+      "sha": "cd552b627a0bd79ce526adbf488be6e435577092",
+      "author": "polson",
+      "summary": "Fix issues with song runner in replay controller (#1303)",
+      "description": ""
+    },
+    {
+      "sha": "f91ffda88ab19343e9614a86ac7a097c5da639d1",
+      "author": "polson",
+      "summary": "Fix issues with replay viewer (#1301)",
+      "description": "* Fix replay viewer hud arrow going off screen when closed\n\n* Set song speed on replay viewer so highway animation pops up correctly\n\n* Don't allow auto calibration during replay\n\n* Disable highway animations during replay\n\n* Fix error when invalid position for hud elements\n\nBetter way to disable track animations during replay\n\n* Pause replay viewer when it reaches end of track\n\nFix pause bug also\n\n* Undo prefab changes to replay viewer\n\n* Fix prefab"
+    }
+  ]
+}
