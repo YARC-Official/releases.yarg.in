@@ -1,0 +1,131 @@
+{
+  "type": "setlist",
+  "uuid": "231765d6-c0f7-4308-ada6-5b3407c2515b",
+  "metadata": {
+    "name": "Teto Pack",
+    "description": "Your favorite red-haired gremlin has come to play!",
+    "iconUrl": "https://releases.yarg.in/profiles/231765d6-c0f7-4308-ada6-5b3407c2515b/icon.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/231765d6-c0f7-4308-ada6-5b3407c2515b/banner.png",
+    "initialRelease": "2026-02-07T03:16:50.0952891Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Atelophobia",
+        "artist": "Authko",
+        "length": 266024,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "Classic J Dies and Goes to Hell Part 1 (feat. Kasane Teto)",
+        "artist": "Glass Beach (feather268)",
+        "length": 307071,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "Overload",
+        "artist": "Kirisame",
+        "length": 145411,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "Fever Dream",
+        "artist": "MiliSen",
+        "length": 205263,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "REGRET ROCK",
+        "artist": "MonochroMenace",
+        "length": 163636,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "TAZTY!",
+        "artist": "redseas07",
+        "length": 290370,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "POTETO CHIP",
+        "artist": "ROMA",
+        "length": 218048,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "Ragebait",
+        "artist": "Zynthesiren",
+        "length": 203625,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "f60d555c-0385-4b2b-8631-d609b9c536bf",
+      "tag": "yarn_teto_1-2026-02-06-0",
+      "release": "2026-02-07T03:16:50.0952891Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_teto_1-2026-02-06-0/yarn_teto_1-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
