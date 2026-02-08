@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "266a44323fed03a04e092a09c4360bd7ad6c5fc1",
+      "author": "TheFatBastid",
+      "summary": "Added Camera Cuts to UDP stream (#1305)",
+      "description": "* Queue instrument notes to prevent missed ticks\n\nAdd per-instrument queues and synchronization to buffer note values so notes aren't missed between timer ticks.\n\n* Update DataStreamController.cs\n\n* Fix division in default size calculation\n\n* Fixed pause byte not working\n\n* Added Practice scene in Data Stream\n\nAdded it to the Scene byte, while technically not a scene, I figure it was okay to overwrite 'gameplay' as you can't be in practice without being in gameplay so it implied.\n\n* Drain note queues and OR note bitmasks\n\nIn my infinite wisdom when implementing queues, I had them added at frame rate speed but only dequeued at udp send speed, causing backlogs and problems. Also, OR'ed stuff together so it should always be current now.\n\n* Set UDP output to its own thread\n\n* Added Camera Cuts to UDP stream"
+    },
+    {
+      "sha": "65d17cc31ea6b1d8d0467518ac852470e3f1e7d8",
+      "author": "wyrdough",
+      "summary": "Update core pointer for rewind feature",
+      "description": ""
+    },
+    {
+      "sha": "3613bfd34255fd0d57151d8cbcc601ac201c101d",
+      "author": "wyrdough",
+      "summary": "Add rewind feature on gameplay resume (#1307)",
+      "description": "* Scores will be invalidated if player pauses 3 or more times within 20 seconds\n* Added notification popup to replay viewer to indicate when pauses occurred in a replay and their length"
+    }
+  ]
+}
