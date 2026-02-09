@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "c37f2a8d246bf4da499dc525969bd4d3b9d161c4",
+      "author": "wyrdough",
+      "summary": "update core pointer for laned note counting fix (again!)",
+      "description": ""
+    },
+    {
+      "sha": "dd956b0df67d4fc877a6c1f962c3fe59769370b1",
+      "author": "wyrdough",
+      "summary": "Fix rewind logic allowing indefinite rewind with repeated pauses",
+      "description": ""
+    }
+  ]
+}
