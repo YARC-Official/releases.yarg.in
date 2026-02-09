@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "2118edb7f8a7166247646dc31ab0f527f73834d6",
+      "author": "polson",
+      "summary": "Make escape key work correctly when in edit hud",
+      "description": ""
+    },
+    {
+      "sha": "0b49354a6ab660abd2faf90667b443d8203ebff9",
+      "author": "polson",
+      "summary": "Allow dragging highway in edit hud mode (#1308)",
+      "description": "* Make a draggable hud element for the track\n\n* First implementation of horizontal offset\n\n* Make real time dragging work mostly correct\n\n* Fix remaining issues with track position\n\n* Cleanup\n\n* Add null check, whoops\n\n* More cleanup\n\n* More cleanup\n\n* Probably the last time I cleanup"
+    }
+  ]
+}
