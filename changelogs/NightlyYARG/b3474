@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "0593239100e34492c94e6c0bff324391e0ab2d6a",
+      "author": "wyrdough",
+      "summary": "Fix practice mode not starting",
+      "description": ""
+    }
+  ]
+}
