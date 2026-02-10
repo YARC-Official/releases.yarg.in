@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "3af5a9dfbed1d9cf235d1db8c46947c53f0b904f",
+      "author": "wyrdough",
+      "summary": "Change render queue for KickNoteMiddle material so it will actually render again after the changes to the highway",
+      "description": ""
+    },
+    {
+      "sha": "a695a266e182e7b2e0f02557b728a95366b0e938",
+      "author": "wyrdough",
+      "summary": "Somehow TrackPreviewUI got lost from the addressables group",
+      "description": ""
+    },
+    {
+      "sha": "456d243dca4d035d4e1a6d32d280a3ec014e6406",
+      "author": "wyrdough",
+      "summary": "Rework fonts and navigation schemes to be more consistent with new library menu",
+      "description": ""
+    }
+  ]
+}
