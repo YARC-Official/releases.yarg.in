@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "4ba3cc1ac1e1418220afd9fa717467dd6f8c6ffa",
+      "author": "wyrdough",
+      "summary": "Use only one instance of source icon for both source and charter fields",
+      "description": ""
+    },
+    {
+      "sha": "64d6a48dcd7f9f9e0438c8aa4bd1e0733865897b",
+      "author": "wyrdough",
+      "summary": "Disable back button in header on score screen",
+      "description": ""
+    },
+    {
+      "sha": "05a85af73ec957256bfea8e669c5dce7acc22e4a",
+      "author": "wyrdough",
+      "summary": "Music library visual tweaks",
+      "description": ""
+    },
+    {
+      "sha": "c20ab7df63e212c62eedc58954aef6e18a6e9bf0",
+      "author": "theli-ua",
+      "summary": "Fix open sustains rendering (#1315)",
+      "description": "By setting track shader alpha mode to additive"
+    }
+  ]
+}
