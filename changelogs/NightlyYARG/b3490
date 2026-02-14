@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "c451087df7e0d5aa284b1bf9424e5e307233f5b6",
+      "author": "wyrdough",
+      "summary": "Venue camera fixup",
+      "description": "Use individual behind shots instead of the generic full band behind shot"
+    }
+  ]
+}
