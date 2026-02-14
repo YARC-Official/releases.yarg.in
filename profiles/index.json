@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-02-07T03:16:50.0952891Z",
+  "lastUpdated": "2026-02-13T20:04:10.270583Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -375,6 +375,17 @@
       "name": "Teto Pack",
       "iconUrl": "https://releases.yarg.in/profiles/231765d6-c0f7-4308-ada6-5b3407c2515b/icon.png",
       "bannerUrl": "https://releases.yarg.in/profiles/231765d6-c0f7-4308-ada6-5b3407c2515b/banner.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "20e39b6b-df11-4a7a-8862-e953f25ed219",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/20e39b6b-df11-4a7a-8862-e953f25ed219/",
+      "release": "2026-02-13T20:04:10.270583Z",
+      "name": "UNBEATABLE 01",
+      "iconUrl": "https://releases.yarg.in/profiles/20e39b6b-df11-4a7a-8862-e953f25ed219/icon.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/20e39b6b-df11-4a7a-8862-e953f25ed219/banner.png",
       "localeOverrides": {}
     }
   ]
