@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "0419ca77257e31ca917afeeac8623487d774e507",
+      "author": "theli-ua",
+      "summary": "Use Unity's own webrequest to fetch opensource data (#1323)",
+      "description": ""
+    },
+    {
+      "sha": "8b873f85417099abcce6ddfc1748afb9204d71f2",
+      "author": "polson",
+      "summary": "Fix back button on instrument select (#1322)",
+      "description": ""
+    },
+    {
+      "sha": "6b7606b5e7b5203bc8b17204b8d03b702e81dd60",
+      "author": "Ape",
+      "summary": "Fix compile warnings (#1299)",
+      "description": ""
+    },
+    {
+      "sha": "606f85c9e7eec0092fe8eca93311b2eb43089661",
+      "author": "theli-ua",
+      "summary": "Do not enforce sorting order in fade pass (#1321)",
+      "description": "This fixes sustains messing up the fade"
+    },
+    {
+      "sha": "9d9a9a0b05dcc663cb9b1ed39fdb495bac28e708",
+      "author": "Ape",
+      "summary": "Fix return to recommended song (#1310)",
+      "description": "Previously, if you selected a song from the recommended songs list, went\nto the pre-game menu (difficulty selection etc.), and then returned back\nto music library the song position was lost."
+    },
+    {
+      "sha": "774581a3652c59e4468d997b5d88f6a1e66c09e0",
+      "author": "Dansla116",
+      "summary": "Shrink album name text after 40 chars, don't wrap until after 50 chars (#1320)",
+      "description": ""
+    }
+  ]
+}
