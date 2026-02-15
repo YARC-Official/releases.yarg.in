@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "4f63174be690b38e7e9346a1178a1e7afd858ce3",
+      "author": "polson",
+      "summary": "Fix font scaler bugs (#1327)",
+      "description": "* Fix font scaler bugs\n\nDon't scale gameplay scene\n\n* Handle auto sized texts correctly"
+    }
+  ]
+}
