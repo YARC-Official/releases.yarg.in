@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "7450dc792c80a78d3f196691714e5db0a7c0b080",
+      "author": "polson",
+      "summary": "Set default play button state correctly",
+      "description": ""
+    },
+    {
+      "sha": "84a25b57558227d5101a406b782c1c69fe1e065d",
+      "author": "polson",
+      "summary": "More button fixes (#1326)",
+      "description": "* Fix issues with green button on music library\n\n* Refactor button hold tracking\n\n* Fix green button\n\n* Cleanup"
+    },
+    {
+      "sha": "d881f43fc9039cb8f6d6747c47caacbcf2a611cb",
+      "author": "polson",
+      "summary": "Add animation for button holds (#1325)",
+      "description": "* Add animation for button hold when using pointer\n\n* Handle menu binds and pointer for holds\n\n* Add debounce for hold\n\n* Cleanup\n\n* Cleanup again"
+    },
+    {
+      "sha": "9555a8afd7fb4cb427307c312e5c7f84f2c4ee22",
+      "author": "polson",
+      "summary": "Implement font scaling accessibility setting (#1318)",
+      "description": "* Fix dpi spam in player.log\n\n* Scale fonts WIP\n\n* Better font scaling\n\n* Add in setting\n\n* Add comments and cleanup\n\n* More cleanup"
+    },
+    {
+      "sha": "3a6c00a1ca160e232f5953371e2c16a1a49350eb",
+      "author": "Dansla116",
+      "summary": "Add Filters Menu to Music Library (#1314)",
+      "description": "* Added filters menu to music library\n\nMusic Library Changes:\n- Changed blue from \"Play a Show\" to \"Filters\"\n- Changed yellow from \"Add to Setlist\" to \"Play a Show\"\n- Yellow is still \"Start The Set\" when setlist has content\n- Added complex punnett square green behavior\n- - If setlist is empty: tap green to \"Play Song\", hold green to \"Add to Setlist\"\n- - If setlist has content: tap green to \"Add to Setlist\", hold green to \"Start the Set\"\n- Changed song count to show \"Filter Result\" / \"Total Songs\" when filters are active\n- Remove screen elements and pause preview when navigating to Filters\nFilters Menu:\n- Added screen copying many components/layout from Settings Menu\n- Added \"Sort By\" option that is also still available from Music Library \"More Options\"\n- Added \"Show Recommendation\" toggle\n- Added \"Reset All Filters\" button\n- Added filters for Genres, Decades, Vocal Parts, Sources, Charters, Difficulties, and Lengths\n- Left comments for different Length buckets and toggle\n- Left comments for Vocal Gender and Has Solos filters that are harder to implement\n\n* Address initial feedback - asset maintainability and green tap/hold logic\n\n- Removed duplicate settings button in FiltersMenu\n- Tried making FiltersMenu and FilterEntryRow variants from SettingsMenu but couldn't get them working right\n- Moved logic for tap/hold green from MusicLibraryMenu to Navigator and NavigationScheme\n\n* Made Filters Menu rows alternate background colors\n\n* Added divider lines between Filter Entry Rows\n\n* Removed \"Reset All Filters\" button and added \"(Hold) Reset All Filters\" to navigator\n\n* Move FiltersMenu from PersistentScene.unity to MusicLibraryMenu.prefab\n\n* Explicitly turn off \"Show Recommendations\" when applying filters\n\n* Add green hold action to PopupMenu.cs\n\n* Force Play a Show to pull from filter results\n\n* Addressed code review feedback\n\n- Removed comments for non-implemented filter by Vocal Gender and Has Solo\n- Removed null check on right menu\n- Removed unnecessary `using` and fully qualified types\n- Removed unused `AddButton()`\n- Ensure defaults before building selected set\n- Use LINQ All for filter predicate"
+    }
+  ]
+}
