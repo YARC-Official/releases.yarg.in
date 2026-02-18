@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "1ab22ec0e14224e61f09ef2fcf1829dee7364111",
+      "author": "polson",
+      "summary": "Fix green button issues in music menu",
+      "description": ""
+    },
+    {
+      "sha": "2a7ce16b888feaa17164280ae4ed28f1c6f2f8c4",
+      "author": "Dansla116",
+      "summary": "Added Sync Songs button to Quickplay Page, Resolution Helper (#1324)",
+      "description": "* Implementation Summary:\n\n  Quick Play Page (MusicLibraryMenu):\n\n  - Method: Added RefreshSongs() method in MusicLibraryMenu.cs:813-818\n  - UI Access: Added \"Scan Songs\" option to the popup menu (accessed with Orange button/right-click) in PopupMenu.cs:120-124\n\n  Main Menu Page (MainMenu):\n\n  - Method: Added RefreshSongs() method in MainMenu.cs:130-134\n  - UI Access: Added keyboard shortcut (Orange button) in navigation scheme in MainMenu.cs:51\n\n   Proper Development Branch:\n\n  - All changes made on dev branch as required by contributing rules\n\n* Remove orange `navigator` from main menu, and corrected localization\n\n* Correct Difficulty Ring hide/show behavior\n\n* Stop library preview when scanning songs\n\n* Reverted automatic rescan on \"Chart requires a rescan! toast, removed unused `using` and sorted remaining `using`\n\n---------\n\nCo-authored-by: ymode <sunworth@gmail.com>"
+    },
+    {
+      "sha": "2f6ef5fc34e0eb2967188056d9406d1ca1a5903b",
+      "author": "polson",
+      "summary": "Fix discord sdk console error on macos (#1328)",
+      "description": ""
+    },
+    {
+      "sha": "a69f28721d1b49076f24118070ebd46891e16fde",
+      "author": "Supersonicboss1",
+      "summary": "Rewrite lyrics bar to support transition animations (#1317)",
+      "description": "* lyrics bar rewrite v2\n\n* Cleanup code, and remove any remaining object instantiations\n\n* Fix lyric transitions (for the last time) and cleanup\n\n* Improve performance, rename variables, and fix fast lyrics\n\n* Rename a bunch of stuff to be less terribly named\n\n* Dispose of builder and prevent OnChartLoaded from running when lyric bar is disabled"
+    }
+  ]
+}
