@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "806d3403a585c4a813ded749f48d20ab64208cc0",
+      "author": "wyrdough",
+      "summary": "Update YARG.Core pointer for Genrelizer and lipsync parsing",
+      "description": ""
+    },
+    {
+      "sha": "84a76dfae937e45d9fc7c730131944d655041b5c",
+      "author": "Frickitickitavi",
+      "summary": "Genrelizer (#1191)",
+      "description": "* Core logic written, struggling with scanning\n\n* More logical improvements, still not sorting correctly\n\n* Working on Unknown Genre\n\n* Move sorting out of core\n\n* Incorporate Genrelizer into actual sorted data\n\n* Sort no-subgenre songs under genre\n\n* Slash and comma logic\n\n* Add Genrelizer toggle\n\n* Improve displays\n\n* Add subgenre filter button\n\n* Add failsafes for no data\n\n* New format\n\n* fix core pointer\n\n* Add genre folders to gitignore\n\n* Fix Pop-Punk localization value\n\n* Add Reggae/Ska special case\n\n* Add Reggae/Ska > Other explanatory comment\n\n* Fix RBN1.0 Rock>Reggae/Ska subgenre overrides\n\n* Add unedit Magma pair comments and Reggae/Ska>Other belt-and-suspenders case\n\n* Fix sorted cache merge\n\n* Rewire sidebar, account for raw Magma values\n\n* Delete Assets/StreamingAssets/genres~/version.txt\n\n* Fix core pointer\n\n* Un-fully-qualify ToTitleCase\n\n* Add subgenres to filters menu\n\n* Address PR feedback, further standardize function name formatting\n\n* Rm unused imports after merge\n\n* Address PR whitespace feedback"
+    },
+    {
+      "sha": "8aa1b315d119b129db53da5bcc6c5542603ed9de",
+      "author": "wyrdough",
+      "summary": "Support custom characters (#1330)",
+      "description": "* Support custom characters\n\n* Add character export to BundleBackgroundManager/BundleBackgroundInspector.\n  * Drag character object into field, click export character to produce a .yargchar\n* Update BackgroundManager to be able to load custom characters\n* Allow loading of venue scene directly when running in editor for easier debugging of animation issues (scuffed atm, not all assets are getting unloaded, so it leaks memory every time you enter play mode)\n* Request lipsync track when loading songs\n\n* Make \"Use Full Lipsync\" toggle actually do something\n\n* Allow venue characters to specify a gender\n\n* Skeleton for genre-specific default animations\n\n* Replace various lookat and follow references when replacing character.\n\n* Includes some really ugly heuristics to use the correct transform on the new model. (This is mainly to avoid breaking cameras in our existing launcher venues)"
+    }
+  ]
+}
