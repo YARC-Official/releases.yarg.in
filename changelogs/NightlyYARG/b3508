@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "6b95885d702518b26b1d94236b2d7bd27305d544",
+      "author": "wyrdough",
+      "summary": "Forgot to remove log spam",
+      "description": ""
+    },
+    {
+      "sha": "d5fa1db51c8a90dfe39e761595947b63fa6e8588",
+      "author": "wyrdough",
+      "summary": "Prevent VRM characters from wandering too far when animations are interrupted",
+      "description": "* When neither their current position or original position are on camera, snap the character back to the original position"
+    },
+    {
+      "sha": "fcf48693e2d458fa109264bede2f220e95e5e0c5",
+      "author": "wyrdough",
+      "summary": "Force replacement character into venue layer (actually working this time)",
+      "description": ""
+    },
+    {
+      "sha": "3ea782f10e93998dcc9c3312e03f9908500ad04a",
+      "author": "wyrdough",
+      "summary": "loadable character fixes",
+      "description": "* force the use of note-based lipsync when chart doesn't have lipsync track\n* add tooltip noting that CharacterManager field only needs to be set when building a venue\n* Move yarground loading into its own method"
+    }
+  ]
+}
