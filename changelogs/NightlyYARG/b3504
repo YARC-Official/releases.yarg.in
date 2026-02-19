@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "9b3ad605937fe9892a310209a9be6864d44e5d4b",
+      "author": "polson",
+      "summary": "Implement auto video calibration (#1332)",
+      "description": "* Rename auto calibrate setting\n\n* Add Auto Video calibration setting\n\n* Implement video calibration\n\n* Fade mixer when video calibration is turned on\n\nMake toggles mutually exclusive\n\n* Add 5ms calibration stable threshold\n\n* Fix string\n\n* Cleanup\n\n* Move some auto calibration stuff out of game manager\n\n* More cleanup"
+    }
+  ]
+}
