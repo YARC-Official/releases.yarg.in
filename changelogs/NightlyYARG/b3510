@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "801175fc4eb014e604ac54246d3467619287a12b",
+      "author": "Dansla116",
+      "summary": "Small UI Tweaks, Round 1 (#1335)",
+      "description": "* Various New UI Tweaks, Round 1\n\n- Show scrollbar thumb on first load\n- When typing in search, force library to song position 1 when adding, or last song position when removing\n- Update sidebar and preview when doing actions that move scroll position automatically (e.g. Searching)\n- Shrink/Wrap Charter and Source with same logic for Album | Made length criteria slightly less\n\n* Tiny wrapping adjustment just to be sure\n\n* Fix album art race by scoping cover loads per RawImage\n\n* Address code review feedback\n\n- changed variable `viewType` to `selected` for updating sidebar\n- keep sidebar text containers active to prevent layout shift\n- clean up album cover request state\n- made goto top on recommended re-roll more explicit because it did not seem guaranteed\n- very minor cleanup\n\n* Added comments to explain search jump behavior\n\n* Further clarified comments to explain search jump behavior"
+    },
+    {
+      "sha": "b7202c594ced48b95b6a14f1d29dff830a1cbd41",
+      "author": "trainlos",
+      "summary": "export subgenre (#1336)",
+      "description": ""
+    }
+  ]
+}
