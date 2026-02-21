@@ -1,0 +1,88 @@
+{
+  "commits": [
+    {
+      "sha": "534f9949bb5f7974fb838d25ada9b6ffef1c5434",
+      "author": "polson",
+      "summary": "Merge pull request #1341 from polson/bug/fix-score-scroll",
+      "description": "Fix scrollbar on score screen"
+    },
+    {
+      "sha": "9d360a7f6fe2470418b883dbb6d17e8f622740ab",
+      "author": "polson",
+      "summary": "Fix scrollbar on score screen",
+      "description": ""
+    },
+    {
+      "sha": "659726d8a1fa2041d117fa961321400dbd595d0d",
+      "author": "wyrdough",
+      "summary": "Practice ain't new any more",
+      "description": ""
+    },
+    {
+      "sha": "367322a7b4d7c3e367afbd4012edb8c0e420ccdd",
+      "author": "neilweber",
+      "summary": "Allow adjusting the start and end practice positions using the arrow keys and mouse scroll wheel (#1334)",
+      "description": "* Add arrow key adjustment to practice A/B positions\n\nAllow fine-tuning loop start (A) and end (B) positions in the practice\npause menu using Left (-1s) and Right (+1s) arrow keys when the\ncorresponding position menu item is selected.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\n\n* Add mouse wheel adjustment to practice A/B positions\n\nAllow adjusting loop start (A) and end (B) positions by ±5 seconds\nusing mouse scroll wheel when the corresponding position menu item\nis selected. Uses debounce timer pattern from PracticeSectionMenu.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\n\n* Reset practice on resume when A/B positions have been adjusted\n\nCheck HasUpdatedAbPositions in PracticeManager.Update() so that\nResetPractice() fires on the first unpaused frame after A/B positions\nare changed. This resets stats and seeks to the updated start position,\nfixing a pre-existing bug where adjusting positions from the pause menu\ndid not trigger a reset until the next natural loop end.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\n\n* Address code review feedback\n\nUse explicit == null checks instead of ??= and ?. operators for Unity\nobject null safety. Add braces to all single-line if statements to\nmatch project style.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\n\n* Move Left/Right handling to NavigationEvent to avoid help bar display\n\nHandle Left/Right actions via NavigationEvent subscription instead of\nNavigationScheme entries so they don't appear in the bottom help bar.\nAdd explicit OnDisable override to unsubscribe and pop the scheme.\nMake GenericPause.OnDisable protected virtual to allow override.\nClamp A/B positions to song length.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: neilw <neilw@users.noreply.github.com>\nCo-authored-by: Claude Opus 4.6 <noreply@anthropic.com>"
+    },
+    {
+      "sha": "2f88d1fe5b7b635459d1657b8a696d8e3043e22b",
+      "author": "wyrdough",
+      "summary": "Update MOTD",
+      "description": ""
+    },
+    {
+      "sha": "db5ccd66f0af44d4259a348c19c9945b840907c5",
+      "author": "wyrdough",
+      "summary": "Fix character preview log spam",
+      "description": ""
+    },
+    {
+      "sha": "fbfb5e9aad62ba1777da1755f4e805c0f56e70eb",
+      "author": "wyrdough",
+      "summary": "Use UnityWebRequest for downloading genres",
+      "description": "* Also handle missing genre directory more gracefully"
+    },
+    {
+      "sha": "9fbcf54bef21c132ca3b3debebbcfc7dcf90118d",
+      "author": "polson",
+      "summary": "Unbreak play a show",
+      "description": ""
+    },
+    {
+      "sha": "28a6ecbab6f4d2d43d8c68908780b7cca20f6dcd",
+      "author": "polson",
+      "summary": "Update YARG.Core pointer for note offset feature",
+      "description": ""
+    },
+    {
+      "sha": "1930be4f9eaf3f590547f53e6c669b749be06f48",
+      "author": "polson",
+      "summary": "Merge pull request #1340 from polson/pr/note-offset-histogram",
+      "description": "Show note offset histogram"
+    },
+    {
+      "sha": "1612537cda3dedc3f58b35fc1f5183076613d07d",
+      "author": "wyrdough",
+      "summary": "Add preview of selected replacement vocalist",
+      "description": ""
+    },
+    {
+      "sha": "ee523c62904ba3de11da38a3060939ca8d571e7e",
+      "author": "polson",
+      "summary": "Clean up score card",
+      "description": ""
+    },
+    {
+      "sha": "feeca853336ecc427e48e5250de1d6e6fb8286dd",
+      "author": "Ape",
+      "summary": "Show note offset histogram",
+      "description": "Requires YARG.Core PR:\n  https://github.com/YARC-Official/YARG.Core/pull/324"
+    },
+    {
+      "sha": "fc57a52efa853bcdcb79c148c42ac8aa37b91d8c",
+      "author": "polson",
+      "summary": "Toggle advanced score (#1337)",
+      "description": "* Implement toggle advanced score\n\n* Toggle all score types\n\n* Cleanup\n\n* Use string builder for average offset\n\n* Reorder buttons"
+    }
+  ]
+}
