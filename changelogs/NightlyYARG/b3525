@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1611ed148a78c557b4d6edd9f198b20e21e99dde",
+      "author": "wyrdough",
+      "summary": "Nightly won't load prefabs that you don't commit, you..wyrdough.",
+      "description": ""
+    }
+  ]
+}
