@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "3b59a27731d32e4c565d7505890fdcfff24bda0f",
+      "author": "wyrdough",
+      "summary": "null checks are good, actually",
+      "description": ""
+    },
+    {
+      "sha": "1859b8843ff16f6d8045e1c6c0e4cd3853307e64",
+      "author": "wyrdough",
+      "summary": "Fix character shader loading on OSX. (hopefully)",
+      "description": ""
+    }
+  ]
+}
