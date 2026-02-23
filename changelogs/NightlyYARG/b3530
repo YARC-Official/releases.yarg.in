@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "a8f9171f99852b24fa5391248df0880ff358f160",
+      "author": "wyrdough",
+      "summary": "load metal shaders when switching preview, not just the first time",
+      "description": ""
+    },
+    {
+      "sha": "4ece5adc7c1eef22d780769addf9ff30de27f313",
+      "author": "wyrdough",
+      "summary": "Check for metal shaders in character preview, too",
+      "description": ""
+    },
+    {
+      "sha": "669b91b11c5e137374d53e9f99f7ba09f329331a",
+      "author": "wyrdough",
+      "summary": "Kinda sorta actually working mac character export/import",
+      "description": ""
+    }
+  ]
+}
