@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1d12c675974387a96c66e127d48733ce25acadf9",
+      "author": "gingerphoenix10",
+      "summary": "More descriptive exception when attempting to build Venue / Character without MacOS build support (#1346)",
+      "description": "If the `_metal_shaders.bytes` file is still missing after running BuildAssetBundles, create a log and popup guiding to the Venue Creation wiki page"
+    }
+  ]
+}
