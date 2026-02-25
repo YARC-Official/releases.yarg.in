@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "b8a604ffe17784a8bf89eb391c9fe442c914db46",
+      "author": "wyrdough",
+      "summary": "Fix load failure when drum activation note is potentially a kick",
+      "description": ""
+    },
+    {
+      "sha": "b1e6ce11eaaf820d7e007d0168d8cf407f6b2c4b",
+      "author": "wyrdough",
+      "summary": "Core pointer update for CONFileStream PR",
+      "description": ""
+    }
+  ]
+}
