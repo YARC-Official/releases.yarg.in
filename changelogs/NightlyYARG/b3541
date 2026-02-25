@@ -1,0 +1,58 @@
+{
+  "commits": [
+    {
+      "sha": "c4b704c625a69c7d17ca580fcb80e140392d7a24",
+      "author": "theli-ua",
+      "summary": "Prevent sustains from affecting fadeout (#1350)",
+      "description": "* Clear depth and alpha in fade pass\n\n* Update queues in sustain materials\n\n* dos2unix Assets/Resources/HighwaysAlphaMask.shader\n\n* Use max fade value in fade pass\n\nThis makes it so the object further away from the viewer\ncontrols the fadeout.\n\nAs an example - this would mean that sustain no longer is able\nto affect fade (as it'll be overwritten by track)\n\n* Revert \"Use max fade value in fade pass\"\n\nThis reverts commit 4cd4920d606d02ad5a9b0b712d693d7adfc0bac1.\n\n* Exclude sustains from fade pass"
+    },
+    {
+      "sha": "b1f5f9d26b3353cff5f0e782856561d584a540ed",
+      "author": "Dansla116",
+      "summary": "Small UI Tweaks, Round 2 (#1342)",
+      "description": "* Fix Playlist headers playlist count and star count\n\n* Fix `MusicLibraryMenu` scroll position restore\n\n* Block inputs while loading/caching\n\n* Fix song focus when moving songs in a playlist\n\n* Make `PopupMenu` Sort By restore scroll position like `FilterMenu`\n\n* Scroll position fixes for Recommended Songs, filter/rescan/return\n\n* Moved `Toast` to higher z-index and fixed settings navigation\n\n* Don't retain scroll position when sorted by dynamic field (stars/playcount)\n\n* Fix settings navigation when clicking toast, again\n\n* Fix song preview and scroll position when going between `Playlist` and `Library`\n\n* Stop `FiltersMenu` forcing a recommendation re-roll when no filters are changed\n\n* Fixed more issues related to scroll position, and filter/search summary\n\n* Refactor selection snapshot ordering and add stable song identifiers\n\n* Allow using green for \"Random Song\" or \"Playlists\" while setlist has content\n\n* Move scroll index down after playing song in dynamic sort and fix Go To Current Playing\n\n* Make sure \"Go To Currently Playing\" takes precedent over last scroll position\n\n* Reverted change to move scroll index down after playing song in dynamic sort because it wasn't working as expected\n\n* Fix lag when sorted by stars and searching, because search overides to sort by match anyway\n\n* Code cleanup\n\n* Address code-review feedback\n\n* Restore `CharacterPreview` lost in merge-resolution\n\n* Addressed more code-review feedback\n\n- Use `stableId`s to preserve music library selection across refreshes\n- Stop Recommendation re-rolling from changing `selectedIndex` at all\n\n* Fix `FiltersMenu` close reactivation race\n\n* Check if filters changed before saving\n\n* Check and remember if filters changed before saving\n\n* Added more stable selection logic and added comments explaining decision\n\n* Very minor code cleanup\n\n* Very minor code cleanup"
+    },
+    {
+      "sha": "883e24b6ecab2f0057462c560c4d60263b0690f7",
+      "author": "theli-ua",
+      "summary": "Use different checkerboard background pattern (with no abberation) (#1349)",
+      "description": ""
+    },
+    {
+      "sha": "e22f46b90698b63379fddada28555ff60f3ea548",
+      "author": "Frickitickitavi",
+      "summary": "Add \"dedicated open lane\" setting for Keys, generalize highway ordering logic (#1329)",
+      "description": "* Generalize highway ordering in FretArray init\n\n* 4L note placement\n\n* 5L note placement\n\n* 5F note placement\n\n* 5F lefty flip\n\n* 5LK note placement\n\n* 5F lane placement\n\n* 5LK lane placement\n\n* 5F range shifts\n\n* Range marker lefty flip fix\n\n* Drums lefty flip in highway reorderings\n\n* Fix lanes\n\n* 6L Keys option\n\n* Fix shift indicators\n\n* Fix range indicators\n\n* Fix Core pointer\n\n* Address PR feedback\n\n* Remove extra whitespace\n\n* Address more PR feedback\n\n* Use generalized highway ordering for activation highlights\n\n* Fix Core pointer\n\n* FIx lefty flip double-negative\n\n* Update core pointer to reflect actual Core commit\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "ddb5546a02b69d79c411050743309ecdf794ce53",
+      "author": "wyrdough",
+      "summary": "Update core pointer for milo \"fix\"",
+      "description": ""
+    },
+    {
+      "sha": "411889c5523580f9288e8ff4c525677457ce2736",
+      "author": "poliwhirlge",
+      "summary": "Don't parse escape characters in folder names for song folders ui (#1348)",
+      "description": ""
+    },
+    {
+      "sha": "34da5fc8fe63ccc2f6c3fc1d68bd0e4daa035b1c",
+      "author": "polson",
+      "summary": "Merge pull request #1347 from neilweber/practice-mode-auto-ab",
+      "description": "Auto-set practice positions from current song position"
+    },
+    {
+      "sha": "243f662d9d8451775ae8ed821052e20a66468041",
+      "author": "wyrdough",
+      "summary": "Fix venue spotlight handling",
+      "description": ""
+    },
+    {
+      "sha": "56f052e8ba28e1dd68e4ffeae7c24d0e81bf4dc3",
+      "author": "neilweber",
+      "summary": "Address reviewer feedback on practice auto A/B feature",
+      "description": "Extract lookback duration to PRACTICE_ENTRY_LOOKBACK constant, extract\nsection-finding logic to FindSectionAtTime(), store SavedInputTime and\nPracticeRestartDelay in local variables.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+    }
+  ]
+}
