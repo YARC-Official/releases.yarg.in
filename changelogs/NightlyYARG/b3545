@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "9601f4a237a7a84864e978bf152cb55e32dadfb5",
+      "author": "wyrdough",
+      "summary": "Core pointer update for vocals fix",
+      "description": ""
+    },
+    {
+      "sha": "f864d218d76b061f8da37016c793f9ad453994f3",
+      "author": "Frickitickitavi",
+      "summary": "Fix Genrelizer Reggae/Ska special case for CONs (#1352)",
+      "description": ""
+    }
+  ]
+}
