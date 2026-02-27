@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d1a8663fb931070053fa4c2fb6e2eefb23fd32f1",
+      "author": "wyrdough",
+      "summary": "Add null check for Vrm instance VrmObject and meta references",
+      "description": ""
+    }
+  ]
+}
