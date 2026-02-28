@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "d3a302aa6cdc8a10bf4cd27b6b160c8f12ab1a36",
+      "author": "polson",
+      "summary": "Implement sort by random (#1339)",
+      "description": ""
+    },
+    {
+      "sha": "64fe592de0a39d985e769b466a61ba0fe5c5505e",
+      "author": "poliwhirlge",
+      "summary": "Minor UI Clean-up (#1343)",
+      "description": "* Respect plurals in source/charter/genre counts\n\n* Disable HelpBarbutton sprite swap transitions on disabled buttons, tweak sidebar button colors\n\n* Adjust vertical alignment of HelpBarButtons\n\n* Remove unwanted sprite swap transitions on non fret buttons\n\n* Remove unwanted sprite swap transition on play a show select button\n\n* Replace sidebar icons with higher resolution icons\n\n* Clean up creation of plural strings with Pluralize.\n\n* Use sprite sheet for sidebar icons and removed old icons\n\n* don't untick important boxes in unity"
+    }
+  ]
+}
