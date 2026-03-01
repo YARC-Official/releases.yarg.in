@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "0efaeefd40e8e58d4e8d5111dcd125a33d1189e4",
+      "author": "Frickitickitavi",
+      "summary": "FIx kick fret color (#1359)",
+      "description": "* FIx kick fret color\n\n* Add comment explaining kludge"
+    }
+  ]
+}
