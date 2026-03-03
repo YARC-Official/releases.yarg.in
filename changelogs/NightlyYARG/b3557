@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "1cf2cbe4693db846f1f68006c593db1e41c48c5e",
+      "author": "Ape",
+      "summary": "Enable mipmapping for song row icons to reduce texture aliasing (#1356)",
+      "description": "* Enable mipmapping for song row icons to reduce texture aliasing\n\n* Use soft mask anti-aliasing for music library score pill"
+    },
+    {
+      "sha": "ac1be7c2768b1c3f51014c1ea5acc6ded5f42dbd",
+      "author": "wyrdough",
+      "summary": "Create custom character folder if it doesn't yet exist",
+      "description": ""
+    },
+    {
+      "sha": "7f07014cc7ee541b1d1bf31dbd5b376ad94db12e",
+      "author": "4dispel",
+      "summary": "make low fps camera script (#1354)",
+      "description": "* make low fps camera script\n\n* use venue fps"
+    },
+    {
+      "sha": "7185eb1e24c43f0e4427190e4cbc7047314dc54b",
+      "author": "Mekkabit",
+      "summary": "Un-literalize posterize, give mirror its colors (#1362)",
+      "description": ""
+    }
+  ]
+}
