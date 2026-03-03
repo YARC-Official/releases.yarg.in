@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "91fda065b8ef225b10025d75cdf02f2cb1ab3941",
+      "author": "wyrdough",
+      "summary": "Use explicit null check on result of GetTexture rather than relying on null conditional operator",
+      "description": ""
+    },
+    {
+      "sha": "96582513b661b1b23e578f9dd60d29d8be240cbf",
+      "author": "github-actions[bot]",
+      "summary": "Translation Updates (#1309)",
+      "description": "* New Crowdin translations by GitHub Action\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\nCo-authored-by: Crowdin Bot <support+bot@crowdin.com>"
+    },
+    {
+      "sha": "b10250f240258a0011b073a5211367f2f1991088",
+      "author": "Ape",
+      "summary": "Reduce vertical padding of music library song row (#1355)",
+      "description": ""
+    },
+    {
+      "sha": "a7b3be0b78b557eefda396c481aff8203f7511d8",
+      "author": "poliwhirlge",
+      "summary": "Enlarge album art in music library sidebar (#1361)",
+      "description": "* Adjust location of sidebar album gradient and enlarge sidebar album artwork\n\n* Try to improve blending of album art gradient by correcting background color of sidebar\n\n* Implement content rating icons\n\n* Revert \"Implement content rating icons\"\n\nThis reverts commit 349bbcc264e6bbec1e76dc0d97d8ea33391fe0ef."
+    }
+  ]
+}
