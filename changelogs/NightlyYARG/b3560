@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "4aa8a98fec5e2e9287ecafcb018c5a08f5e46b46",
+      "author": "wyrdough",
+      "summary": "skip rewind logic in replay viewer",
+      "description": ""
+    }
+  ]
+}
