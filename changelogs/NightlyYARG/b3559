@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "05e6044486b711783e9974ce6e40cec6ddf8810f",
+      "author": "polson",
+      "summary": "Allow scaling track down to 0.5x size (#1360)",
+      "description": ""
+    },
+    {
+      "sha": "e880f8d0035deb061cde74da8114e8d5f11ae332",
+      "author": "wyrdough",
+      "summary": "Core pointer update for vocal slide fix",
+      "description": ""
+    }
+  ]
+}
