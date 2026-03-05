@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "278a715cd769504371b71c790d59367f51d0783f",
+      "author": "wyrdough",
+      "summary": "Spawn venues closer to origin (fixes FP precision jitters)",
+      "description": ""
+    }
+  ]
+}
