@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "eae242ffaecd3ddf8223b0635a58ee331f4eb220",
+      "author": "Supersonicboss1",
+      "summary": "Fix lyric bar behaviour in replays when scrubbing (#1365)",
+      "description": "* Fix lyric bar behaviour in replays when scrubbing\n- Switches to using a list and pointer instead of a queue\n- Updates some other behaviour to work better with replay scrubbing\n\n* Remove wrong comment and rename function"
+    },
+    {
+      "sha": "ed3bf84fb4ee5f53c3b0d757da588f59b1cbafda",
+      "author": "wyrdough",
+      "summary": "(Mostly) fix lyrics when seeking in replay mode",
+      "description": "* Gets busted in some circumstances when seeking into the last few phrases for some reason that is currently escaping me..."
+    }
+  ]
+}
