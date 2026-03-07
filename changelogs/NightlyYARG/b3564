@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "9410ab73cecec4543334bea21c9930f3e0cab0cd",
+      "author": "4dispel",
+      "summary": "fix spotlight start time (#1371)",
+      "description": ""
+    }
+  ]
+}
