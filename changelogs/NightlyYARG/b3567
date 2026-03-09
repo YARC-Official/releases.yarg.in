@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "c4a345f8fac23a4634bbc48b788b89e1df6a3a9f",
+      "author": "polson",
+      "summary": "Implement advanced settings toggle (#1338)",
+      "description": "* Add advanced settings ui button\n\n* Implement showing / hiding settings based on advanced flag\n\n* Mark all advanced settings\n\n* Add flash wip\n\n* Pulse advanced settings option\n\n* Change some advanced flags\n\n* Use DOTween\n\n* Add markers to advanced settings\n\n* Scroll to top on show advanced\n\nBetter label\n\n* Remove pulse animation\n\n* Add advanced marker\n\n* Change button to tap instead of hold\n\n* Cleanup\n\n* Respect the advanced settings toggle when searching\n\n* Better advanced marker\n\n* Update advanced marker again\n\n* Enable advanced settings when searching settings\n\n* Use solid color for advanced marker"
+    },
+    {
+      "sha": "ac90c6c40b180aaa2d6f11159ccc31f16cd67996",
+      "author": "theli-ua",
+      "summary": "Migrate venue pp to RenderGraph (#1370)",
+      "description": "* Do not recreate render textures for venue pp each update\n\n* Migrate custom venue post processing to RenderGraph\n\n* fix passing material to pass\n\n* Move venue pp into UberPP\n\n* Move Trails into UberPP\n\n---------\n\nCo-authored-by: Anton Romanov <anromanov@tesla.com>"
+    },
+    {
+      "sha": "323cf31ddba4bdafa53501230770766441195882",
+      "author": "Ape",
+      "summary": "Double the resolution of selected music library icons (#1358)",
+      "description": ""
+    }
+  ]
+}
