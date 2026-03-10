@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "4e55b476e3403d65983bdbffc3664244e593944c",
+      "author": "Supersonicboss1",
+      "summary": "Misc lyric bar fixes (#1378)",
+      "description": "- Fix lyric bar behaviour when there is less than 3 but more than 0 phrases\n- Enable text auto-sizing, set vertical alignment to centre, and shrunk margins slightly"
+    },
+    {
+      "sha": "2e5bf8e9d752eb821e779243bc2ea73d9742fcbd",
+      "author": "Dansla116",
+      "summary": "Increase Size of Play Button (#1367)",
+      "description": "* Removed duplicate Favorite button and increased size/position of Play button in `Sidebar`\n\n* Address feedback from Discord chat"
+    },
+    {
+      "sha": "163a70e9e103bd563cf523f7187e6645c1b62e55",
+      "author": "Dansla116",
+      "summary": "Show Percentage Scores with One Decimal, Resolution Helper (#1374)",
+      "description": "* Show percentage score with a decimal on the score screen\n\n* Show percentage score with a decimal in music library\n\n* Added \"Show Percent Decimal\" as an advanced opt-in setting\n\n---------\n\nCo-authored-by: Lauri Niskanen <ape@ape3000.com>"
+    }
+  ]
+}
