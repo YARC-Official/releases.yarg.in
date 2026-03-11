@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "d16f4b191dd0025baa61a8b0cb528ee067bbb339",
+      "author": "polson",
+      "summary": "Update core pointer for overhit stats PR",
+      "description": ""
+    },
+    {
+      "sha": "e414b12ce9b6951f7067530e5f51a1a4dfce0309",
+      "author": "Ape",
+      "summary": "Show overhit stats for each drum (#1300)",
+      "description": "Needs YARG.Core PR:\n  https://github.com/YARC-Official/YARG.Core/pull/323"
+    },
+    {
+      "sha": "cf717238a362c97447437085a868bb06a2820d9d",
+      "author": "poliwhirlge",
+      "summary": "Fix ListView align to middle in Music Library and History menus + History menu fixes (#1377)",
+      "description": "* Realign parent view for ListMenu objects so that the selected item remains in the center\n\n* Tweaks to get view alignment working for history menu too (removed vertical stretch, change vertical size based on type instead of using fullContainer/categoryContainer, remove viewAligner reference)\n\n* Upper case on primary text for CategoryViewType\n\n* Remove ViewAligner (it never worked)\n\n* Re-style to get closer to the style used in the MusicLibrary\n\n* Remove the categoryContainer object"
+    }
+  ]
+}
