@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "596e100d2a5c2f18ab979e7dac90407bf8fcc028",
+      "author": "polson",
+      "summary": "Update YARG.Core pointer for PR 336",
+      "description": ""
+    },
+    {
+      "sha": "035144a90490f599b198b58daef87cc2c259dcd0",
+      "author": "polson",
+      "summary": "Update YARG.Core pointer for PR 342",
+      "description": ""
+    },
+    {
+      "sha": "304b323d940832774d9544e1faed03019794c13c",
+      "author": "polson",
+      "summary": "Update YARG.Core for PR 1383",
+      "description": ""
+    },
+    {
+      "sha": "656984162c1a8d24d1d79fb8dd932d431976df28",
+      "author": "polson",
+      "summary": "Merge branch 'YARC-Official:dev' into dev",
+      "description": ""
+    },
+    {
+      "sha": "0d2f7af45aac539f8ae204193524220f28745902",
+      "author": "zachpepsin",
+      "summary": "Add sensitive content rating handling to SongExport (#1383)",
+      "description": "* Add sensitive content rating to SongExport\n\n* Add handling for Sensitive_Content rating"
+    },
+    {
+      "sha": "aedc55cf5c278af7b67708a881e449a03983298c",
+      "author": "polson",
+      "summary": "Merge branch 'YARC-Official:dev' into dev",
+      "description": ""
+    }
+  ]
+}
