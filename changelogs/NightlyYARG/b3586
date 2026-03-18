@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "b2f6d49d92bf996152c69911fab521b1029aaea5",
+      "author": "Nort1346",
+      "summary": "feat(sacn): configurable FPS, pulse duration and fixes (#1369)",
+      "description": "* Increase version number to v0.13.1 for security update\n\n* feat(sacn): configurable FPS, pulse duration, instrument debounce and fixes\n\n* refactor(sacn): replace instrument queue with direct DMX writes\n\n* fix(sacn): ignore instrument note-off, default pulse duration to 60ms\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "75e2684829aeba5d69d8c5177b50ff9a708dd7d4",
+      "author": "polson",
+      "summary": "Alternate hands on drum animations (#1384)",
+      "description": "* Alternate hands for fast repeated drum hits\n\n* Resolve conflicts where two handed drum chords want the same hand\n\n* Fix issue where first note wasn't getting hit by drummer\n\n* Add random crash1/crash2 and intentional right hand snare hits\n\n* Don't switch on blue cymbal\n\n* Cleanup"
+    },
+    {
+      "sha": "e686c1d765d6bd9c1839ef0078a05d996de6f029",
+      "author": "polson",
+      "summary": "Update YARG.Core pointer",
+      "description": ""
+    },
+    {
+      "sha": "713e5082857c728da7ec8b63efe8aa33027e4dbf",
+      "author": "trainlos",
+      "summary": "Display secondary year when available (#1344)",
+      "description": ""
+    },
+    {
+      "sha": "1b388d7de1e8c39ece53cc6015ae41fe961f90e9",
+      "author": "Mekkabit",
+      "summary": "Make trails less full-screen-smear-y (#1379)",
+      "description": "* Make trails less full-screen-smear-y\n\nNooww I get to do this one since it won't be immediately overwritten by the pp merge, hooray!\n\n* floats to halfs\n\n* missed a .rgb"
+    },
+    {
+      "sha": "9510009d28b927a873210b81565255d69229580b",
+      "author": "Dansla116",
+      "summary": "Add Expand / Collapse Functionality to Headers in Music Library, Resolution Helper (#1381)",
+      "description": "* Get Expand / Collapse working\n\n* Implement icon\n\n* Fix positioning on expand collapse\n\n* Cleanup\n\n* Fix issue when at the top of list\n\n* Fix collapse moving position to header always\n\n* Fix merge errors\n\n* Add NewUI enhancements to expand/collapse headers\n\n- Play Song button changes to appropriate header action\n- Star count shows value for collapsed headers\n- Removed option when all expanded/collapsed\n- Removed options from Playlist views\n\n---------\n\nCo-authored-by: polson <302882+polson@users.noreply.github.com>"
+    }
+  ]
+}
