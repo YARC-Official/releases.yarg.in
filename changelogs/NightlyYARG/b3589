@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "ce672835957f232f47213ca6dede3fc52a5aa0ca",
+      "author": "theli-ua",
+      "summary": "Fix venue not being visible with vocals only (#1388)",
+      "description": "The issue is that post processing shader uses number of highways being\ngreater than zero as indicator that we're rendering highway texture\nand venue otherwise. with zero highways and just vocals we end up hardcoding\nalpha to 1 making highway texture opaque and hiding venue underneath it.\n\nFix by checking if any venue pp is enabled and if none then simply\nretain alpha channel (saturated) of the input texture."
+    },
+    {
+      "sha": "3f3f134d7b763bbfb53dba015803ca21a79266e3",
+      "author": "Dansla116",
+      "summary": "In `SettingsMenu`, update content to remembered tab (#1386)",
+      "description": ""
+    },
+    {
+      "sha": "04d3cc125f55c7dd4dab4f2ca0f6da18a9bfed91",
+      "author": "poliwhirlge",
+      "summary": "Display instruments played for each entry in history menu (#1385)",
+      "description": "* Display instrument icons on replay history menu\n\n* tweak variable name\n\n* More detailed comment on the layout of Instrument Icons on the HistoryView prefab"
+    }
+  ]
+}
