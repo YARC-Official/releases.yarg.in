@@ -36,9 +36,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "fc54428d-0b43-4fd5-86be-f821c34e0fb2",
-            "tag": "Outdoor_Concert-2026-03-05-0",
-            "release": "2026-03-05T22:57:41.462485+00:00",
+            "uuid": "6fc9435e-34ee-4358-a5eb-2a07634ca99c",
+            "tag": "Outdoor_Concert-2026-03-22-0",
+            "release": "2026-03-22T22:19:27.139243+00:00",
             "content": [
                 {
                     "platforms": [
@@ -48,7 +48,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Outdoor_Concert-2026-03-05-0/Outdoor_Concert-2026-03-05-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Outdoor_Concert-2026-03-22-0/Outdoor_Concert-2026-03-22-0.7z",
                             "fileType": "7z"
                         }
                     ]
