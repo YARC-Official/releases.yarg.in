@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "e66bc044b31f8a343747df70057ee727f6434bef",
+      "author": "Frickitickitavi",
+      "summary": "Fix split lanes applying to non-Pro 4L (#1391)",
+      "description": ""
+    }
+  ]
+}
