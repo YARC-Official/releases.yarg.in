@@ -1,0 +1,119 @@
+{
+  "type": "setlist",
+  "uuid": "0e68fb95-d35b-4db1-83a3-ba01fea3c7e4",
+  "metadata": {
+    "name": "YARN Request Pack 1",
+    "description": "Here is the first set of YARN charts for songs requested by the community!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-03-25T22:51:38.1439799Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "At the Speed of Light",
+        "artist": "Dimrain47",
+        "length": 253402,
+        "releaseDate": "2026-03-25T20:00:00.000Z"
+      },
+      {
+        "title": "The Grinning Smiler",
+        "artist": "Ivy Sinthetic",
+        "length": 170250,
+        "releaseDate": "2026-03-25T20:00:00.000Z"
+      },
+      {
+        "title": "Dyad",
+        "artist": "Jamie Paige",
+        "length": 281081,
+        "releaseDate": "2026-03-25T20:00:00.000Z"
+      },
+      {
+        "title": "Thrill Eater",
+        "artist": "Pretty Bitter",
+        "length": 235555,
+        "releaseDate": "2026-03-25T20:00:00.000Z"
+      },
+      {
+        "title": "Affection, Abandon, Afflicition",
+        "artist": "Rebuke",
+        "length": 159439,
+        "releaseDate": "2026-03-25T20:00:00.000Z"
+      },
+      {
+        "title": "Indoor Soccer",
+        "artist": "Speedy Ortiz",
+        "length": 195121,
+        "releaseDate": "2026-03-25T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "8e2105d3-c2df-4aa6-b031-92652db5e2cf",
+      "tag": "yarn_request_1-2026-03-25-0",
+      "release": "2026-03-25T22:51:38.1439799Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_1-2026-03-25-0/yarn_request_1-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
