@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "dfdfe26be25e9d10640d8c018f402c593c997c82",
+      "author": "theli-ua",
+      "summary": "Pre-initialize phoneme dictionary (#1395)",
+      "description": ""
+    }
+  ]
+}
