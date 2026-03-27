@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "57c402b0973770c351dfdec70b4943bda65c5a52",
+      "author": "JaioCG",
+      "summary": "Update README.md, CONTRIBUTING.md, and DESIGNING.md (#1389)",
+      "description": "* Update various .md's\n\nUpdated README to include more socials and update Banner to an updated version of YARG.\n\nUpdated CONTRIBUTING to include Feature Categorization.\n\nUpdated DESIGNING to reference Figma rather than everything in that file.\n\n* small md fixes\n\nUpdated alt text for an image and rewrote a sentence in DESIGNING.md"
+    }
+  ]
+}
