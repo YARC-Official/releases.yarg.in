@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "64468882497ca65bda507fb902868de0df763b58",
+      "author": "wyrdough",
+      "summary": "Leave venue camera active when camera cut ends up on the same camera",
+      "description": ""
+    },
+    {
+      "sha": "d6334949357faa183210ec2a83f38d69cd73ae2c",
+      "author": "polson",
+      "summary": "Use default keyboard binds when not bound to profile (#1394)",
+      "description": "* Use default keyboard binds when not bound to profile\n\n* Fix number keys\n\n* Cleanup\n\n* Enable defaults when keyboard profile is disconnected\n\n* Cleanup"
+    },
+    {
+      "sha": "df081c7452bc8529b23617be4d75f5104bc77cd3",
+      "author": "polson",
+      "summary": "Reduce flicker on gameplay start (#1398)",
+      "description": "* Reduce HUD flicker on song start\n\n* Fix HUD flicker\n\n* Fix gray screen and fade in venue instead of pop in\n\n* Forgot to save scene\n\n* Cleanup"
+    }
+  ]
+}
