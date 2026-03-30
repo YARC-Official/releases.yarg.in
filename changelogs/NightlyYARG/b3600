@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "257d41108a30313f301329fbbb24afcab3e3e2ea",
+      "author": "wyrdough",
+      "summary": "You have been eaten by a Big YARG Ending",
+      "description": ""
+    },
+    {
+      "sha": "56e2af6164d8851167b87a9cff737792f2008fce",
+      "author": "wyrdough",
+      "summary": "Big yarg ending (#1400)",
+      "description": "* Initial lanes implementation 9/22/24\n\nCreated TrackPlayer pool for lane elements\n\nRendering behavior for lanes\n\nRemove DetectLanes usage\n\nCreate separate prefabs for pro keys overlay colors and pro keys white key highlights. Use only overlay material for overlays, and use only highlight material for highlights\n\nUse flag booleans instead of comparing flags\n\nReplace separate lane components with single mesh and armature\n\nMaterial sorting order adjustments after lane model change\n\n* Updated lane model to support open lanes\n\n* LaneElement open lane controls\n\n* Chord tremolo support\n\n* UI changes for new engine parameter\n\n* Adjusted lane sizing for guitar and drums players\n\n* Fix display of drum chords and guitar open chords in tremolo phrases\n\n* Fix for mid-lane disco flips\n\n* Prevent spawning lanes in settings preview mode\n\n* Make lane spawning its own method in TrackPlayer\n\n* Fix for Pro Keys lanes generated during the middle of a range shift animation\n\n* Fixed incorrect usage of IsBlackKey and IsWhiteKey\n\n* Bring lanes current, fix up missing fields in prefabs and lane position calculations for 5 fret and 5LK.\n\n* lanes core pointer\n\n* not quite working fix for 7 lane drums\n\n* big yarg ending wip\n\n* Missed a couple of methods in the merge\n\n* wip front end bre support\n\n* Update YARG.Core pointer for end-of-chart lane fix\n\n* update YARG.Core pointer for end-of-chart lane fix\n\n* Add extra hit particle effects during big yarg ending, better handle practice mode reset\n\n* Disable combo meter and starpower bar during BRE\n\n* Update BYE lane spawning to work with reorderable highway\n\n* Remove silly drum parsing hack now that BRE parsing is fixed\n\n* deal with offsets between lane index and note color and fret array in five fret guitar\n\n* pro keys lane spawning\n\n* wip lane index mapping for PK\n\n* Deal with fret reordering in BREs\n\n* Move BRE Box from TrackView to Gameplay scene\n\n* Handle split lane and lefty flip in drum BRE\n\n* Fix multiplayer BRE score display\n\n* Resolve (some) review comments\n\n* Add venue fade overlay back to GameManager\n\n* Unregister engine before recreating engine in practice mode\n\n* Allow unregistering of engines in EngineManager. Fix coda bonus calculation after BRE section ended.\n\n* Add missing BRE Box reference in Gameplay scene\n\n* simplify BRE Box states\n\n* Fix BRE box positioning, remove BRE box from TrackView\n\n* BRE box needs to be active by default now...\n\n* ensure last note is included when selecting final practice section\n\n---------\n\nCo-authored-by: sunset-cf <cfische5@gmail.com>"
+    }
+  ]
+}
