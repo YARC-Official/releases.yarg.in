@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "f83e56e9b074e8972667dc24fbd0e296b8ec03a8",
+      "author": "theli-ua",
+      "summary": "Future proof asset bundle loading by deriving metal shader subbundle name from the name of main bundle (#1393)",
+      "description": ""
+    },
+    {
+      "sha": "ca6c12e2477c009fdae57fcca19989e1ee3c4708",
+      "author": "theli-ua",
+      "summary": "Fix venue output alpha when alpha is disabled (#1392)",
+      "description": "* Fix venue output alpha when alpha is disabled\n\n* Enable Alpha processing in PP\n\n* Uniquely identify Venue camera in shaders to make sure output is non-transparent"
+    }
+  ]
+}
