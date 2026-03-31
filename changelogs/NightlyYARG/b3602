@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "67b947a763c3f5bf3929d54e4b8206e33e168237",
+      "author": "wyrdough",
+      "summary": "Don't count ghosts in coda",
+      "description": ""
+    }
+  ]
+}
