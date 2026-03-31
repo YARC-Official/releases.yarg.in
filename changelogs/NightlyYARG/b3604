@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "8f3ce0866a1756a159c297a83de7568db5663462",
+      "author": "wyrdough",
+      "summary": "BRE visual fixes",
+      "description": "* Fixed clipping over outer circular fret\n* Fixed lane not lighting up on activation"
+    }
+  ]
+}
