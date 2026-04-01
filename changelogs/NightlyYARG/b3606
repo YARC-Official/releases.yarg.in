@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "d97324bafb37ffb26583d844b9359465d904568c",
+      "author": "polson",
+      "summary": "Dim screen after idle period (#1403)",
+      "description": "* Dim screen after idle period\n\n* Cleanup\n\n* Update dimmer timer to 3 minutes\n\n* Do a 20 second ramp, and simplify"
+    },
+    {
+      "sha": "e2f80c88e48cb142bce03be09817e77a56a1106b",
+      "author": "wyrdough",
+      "summary": "There's no fixing without the shader..oops",
+      "description": ""
+    }
+  ]
+}
