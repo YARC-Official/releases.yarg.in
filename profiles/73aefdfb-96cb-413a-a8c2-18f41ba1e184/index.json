@@ -1,0 +1,113 @@
+{
+  "type": "setlist",
+  "uuid": "73aefdfb-96cb-413a-a8c2-18f41ba1e184",
+  "metadata": {
+    "name": "YARG Setlist 0",
+    "description": "We found these charts somewhere in the YARC company backrooms. Couldn\u0027t tell where they were from; surely they predate all other content in the game, so we\u0027ll just call it the first setlist ever.",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-04-01T15:18:19.9452922Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "opus_14",
+        "artist": "De Dubbelrieters",
+        "length": 53422,
+        "releaseDate": "2026-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Best Drop of All Time",
+        "artist": "Demonicity",
+        "length": 42000,
+        "releaseDate": "2026-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Code Red",
+        "artist": "Dr. Phonics",
+        "length": 203294,
+        "releaseDate": "2026-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "Imagination (Kiraken-G\u0027s BITWRECK REMIX)",
+        "artist": "FRN-G",
+        "length": 320323,
+        "releaseDate": "2026-04-01T00:00:00.000Z"
+      },
+      {
+        "title": "the happiness collective want me to be happy but that cannot be, as someday they\u0027ll be a big explosion but that\u0027s okay because everything will be fine up until that happens, anyways here\u0027s the song you came for (also known as \u0022someday\u0022)",
+        "artist": "It\u0027s Only Connor",
+        "length": 161000,
+        "releaseDate": "2026-04-01T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "7dd9c589-93d1-47e2-a119-295a7eb1419e",
+      "tag": "yarn_april_2-2026-04-01-0",
+      "release": "2026-04-01T15:18:19.9452922Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_april_2-2026-04-01-0/yarn_april_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
