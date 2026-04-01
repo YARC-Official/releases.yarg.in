@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "09a3003645688cdbd1299485b072ef12901d0611",
+      "author": "wyrdough",
+      "summary": "Fix missing references in gameplay scene",
+      "description": ""
+    },
+    {
+      "sha": "b1cb533aedc372657f2ae3d75b0821c12fe0f483",
+      "author": "wyrdough",
+      "summary": "Don't count BRE notes in practice mode total notes",
+      "description": ""
+    }
+  ]
+}
