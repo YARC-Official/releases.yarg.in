@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "0864da1fa614b1bbf2fbe4af3fd5fe673de6cc1f",
+      "author": "theli-ua",
+      "summary": "Update textures marked for dynamic scaling in venue rendering. (#1408)",
+      "description": "This will resize all render textures marked for dynamic scaling automatically\nto match venue's render scale factor.\nThis allows venue authors to mark custom render textures\n(for example to embed visualizer) for dynamic scaling and have them\nscaled down to follow venue's render scale"
+    },
+    {
+      "sha": "2defa79084354040e3a26ba616b6912d1758d59e",
+      "author": "wyrdough",
+      "summary": "Merge Frickitikitavi's real overgenrelizer",
+      "description": ""
+    }
+  ]
+}
