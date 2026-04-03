@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "ec1de652d5d0d4c4700b060fe704b87be6e16845",
+      "author": "wyrdough",
+      "summary": "Clean up compiler warnings",
+      "description": ""
+    },
+    {
+      "sha": "f0fb3f980fa88577af5587afb64141723e81ea77",
+      "author": "wyrdough",
+      "summary": "Remove stale reference to ViewAligner in HistoryMenu prefab",
+      "description": ""
+    },
+    {
+      "sha": "04e4379c4d9192ca920738c0606d786ed1d6c7db",
+      "author": "wyrdough",
+      "summary": "Fix exception on exit that was breaking BASS unload",
+      "description": ""
+    },
+    {
+      "sha": "0dd395781649d5fcc506242f4da99fd4a7c4b2a3",
+      "author": "wyrdough",
+      "summary": "Fix BRE box going away too quickly on failure",
+      "description": ""
+    },
+    {
+      "sha": "6bae5a23b66e0b94cc250bfc9978815c744c6210",
+      "author": "wyrdough",
+      "summary": "Handle post-BRE notes not all ending at the same time across parts",
+      "description": ""
+    }
+  ]
+}
