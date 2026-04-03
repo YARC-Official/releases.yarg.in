@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "0c68d353317d3389b38e41db7bc4c1edbd46ab06",
+      "author": "wyrdough",
+      "summary": "5LK open lane BRE fixes",
+      "description": ""
+    },
+    {
+      "sha": "703a307aed12d428c2a8663f15b99ed7dce28962",
+      "author": "wyrdough",
+      "summary": "Pro Keys deserves BRE hit effects, too",
+      "description": ""
+    },
+    {
+      "sha": "548457d6c4c0090daf6b7af507a17667c291f186",
+      "author": "wyrdough",
+      "summary": "Core pointer update for BRE fixes",
+      "description": ""
+    },
+    {
+      "sha": "68c4a4453fe659c1c34dbe560ab9c522ff35518f",
+      "author": "wyrdough",
+      "summary": "Fix lane index calculation for Pro Keys",
+      "description": ""
+    }
+  ]
+}
