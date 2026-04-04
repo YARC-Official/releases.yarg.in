@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "927f3762f39948e413a334be4a80f434bb5243cd",
+      "author": "Frickitickitavi",
+      "summary": "(Over)genrelizer adjustments (#1410)",
+      "description": "* Fix raw DTA values\n\n* Rename Country/Folk, add Traditional\n\n* Correct alphabetization"
+    },
+    {
+      "sha": "0028c49bf93777233d2bdc4e5170bd328bbc8b8a",
+      "author": "4dispel",
+      "summary": "add outline pass to high renderer (#1376)",
+      "description": ""
+    },
+    {
+      "sha": "3f5e63766a4af09f99cb8ce9a6a19b5c1c33c317",
+      "author": "Frickitickitavi",
+      "summary": "Fix PK BRE range spawning (#1411)",
+      "description": ""
+    }
+  ]
+}
