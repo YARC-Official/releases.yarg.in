@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "f2e013205a22c7571bac0ca2a8ff97548147890d",
+      "author": "trainlos",
+      "summary": "Localize reggaeska special case (#1415)",
+      "description": ""
+    },
+    {
+      "sha": "cdc7ad57fc01d6785e884286cbaa40ebc26f678c",
+      "author": "Frickitickitavi",
+      "summary": "Drum BRE fixes (#1414)",
+      "description": "* Fix drum BRE behavior\n\n* Update YARG.Core pointer for drum BRE fixes"
+    }
+  ]
+}
