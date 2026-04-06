@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "c4789dc97bad5aecfbaa7e0ccb2e59ce34412c0b",
+      "author": "Frickitickitavi",
+      "summary": "Create default keyboard bindings for MIDI Drumkit (#1416)",
+      "description": ""
+    },
+    {
+      "sha": "2ed81a9603538cfdb775f9b76a968fd8ca58488f",
+      "author": "poliwhirlge",
+      "summary": "New Results Screen (#1397)",
+      "description": "* Start new score screen\n\n* Start building new score card prefab\n\n* Changes to ScoreCard2\n\n* Darken album background gradient + load album art\n\n* Change bg texture size to be a multiple of 4\n\n* Improve new score card header textures\n\n* Add border\n\n* Higher blue tag resolution\n\n* Start to try to create guitar card\n\n* Fixed album art scaling, fixed separator\n\n* Fix masking on score card instrument header\n\n* Fix bottom tag preferred height\n\n* Add dots to scrollbar handle\n\n* Higher res textures on bottom ScoreCard tags, move scrollbar position\n\n* Mask -> 2D Rect Mask on Scrollbar\n\n* Change default font sizes in StatInfo\n\n* Add left/right borders, change instrument+difficulty display\n\n* Change font on the band score not saved message\n\n* Populate difficulty ring based on instrument difficulty\n\n* Fix instrument + difficulty display alignment\n\n* Start fixing colors\n\n* Fix more color issues\n\n* Change the colors used for coloring score card text\n\n* Tweak score card border colors\n\n* Fix(?) color matching issues\n\n* Add additional stats\n\n* Add colored engine tags and modifier settings\n\n* Improved gradient in card header, maybe\n\n* Tone down the blue a bit in the cards\n\n* Correctly hide the modifiers used tag if not using modifiers\n\n* Remove separator on advanced stats for now\n\n* Change score not saved message to be displayed in a pill element\n\n* tone down blue bar in score screen\n\n* Bump alpha on album cover\n\n* Add avg multiplier\n\n* Added comment on why enable an extra gradient\n\n* Hide modifier section if there are no modifiers\n\n* We don't track strummed hopos yet\n\n* More vertical padding on the modifier icons\n\n* Shift everything up to make room for the scrollbar\n\n* Rip blue bar\n\n* Increase spacing between \"Modifiers\" header and the icons\n\n* Remove unused transforms\n\n* Create cards for all the other instruments\n\n* Disable drag intercepter\n\n* Remove displayed note offset for vocals players\n\n* Just one keys prefab ref for both keys and pro keys\n\n* Remove old prefabs\n\n* Fix issues with modifier icon container sizing and display\n\n* Display \"cleared\" if no-fail is off\n\n* Rename all the prefabs back to the original names\n\n* != and == for Unity object comparison\n\n* Division by 0 guard\n\n* Localize default engine preset strings\n\n* Turn cancellationToken into a member field\n\n* This is probably a bug\n\n* Pick background icon based on selected instrument part if applicable\n\n* != for unity objects\n\n* Just change the localization string\n\n* Remove album art from prefab in score screen"
+    }
+  ]
+}
