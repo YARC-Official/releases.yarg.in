@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d87f5a76edc65eb666ce9d44101c3da543b2db86",
+      "author": "wyrdough",
+      "summary": "Maybe fix crowd sounds continuing to play when they shouldn't",
+      "description": "* Also update core pointer for unit test fixes"
+    }
+  ]
+}
