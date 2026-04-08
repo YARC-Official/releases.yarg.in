@@ -1,0 +1,107 @@
+{
+  "type": "setlist",
+  "uuid": "b56a0f42-2a09-4a3a-8fd8-aaab0ca24631",
+  "metadata": {
+    "name": "Walter Ralts 01",
+    "description": "A pack of songs written and charted by charting team member Walter Ralts!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-04-08T22:26:18.9927404Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Check",
+        "artist": "Walter Ralts",
+        "length": 196000,
+        "releaseDate": "2026-04-08T00:00:00.000Z"
+      },
+      {
+        "title": "Galaxy Pixel",
+        "artist": "Walter Ralts",
+        "length": 191200,
+        "releaseDate": "2026-04-08T00:00:00.000Z"
+      },
+      {
+        "title": "Unfindable",
+        "artist": "Walter Ralts",
+        "length": 174000,
+        "releaseDate": "2026-04-08T00:00:00.000Z"
+      },
+      {
+        "title": "What Is...?",
+        "artist": "Walter Ralts",
+        "length": 214800,
+        "releaseDate": "2026-04-08T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "ba8f38e4-b958-4ce2-9478-cc6b918d7f14",
+      "tag": "walter_1-2026-04-08-0",
+      "release": "2026-04-08T22:26:18.9927404Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/walter_1-2026-04-08-0/walter_1-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
