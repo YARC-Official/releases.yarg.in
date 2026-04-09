@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "5c91f48bc41f18577b9264f6bc7447166d866495",
+      "author": "wyrdough",
+      "summary": "Handle completely duplicate CONs without exploding",
+      "description": ""
+    },
+    {
+      "sha": "194e6e56fd38e8d4c3450ca7dc70280970f9d8ec",
+      "author": "wyrdough",
+      "summary": "Update core pointer for exPKG support",
+      "description": ""
+    },
+    {
+      "sha": "ae44b12ef0d866f95848a4cc6c86aadde79afd99",
+      "author": "wyrdough",
+      "summary": "Better version of rating filter",
+      "description": ""
+    },
+    {
+      "sha": "0bd6f1ee9fb1e094a9dcb3355a650bac3ff8f0b1",
+      "author": "wyrdough",
+      "summary": "Filter song credits based on song rating setting as well",
+      "description": ""
+    },
+    {
+      "sha": "d25261cd63025fc330caa8be75d34085a7b87e65",
+      "author": "wyrdough",
+      "summary": "Core pointer update for beginner difficulty",
+      "description": ""
+    },
+    {
+      "sha": "af3d3a5febfbeb48d6a6dded3b36449a3dc9b6e7",
+      "author": "wyrdough",
+      "summary": "Beginner Difficulty (#1419)",
+      "description": "* wip frontend beginner diff\n\n* Add LitRainbow shader, update RectangularTheme with wildcard for five fret guitar\n\n* Use wildcard model with corrected UVs, cleanup\n\n* Fixed drums when bot hits wildcard\n* Removed unneeded stuff from LitRainbow shader graph\n\n* Allow beginner for 5LK, deal with some 5lk uniqueness\n\n* Add separate rainbow sustain for wildcard notes, commit shader graphs that were previously missed\n\n* Circular theme wildcard and (scuffed) april fools theme wildcard\n\n* Fix april fools theme wildcard\n\n* material updates, remove difficulty select hack for beginner"
+    },
+    {
+      "sha": "525e90479553ca2018e4484d69d0190b0c30a751",
+      "author": "wyrdough",
+      "summary": "Add maximum song rating setting",
+      "description": "* Updated library, music player, and history menu to respect maximum song rating"
+    }
+  ]
+}
