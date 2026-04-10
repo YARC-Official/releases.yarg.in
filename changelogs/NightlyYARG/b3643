@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "b9e4a88b823f7a9f3cb0761ba811e3372ab2b851",
+      "author": "wyrdough",
+      "summary": "Ignore parts that don't have a coda when determining BRE success",
+      "description": ""
+    }
+  ]
+}
