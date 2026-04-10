@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "8e195b4989e899e5b77f9f155f149bdcf8b0a495",
+      "author": "wyrdough",
+      "summary": "Fix unintended scaling of beginner note on split lane drums",
+      "description": ""
+    },
+    {
+      "sha": "9188acc4e9f9cd0dbfe69000cf82c087e2899603",
+      "author": "trainlos",
+      "summary": "Beginner difficulty icon (#1420)",
+      "description": ""
+    }
+  ]
+}
