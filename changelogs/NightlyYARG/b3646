@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "254476e00ba7e9f70276fd224b89c89362dadb90",
+      "author": "XaiaX",
+      "summary": "fix: MusicPlayer using gameplay mix (#1422)",
+      "description": "MusicPlayer silently inherits the default value of StemSettings.ApplySettings, resulting in the background music potentially missing out some stems, e.g., muted drums. Now setting ApplySettings = false in OnEnable and ApplySettings = true in OnDisable, relying on MusicPlayer's lifecycle, where it is only active during menu navigation and not gameplay or the library preview."
+    },
+    {
+      "sha": "aec60bac7bb024696317fd70d43da946518dff96",
+      "author": "theli-ua",
+      "summary": "Move cmudict data into yarg resources (#1423)",
+      "description": "* Move cmudict data into yarg resources\n\nAs its by order of magnitude faster to load this way\n\n* Update core pointer"
+    },
+    {
+      "sha": "d71ad5bbf4160002751c9e986fe4d18cce08cc72",
+      "author": "wyrdough",
+      "summary": "Song rating filter fixes",
+      "description": "* Rename Any to None\n* Default is now None\n* Fix song setting tab directory list lying about how many songs were found"
+    }
+  ]
+}
