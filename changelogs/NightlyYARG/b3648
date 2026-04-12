@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "4521a2489b663ba659e0dcb9383efd0e2a427f8e",
+      "author": "wyrdough",
+      "summary": "When disabling music player, set StemSettings as needed for music library.",
+      "description": ""
+    },
+    {
+      "sha": "4155b37b63cc1944c9830f0fb1863bb0ace8e27c",
+      "author": "wyrdough",
+      "summary": "Force stop all SFX samples when entering music library",
+      "description": ""
+    }
+  ]
+}
