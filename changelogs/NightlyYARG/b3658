@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "87d523ff8cfd889ccb17f1dbce74abf16ad19eba",
+      "author": "wyrdough",
+      "summary": "Revert minis update",
+      "description": ""
+    },
+    {
+      "sha": "1ff3208cd93ba624d0f6d1fe195d9264dcb82376",
+      "author": "wyrdough",
+      "summary": "Core memory allocation pointer update",
+      "description": ""
+    },
+    {
+      "sha": "c7220e1c6d2ed391e0d4bf908e87340e5a1ff8fb",
+      "author": "TheNathannator",
+      "summary": "Update Minis fork to latest commits (#1221)",
+      "description": ""
+    },
+    {
+      "sha": "d5579aac068ee9571cfc7e0d0471cf7189f12ad9",
+      "author": "jstnlef",
+      "summary": "Reduce memory allocations in a number of places (#1426)",
+      "description": "* These calls essentially were excessively allocating every frame\n\n* no need to allocate a new Fret.AnimType array every frame\n\n* no need to allocate a new string every frame if nothing changed\n\n* only update the countdown display when necessary\n\n* only update the fail meter when changed\n\n* only update the time when the time actually changes\n\n* remove linq from update in VocalTrack\n\n* Rather than allocating at all, let's do what we do in ComboMeter.cs\n\nThere's an argument to be made that this should probably be a shared bit of tech but I feel like that's out of scope for the current work"
+    },
+    {
+      "sha": "ec8ecfac0456d8e5aad43af37fb7758a31a2531c",
+      "author": "wyrdough",
+      "summary": "Revert \"Refactor layering (#1418)\" (#1430)",
+      "description": "This reverts commit 488428b9734313cefb37e85dfe69c111976d2add."
+    },
+    {
+      "sha": "b1e651c1eb5f7b8cd46e6f3f66244683e8cd7740",
+      "author": "wyrdough",
+      "summary": "Revert \"Re-enable HDR (#1425)\" (#1429)",
+      "description": "This reverts commit 74043b6a4aa5824bc4ef9da56149871958a808f0."
+    }
+  ]
+}
