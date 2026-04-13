@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "74043b6a4aa5824bc4ef9da56149871958a808f0",
+      "author": "theli-ua",
+      "summary": "Re-enable HDR (#1425)",
+      "description": ""
+    },
+    {
+      "sha": "d51be837e01107476f154ce228964a23a28d6ed2",
+      "author": "wyrdough",
+      "summary": "Update core pointer for parsing changes",
+      "description": ""
+    },
+    {
+      "sha": "819b79839f87dd10c8450a4b1d34e3ea2bb67acf",
+      "author": "poliwhirlge",
+      "summary": "Music Library Polish (#1424)",
+      "description": "* Adjust sidebar colors to more resemble concept art\n\n* Improve sidebar gradient blending\n\n* Put gradient at an angle\n\n* Adjust play button horizontal and verical alignment\n\n* Fix color flickering for bottom part of the sidebar on the non-song list views, try to align text better, and add a comma between genre and subgenre counts\n\n* Disable holding for expand/collapse header\n\n* Refactor NavigationScheme.cs to reduce repetition\n\n* Rip blue bar 2\n\n* Anchor Instrument Difficulty text to the right\n\n* Set width of percentage pill depending on whether the decimal is shown\n\n* Update vertical alignment of text in the sidebar, changed subgenre text to be the same size as genre for better alignment\n\n* Remove select keybind from music library for NextSort\n\n* Bump PlayAShow window on the z-axis above the Sidebar\n\n* Add a pixel to the left side of the status bar to stop the background bleed\n\n* Replace select button in music library menu with generic sorting icon since keybind was removed\n\n* Don't cycle sort on click when not in main music library menu\n\n* Add icon to recommended songs, added help text to button views\n\n* Remove random song list view in music library\n\n* Adjust music library header alignment\n\n* Make the change (header text alignment) on the parent prefab instead so other screens like instrument select are also re-aligned\n\n* Renamed a component in the prefab\n\n* Remove space from texture name\n\n* Revert to previous way of construction, fix bug\n\n* Fix bug where the id for the button icon cache for the Create New Playlist button was not constant so it collided with the Recommended songs icon\n\n* Reorder for consistency"
+    },
+    {
+      "sha": "488428b9734313cefb37e85dfe69c111976d2add",
+      "author": "theli-ua",
+      "summary": "Refactor layering (#1418)",
+      "description": "* Add vocals track into highway renderer\n\n* seems like all rendering works\n\n* Update vocal needles materials\n\n* Adjust highway renderer bounds to not clip needles away\n\n* Make alpha mask shader use max blending to pick most opaque value\n\n* Remove unused highways shader code\n\n* Account for possible vocal track when calculating per-track matrices\n\n* Formatting\n\n* Rotate vocals 90 so that its parallel to highways and won't clash\n\n* Remove bound accounting for vocals as we now rotated them\n\n* Prevent anything from being rendered under the vocal track\n\n* Do not use UI to layer highways/background\n\n* Add background dimmer and venue fadein\n\n* Always include venue blit shader\n\n* Fix venue dynamic resolution scaling\n\n* Make bg opacity work again\n\n* Fix msaa sample mismatch in highway alpha texture"
+    }
+  ]
+}
