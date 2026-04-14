@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "c70afb482373ddb15eb5bb94bfd47bbf38612154",
+      "author": "Supersonicboss1",
+      "summary": "Prevent playing drum overhit animation if hit is in lane (#1431)",
+      "description": "* Prevent playing drum overhit animation if hit is in lane\n\n* Core pointer update"
+    },
+    {
+      "sha": "1d087b54471c809d179d0c136de41c3007ad47b3",
+      "author": "Supersonicboss1",
+      "summary": "Fix drum fret animations on non-split 4L and Pro (#1432)",
+      "description": ""
+    },
+    {
+      "sha": "d75ab917a2f2ea1368124edbbba4352e1d80cc82",
+      "author": "wyrdough",
+      "summary": "Lane updates",
+      "description": "* Updated hit window settings to allow use of MillisecondInput setting type\n* Updated en-US.json to account for changed setting name"
+    }
+  ]
+}
