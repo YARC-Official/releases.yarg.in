@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "6fab95fdb63fd33ac2587778a204373a27af4e9c",
+      "author": "wyrdough",
+      "summary": "Fix elite drums loading (core pointer update)",
+      "description": ""
+    }
+  ]
+}
