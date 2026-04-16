@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "55f8dae711e588d2a44d9f9350372524646f261d",
+      "author": "wyrdough",
+      "summary": "BRE tweaks and .chart beginner fix (core pointer update)",
+      "description": ""
+    }
+  ]
+}
