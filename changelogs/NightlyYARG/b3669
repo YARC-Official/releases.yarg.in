@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "3308639d6d261f74723ef52ea9daacacc3285511",
+      "author": "wyrdough",
+      "summary": "Star calculation rework and BRE visual updates",
+      "description": ""
+    },
+    {
+      "sha": "12341599aa273779c82e2ff9621b2d033e00627d",
+      "author": "Supersonicboss1",
+      "summary": "Rework star and band star calculations (#1401)",
+      "description": "* Star calculation rework\n\n* Remove StarScore and ensure replays save the correct number of stars when playing with bots\n\n* Set star score thresholds with the correct number of players\n\n* Fix band star calculations when playing with bots\n\n* Fix band star calculation in replay when playing with bots\n\n* Move solo multipliers into BasePlayer instead of core\n\n* Update access restrictions on StarMultiplierThresholds\n\n* Switch score screen average multiplier to use BaseNoteScore and CommittedScore\n\n* Document what the star multiplier thresholds actually do"
+    },
+    {
+      "sha": "0e1fd7e7c9f0a46edf126368e4fe9b17c6eefe20",
+      "author": "Frickitickitavi",
+      "summary": "Revert drum BREs to single-zone, move visual BRE logic out of Core (#1438)",
+      "description": "* All except PK migrated to new system\n\n* Trigger 5LK open particles in BREs\n\n* Loop PK into new system\n\n* Remove vestigial method\n\n* Clean up CodaSection, fix PK visual timing bug\n\n* Fix comment typos\n\n* Move wildcard enum to 8, simplify 5LK BRE loop\n\n* De-static 5F guitar hit time dictionary"
+    },
+    {
+      "sha": "33add9e6acf3fd1cfe6642422b6becf814c1a1f9",
+      "author": "Supersonicboss1",
+      "summary": "Add ability to show fail meter with no fail on (#1440)",
+      "description": "- This becomes the default state whenever \"turn no fail on\" is a button, or similar\n- Settings become a 3-state dropdown"
+    },
+    {
+      "sha": "33c71c84d21232c6907040e7ae34f7ea6945a8af",
+      "author": "theli-ua",
+      "summary": "Fix particles disappearing unless above the highway (#1437)",
+      "description": "By including unlit objects in the alpha mask calculation"
+    },
+    {
+      "sha": "dae082ddd2af84e2b86babd29ec91fa66d7a9597",
+      "author": "jstnlef",
+      "summary": "Remove more memory allocations (#1435)",
+      "description": "* cache RTHandle\n\n* shaderTagIds don't need to be allocated every frame\n\n* reuse the vector in SustainLine\n\n* prevent score box allocations\n\n* reuse RTHandle for the trails\n\n* cache render request and _supportsRenderRequest\n\n* only set the solo text when it actually changes\n\n* Looks like I was a bit ambitious. This doesn't show allocation in builds\n\n* This was failing my build occasionally\n\n* Put SetTextFormat back\n\n* This was a bit overly defensive"
+    }
+  ]
+}
