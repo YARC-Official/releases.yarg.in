@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "296c9106c4173c387d33017982be46266838bc26",
+      "author": "wyrdough",
+      "summary": "Fix incorrect rating for .ini/.sng songs when rating is unspecified",
+      "description": ""
+    }
+  ]
+}
