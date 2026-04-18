@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "4f0687d1db2fc143af74649c343479c007adecb0",
+      "author": "Supersonicboss1",
+      "summary": "Fix drum fill leadup effect on snare (#1445)",
+      "description": ""
+    },
+    {
+      "sha": "ef291deeceaea71f9dc9f9d804dffdffffb1e953",
+      "author": "Frickitickitavi",
+      "summary": "Fix lefty guitar BRE visuals (#1444)",
+      "description": ""
+    }
+  ]
+}
