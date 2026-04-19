@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "d6bf9a0e483dad5e909d3eb407993fe5baf2edcd",
+      "author": "wyrdough",
+      "summary": "Lane end note fix, etc (core pointer update)",
+      "description": ""
+    },
+    {
+      "sha": "6a3a123ac58c573dcd52d0b94cf0fa5c98e74451",
+      "author": "wyrdough",
+      "summary": "Reset last hit times when resetting practice section",
+      "description": "* Prevents negative emission color for BRE lanes"
+    }
+  ]
+}
