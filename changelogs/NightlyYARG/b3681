@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "cec737a6fd5d4142d44498de207de7aae50ae6a3",
+      "author": "wyrdough",
+      "summary": "Track effect improvements",
+      "description": "* Fix hidden drum fill preventing unison phrase from showing\n* Return the ability for a track effect to fade in/out\n* Correctly handle conversion of UnisonAndDrumFill and SoloAndDrumFill when drum fill component is hidden or shown"
+    }
+  ]
+}
