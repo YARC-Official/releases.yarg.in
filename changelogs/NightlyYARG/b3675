@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "7592a1336e4e22433350aafd9d44dd0729c49b1a",
+      "author": "wyrdough",
+      "summary": "Fix vocals sometimes failing to work in practice mode when not in static lyrics mode",
+      "description": ""
+    }
+  ]
+}
