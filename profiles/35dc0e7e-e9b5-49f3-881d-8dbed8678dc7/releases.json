@@ -1,9 +1,27 @@
 [
     {
+        "uuid": "a175fc1f-80a6-4b0e-b18f-e34414ad169d",
+        "url": "https://releases.yarg.in/profiles/35dc0e7e-e9b5-49f3-881d-8dbed8678dc7/releases/a175fc1f-80a6-4b0e-b18f-e34414ad169d.json",
+        "tag": "b3684",
+        "release": "2026-04-21T13:14:56Z"
+    },
+    {
         "uuid": "e09e4397-a622-4e18-8cfd-759b70ecaaeb",
         "url": "https://releases.yarg.in/profiles/35dc0e7e-e9b5-49f3-881d-8dbed8678dc7/releases/e09e4397-a622-4e18-8cfd-759b70ecaaeb.json",
         "tag": "b3681",
         "release": "2026-04-20T13:10:49Z"
+    },
+    {
+        "uuid": "6d8dae65-af26-42a4-a4d1-93e01e04d01b",
+        "url": "https://releases.yarg.in/profiles/35dc0e7e-e9b5-49f3-881d-8dbed8678dc7/releases/6d8dae65-af26-42a4-a4d1-93e01e04d01b.json",
+        "tag": "b3680",
+        "release": "2026-04-20T01:33:08Z"
+    },
+    {
+        "uuid": "d1a1daa3-2939-4254-8b7d-34212b44909e",
+        "url": "https://releases.yarg.in/profiles/35dc0e7e-e9b5-49f3-881d-8dbed8678dc7/releases/d1a1daa3-2939-4254-8b7d-34212b44909e.json",
+        "tag": "b3675",
+        "release": "2026-04-19T13:03:32Z"
     },
     {
         "uuid": "e1924416-9e3f-494f-ac41-1c5c3f59d675",
