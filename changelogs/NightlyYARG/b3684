@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "03f48aaa40c36e3dfbee04c9beb830bdddcf6054",
+      "author": "wyrdough",
+      "summary": "Move SetBeatVisual to OnChartLoaded (BeatEventHandler doesn't exist until OnChartLoaded, oops)",
+      "description": ""
+    },
+    {
+      "sha": "fd0b594a9090dfbe6988cf5cc0870504ea54edb0",
+      "author": "theli-ua",
+      "summary": "Avoid calling Object.FindAnyObjectByType in stagekit stack (#1434)",
+      "description": ""
+    },
+    {
+      "sha": "eae3fcf8c53b2c895a0d9e79fbf26073e80b4e61",
+      "author": "theli-ua",
+      "summary": "Use ActualFPS in venue post processing (#1450)",
+      "description": "* Allow setting venue fps to 0\n\nTo indicate no limiting. We already do the same for overall fps limiting\nso this is making it consistent with that.\n\n* Use ActualFPS in venue post processing"
+    }
+  ]
+}
