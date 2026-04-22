@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "0aa20979fa5a756aa09560a9af48268f7b381522",
+      "author": "Dansla116",
+      "summary": "Sidebar State Fixes (#1453)",
+      "description": "* Fix `Sidebar` display when rescanning with header or button selected\n\n(cherry picked from commit 000cbeb455eb0c530d1eb43ea970258feb96c844)\n(cherry picked from commit a3d9de08fb6fa26d3aea79902ca721a963f9cea8)\n\n* Fix music library sidebar overlay going over the filters menu, also fixed some other layering problems with the persistent scene\n\n(cherry picked from commit 0ab4a30781e05688fe796cab1b63c8431f61f833)\n(cherry picked from commit c8f4b85e696e063e7556af036b54eabb24b213e4)\n\n* Disable sidebar when scanning from music library menu\n\n---------\n\nCo-authored-by: poliwhirlge <141366895+poliwhirlge@users.noreply.github.com>\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "d37b182df5a3dbc0e7bef3b39866a800faea9889",
+      "author": "Supersonicboss1",
+      "summary": "Clean up multiplier text cache implementation and fix vocals bug (#1447)",
+      "description": "* Clean up multiplier text cache implementation and fix vocals bug\n\n* Switch to using an array instead of a dictionary"
+    },
+    {
+      "sha": "13f1030e6bf1c5e80fc2e7be1a26e36ef65f992a",
+      "author": "wyrdough",
+      "summary": "Fix library showing no vocals part when chart only has harmony",
+      "description": ""
+    },
+    {
+      "sha": "2d0f5e398e3069cf0fd8ad702d0f878201412872",
+      "author": "wyrdough",
+      "summary": "remove unintended wildcard note color setting",
+      "description": ""
+    },
+    {
+      "sha": "8e7ccf3036eb8f1a9b1da090038f5a1e0315d4cf",
+      "author": "trainlos",
+      "summary": "Genrelizer: add mapping for Synthpop subgenre DTA value (#1433)",
+      "description": ""
+    }
+  ]
+}
