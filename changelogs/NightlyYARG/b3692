@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "4d37d7ebb2a0146e1793c96a5d3941242a387998",
+      "author": "jstnlef",
+      "summary": "Hook up the calibration scene back button (#1455)",
+      "description": ""
+    },
+    {
+      "sha": "8c4efcaea817f873c77b0ff7ed169004fe7657a2",
+      "author": "wyrdough",
+      "summary": "Use move instead of replace when writing profiles json",
+      "description": ""
+    },
+    {
+      "sha": "332fda0383621cda52c9fd5c37057c270e5ad44a",
+      "author": "wyrdough",
+      "summary": "More robust profile/bindings saving and loading",
+      "description": "* Make a backup on successful load\n* Use that backup if loading fails (assuming it exists)\n* When writing profiles, write to temp file and verify we read back as many profiles as we intended to write before replacing original profiles.json."
+    }
+  ]
+}
