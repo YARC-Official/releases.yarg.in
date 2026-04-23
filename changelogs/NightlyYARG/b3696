@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "c73f6fa1e0bbdeb77d78b8b50519a8f0541eb9d6",
+      "author": "wyrdough",
+      "summary": "Unbreak the charts the last one broke",
+      "description": ""
+    },
+    {
+      "sha": "717e95b3eb9885cd0e06321555eadcc104f09597",
+      "author": "wyrdough",
+      "summary": "Fix lanes sometimes failing to end",
+      "description": ""
+    }
+  ]
+}
