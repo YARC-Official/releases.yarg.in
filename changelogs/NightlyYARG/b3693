@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "8f56c557d175a186f4490ed21dae8effc86ced22",
+      "author": "wyrdough",
+      "summary": "Add rewind sound effect",
+      "description": ""
+    },
+    {
+      "sha": "0f2a3a54e2b697fcc83854a4ec9b8b4eca526ab4",
+      "author": "Dansla116",
+      "summary": "Save and Load Collapsed Headers Between Music Library Visits (#1454)",
+      "description": "* Save and load collapsed headers between `MusicLibraryMenu` visits\n\n* Rework collapsed section logic in music library\n\n* Preserve collapsed library headers across filter updates\n\n* Add comment in `Awake()` function\n\n* Preserve collapsed headers across filter updates using only category/group identity\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    }
+  ]
+}
