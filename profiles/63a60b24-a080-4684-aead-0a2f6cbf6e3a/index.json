@@ -1,0 +1,51 @@
+{
+    "type": "venue",
+    "uuid": "63a60b24-a080-4684-aead-0a2f6cbf6e3a",
+    "metadata": {
+        "name": "Soundshader Lines",
+        "description": "A colorful audio reactive shader venue. Ported from ShaderToy by wyrdough.",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/VisualizerBanner.png",
+        "initialRelease": "2026-04-23T01:29:41.211835+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "wyrdough",
+        "venueType": "AudioReactive",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/63a60b24-a080-4684-aead-0a2f6cbf6e3a/SoundshaderLines.jpg",
+                "caption": "Soundshader Lines"
+            }
+        ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_Credits#Soundshader_Lines"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "11f3752f-dd6a-4d85-8c6c-a31429c2fb30",
+            "tag": "Soundshader_Lines-2026-04-23-0",
+            "release": "2026-04-23T01:29:41.211835+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Soundshader_Lines-2026-04-23-0/Soundshader_Lines-2026-04-23-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
