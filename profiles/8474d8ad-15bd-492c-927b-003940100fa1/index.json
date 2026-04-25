@@ -628,6 +628,42 @@
         "artist": "Tay Zonday",
         "length": 309333,
         "releaseDate": "2025-01-30T00:00:00.000Z"
+      },
+      {
+        "title": "Third Degree",
+        "artist": "Davvn",
+        "length": 192000,
+        "releaseDate": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "title": "Ain\u0027t Askin for Much",
+        "artist": "Gnarlemagne",
+        "length": 218396,
+        "releaseDate": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "title": "Square Things",
+        "artist": "Jonathan Coulton",
+        "length": 193200,
+        "releaseDate": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "title": "Tick Tock",
+        "artist": "obkatiekat",
+        "length": 243818,
+        "releaseDate": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "title": "We Are the Gang",
+        "artist": "The Gang",
+        "length": 243971,
+        "releaseDate": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "title": "Rambling Rose",
+        "artist": "White Coven",
+        "length": 365823,
+        "releaseDate": "2026-04-26T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -673,9 +709,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "ce88f252-0b5e-475a-9f3e-a60cb40a6d0b",
-      "tag": "official-2026-01-30-1",
-      "release": "2026-01-31T02:49:52.7541939Z",
+      "uuid": "45f8a3ff-06fc-4976-a5f6-303374147cb0",
+      "tag": "official-2026-04-24-0",
+      "release": "2026-04-24T23:52:07.6357292Z",
       "content": [
         {
           "platforms": [
@@ -685,7 +721,11 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-01-30-1/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-04-24-0/official-0.7z",
+              "fileType": "encrypted"
+            },
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-04-24-0/official-1.7z",
               "fileType": "encrypted"
             }
           ]
