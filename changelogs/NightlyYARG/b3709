@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "e1f1bd631eb86d7f8eeab7ab518bb6a8a48baa10",
+      "author": "wyrdough",
+      "summary": "Promote normalization from experimental, make default",
+      "description": ""
+    },
+    {
+      "sha": "ba8a9d697130a0ceb84f2b3a236a1fb93a8581d2",
+      "author": "polson",
+      "summary": "Fix .sng volume normalization (#1460)",
+      "description": ""
+    },
+    {
+      "sha": "3024f421c65ce64f6505df15249f175a73507e7e",
+      "author": "jstnlef",
+      "summary": "Back button on Calibrator should bring player back to settings (#1456)",
+      "description": "* Fix setting menu state management bug\n\n* first attempt at fixing the calibrator back transition\n\n* Allow the settings button row to close its scheme before invoking a button action\n\n* Ensure that opening the calibrator doesn't bring the player back to the main menu for a frame"
+    },
+    {
+      "sha": "700404325115dd6285f6f40c623a12ef6de6f426",
+      "author": "wyrdough",
+      "summary": "Change some project settings",
+      "description": "* force AlphaFix shader to be included in build\n* update IDE support packages"
+    },
+    {
+      "sha": "f81aa34e4a922b9f3be5ebaa34ba7e5d37a40d09",
+      "author": "wyrdough",
+      "summary": "Don't try to access VisualTime before SongRunner has started",
+      "description": ""
+    },
+    {
+      "sha": "98b5ece34ab4155bb14d5bc17f7b95b1338e0dbe",
+      "author": "theli-ua",
+      "summary": "Fix CS0649 warnings: Suppress warnings for fields assigned via Unity/JSON serialization (#1441)",
+      "description": "- NavigationIcons.cs: Added #pragma disable CS0649 around NavigationIcon struct\n  (fields assigned via Unity Inspector)\n- VenueAutoGenerationPreset.cs: Added #pragma disable CS0649 around JSON\n  deserialization classes VenueAutoGenerationFile and AutoGenerationSectionFile\n- Genrelizer.Serialization.cs: Added #pragma disable CS0649 around JSON\n  deserialization classes GenreMappingData and SubgenreMappingData\n- CreditEntry.cs: Added #pragma disable CS0649 around SocialInfo struct\n  (fields assigned via Unity Inspector)\n- BassAudioManager.cs: Added #pragma disable CS0649 around FX fields\n  (fields assigned in BassStemChannel.cs, not in constructor)\n- UnsupportedXboxOneDevice.cs: Added #pragma disable CS0649 around dummy field\n  (required by InputSystem layout but never accessed in code)\n- YARG.Core: Fixed nullable reference and unused field warnings"
+    },
+    {
+      "sha": "5fd755e51ec638406e57a23ff80e5d43542e926a",
+      "author": "Supersonicboss1",
+      "summary": "Various replay viewer fixes (#1459)",
+      "description": "* Various replay viewer fixes\n- Fixes the BandMultiplier becoming very large on seeking\n- Fixes SuccessCount mismanagement on seeking\n- Fixes band combo becoming very large sometimes on seeking\n- Fixes band combo and band multiplier displays depending on active profiles for behaviour during replays\n\n* Allow the stars display to handle decreasing the number of stars\n\n* Default _bandComboUnits to 1 to prevent divide-by-zero"
+    }
+  ]
+}
