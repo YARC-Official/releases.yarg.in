@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "249da6d68089e99d8b4ed3e8e641e1fdd3582fd4",
+      "author": "wyrdough",
+      "summary": "Update core pointer (PR 368, 370, 372)",
+      "description": ""
+    },
+    {
+      "sha": "3c99f08ba09cd45413a5ea79dbac7cd6e81f3f09",
+      "author": "Dansla116",
+      "summary": "Middle-align source, charter, and album-title when shrinking or wrapping long text (#1458)",
+      "description": ""
+    },
+    {
+      "sha": "f95c2167a26dddc0e56368cfc7ad2cddd8b10705",
+      "author": "theli-ua",
+      "summary": "Force venue output alpha channel to 1.0 even if post processing is disabled (#1457)",
+      "description": "* feat(VenueCameraRenderer): replace render requests with normal camera rendering\n\nReplace RenderPipeline.SubmitRenderRequest with standard camera enable/disable\ncycle so venue rendering appears in the Frame Debugger.\n\n- Remove RenderPipeline.StandardRequest and render request support check\n- Enable camera and set target texture in Render() method\n- Disable camera and clear target texture in OnEndCameraRender callback\n- FPS throttling logic in Update() remains unchanged\n\nCo-Authored-By: pi-coding-assistant (Qwen3.6-27B/llama.cpp) <noreply@pi-coding-agent>\n\n* fix(VenueCameraRenderer): force alpha to 1.0 to prevent transparency artifacts\n\nWhen the venue renders without post-processing, UberPP does not run to\nfix the alpha channel, leaving it at 0.0 (fully transparent) which\nproduces visual artifacts on the RawImage output.\n\nIntroduce a dedicated VenueAlphaFix shader that forces alpha to 1.0,\nand replace the plain AddCopyPass in VenuePostPostProcessingPass with\na RenderGraph blit pass through this shader. The alpha-fixed texture\nis written back to resourceData.cameraColor so both the final blit\n(no PP) and UberPP (with PP) use the corrected alpha. The trails\ntexture is also updated from the alpha-fixed source.\n\nCo-Authored-By: pi coding agent <pi@coding-agent>\n\n* Unify alpha fix with copy for trails\n\n* Revert \"feat(VenueCameraRenderer): replace render requests with normal camera rendering\"\n\nThis reverts commit 6d0eb76a63a6476aa7868192e4310c9f30baf0b0.\n\n* feat(VenueCameraRenderer): replace render requests with normal camera rendering\n\nReplace RenderPipeline.SubmitRenderRequest with standard camera enable/disable\ncycle so venue rendering appears in the Frame Debugger.\n\n- Remove RenderPipeline.StandardRequest and render request support check\n- Enable camera and set target texture in Render() method\n- Disable camera and clear target texture in OnEndCameraRender callback\n- FPS throttling logic in Update() remains unchanged\n\nCo-Authored-By: pi-coding-assistant (Qwen3.6-27B/llama.cpp) <noreply@pi-coding-agent>\n\n* fix(VenueCameraRenderer): restore volume effects by updating stack at render time\n\nWhen rendering the venue camera through the normal pipeline (instead of\nSubmitRenderRequest), URP replaces VolumeManager.instance.stack with\nthe camera's local volumeStack during rendering setup. The previous\ncode updated the global stack in Update(), which URP then overwrites\nbefore OnPreCameraRender runs.\n\nMove the volume stack update into OnPreCameraRender, updating the\nsame stack that URP set up, so venue effects (trails, mirror, etc.)\nare active when read.\n\nCo-authored-by: pi-coding-assistant (Qwen3.6-27B/llama.cpp) <noreply@pi-coding-agent>\n\n* fix(VenueCameraRenderer): keep volume update in Update() for SlowFPS\n\nThe previous fix moved the volume stack update into OnPreCameraRender()\nonly, which broke SlowFPS reading in Update(). URP overwrites the global\nstack during rendering setup, so we need the update in both places:\n\n- Update(): updates the global stack so SlowFPS can read it before\n  URP's rendering setup overwrites it\n- OnPreCameraRender(): updates whatever stack URP set up (global or\n  camera's local) so venue effects are active for rendering\n\nCo-authored-by: pi-coding-assistant (Qwen3.6-27B/llama.cpp) <noreply@pi-coding-agent>\n\n* Fix slow fps when fps cap set to 0\n\n* fix: improve venue camera FPS limiting and ActualFPS smoothing\n\n- Replace threshold-based FPS limiter with accumulator-based approach\n  that averages to exact target FPS regardless of Update() frequency\n- Replace per-frame-count FPS counter with sliding window average\n  (~1s window) for smooth ActualFPS without jumps\n\nCo-authored-by: pi.dev\n\n---------\n\nCo-authored-by: pi-coding-assistant (Qwen3.6-27B/llama.cpp) <noreply@pi-coding-agent>\nCo-authored-by: pi coding agent <pi@coding-agent>"
+    },
+    {
+      "sha": "ad57c86bf200f2e237cbaaae16c59828bcdc66be",
+      "author": "Mekkabit",
+      "summary": "Optionally control venues with animators (and add bass fretting) (#1436)",
+      "description": "* Venue Animator main script\n\n* Venue Animator editor script\n\n* wrong folder\n\n* Venue Animator main script (in the right folder)\n\n* Let bassists use the frets\n\n* Rearchitect venue animator\n\n* Correctly handle zero length notes in channels that use SetBool for notes\n\n* Correct handling of blend state hashes (plus some minor reorganization)\n\n* Update the RNG float\n\n* Get lighting closer to original logic\n\n* Use correct hash when calling SetTrigger\n\n* Fix postprocessing crossfade handling\n\n* More PP: If previous is same as current, blend to next\n\n* Fix vocal notes with children\n\n* Suppress trigger immediately after blend in lighting and PP\n\n* Fix open hihat\n\n* Fix inverted hand map check\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "73dc4cbe8ba210dc6c842808a0e382fe09e78136",
+      "author": "poliwhirlge",
+      "summary": "Fix one border of the score card not being colored properly on FC (#1462)",
+      "description": ""
+    }
+  ]
+}
