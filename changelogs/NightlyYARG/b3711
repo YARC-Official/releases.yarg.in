@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "b3af265b9993182d91867a132d6053393ef12357",
+      "author": "Mekkabit",
+      "summary": "Add missing Animator folder .meta (#1465)",
+      "description": ""
+    },
+    {
+      "sha": "b65848b3738634fc2c264fd57fa0e3ac9a60d622",
+      "author": "wyrdough",
+      "summary": "Fix bg loading for CONs with dot in the filename (jstnlef)",
+      "description": ""
+    }
+  ]
+}
