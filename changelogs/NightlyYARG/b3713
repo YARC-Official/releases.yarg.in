@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "04100a7a734fc832b750188e43ede34934247106",
+      "author": "wyrdough",
+      "summary": "Add MToon outline render feature to low quality renderer",
+      "description": ""
+    },
+    {
+      "sha": "6b4ebbc201428aab4473d66fedb50432718bda18",
+      "author": "wyrdough",
+      "summary": "Add support for charter_audio metadata entry in .ini",
+      "description": ""
+    }
+  ]
+}
