@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "d8feea192a21d9bfd571b8e5005493f9fbe2f5fe",
+      "author": "github-actions[bot]",
+      "summary": "Translation Updates (#1372)",
+      "description": "* Increase version number to v0.13.1 for security update\n\n* New Crowdin translations by GitHub Action\n\n* New Crowdin translations by GitHub Action\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\nCo-authored-by: Crowdin Bot <support+bot@crowdin.com>"
+    },
+    {
+      "sha": "8e23a6b7f7e28a921a3116de5c06e0379be7718b",
+      "author": "jstnlef",
+      "summary": "prevent navigation flicker when leaving settings page (#1468)",
+      "description": ""
+    },
+    {
+      "sha": "ae0ae5510917e550825db1dffee5cdf6ad61f393",
+      "author": "jstnlef",
+      "summary": "Improve vocal lyric spawning performance and stability (#1464)",
+      "description": "* prevent nulls from being pushed into the pool\n\nAlso add a PrewarmTo(target) for upcoming vocals change\n\n* Prewarm lyric caches\n\n* Fixing a song load bug"
+    },
+    {
+      "sha": "0cac1dec4745fb2e4c7e03176b44192c0299dbcd",
+      "author": "Supersonicboss1",
+      "summary": "Add percussion hit translation string for vocal bindings (#1466)",
+      "description": ""
+    },
+    {
+      "sha": "1b0e6fdb3cbd9d97959526a4b48b0c6cbc819634",
+      "author": "wyrdough",
+      "summary": "Fix four lane drums settings preview, related housekeeping",
+      "description": "* Changed FretArray to not generate multiple frets per index.\n* And since we aren't generating overlapping frets, Revert \"Fix drum fret animations on non-split 4L and Pro (#1432)\", reverting commit 1d087b54471c809d179d0c136de41c3007ad47b3."
+    }
+  ]
+}
