@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "0a0ef40a1f6749d44838c3be8897fd5b341837fa",
+      "author": "wyrdough",
+      "summary": "Ensure we don't leak YARGImages (and their backing FixedArray)",
+      "description": ""
+    },
+    {
+      "sha": "bc70997959ab5de977319ffec8808352b58aba6d",
+      "author": "wyrdough",
+      "summary": ".chart end tick core pointer update",
+      "description": ""
+    },
+    {
+      "sha": "df7f7127c12f3e5cef769f2e2a438a49bfcb607b",
+      "author": "jstnlef",
+      "summary": "Anton's Camera Removal PR merged with dev (#1471)",
+      "description": "* Add vocals track into highway renderer\n\n* seems like all rendering works\n\n* Update vocal needles materials\n\n* Adjust highway renderer bounds to not clip needles away\n\n* Make alpha mask shader use max blending to pick most opaque value\n\n* Remove unused highways shader code\n\n* Account for possible vocal track when calculating per-track matrices\n\n* Formatting\n\n* Rotate vocals 90 so that its parallel to highways and won't clash\n\n* Remove bound accounting for vocals as we now rotated them\n\n* Prevent anything from being rendered under the vocal track\n\n* update to latest dev core\n\n---------\n\nCo-authored-by: Anton Romanov <theli.ua@gmail.com>"
+    },
+    {
+      "sha": "831be517a67e1c12f2fa599e66ce91fb8a7dd4e5",
+      "author": "jstnlef",
+      "summary": "move all note related visual updates to after all the gameplay logic (#1469)",
+      "description": ""
+    }
+  ]
+}
