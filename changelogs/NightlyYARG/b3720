@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "ecc1d83236047b5d51886c49f9038c135fb88883",
+      "author": "wyrdough",
+      "summary": ".chart beginner fixes (core pointer update)",
+      "description": ""
+    },
+    {
+      "sha": "5b7f6ffdb81627d642ce84314935efc947d062f8",
+      "author": "polson",
+      "summary": "Fix drums error message when song has multiple drum stems (#1467)",
+      "description": ""
+    }
+  ]
+}
