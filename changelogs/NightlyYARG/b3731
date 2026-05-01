@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "73b0bf0050abd40486ef37028810730407ce72ff",
+      "author": "wyrdough",
+      "summary": "Fix the PK beginner thing correctly",
+      "description": "* Previous would have shown any diff other than beginner even if it wasn't charted"
+    },
+    {
+      "sha": "49241033888a5ccc1303d6104e3abd5b58d73692",
+      "author": "wyrdough",
+      "summary": "Don't allow beginner on Pro Keys",
+      "description": ""
+    },
+    {
+      "sha": "cc382b1c7c18b37ee2a2fe2b4fa4b1c7e89812a3",
+      "author": "wyrdough",
+      "summary": "Drum overhit bug core pointer update",
+      "description": ""
+    },
+    {
+      "sha": "52cbcf5e60c05430a8196258be52fdcfb8c4c0ab",
+      "author": "wyrdough",
+      "summary": "Fix replay attempting to launch when song does not exist in library",
+      "description": ""
+    },
+    {
+      "sha": "03d3480e9974a925de7c29b4f01bada154f35ad0",
+      "author": "polson",
+      "summary": "Fix kick animations on drummer (#1474)",
+      "description": ""
+    },
+    {
+      "sha": "6f8c93f86e1ec7d5aa9a91ddb48ebc9822182243",
+      "author": "Dansla116",
+      "summary": "Address Filters Menu Feedback Items (#1451)",
+      "description": "* Change \"Difficulty\" to \"Intensity\" in `FiltersMenu`\n\n(cherry picked from commit 90f8b07aec877b69d8268730d9421a8951feb381)\n\n* Removed \"Advanced\" setting indicator from screens outside of `SettingsMenu`\n\n(cherry picked from commit 88f7c415926f11664d4d46c25c01e0f04899a1cb)\n\n* Show Intensity option in `FiltersMenu` for every unique instrument\n\n(cherry picked from commit 784585a6a29f1fa19402df82c3985a8a53f8adfc)\n\n* Add \"Instrumental\" filter option for \"Number of Vocal Parts\"\n\n(cherry picked from commit 6104e6ef005cb550bb98f2be9ebeac18e951e0c2)\n\n* Made filter options wrapping generic and applied to Sources and Playlists\n\nAlso fixed merge resolution errors\n\n(cherry picked from commit 4a1e119af908bfaa6ccebb8b504070c0b0f661d6)\n\n* Fix things lost in cherry-pick"
+    },
+    {
+      "sha": "23ed01dc50ccd84b8b00bd5a7effc238b6b61854",
+      "author": "poliwhirlge",
+      "summary": "Music Library Content Rating Icons (#1443)",
+      "description": "* Increase version number to v0.13.1 for security update\n\n* Display content rating icons\n\n* Remove original label object and realign\n\n* Use flatter icons\n\n* Tweak colors and make icon a bit smaller\n\n* Re-enable filters menu\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    }
+  ]
+}
