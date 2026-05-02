@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "32c21d696c70a5914a6c1a24b68858f3f64607e4",
+      "author": "polson",
+      "summary": "Better scrolling on score screen (#1473)",
+      "description": ""
+    }
+  ]
+}
