@@ -1,0 +1,503 @@
+{
+  "type": "setlist",
+  "uuid": "46a398b7-1902-40f9-93b6-fe2f8216b79a",
+  "metadata": {
+    "name": "Creative Commons Hero (port)",
+    "description": "Creative Commons Hero was released in 2021 as a custom setlist for Clone Hero with full-difficulty guitar and drums, created in collaboration by Gigakoops and Nightmare Lyra. All of the songs in this setlist can be found on Creative Commons sources around the internet, including Free Music Archive, Jamendo, and Bandcamp. Now, 5 years later, the setlist has been ported to YARG! Though a number of songs were omitted (mostly due to no-derivatives licenses), we are glad to have 70 charts from the setlist available to download and enjoy.",
+    "iconUrl": "https://releases.yarg.in/profiles/46a398b7-1902-40f9-93b6-fe2f8216b79a/icon.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/46a398b7-1902-40f9-93b6-fe2f8216b79a/banner.png",
+    "initialRelease": "2026-05-03T18:42:26.0172692Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Airbase",
+        "artist": "Anamanaguchi",
+        "length": 161895,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Fast Turtle",
+        "artist": "Anamanaguchi",
+        "length": 220040,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Flora/Fauna",
+        "artist": "Anamanaguchi",
+        "length": 201400,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Helix Nebula",
+        "artist": "Anamanaguchi",
+        "length": 175800,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Power Supply",
+        "artist": "Anamanaguchi",
+        "length": 191320,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Sting Operation",
+        "artist": "Anamanaguchi",
+        "length": 161565,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Video Challenge",
+        "artist": "Anamanaguchi",
+        "length": 167720,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Stormy Blues",
+        "artist": "Arne Bang Huseby",
+        "length": 148106,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "I Was a Teenage Gary",
+        "artist": "Barely March",
+        "length": 350913,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "My Life, In Shambles",
+        "artist": "Barely March",
+        "length": 374058,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Surf Wax Antarctica",
+        "artist": "Barely March",
+        "length": 245493,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Carpeter",
+        "artist": "bartlebeats",
+        "length": 150086,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Putrid",
+        "artist": "Birds of Necama",
+        "length": 230000,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Reception",
+        "artist": "Birds of Necama",
+        "length": 268937,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Veil",
+        "artist": "Birds of Necama",
+        "length": 284250,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Living In Reverse",
+        "artist": "Broke For Free",
+        "length": 213000,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Drone Bump",
+        "artist": "Busdriver",
+        "length": 115667,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Chameleon",
+        "artist": "Cloudkicker",
+        "length": 235384,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Digital Lightning",
+        "artist": "Cloudkicker",
+        "length": 300338,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Tragedy",
+        "artist": "Counterparts",
+        "length": 215145,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Those Who Couldn\u0027t Hear the Music",
+        "artist": "Dee Zee",
+        "length": 283193,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "I\u0027m Against the Government",
+        "artist": "Defiance, Ohio",
+        "length": 157540,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Happy end",
+        "artist": "Distemper",
+        "length": 298327,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Hipster Cop",
+        "artist": "Fields Ohio",
+        "length": 238558,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Go Down in History",
+        "artist": "Four Year Strong",
+        "length": 220101,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "I\u0027m a Big, Bright, Burning Star",
+        "artist": "Four Year Strong",
+        "length": 219733,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "The Sound of Your Heart",
+        "artist": "Four Year Strong",
+        "length": 242236,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Asteroid Bloodmoon",
+        "artist": "Gigakoops",
+        "length": 231800,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Crustacean Creation",
+        "artist": "Gigakoops",
+        "length": 358315,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Tunnel of Hate",
+        "artist": "Gigakoops",
+        "length": 231800,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Mawasi",
+        "artist": "Glazz",
+        "length": 424045,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Volksing Ferretismico",
+        "artist": "Goto80 and the Uwe Schenk Band",
+        "length": 257510,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Awmane",
+        "artist": "Hostin x Steele (ft. Jakub Zytecki)",
+        "length": 295715,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "I Feel Fantastic",
+        "artist": "Jonathan Coulton",
+        "length": 186118,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Antlers",
+        "artist": "Kubbi",
+        "length": 222835,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Seahorse Dreams",
+        "artist": "Kubbi",
+        "length": 220480,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "13 Monsters",
+        "artist": "Lightning Bolt",
+        "length": 169564,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Dracula Mountain",
+        "artist": "Lightning Bolt",
+        "length": 310486,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Mirando Hacia Atr\u00E1s",
+        "artist": "Los Sundayers",
+        "length": 247369,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Positive Stress",
+        "artist": "Math The Band",
+        "length": 155122,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Titanic",
+        "artist": "Michael Chapman \u0026 The Woodpiles",
+        "length": 213931,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "66666666666666666666 66666666666666666666 66666666666666666666 66666666666666666666 66666666666666666666 66666666666666666666",
+        "artist": "Monplaisir",
+        "length": 206713,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "everybody who built the carpal tunnel went blind afterwards. (Unisexy Mix)",
+        "artist": "Negative \u00D8hio",
+        "length": 232715,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "I Must Count My Blessings (Because I Feel There\u2019s Been a Miscalculation)",
+        "artist": "Negative \u00D8hio",
+        "length": 247637,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "In This House of Worship, No One Leaves Hungry",
+        "artist": "Negative \u00D8hio",
+        "length": 232425,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Someone Was Wrong On the Internet, and I Need to Prove Them Right",
+        "artist": "Negative \u00D8hio",
+        "length": 181882,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "The BMI Bandit vs. The Yoga Warrior for Omnivore of the Year",
+        "artist": "Negative \u00D8hio",
+        "length": 272701,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Et siste farvel i kirkens hall",
+        "artist": "Nightmare Lyre",
+        "length": 308125,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Insomnia",
+        "artist": "Nightmare Lyre",
+        "length": 335400,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Intolerance",
+        "artist": "Nightmare Lyre",
+        "length": 383908,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Desert of Blackened Sands",
+        "artist": "Norrin_Radd",
+        "length": 231360,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Fear",
+        "artist": "Obsidian Shell",
+        "length": 304232,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "An Inverted World",
+        "artist": "Peculate",
+        "length": 203729,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "This Sick Beat\u2122",
+        "artist": "Peculate",
+        "length": 120330,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Don\u0027t Take It Out On Me",
+        "artist": "PEG \u0026 The Rejected",
+        "length": 210421,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "On Wire",
+        "artist": "Portrayal",
+        "length": 189973,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "The Apparate! Suite",
+        "artist": "Potter Puppet Pals",
+        "length": 398741,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Someone Else\u0027s Memories",
+        "artist": "Revolution Void",
+        "length": 226064,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Jump Da Fuck Up",
+        "artist": "Rusty Tea Makers",
+        "length": 258026,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "The Three Marks Of Existence",
+        "artist": "Senses Fail",
+        "length": 114666,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "We Are Returning Home",
+        "artist": "Senses Fail",
+        "length": 235000,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Mata\u0027m (S\u00F3c Pobre)",
+        "artist": "Serpent",
+        "length": 186999,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Acid Rain",
+        "artist": "Sound Stabs",
+        "length": 297029,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "The Forlorn",
+        "artist": "Starseed",
+        "length": 197292,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Agger",
+        "artist": "Stone From The Sky",
+        "length": 261827,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Requiem for a Fish",
+        "artist": "The Freak Fandango Orchestra",
+        "length": 224065,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Restless City",
+        "artist": "The Tunnel",
+        "length": 208516,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Say Goodbye",
+        "artist": "Vitne",
+        "length": 200210,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Landsdowne",
+        "artist": "WWIII",
+        "length": 76079,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Dont Fear Me",
+        "artist": "XTaKeRuX",
+        "length": 225666,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "6ca284b0-e73c-48cc-acb3-1a85f0bac1b4",
+      "tag": "cch_port-2026-05-03-0",
+      "release": "2026-05-03T18:42:26.0172692Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/cch_port-2026-05-03-0/cch_port-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
