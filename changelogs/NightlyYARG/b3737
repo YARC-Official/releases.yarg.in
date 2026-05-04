@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "4ff2aa7ed046bbd1ec676f67278c1b8d99463a3d",
+      "author": "Frickitickitavi",
+      "summary": "Drum highway configuration menu (#1351)",
+      "description": ""
+    },
+    {
+      "sha": "3126a414e5ea298dbafee0724a0e4f1a8461d3f5",
+      "author": "theli-ua",
+      "summary": "Fix vocal percussion orientation (#1475)",
+      "description": "* Fix vocal percussion orientation\n\n* Make percussion shards destroy nicer, simulate in local, not world"
+    },
+    {
+      "sha": "0bb84fa048951a775b46aeb798445b056b6ffaa4",
+      "author": "theli-ua",
+      "summary": "Fix venue texture flickering on camera cuts (#1477)",
+      "description": "It was recreating output textures every time a camera in the venue was enabled\nfor the first time."
+    },
+    {
+      "sha": "1e4fa64dfd5f7948ea30a8cb2ef7e95445a5a7ed",
+      "author": "theli-ua",
+      "summary": "Fix slow fps effect (#1479)",
+      "description": "while using actualfps makes sense for trails, for fps it does not\nas it becomes a feedback loop - lowering targetfps lowers actualfps\nwhich lowers targetfps which lowers actualfps which lowers target fps which... hopefully the pattern is clear here.\n\nInstead always target the intended 60/divisor capped to venue fps cap."
+    },
+    {
+      "sha": "99035f40affeb3bedfe4279f420973a85c4bcf6e",
+      "author": "github-actions[bot]",
+      "summary": "New Crowdin translations by GitHub Action (#1478)",
+      "description": "Co-authored-by: Crowdin Bot <support+bot@crowdin.com>"
+    }
+  ]
+}
