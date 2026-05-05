@@ -480,9 +480,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "7dc1fe8f-db72-4d15-80e6-51a1a9db6cf2",
-      "tag": "cch_port-2026-05-03-2",
-      "release": "2026-05-04T03:26:40.1857556Z",
+      "uuid": "0808d1ea-f0cb-4030-bfe5-5c3745eefb44",
+      "tag": "cch_port-2026-05-04-0",
+      "release": "2026-05-05T03:01:01.7702647Z",
       "content": [
         {
           "platforms": [
@@ -492,7 +492,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/cch_port-2026-05-03-2/cch_port-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/cch_port-2026-05-04-0/cch_port-0.7z",
               "fileType": "encrypted"
             }
           ]
