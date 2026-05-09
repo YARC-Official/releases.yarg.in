@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-05-03T18:42:26.0172692Z",
+  "lastUpdated": "2026-05-09T22:49:07.5590857Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -442,6 +442,17 @@
       "name": "Creative Commons Hero (port)",
       "iconUrl": "https://releases.yarg.in/profiles/46a398b7-1902-40f9-93b6-fe2f8216b79a/icon.png",
       "bannerUrl": "https://releases.yarg.in/profiles/46a398b7-1902-40f9-93b6-fe2f8216b79a/banner.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "8d4eb496-b678-4030-a41b-9908988891b8",
+      "type": "setlist",
+      "category": "yarn_setlist",
+      "url": "https://releases.yarg.in/profiles/8d4eb496-b678-4030-a41b-9908988891b8/",
+      "release": "2026-05-09T22:49:07.5590857Z",
+      "name": "YARN Pack 4",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     }
   ]

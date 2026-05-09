@@ -1,0 +1,149 @@
+{
+  "type": "setlist",
+  "uuid": "8d4eb496-b678-4030-a41b-9908988891b8",
+  "metadata": {
+    "name": "YARN Pack 4",
+    "description": "YARN is back with its fourth variety pack of community-submitted charts!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-05-09T22:49:07.5590857Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Face Me",
+        "artist": "Asilveras",
+        "length": 156000,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Legend",
+        "artist": "Aviations",
+        "length": 364227,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Why We Lose (feat. Coleman Trapp)",
+        "artist": "Cartoon, Coleman Trapp, J\u00E9ja",
+        "length": 215680,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Static (feat. Hatsune Miku)",
+        "artist": "FLAVOR FOLEY",
+        "length": 246195,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Classic J Dies and Goes to Hell Part 1",
+        "artist": "Glass Beach",
+        "length": 307071,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "14",
+        "artist": "HOME",
+        "length": 84247,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Local Forecast",
+        "artist": "Kevin MacLeod",
+        "length": 167805,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Rainfall",
+        "artist": "shadowflower64",
+        "length": 459012,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Kamikaze",
+        "artist": "The Royal They",
+        "length": 230146,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Shinburner",
+        "artist": "The Royal They",
+        "length": 110310,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "To Breath Is",
+        "artist": "Walter Ralts",
+        "length": 292000,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "4961dd21-4a0d-41b4-a0fc-646e53d7ce08",
+      "tag": "yarn_pack_4-2026-05-09-0",
+      "release": "2026-05-09T22:49:07.5590857Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_4-2026-05-09-0/yarn_pack_4-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
