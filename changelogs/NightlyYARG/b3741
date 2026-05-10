@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "68ab0d2e1df1627fcad7f68798ad43e9a27430a7",
+      "author": "wyrdough",
+      "summary": "Increase replay cache version",
+      "description": ""
+    },
+    {
+      "sha": "e2058bc8d07cad2a7ab6f507679cdefbd5f12765",
+      "author": "wyrdough",
+      "summary": "Mark replay players as such in ReplayStats",
+      "description": ""
+    }
+  ]
+}
