@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "1dba894211341932c5084890473643823841b4a0",
+      "author": "wyrdough",
+      "summary": "Core pointer update for 2x kick visual bug etc",
+      "description": ""
+    },
+    {
+      "sha": "6d436729b0f6dc379c40727a72b4da96596999f9",
+      "author": "Frickitickitavi",
+      "summary": "Visual fixes for configurable drum highways (#1484)",
+      "description": "* Fix split kick activation highlight\n\n* Fix shared fret pressed-state visuals\n\n* Whitespace fix"
+    }
+  ]
+}
