@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "8c42c3fbebc3a020c7f55d10969fc68f50ab24f2",
+      "author": "wyrdough",
+      "summary": "Set appropriate actions per animation cycle and frames to first hit when using default animations",
+      "description": ""
+    },
+    {
+      "sha": "835674809a1b3f2ec1007dc705917b348c80a999",
+      "author": "wyrdough",
+      "summary": "Actually use the correct version of the controller",
+      "description": ""
+    },
+    {
+      "sha": "908b838df17c3b1bd144098e06344601322e92a0",
+      "author": "wyrdough",
+      "summary": "Set bools for all generic character animation states",
+      "description": ""
+    },
+    {
+      "sha": "5c9d770e421262b24e3081e28d3f742de1f02764",
+      "author": "wyrdough",
+      "summary": "Add default vocals animation for custom vocalists",
+      "description": ""
+    }
+  ]
+}
