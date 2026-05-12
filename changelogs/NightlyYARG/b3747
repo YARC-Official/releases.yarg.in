@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "c4f4a8e676517778604952a1426003d48d8f4325",
+      "author": "wyrdough",
+      "summary": "Clear animation states when replacing custom character animations",
+      "description": ""
+    },
+    {
+      "sha": "a28dc15bae284c73129d394fb686247bbb4d275a",
+      "author": "wyrdough",
+      "summary": "Fix asset loading for custom character animation parameters",
+      "description": ""
+    }
+  ]
+}
