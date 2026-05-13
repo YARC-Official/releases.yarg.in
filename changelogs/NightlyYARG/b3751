@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "afedb8ccc8cf1450a65429a59dbdae5bf68a0379",
+      "author": "wyrdough",
+      "summary": "Add missing avatar mask for default vocals animation controller",
+      "description": ""
+    },
+    {
+      "sha": "ae4b9c90c4477840527f5ed22d7875bf2ccf3a7e",
+      "author": "wyrdough",
+      "summary": "..and the meta files",
+      "description": ""
+    },
+    {
+      "sha": "4f72c5d9cc45210ee98a98cb8a5369bd1e1b37f0",
+      "author": "wyrdough",
+      "summary": "It would help if the microphone actually existed...",
+      "description": ""
+    }
+  ]
+}
