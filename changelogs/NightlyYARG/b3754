@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "8dbccea0264cb718e87a8734e8d98663e8b76eaa",
+      "author": "polson",
+      "summary": "Update YARG.Core pointer for Support for reducing flashing lights (#374)",
+      "description": ""
+    },
+    {
+      "sha": "92c09ffd62732b0bef06a7131cca1015f473dd2f",
+      "author": "polson",
+      "summary": "Add toggle to reduce flashing lights in venues (#1402)",
+      "description": "* Implement reduce flashing lights toggle\n\n* Cleanup\n\n* More cleanup\n\n* Only filter duplicate camera cuts"
+    }
+  ]
+}
