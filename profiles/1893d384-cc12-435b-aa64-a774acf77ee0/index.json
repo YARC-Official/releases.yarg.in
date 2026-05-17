@@ -96,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "2cc6fea6-0a81-433d-b993-a0d1e5220b9a",
-      "tag": "classical_keys_1-2025-05-02-0",
-      "release": "2025-05-02T17:17:55.0407239Z",
+      "uuid": "b8eb83e1-21e8-42d2-a925-34ead07179ac",
+      "tag": "classical_keys_1-2026-05-17-0",
+      "release": "2026-05-17T15:50:23.7732206Z",
       "content": [
         {
           "platforms": [
@@ -108,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_1-2025-05-02-0/classical_keys_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_1-2026-05-17-0/classical_keys_1-0.7z",
               "fileType": "encrypted"
             }
           ]
