@@ -2,8 +2,8 @@
   "type": "setlist",
   "uuid": "ca41fee5-35de-442e-8e28-c246e19b36fc",
   "metadata": {
-    "name": "Children's Keys Pack 1",
-    "description": "If you have a budding pianist in your life (or if the classical songs are too hard for you), try this easy pack of classic children's songs and nursery rhymes. Learn real melodies on Pro Keys, or play five-lane versions of both the melody and harmony with the Keys and Bass parts.",
+    "name": "Children\u0027s Keys Pack 1",
+    "description": "If you have a budding pianist in your life (or if the classical songs are too hard for you), try this easy pack of classic children\u0027s songs and nursery rhymes. Learn real melodies on Pro Keys, or play five-lane versions of both the melody and harmony with the Keys and Bass parts.",
     "badge": "Official",
     "iconUrl": "@/icons/SetlistKeys.png",
     "bannerBackUrl": "@/banners/SetlistKeys.png",
@@ -20,37 +20,37 @@
         "title": "Rock-a-Bye Baby",
         "artist": "Effie I. Canning",
         "length": 23846,
-        "releaseDate": "2024-10-22T22:12:12.3324615-04:00"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Row, Row, Row Your Boat",
         "artist": "Eliphalet Oram Lyte",
         "length": 23551,
-        "releaseDate": "2024-10-22T22:12:12.3324615-04:00"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Twinkle, Twinkle, Little Star",
         "artist": "Jane Taylor",
         "length": 38400,
-        "releaseDate": "2024-10-22T22:12:12.3324615-04:00"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
-        "title": "Frère Jacques",
+        "title": "Fr\u00E8re Jacques",
         "artist": "Jean-Philippe Rameau",
         "length": 21500,
-        "releaseDate": "2024-10-22T22:12:12.3324615-04:00"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Happy Birthday to You",
         "artist": "Patty and Mildred J. Hill",
         "length": 19285,
-        "releaseDate": "2024-10-22T22:12:12.3324615-04:00"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       },
       {
         "title": "Mary Had a Little Lamb",
         "artist": "Sarah Josepha Hale",
         "length": 32727,
-        "releaseDate": "2024-10-22T22:12:12.3324615-04:00"
+        "releaseDate": "2024-10-22T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -96,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "9f64a1c9-291c-4014-8d59-aa7601434d32",
-      "tag": "childrens_keys_1-2024-10-22-0",
-      "release": "2024-10-23T02:02:51.396Z",
+      "uuid": "6ca44c4e-a050-490b-ad93-7bd240517fe0",
+      "tag": "childrens_keys_1-2026-05-17-0",
+      "release": "2026-05-17T15:56:06.8124762Z",
       "content": [
         {
           "platforms": [
@@ -108,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/childrens_keys_1-2024-10-22-0/childrens_keys_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/childrens_keys_1-2026-05-17-0/childrens_keys_1-0.7z",
               "fileType": "encrypted"
             }
           ]
