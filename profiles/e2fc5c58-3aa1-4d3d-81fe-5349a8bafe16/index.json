@@ -1,0 +1,125 @@
+{
+  "type": "setlist",
+  "uuid": "e2fc5c58-3aa1-4d3d-81fe-5349a8bafe16",
+  "metadata": {
+    "name": "YARN Request Pack 2",
+    "description": "YARN\u0027s second round of community-requested charts!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-05-17T15:23:34.6582023Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Luxury (feat. vally.exe)",
+        "artist": "Alohaii",
+        "length": 210000,
+        "releaseDate": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "title": "Years",
+        "artist": "Dex Arson",
+        "length": 315173,
+        "releaseDate": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "title": "Cadmium Colors (feat. Kasane Teto)",
+        "artist": "Jamie Paige",
+        "length": 276314,
+        "releaseDate": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "title": "LIKED U BETTER",
+        "artist": "Jeff Rosenstock",
+        "length": 171832,
+        "releaseDate": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "title": "Two Trucks",
+        "artist": "Lemon Demon",
+        "length": 248420,
+        "releaseDate": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "title": "First Star Tonight",
+        "artist": "Masked Intruder",
+        "length": 131962,
+        "releaseDate": "2026-05-17T00:00:00.000Z"
+      },
+      {
+        "title": "MINIMUM RAGE (feat. Kasane Teto)",
+        "artist": "MonochroMenace",
+        "length": 204395,
+        "releaseDate": "2026-05-17T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "af285419-d6b3-4d7b-8156-4ee28de37a62",
+      "tag": "yarn_request_2-2026-05-17-0",
+      "release": "2026-05-17T15:23:34.6582023Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_2-2026-05-17-0/yarn_request_2-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

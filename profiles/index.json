@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-05-09T22:49:07.5590857Z",
+  "lastUpdated": "2026-05-17T15:23:34.6582023Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -451,6 +451,17 @@
       "url": "https://releases.yarg.in/profiles/8d4eb496-b678-4030-a41b-9908988891b8/",
       "release": "2026-05-09T22:49:07.5590857Z",
       "name": "YARN Pack 4",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "e2fc5c58-3aa1-4d3d-81fe-5349a8bafe16",
+      "type": "setlist",
+      "category": "yarn_setlist",
+      "url": "https://releases.yarg.in/profiles/e2fc5c58-3aa1-4d3d-81fe-5349a8bafe16/",
+      "release": "2026-05-17T15:23:34.6582023Z",
+      "name": "YARN Request Pack 2",
       "iconUrl": "@/icons/SetlistNetwork.png",
       "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
