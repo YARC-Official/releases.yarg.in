@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "9b03c1c9a379600c549a91abc8c92f8591cb6090",
+      "author": "Frickitickitavi",
+      "summary": "Fix 5L drums gem scaling (#1487)",
+      "description": "* Fix 5L drums gem scaling\n\n* I guess it can be private, actually"
+    },
+    {
+      "sha": "3183c2a7260c42e39765d1b9c4f144665bb3700b",
+      "author": "Supersonicboss1",
+      "summary": "Move translation string for playlists in the filters menu to the correct heading (#1489)",
+      "description": ""
+    }
+  ]
+}
