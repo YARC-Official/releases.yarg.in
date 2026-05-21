@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "f681c1018be5d8c7dfe32fc95109e021ec99800d",
+      "author": "polson",
+      "summary": "Fix linux mic issues by trying common sample rates for mic devices (#1492)",
+      "description": "* Fix mic issues by trying common sample rates for mic devices\n\n* Cleanup"
+    }
+  ]
+}
