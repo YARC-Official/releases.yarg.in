@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "91fc19fdeece8b90e9ab077d666f8960ac9875cd",
+      "author": "Phil Olson",
+      "summary": "Fix mic input after #1492 broke stuff",
+      "description": ""
+    },
+    {
+      "sha": "9b0f89b4d1c828a0ea4c49c34091cd126f1cb6e1",
+      "author": "polson",
+      "summary": "Fix crackly audio on Linux (#1493)",
+      "description": "Co-authored-by: Phil Olson <polson@github.com>"
+    }
+  ]
+}
