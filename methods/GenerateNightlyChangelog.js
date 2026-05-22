@@ -24,7 +24,7 @@ const formattedCommits = commits.map(commit => {
 
     return {
         sha: commit.oid,
-        author: commit.author.user.login,
+        author: commit.author?.user?.login ?? commit.author?.name ?? null,
         summary,
         description,
     }

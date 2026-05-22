@@ -1,8 +1,8 @@
 import { graphql } from "@octokit/graphql";
 
 /**
- * @param {string} query 
- * @param {Object} variables 
+ * @param {string} query
+ * @param {Object} variables
  */
 export async function GithubGraphQL(query, variables) {
     const data = await graphql(query, {
@@ -16,8 +16,8 @@ export async function GithubGraphQL(query, variables) {
 }
 
 /**
- * @param {string} repositoryAuthor 
- * @param {string} repositoryName 
+ * @param {string} repositoryAuthor
+ * @param {string} repositoryName
  * @param {number} [quantity] - How many releases will be returned.
  */
 export async function GetSortedReleases(repositoryAuthor, repositoryName, quantity = 100) {
@@ -31,7 +31,7 @@ export async function GetSortedReleases(repositoryAuthor, repositoryName, quanti
                 }
                 }
             }
-        }    
+        }
     `, {
         owner: repositoryAuthor,
         repo: repositoryName,
@@ -42,13 +42,13 @@ export async function GetSortedReleases(repositoryAuthor, repositoryName, quanti
 }
 
 /**
- * 
- * @param {string} repositoryAuthor 
- * @param {string} repositoryName 
- * @param {string} branch 
- * @param {string} since 
- * @param {string} [until] 
- * @returns 
+ *
+ * @param {string} repositoryAuthor
+ * @param {string} repositoryName
+ * @param {string} branch
+ * @param {string} since
+ * @param {string} [until]
+ * @returns
  */
 export async function GetCommits(repositoryAuthor, repositoryName, branch, since, until) {
     const data = await GithubGraphQL(`
@@ -61,6 +61,7 @@ export async function GetCommits(repositoryAuthor, repositoryName, branch, since
                     nodes {
                         oid,
                         author {
+                            name,
                             user {
                                 login
                             }
