@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "218705ff8e5e9a2cf00672c0badfbcc436923b4a",
+      "author": "polson",
+      "summary": "Fix vocals scaling  (#1494)",
+      "description": "* Fix vocals scaling\n\n* Fix vocals track fade by using UV instead of screen position\n\n* Add back in comments\n\n---------\n\nCo-authored-by: polson <polson@users.noreply.github.com>"
+    }
+  ]
+}
