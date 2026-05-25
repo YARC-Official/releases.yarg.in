@@ -120,9 +120,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "5c1c0bfb-4e71-4407-aadd-8956253c51ac",
-      "tag": "summertide-2025-05-31-0",
-      "release": "2025-05-31T17:56:54.4347973Z",
+      "uuid": "44095a29-4423-4bd1-8ff3-2dac71000563",
+      "tag": "summertide-2026-05-25-0",
+      "release": "2026-05-25T15:23:32.3513226Z",
       "content": [
         {
           "platforms": [
@@ -132,7 +132,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/summertide-2025-05-31-0/summertide-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/summertide-2026-05-25-0/summertide-0.7z",
               "fileType": "encrypted"
             }
           ]
