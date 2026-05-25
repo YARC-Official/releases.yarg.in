@@ -108,9 +108,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "d0897dce-fefd-485e-a653-dadf0b60f1bb",
-      "tag": "the_slip-2025-07-25-0",
-      "release": "2025-07-25T16:19:46.1761723Z",
+      "uuid": "918e8431-6756-4f88-a62e-b40103ba986c",
+      "tag": "the_slip-2026-05-25-0",
+      "release": "2026-05-25T15:19:58.6629704Z",
       "content": [
         {
           "platforms": [
@@ -120,7 +120,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/the_slip-2025-07-25-0/the_slip-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/the_slip-2026-05-25-0/the_slip-0.7z",
               "fileType": "encrypted"
             }
           ]
