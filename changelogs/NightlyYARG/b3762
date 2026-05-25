@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "17053724644f5d5b3e8df473808d285daba6997d",
+      "author": "jstnlef",
+      "summary": "Fix vocal percussion song state (#1495)",
+      "description": "* step one is to make sure it's hidden on start\n\n* explicitly set the _fretShowCoroutine to null after it was stopped\n\n* hide on last phrase\n\n* show the percussion immediately if the first phrase is percussion\n\n* small code cleanup refactor\n\n* Ensure percussion track shows up properly in practice mode\n\n* more refactoring\n\n* avoid linq in a hot path\n\n* Clean up the ugly while loop ternary"
+    }
+  ]
+}
