@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "6c92c4365becb5f1e5f7820590ae169176cefd6f",
+      "author": "polson",
+      "summary": "Core pointer update for Fix practice static vocals (#1497)",
+      "description": ""
+    },
+    {
+      "sha": "fdf75fadfbe7740ac29a2c1c4598d22cf812510b",
+      "author": "jstnlef",
+      "summary": "Fix practice static vocals (#1497)",
+      "description": "* fix mutating filtering logic around vocal parts\n\n* pull out a helper method\n\n* Allow the vocalsTrack to return a trimmed clone"
+    }
+  ]
+}
