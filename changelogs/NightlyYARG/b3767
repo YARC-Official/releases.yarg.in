@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "322e95e8a5787f1d9413303161eff7820b01bada",
+      "author": "wyrdough",
+      "summary": "Core pointer update for lane rework",
+      "description": ""
+    },
+    {
+      "sha": "e11936e6b8aff6177e96219a8442fbe85ed268cd",
+      "author": "Frickitickitavi",
+      "summary": "Add menu support for new lane promixity protection engine param (#1491)",
+      "description": ""
+    }
+  ]
+}
