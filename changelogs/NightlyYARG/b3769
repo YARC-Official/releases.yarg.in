@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "9bfa227e81e5069f5a81d61db28e1d5fbed2fd2b",
+      "author": "wyrdough",
+      "summary": "Core parsing and lane fixes",
+      "description": ""
+    },
+    {
+      "sha": "95407320f51cb02127768521f48529d2ae159486",
+      "author": "trainlos",
+      "summary": "Fix preview not playing when returning from filters or main menu (#1499)",
+      "description": ""
+    }
+  ]
+}
