@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "52b5fd7b33b9f014aa72b66675c7bc0d5fc0d998",
+      "author": "theli-ua",
+      "summary": "Prevent rendering under two-lane vocal track (#1504)",
+      "description": "Fixes https://discord.com/channels/1086048856678084609/1511027418977013831"
+    }
+  ]
+}
