@@ -1,0 +1,101 @@
+{
+  "type": "setlist",
+  "uuid": "4b9b5a88-3b8b-4095-b243-e28a614c2235",
+  "metadata": {
+    "name": "Whiteweek 01",
+    "description": "Three of the hardest songs available for YARG, all by indie cybergrind artist Whiteweek!",
+    "iconUrl": "@/icons/SetlistDLC.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-06-06T00:45:01.3160765Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "FUTURESIGHT (w/ FinMint)",
+        "artist": "Whiteweek",
+        "length": 101073,
+        "releaseDate": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "title": "Peak Distraction Mechanics",
+        "artist": "Whiteweek",
+        "length": 219526,
+        "releaseDate": "2026-06-05T00:00:00.000Z"
+      },
+      {
+        "title": "Powerwash Annihilation!! (w/ pa_l4ch)",
+        "artist": "Whiteweek",
+        "length": 147272,
+        "releaseDate": "2026-06-05T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "Official"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "92454a30-27e4-46a8-995b-fd71d03ddb65",
+      "tag": "whiteweek_1-2026-06-05-0",
+      "release": "2026-06-06T00:45:01.3160765Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/whiteweek_1-2026-06-05-0/whiteweek_1-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

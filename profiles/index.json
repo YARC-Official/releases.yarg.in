@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-05-17T15:23:34.6582023Z",
+  "lastUpdated": "2026-06-06T00:45:01.3160765Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -463,6 +463,17 @@
       "release": "2026-05-17T15:23:34.6582023Z",
       "name": "YARN Request Pack 2",
       "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "4b9b5a88-3b8b-4095-b243-e28a614c2235",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/4b9b5a88-3b8b-4095-b243-e28a614c2235/",
+      "release": "2026-06-06T00:45:01.3160765Z",
+      "name": "Whiteweek 01",
+      "iconUrl": "@/icons/SetlistDLC.png",
       "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     }
