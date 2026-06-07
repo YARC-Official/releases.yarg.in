@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "dc7c150a0cf850a209aeb9f1a9cae06f2fac102f",
+      "author": "Frickitickitavi",
+      "summary": "Fix 3-note trill rendering, remove open lane start visual offset (#1505)",
+      "description": "* Fix 3-note trill rendering\n\n* Universal 0.01 lane start offset\n\n* Use offset value for zLength\n\n* Remove universal start time offset"
+    },
+    {
+      "sha": "7f41b2f14523b8854ed2275506a96fd0a7b786ea",
+      "author": "wyrdough",
+      "summary": "Update core pointer for practice mode vocals phrase fix and lane parsing rework",
+      "description": ""
+    },
+    {
+      "sha": "aa53bf1a88db88d632c038447b829904c6118c75",
+      "author": "jstnlef",
+      "summary": "Fix vocals practice lead in (#1502)",
+      "description": "* Fixes to showing countdowns in vocals for practice section\n\n* For certain harmonix charted songs, the phrase start occurs BEFORE the section\n\nHowever, all the notes of the phrase are contained in the section. Let's include them"
+    }
+  ]
+}
