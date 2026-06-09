@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "99bc540f831b49988a260ba4fcbedc7923f6de85",
+      "author": "wyrdough",
+      "summary": "Replace no vocal percussion modifier icon",
+      "description": ""
+    },
+    {
+      "sha": "7d89f13cdb452e1be7e42f689350faca1718562d",
+      "author": "wyrdough",
+      "summary": "Don't cover the track with the BRE box after a Big YARG Middle",
+      "description": ""
+    },
+    {
+      "sha": "ea5b19a0ac0480ffc8b5e7515b6e551ee2a2d3e8",
+      "author": "wyrdough",
+      "summary": "Fix failure to load chart when using coda_end event",
+      "description": ""
+    }
+  ]
+}
