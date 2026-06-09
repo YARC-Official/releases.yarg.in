@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "0f0499a9cbcacffe2041cf4e2f99171b28ab7bef",
+      "author": "jstnlef",
+      "summary": "make sure the held inputs list is cleared on enabled/disabled (#1510)",
+      "description": ""
+    },
+    {
+      "sha": "926669d899d3c1e1032935736e5c66713477f41c",
+      "author": "Supersonicboss1",
+      "summary": "Load default album texture in venue if none (#1508)",
+      "description": ""
+    },
+    {
+      "sha": "df7136f00bf8e4bc49019cc1836fc9d4d087276d",
+      "author": "wyrdough",
+      "summary": "Core pointer update for beginner extended sustain fix and 5LK engine exception (@Frickitickitavi)",
+      "description": ""
+    },
+    {
+      "sha": "b8b8f051ec11139f5b5cabab8096eb919222e2fa",
+      "author": "Supersonicboss1",
+      "summary": "Fix lyric bar visual behaviour on rewind (#1506)",
+      "description": "* Fix lyric bar visual behaviour on rewind\n\n* Allow rewinding between phrases"
+    },
+    {
+      "sha": "c050d5e555e30563485549bd1b1791d3ebabe2c6",
+      "author": "Frickitickitavi",
+      "summary": "Create default KB bindings for 5LK (#1507)",
+      "description": ""
+    }
+  ]
+}
