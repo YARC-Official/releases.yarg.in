@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "cf5c3cf60b3c1fce2d88ee3594e80f34f0a12bbf",
+      "author": "wyrdough",
+      "summary": "Add venue character debug stats to debug menu",
+      "description": ""
+    }
+  ]
+}
