@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "0b6da16dfb4f50ba9280659d9bbeb363a24d5ec0",
+      "author": "polson",
+      "summary": "Fix annoying discord error on startup (#1513)",
+      "description": ""
+    },
+    {
+      "sha": "80d61f8dab0823ac99df11994cebd72cbc8f39b6",
+      "author": "polson",
+      "summary": "Fix issues where mic would disappear from devices list (#1512)",
+      "description": ""
+    }
+  ]
+}
