@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "08f39ba4e4e2ae37ebeb5594f221a1ed99a8bae2",
+      "author": "Supersonicboss1",
+      "summary": "Hide missed notes on rewind (#1509)",
+      "description": "* Hide missed notes on rewind\n\n* Use NoteRef instead of defining _wasMissed"
+    }
+  ]
+}
