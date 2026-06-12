@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "a243b47d62cdbab83bad62874187592f21afd47c",
+      "author": "polson",
+      "summary": "YARG.Core pointer update for Remove unused audio buffer toggle support (#385)",
+      "description": ""
+    },
+    {
+      "sha": "9f02eb6eaa126a4139722108a1858e0508dcb2aa",
+      "author": "polson",
+      "summary": "Fix audio buffer toggle not applying (#1498)",
+      "description": ""
+    }
+  ]
+}
