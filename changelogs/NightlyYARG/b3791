@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "04cbfb46e63c30603a95e77ab07c2ed8a8a5c409",
+      "author": "wyrdough",
+      "summary": "Core pointer update for SP ready event",
+      "description": ""
+    },
+    {
+      "sha": "d6638682b9dc47878d03594f5da3db94d3629430",
+      "author": "Supersonicboss1",
+      "summary": "\"Add\" SP gain SFX (#1511)",
+      "description": "* Use SP gain SFX and make SP notification use OnStarPowerGain\n\n* Replace SFX with louder version (and .opus)\n\n* Rename OnStarPowerGain to OnStarPowerReady\n\n* Actually rename the methods"
+    },
+    {
+      "sha": "77210397bcf0cde5deaa962b4c5ec19ae38d4bad",
+      "author": "wyrdough",
+      "summary": "Kinda fix venue animations not playing as expected",
+      "description": "- Always call CrossFadeInFixedTime in additon to setting the appropriate trigger\n- Additionally, fixed editor venue loading"
+    }
+  ]
+}
