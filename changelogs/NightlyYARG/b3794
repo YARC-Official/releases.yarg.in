@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "d42e5e533f18e4e4040e922842e2d78ebe75f8f9",
+      "author": "wyrdough",
+      "summary": "Fix coda issues I just created",
+      "description": ""
+    },
+    {
+      "sha": "c18e4c9fa9d3e0cace09edca78032738129673ba",
+      "author": "wyrdough",
+      "summary": "Update core pointer for lane parsing fix and mid-song coda rename",
+      "description": ""
+    },
+    {
+      "sha": "a4add240db7e86d74c2a2e7ad9553570690c6dba",
+      "author": "jstnlef",
+      "summary": "Use a single PlayerScoreRecord to display best score/percentage/stars in music library (#1518)",
+      "description": "* default to using the highest percentage score\n\n* refactor the shared GetStarAmount logic\n\n* Have 4 different settings for high score history\n\n* remove the Jetbrains annotations"
+    }
+  ]
+}
