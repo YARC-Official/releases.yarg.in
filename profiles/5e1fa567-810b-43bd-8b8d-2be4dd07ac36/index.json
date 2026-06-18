@@ -1,0 +1,107 @@
+{
+  "type": "setlist",
+  "uuid": "5e1fa567-810b-43bd-8b8d-2be4dd07ac36",
+  "metadata": {
+    "name": "Pronoun Palace 01",
+    "description": "Play through a selection of tracks from the OST of 2026 wordsmithing game Pronoun Palace! Charted by Hubbubble and Equinox in honor of Pride Month.",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/5e1fa567-810b-43bd-8b8d-2be4dd07ac36/banner.png",
+    "initialRelease": "2026-06-18T23:49:48.0578243Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Author",
+        "artist": "RENREN",
+        "length": 120821,
+        "releaseDate": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Body Paragraph",
+        "artist": "RENREN",
+        "length": 124948,
+        "releaseDate": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "MX",
+        "artist": "RENREN",
+        "length": 330000,
+        "releaseDate": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Typeface",
+        "artist": "RENREN",
+        "length": 180000,
+        "releaseDate": "2026-06-18T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "415b9d9c-9041-477c-8f90-33343f81fe37",
+      "tag": "yarn_pronoun_palace_1-2026-06-18-0",
+      "release": "2026-06-18T23:49:48.0578243Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pronoun_palace_1-2026-06-18-0/yarn_pronoun_palace_1-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

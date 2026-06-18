@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-06-17T21:49:50.5123015Z",
+  "lastUpdated": "2026-06-18T23:49:48.0578243Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -486,6 +486,17 @@
       "name": "Luge 01",
       "iconUrl": "@/icons/SetlistNetwork.png",
       "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "5e1fa567-810b-43bd-8b8d-2be4dd07ac36",
+      "type": "setlist",
+      "category": "yarn_setlist",
+      "url": "https://releases.yarg.in/profiles/5e1fa567-810b-43bd-8b8d-2be4dd07ac36/",
+      "release": "2026-06-18T23:49:48.0578243Z",
+      "name": "Pronoun Palace 01",
+      "iconUrl": "@/icons/SetlistNetwork.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/5e1fa567-810b-43bd-8b8d-2be4dd07ac36/banner.png",
       "localeOverrides": {}
     }
   ]
