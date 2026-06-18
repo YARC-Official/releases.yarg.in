@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "5a51b7fb7aef94beec821928af12ce27df28bf98",
+      "author": "4dispel",
+      "summary": "move starpower wings into starpower bar (#1520)",
+      "description": ""
+    }
+  ]
+}
