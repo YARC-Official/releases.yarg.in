@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "7d8f9bbe3e3f4bd6929452291aa7fded295df100",
+      "author": "wyrdough",
+      "summary": "Update YARG.Core pointer for XaiaX's BRE fixes",
+      "description": ""
+    },
+    {
+      "sha": "332a86d782d701133744230300311e48efe3b153",
+      "author": "trainlos",
+      "summary": "Add \"As Made Famous By\" and \"Covered By\" to song info (#1407)",
+      "description": ""
+    },
+    {
+      "sha": "e6964c12db70bcb07251a69e814e237e30aba021",
+      "author": "polson",
+      "summary": "Core pointer update - Support for normalizing sample channels with volume multiplier (#403)",
+      "description": ""
+    },
+    {
+      "sha": "142d09e6bb5284c98e92411dca734ed44b34e77d",
+      "author": "polson",
+      "summary": "Reduce sample channel volume when normalization is enabled (#1521)",
+      "description": ""
+    }
+  ]
+}
