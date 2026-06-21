@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "9ca5fc433fdd55a23861ae35e03ef957c2627739",
+      "author": "wyrdough",
+      "summary": "Song info tweaks",
+      "description": "- Change \"Charter:\" to \"Charted by:\" and only show if charter is defined.\n- Reset alpha tag after color tag closes in song info text"
+    },
+    {
+      "sha": "81cd4f21bb71d49141585439d9f54d127e48febb",
+      "author": "github-actions[bot]",
+      "summary": "Translation Updates (#1485)",
+      "description": "* Increase version number to v0.13.1 for security update\n\n* New Crowdin translations by GitHub Action\n\n---------\n\nCo-authored-by: wyrdough <nathan@nwacg.net>\nCo-authored-by: Crowdin Bot <support+bot@crowdin.com>"
+    },
+    {
+      "sha": "03c729568106b4cbc9675f4c24f36f68ccb372ed",
+      "author": "wyrdough",
+      "summary": "Core pointer update for coda end fix",
+      "description": ""
+    }
+  ]
+}
