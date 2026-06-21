@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "cf5f8250fcab982dd6849c56b4b2df3835decd23",
+      "author": "wyrdough",
+      "summary": "Always use current replay version number when writing replay cache (or any other replay)",
+      "description": ""
+    },
+    {
+      "sha": "006fb4314a91ac0eb6f97256626148af04bf48c9",
+      "author": "poliwhirlge",
+      "summary": "Fix alignment of text in genre box if subgenre is empty (#1523)",
+      "description": "* Use genreSpacer in prefab for spacing between the genre and subgenre fields so it could be turned off if needed to fix alignment.\n\n* Forgot to re-enable the filters menu"
+    },
+    {
+      "sha": "c6da253662584bf6f4a1aca6c3923f9b2b61c437",
+      "author": "daviditsygin",
+      "summary": "Add 'Mute On Focus Loss' setting (#1522)",
+      "description": ""
+    }
+  ]
+}
