@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "076f857fb26180fa09ce9f40ef09863471191a7c",
+      "author": "wyrdough",
+      "summary": "Don't display advanced stats for vocals",
+      "description": ""
+    },
+    {
+      "sha": "86d7a315c6fb1dc0591dd22a7149c9d9e3a3f8b4",
+      "author": "wyrdough",
+      "summary": "Add background visual media by credit",
+      "description": ""
+    }
+  ]
+}
