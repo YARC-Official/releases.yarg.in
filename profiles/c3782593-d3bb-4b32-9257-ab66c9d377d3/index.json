@@ -1,0 +1,50 @@
+{
+    "type": "venue",
+    "uuid": "c3782593-d3bb-4b32-9257-ab66c9d377d3",
+    "metadata": {
+        "name": "Radial Glow",
+        "description": "An Audio Visualizer using the current song's album art, background, and lighting. Made from scratch by MrRedSlime.",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/VisualizerBanner.png",
+        "initialRelease": "2026-06-23T00:06:55.415806+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "MrRedSlime",
+        "venueType": "AudioReactive",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/c3782593-d3bb-4b32-9257-ab66c9d377d3/RadialGlow1.jpg",
+                "caption": "Radial Glow Video Background"
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/c3782593-d3bb-4b32-9257-ab66c9d377d3/RadialGlow2.jpg",
+                "caption": "Radial Glow Album Art"
+            }
+        ],
+        "credits": []
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "7f4e699a-852c-4a7f-9f58-437cf1007f59",
+            "tag": "Radial_Glow-2026-06-23-0",
+            "release": "2026-06-23T00:06:55.415806+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Radial_Glow-2026-06-23-0/Radial_Glow-2026-06-23-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
