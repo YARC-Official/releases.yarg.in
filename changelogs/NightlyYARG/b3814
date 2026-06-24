@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "e63509ab46e38193f5231fd70f032dafec713ebb",
+      "author": "wyrdough",
+      "summary": "Update version number and message of the day",
+      "description": ""
+    },
+    {
+      "sha": "d1944cb13d468ff339fba98891568eff6bf9370f",
+      "author": "wyrdough",
+      "summary": "Merge branch 'master' into dev",
+      "description": ""
+    },
+    {
+      "sha": "08765ab3388ea5dbb99ce66e3318645f034e077c",
+      "author": "wyrdough",
+      "summary": "Don't display beginner vocals hit window/percent settings in preset editor",
+      "description": ""
+    }
+  ]
+}
