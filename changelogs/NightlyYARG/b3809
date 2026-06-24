@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "ad2dc0716588f290f65b8633f4924f68a628fd88",
+      "author": "wyrdough",
+      "summary": "Add default bindings for CRKD Guitar Mode 1 firmware 3.0+",
+      "description": ""
+    }
+  ]
+}
