@@ -27,9 +27,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "7f4e699a-852c-4a7f-9f58-437cf1007f59",
-            "tag": "Radial_Glow-2026-06-23-0",
-            "release": "2026-06-23T00:06:55.415806+00:00",
+            "uuid": "4ff620ee-b8e9-4299-a7c7-4e7cc0e8c0cd",
+            "tag": "Radial_Glow-2026-06-24-0",
+            "release": "2026-06-24T03:48:43.619346+00:00",
             "content": [
                 {
                     "platforms": [
@@ -39,7 +39,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Radial_Glow-2026-06-23-0/Radial_Glow-2026-06-23-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Radial_Glow-2026-06-24-0/Radial_Glow-2026-06-24-0.7z",
                             "fileType": "7z"
                         }
                     ]
