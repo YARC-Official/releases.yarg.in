@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "0d83fdfa94606ca10ed69379cf40650f232a8cb7",
+      "author": "wyrdough",
+      "summary": "Remove spurious redeclaration of LaneCount in DrumsPlayer",
+      "description": ""
+    },
+    {
+      "sha": "aaaa0915a9f973c8c024b22ba21c6f5ecec40b37",
+      "author": "wyrdough",
+      "summary": "Strikeline sustain animations for open and wildcard",
+      "description": ""
+    }
+  ]
+}
