@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d611f24706064f9858b22c2054b5f73477ed6326",
+      "author": "Dansla116",
+      "summary": "Fix logic for showing \"Collapse All\" and \"Expand All\" in popup menu (#1533)",
+      "description": ""
+    }
+  ]
+}
