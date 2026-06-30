@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "d46d952c4ce18ff3892e93c70d124563626d5567",
+      "author": "wyrdough",
+      "summary": "Behave correctly when user selects a sort for which they have no songs",
+      "description": ""
+    },
+    {
+      "sha": "8979867a699fd1b8098d8eeb4bd51399644cc8bb",
+      "author": "wyrdough",
+      "summary": "When dialog is open, wait to push navigation scheme until it is closed",
+      "description": ""
+    }
+  ]
+}
