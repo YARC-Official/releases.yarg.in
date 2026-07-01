@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "e92f683e429a14dc512b4f431caac98d33d0aaa3",
+      "author": "wyrdough",
+      "summary": "update localization cache every 30(ish) minutes",
+      "description": ""
+    },
+    {
+      "sha": "e48ca05914fd4b4e3cf97a053a1f119c7c0df8e6",
+      "author": "Supersonicboss1",
+      "summary": "Add localization support to the pause menu (#1528)",
+      "description": ""
+    },
+    {
+      "sha": "26da09acc686cbc171865391a80b89326404fe82",
+      "author": "wyrdough",
+      "summary": "Make LocalizeText components update their strings on localization update.",
+      "description": ""
+    }
+  ]
+}
