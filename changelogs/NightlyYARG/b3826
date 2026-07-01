@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "59fa674f5e95abc229c58f431a7f1986ac56a424",
+      "author": "wyrdough",
+      "summary": "Fetch updated MOTD on launch",
+      "description": ""
+    },
+    {
+      "sha": "d6aa97de42e5580da5512bed37386b720e131cf0",
+      "author": "N0Y0U2114",
+      "summary": "Reduced minimum highway length (#1526)",
+      "description": "This change reduced the minimum clamp in the ChangeHighwayLength function in order to better allow for a \"flat\" playfield. This is a bandaid solution to the larger issue of how Yarg handles steep playfield angles."
+    },
+    {
+      "sha": "17916a4c18079ad95ebf0a6c6c158082af6b3032",
+      "author": "Dansla116",
+      "summary": "Sort playlists by sort string instead of raw string and change \"Sort By\" text in popup menu (#1534)",
+      "description": ""
+    }
+  ]
+}
