@@ -28,9 +28,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "50751144-1b1a-41d2-9c43-2a7ed12d9c7c",
-            "tag": "Basic_Audio_Visualizer-2025-09-15-0",
-            "release": "2025-09-15T01:37:08.046810+00:00",
+            "uuid": "be351e5c-6486-48d0-8363-fb04413ec678",
+            "tag": "Basic_Audio_Visualizer-2026-07-02-0",
+            "release": "2026-07-02T01:41:03.632438+00:00",
             "content": [
                 {
                     "platforms": [
@@ -40,7 +40,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Basic_Audio_Visualizer-2025-09-15-0/Basic_Audio_Visualizer-2025-09-15-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Basic_Audio_Visualizer-2026-07-02-0/Basic_Audio_Visualizer-2026-07-02-0.7z",
                             "fileType": "7z"
                         }
                     ]
