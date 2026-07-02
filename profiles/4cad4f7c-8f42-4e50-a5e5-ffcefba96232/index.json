@@ -1,0 +1,54 @@
+{
+    "type": "venue",
+    "uuid": "4cad4f7c-8f42-4e50-a5e5-ffcefba96232",
+    "metadata": {
+        "name": "Church Rave",
+        "description": "Axel returns with a new showcase venue, this time in a church!",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/StageBanner.png",
+        "initialRelease": "2026-07-02T13:20:17.285717+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "Axel",
+        "venueType": "ThreeDWithCharacters",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/4cad4f7c-8f42-4e50-a5e5-ffcefba96232/AXL_Church1.jpg",
+                "caption": ""
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/4cad4f7c-8f42-4e50-a5e5-ffcefba96232/AXL_Church2.jpg",
+                "caption": ""
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/4cad4f7c-8f42-4e50-a5e5-ffcefba96232/AXL_Church3.jpg",
+                "caption": ""
+            }
+	],
+        "credits": []
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "fc0a52a5-0c7a-4d28-b8f1-253b54e839b1",
+            "tag": "Church_Rave-2026-07-02-0",
+            "release": "2026-07-02T13:20:17.285717+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Church_Rave-2026-07-02-0/Church_Rave-2026-07-02-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

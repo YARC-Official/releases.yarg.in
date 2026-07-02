@@ -9,7 +9,7 @@
         "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
         "localeOverrides": {}
     },
-    "lastUpdated": "2026-07-02T01:41:11.785762+00:00",
+    "lastUpdated": "2026-07-02T13:21:01.097634+00:00",
     "profiles": [
         {
             "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -509,6 +509,30 @@
             "subText": "",
             "iconUrl": "@/icons/Venue.png",
             "bannerUrl": "@/banners/VisualizerBanner.png",
+            "localeOverrides": {}
+        },
+        {
+            "uuid": "4cad4f7c-8f42-4e50-a5e5-ffcefba96232",
+            "type": "venue",
+            "category": "ThreeDWithCharacters",
+            "url": "https://releases.yarg.in/profiles/4cad4f7c-8f42-4e50-a5e5-ffcefba96232/",
+            "release": "2026-07-02T13:20:42.136047+00:00",
+            "name": "Church Rave",
+            "subText": "",
+            "iconUrl": "@/icons/Venue.png",
+            "bannerUrl": "@/banners/StageBanner.png",
+            "localeOverrides": {}
+        },
+        {
+            "uuid": "af4cf02a-1e1f-4768-a57b-9907613594c4",
+            "type": "venue",
+            "category": "ThreeDWithCharacters",
+            "url": "https://releases.yarg.in/profiles/af4cf02a-1e1f-4768-a57b-9907613594c4/",
+            "release": "2026-07-02T13:21:01.097634+00:00",
+            "name": "Tunnel Trip",
+            "subText": "",
+            "iconUrl": "@/icons/Venue.png",
+            "bannerUrl": "@/banners/StageBanner.png",
             "localeOverrides": {}
         }
     ]

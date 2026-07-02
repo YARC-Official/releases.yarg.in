@@ -1,0 +1,54 @@
+{
+    "type": "venue",
+    "uuid": "af4cf02a-1e1f-4768-a57b-9907613594c4",
+    "metadata": {
+        "name": "Tunnel Trip",
+        "description": "Originally a test venue, we were going to keep this one to ourselves, but it's just too cool!",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/StageBanner.png",
+        "initialRelease": "2026-07-02T13:20:42.136550+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "Axel",
+        "venueType": "ThreeDWithCharacters",
+        "links": {},
+                "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/af4cf02a-1e1f-4768-a57b-9907613594c4/AXL_TunnelTrip1.jpg",
+                "caption": ""
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/af4cf02a-1e1f-4768-a57b-9907613594c4/AXL_TunnelTrip2.jpg",
+                "caption": ""
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/af4cf02a-1e1f-4768-a57b-9907613594c4/AXL_TunnelTrip3.jpg",
+                "caption": ""
+            }
+	],
+        "credits": []
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "488dfee9-371a-4a8d-9613-c43663bd9155",
+            "tag": "Tunnel_Trip-2026-07-02-0",
+            "release": "2026-07-02T13:20:42.136550+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Tunnel_Trip-2026-07-02-0/Tunnel_Trip-2026-07-02-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
