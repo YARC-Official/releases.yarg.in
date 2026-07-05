@@ -1,0 +1,119 @@
+{
+  "type": "setlist",
+  "uuid": "527cfedc-d9fa-4317-90ce-f96adfe58a9d",
+  "metadata": {
+    "name": "YARN Request Pack 3",
+    "description": "YARN\u0027s third round of community-requested charts!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-07-05T16:09:39.7524171Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Denying the Spotlight",
+        "artist": "Barnum",
+        "length": 274873,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "Dance with Silence",
+        "artist": "Camellia",
+        "length": 289566,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "Dance Delightful (feat. Adachi Rei)",
+        "artist": "Jamie Paige",
+        "length": 259764,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "No Cock Like Horse Cock",
+        "artist": "Pepper Coyote",
+        "length": 137458,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "Outer Heaven Dude Ranch",
+        "artist": "Pretty Bitter",
+        "length": 241000,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "Streetlight by Streetlight",
+        "artist": "This Is The Glasshouse",
+        "length": 341582,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "4a24f50a-d9d8-47e8-a89f-9022373d6e0c",
+      "tag": "yarn_request_3-2026-07-05-0",
+      "release": "2026-07-05T16:09:39.7524171Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_3-2026-07-05-0/yarn_request_3-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
