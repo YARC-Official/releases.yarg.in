@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "9f189c975bf9e2dfe142a354cb8d27d90f59a580",
+      "author": "wyrdough",
+      "summary": "Strings for venue sfx (plus core pointer update)",
+      "description": ""
+    },
+    {
+      "sha": "81a77fbc85344703e2235565b2b15c30f76b016d",
+      "author": "wyrdough",
+      "summary": "Allow venues to use custom audio clips",
+      "description": ""
+    }
+  ]
+}
