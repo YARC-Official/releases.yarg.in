@@ -1,0 +1,59 @@
+{
+    "type": "venue",
+    "uuid": "e7f52abe-50c7-4218-8c8c-92c409953ee6",
+    "metadata": {
+        "name": "Magia Alliance HQ",
+        "description": "A full band fantasy venue by Agentevil. If you've ever wanted to play in a realm of fire and stone, this one's for you!",
+        "iconUrl": "@/icons/Venue.png",
+        "bannerBackUrl": "@/banners/StageBanner.png",
+        "initialRelease": "2026-07-05T18:18:01.534651+00:00",
+        "localeOverrides": {},
+        "newsCategory": "venue",
+        "venueAuthor": "Agentevil",
+        "venueType": "ThreeDWithCharacters",
+        "links": {},
+        "screenshots": [
+            {
+                "url": "https://releases.yarg.in/profiles/e7f52abe-50c7-4218-8c8c-92c409953ee6/Magica0.jpg",
+                "caption": ""
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/e7f52abe-50c7-4218-8c8c-92c409953ee6/Magica1.jpg",
+                "caption": ""
+            },
+            {
+                "url": "https://releases.yarg.in/profiles/e7f52abe-50c7-4218-8c8c-92c409953ee6/Magica2.jpg",
+                "caption": ""
+            }
+	    ],
+        "credits": [
+            {
+                "name": "Credits",
+                "url": "https://wiki.yarg.in/wiki/Venue_credits#Magia_Alliance_HQ"
+            }
+        ]
+    },
+    "version": {
+        "type": "embedded",
+        "version": {
+            "uuid": "422eff50-8351-47b3-8ae1-b0922a976911",
+            "tag": "Magia_Alliance_HQ-2026-07-05-0",
+            "release": "2026-07-05T18:18:01.534651+00:00",
+            "content": [
+                {
+                    "platforms": [
+                        "windows",
+                        "macos",
+                        "linux"
+                    ],
+                    "files": [
+                        {
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Magia_Alliance_HQ-2026-07-05-0/Magia_Alliance_HQ-2026-07-05-0.7z",
+                            "fileType": "7z"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
