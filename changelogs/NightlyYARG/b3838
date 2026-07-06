@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "7d904b16f3820f687d1e2c7a50dc901cff37c286",
+      "author": "theli-ua",
+      "summary": "Add custom theme support (#1472)",
+      "description": "* themes: add custom theme support (export, load, auto-discovery)\n\nAdd CustomBundlePath + FormatVersion to ThemePreset for bundle-based\nloading. Extend ThemeContainer to track and unload AssetBundles.\n\nMake ThemeComponent getters null-safe — missing fields return empty\ncollections instead of throwing, enabling forward-compatible fallback\nto default theme for incomplete/old custom themes.\n\nAdd editor export tool ([ContextMenu] + custom inspector) that packages\ntheme prefab + Metal shader sub-bundle into .yargtheme ZIP archive.\n\nOverride ThemePresetContainer.Initialize() to scan custom/themes/ for\n.yargtheme files, extract ZIPs, deserialize metadata, and register\ndiscovered themes. Themes appear in existing profile dropdown automatically.\n\nCo-Authored-By: pi-coding-agent <pi-coding-agent>\nModel: Qwen3.6-27B\n\n* themes: switch from ZIP to single AssetBundle\n\n.yargtheme is now a raw AssetBundle with metadata embedded as a\nTextAsset (\"theme_meta\") instead of a ZIP containing separate JSON\nand bundle files.\n\nExport: serialize ThemePreset to TextAsset, include with prefab\n(\"ThemeRoot\") in single bundle build. No ZIP creation, no temp\ndirectories.\n\nLoad: AssetBundle.LoadFromFile(), read theme_meta TextAsset,\ndeserialize preset. Zero extraction, no stale dirs in custom/themes/.\n\nAlso: single CollectDependencies pass (was two), bundle output named\nafter theme file for uniqueness, prefab name \"ThemeRoot\" avoids\ncase-sensitivity issues with \"_theme.prefab\" on Linux.\n\nCo-Authored-By: pi-coding-agent <pi-coding-agent>\nModel: Qwen3.6-27B\n\n* Refactor to share bundle export/loading code between characters/venues/themes\n\n* fix(themes): skip JSON loading for theme presets\n\nThemes are loaded from .yargtheme bundles, not JSON files. Calling\nbase.Initialize() loaded nonexistent JSON presets that lacked\nCustomBundlePath, causing NotImplementedException in\nCreateThemeContainer().\n\nJust create the directory and scan for *.yargtheme files directly.\n\n---------\n\nCo-authored-by: pi-coding-agent <pi-coding-agent>"
+    },
+    {
+      "sha": "1414300a072b9c71f83493f65e7f179e24cf244c",
+      "author": "Supersonicboss1",
+      "summary": "Fix static lyric render behaviour when multiple syllables are active at once (#1525)",
+      "description": ""
+    },
+    {
+      "sha": "3306f933836cdc6b3fe0ac731de9a3aca8196c70",
+      "author": "asimard1",
+      "summary": "Play-a-show Toggle (#1541)",
+      "description": "* Add an option to enable/disable play a show and change how yellow button works in library\n\n* Fix some comments\n\n* Fix comments\n\n* Make play a show a hold button, and reuse existing strings\n\n* Change order of buttons"
+    },
+    {
+      "sha": "d566000a4a328e316c50c5a3c5f6e3fadb619629",
+      "author": "Dansla116",
+      "summary": "More Options scroll bar and state fixes (#1538)",
+      "description": ""
+    },
+    {
+      "sha": "262e5736cf3cbc5335c81c7bfbf1ad21ab4510ab",
+      "author": "daviditsygin",
+      "summary": "Add 'Background FPS Cap' setting (#1524)",
+      "description": "* feat: add Background FPS Cap setting\n\n* feat: cap framerate while window is unfocused"
+    },
+    {
+      "sha": "bcb62914b5fa8efbe6c81aef380c308164729904",
+      "author": "trainlos",
+      "summary": "Add option to apply mix settings to music player (#1542)",
+      "description": ""
+    },
+    {
+      "sha": "3a76f8f154a2bb18455c9fff862780b614f2bb7e",
+      "author": "wyrdough",
+      "summary": "Allow venues to suppress crowd sfx",
+      "description": ""
+    }
+  ]
+}
