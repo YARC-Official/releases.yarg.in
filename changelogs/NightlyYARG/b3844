@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "a44d1a883effd5e3f801219b3b16167922a5c17a",
+      "author": "wyrdough",
+      "summary": "Fix lipsync on charts with lyrics but no vocals part",
+      "description": ""
+    },
+    {
+      "sha": "bf345179f733c39c341db1c475f2074eca09accb",
+      "author": "Supersonicboss1",
+      "summary": "Unison Display (#1545)",
+      "description": "* Unison Bonus HUD V1\n\n* Switch to using events\n\n* Add Unison Bar for >8 players and setting to allow solo unisons\n\n* Massive cleanup\n- also actually commit my prefabs\n\n* Make the unison icons and bar inherit from an abstract class\n\n* clean up state resetting\n\n* Get the number of notes per note for correct display\n\n* Position the unison display based on how many players are present\n- Also stop coloring the header text gold\n\n* event changes\n\n* More minor event changes and actually commit the prefab\n\n* undisable the BRE Box\n\n* core changes and cleanup\n\n* rename Unison Box.png to UnisonBox.png\n\n* Switch to tweens\n\n* Use arrays instead of lists\n\n* Update core pointer"
+    },
+    {
+      "sha": "3d270ef6ef6a77c79c4c2a78c32c67fbb929b279",
+      "author": "TheFatBastid",
+      "summary": "Added Per-player star power to udp stream (#1546)",
+      "description": "* Added Per-player star power to udp stream\n\nSince there are a variable amount of players, the udp packet is no longer a fixed length. This should be fine for current listeners as the new info just tacked on to the end.\n\n* Added update for player star power snapshot in gameplay monitor."
+    },
+    {
+      "sha": "1359d6bc5f5e50f27f5c7f5ce169ec8d09c18088",
+      "author": "wyrdough",
+      "summary": "core pointer update (fixed tests and viseme weight tweak)",
+      "description": ""
+    },
+    {
+      "sha": "a77202d8a53f355db8e0b3bc9f39ab96189b9656",
+      "author": "wyrdough",
+      "summary": "Use lyrics track for vocalist state when there is no vocals chart",
+      "description": ""
+    },
+    {
+      "sha": "450c917fcfb2e84df36909514b8797b11eba694a",
+      "author": "wyrdough",
+      "summary": "Autogen camera cuts in VenueAnimator",
+      "description": ""
+    }
+  ]
+}
