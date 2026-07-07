@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "6f914701976b95c8017099efaf5ee4f46392a01e",
+      "author": "XaiaX",
+      "summary": "feat/library-export-enhancement: add web song browser export (#1540)",
+      "description": "* feat(song): add web song browser export\n\nAdd a self-contained HTML song browser export for sharing song libraries\noutside of YARG. A fourth \"Web Page\" button in Settings > File Management >\nExport Songs generates a single HTML file with all data embedded, written\nvia a streaming template approach (Seg0/DATA/Seg1/GENRES/Seg2/META/Seg3)\nso the full document is never materialized in memory.\n\nCore features:\n- Compact JSON schema with interned genres and base-36 difficulty encoding\n  (5-char VGDKB code: '.' absent, '?' unknown tier, 0-9a-z otherwise)\n- Virtualized row rendering for large libraries (5000+ songs)\n- Bottom sheet detail view with per-instrument difficulty tiers\n- Filter chips for instrument parts (V/G/D/K/B) with brand colors\n- Gear-icon search settings with per-field toggles (artist/title/album)\n- Clickable column headers for sorting (artist default ascending)\n- Dark/light theme with sun/moon toggle and localStorage persistence\n- Progressive mobile column hiding (3 breakpoints)\n- V->H badge for harmony songs, grey dash for absent instruments\n- Difficulty tier display with numeric prefix and tier-based coloring\n- Vocal parts: 'N Harmony Parts' / 'Solo Vocals' / 'None'\n\nThe HTML/CSS/JS template is embedded in WebBrowserTemplate.cs as a verbatim\nstring (LF line endings inside the literal; do not reformat) and split at\nstatic init around the three substitution markers, with fail-fast marker\nvalidation. The DATA and GENRES payloads escape '<' to \\u003C so\nuser-controlled song metadata cannot terminate the inline script block.\nWebBrowserRecord is a plain class rather than a record because Unity's\nruntime lacks the IsExternalInit shim required by init accessors.\n\n* refactor(song): move exporters into Song/Exporters subfolder\n\nReview feedback on #1540: group the export scripts (SongExport,\nOuvertExport, and the new WebBrowser* files) under a dedicated\nAssets/Script/Song/Exporters/ folder, with a matching\nYARG.Song.Exporters namespace.\n\nAlso adds the .cs.meta files for the new WebBrowser* scripts, which\nwere missing from the original commit.\n\n* fix(song): polish length column in web export\n\nSort-by-length arrow overlapped the YEAR header (fixed 50px track too\nnarrow for LENGTH + indicator): Length -> 62px, Year -> 44px across\nthe base layout and responsive breakpoints.\n\nRight-align times with tabular figures and 1ch right padding so the\ncolon stays put between 9:59 and 10:00+ and the value doesn't crowd\nthe year column."
+    },
+    {
+      "sha": "29c2d967bf8b09f7cf232a71330f918db192e3e1",
+      "author": "theli-ua",
+      "summary": "Bring back vocals track (#1547)",
+      "description": "Was lost likely when vocals were incorporated into\nhighway renderer.\nVocals track shader used UV coords to apply gradual transparency on\nthe edges. This no longer works as edges of the track extend past the screen.\nA fix is to simply use screen coordinations instead so that it would apply\nregardless of tracks' stretching or positioning.\n\nFixes https://discord.com/channels/1086048856678084609/1521934526954078271"
+    }
+  ]
+}
