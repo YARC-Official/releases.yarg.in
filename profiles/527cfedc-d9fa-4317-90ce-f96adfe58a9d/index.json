@@ -34,12 +34,6 @@
         "releaseDate": "2026-07-05T00:00:00.000Z"
       },
       {
-        "title": "No Cock Like Horse Cock",
-        "artist": "Pepper Coyote",
-        "length": 137458,
-        "releaseDate": "2026-07-05T00:00:00.000Z"
-      },
-      {
         "title": "Outer Heaven Dude Ranch",
         "artist": "Pretty Bitter",
         "length": 241000,
@@ -96,9 +90,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "4a24f50a-d9d8-47e8-a89f-9022373d6e0c",
-      "tag": "yarn_request_3-2026-07-05-0",
-      "release": "2026-07-05T16:09:39.7524171Z",
+      "uuid": "7906f690-053f-4705-8b64-2e5ccc644b87",
+      "tag": "yarn_request_3-2026-07-07-0",
+      "release": "2026-07-07T12:57:51.4021026Z",
       "content": [
         {
           "platforms": [
@@ -108,7 +102,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_3-2026-07-05-0/yarn_request_3-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_3-2026-07-07-0/yarn_request_3-0.7z",
               "fileType": "encrypted"
             }
           ]
