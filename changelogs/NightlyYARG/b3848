@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "96b18be44611fb5e1caae7c8b2b42b030ab00bb6",
+      "author": "wyrdough",
+      "summary": "Update core pointer for milo-in-ini-or-sng reading",
+      "description": ""
+    },
+    {
+      "sha": "2cb518778c591dc8cae61db8ae955ef6e449bce6",
+      "author": "wyrdough",
+      "summary": "venue loading improvements",
+      "description": ""
+    }
+  ]
+}
