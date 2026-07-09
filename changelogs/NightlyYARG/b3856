@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "bbcf01b1b2d6aaa102d3f5311fd4c0b17260082e",
+      "author": "Supersonicboss1",
+      "summary": "Fix CharacterManager never getting initalised (#1549)",
+      "description": ""
+    }
+  ]
+}
