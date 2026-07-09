@@ -36,9 +36,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "5143179e-4eca-40fd-b32c-1734c1f865b5",
-            "tag": "Outdoor_Festival-2026-07-08-0",
-            "release": "2026-07-08T03:29:24.309528+00:00",
+            "uuid": "9c378374-d9db-48b8-88c4-c7958f81f068",
+            "tag": "Outdoor_Festival-2026-07-09-0",
+            "release": "2026-07-09T00:06:42.112550+00:00",
             "content": [
                 {
                     "platforms": [
@@ -48,7 +48,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Outdoor_Festival-2026-07-08-0/Outdoor_Festival-2026-07-08-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Outdoor_Festival-2026-07-09-0/Outdoor_Festival-2026-07-09-0.7z",
                             "fileType": "7z"
                         }
                     ]
