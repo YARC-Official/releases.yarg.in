@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "3bf7598a22736e5c9bf1c17d8d1d7ab685123ad0",
+      "author": "wyrdough",
+      "summary": "Update gitignore",
+      "description": ""
+    },
+    {
+      "sha": "45d9bfb85305350a88f9201a357e8219402a73cd",
+      "author": "wyrdough",
+      "summary": "Add sustain effect for PK",
+      "description": ""
+    },
+    {
+      "sha": "18b5a08ed29d9fd5b55029064947da8edbb48d90",
+      "author": "wyrdough",
+      "summary": "core pointer update for CON upgrades change",
+      "description": ""
+    },
+    {
+      "sha": "fb38ba22e02f30db597c5cefe01cf46f8c4ba148",
+      "author": "wyrdough",
+      "summary": "core pointer update for ini tag correction",
+      "description": ""
+    },
+    {
+      "sha": "e6a4fd6b258ab4ee53f927f0ee8f54dce7b0d213",
+      "author": "wyrdough",
+      "summary": "Suppress text notifications during unison and big yarg ending (like solo)",
+      "description": ""
+    },
+    {
+      "sha": "95f8d5f569be844f5b94c7c1a54f04d4ef1bbc1d",
+      "author": "wyrdough",
+      "summary": "Reduce code duplication in BackgroundManager",
+      "description": ""
+    },
+    {
+      "sha": "ee7612e26a35cc147f6ef663503aae585e1bbd63",
+      "author": "wyrdough",
+      "summary": "Fix UnisonDisplay exploding when switching into practice mode directly from quickplay",
+      "description": ""
+    }
+  ]
+}
