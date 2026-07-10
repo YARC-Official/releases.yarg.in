@@ -46,12 +46,6 @@
         "releaseDate": "2026-02-06T00:00:00.000Z"
       },
       {
-        "title": "TAZTY!",
-        "artist": "redseas07",
-        "length": 290370,
-        "releaseDate": "2026-02-06T00:00:00.000Z"
-      },
-      {
         "title": "POTETO CHIP",
         "artist": "ROMA",
         "length": 218048,
@@ -61,6 +55,12 @@
         "title": "Ragebait",
         "artist": "Zynthesiren",
         "length": 203625,
+        "releaseDate": "2026-02-06T00:00:00.000Z"
+      },
+      {
+        "title": "TAZTY!",
+        "artist": "redseas07",
+        "length": 290370,
         "releaseDate": "2026-02-06T00:00:00.000Z"
       }
     ],
@@ -108,9 +108,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "f60d555c-0385-4b2b-8631-d609b9c536bf",
-      "tag": "yarn_teto_1-2026-02-06-0",
-      "release": "2026-02-07T03:16:50.0952891Z",
+      "uuid": "4ac6c617-d06b-49cb-a7b9-1aa2fdd32778",
+      "tag": "yarn_teto_1-2026-07-10-0",
+      "release": "2026-07-10T20:34:51.275131Z",
       "content": [
         {
           "platforms": [
@@ -120,7 +120,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_teto_1-2026-02-06-0/yarn_teto_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_teto_1-2026-07-10-0/yarn_teto_1-0.7z",
               "fileType": "encrypted"
             }
           ]
