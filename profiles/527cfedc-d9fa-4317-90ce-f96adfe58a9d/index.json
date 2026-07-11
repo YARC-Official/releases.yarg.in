@@ -22,15 +22,9 @@
         "releaseDate": "2026-07-05T00:00:00.000Z"
       },
       {
-        "title": "Dance with Silence",
-        "artist": "Camellia",
-        "length": 289566,
-        "releaseDate": "2026-07-05T00:00:00.000Z"
-      },
-      {
-        "title": "Dance Delightful (feat. Adachi Rei)",
-        "artist": "Jamie Paige",
-        "length": 259764,
+        "title": "Streetlight by Streetlight",
+        "artist": "This Is The Glasshouse",
+        "length": 341582,
         "releaseDate": "2026-07-05T00:00:00.000Z"
       },
       {
@@ -40,9 +34,15 @@
         "releaseDate": "2026-07-05T00:00:00.000Z"
       },
       {
-        "title": "Streetlight by Streetlight",
-        "artist": "This Is The Glasshouse",
-        "length": 341582,
+        "title": "Dance with Silence",
+        "artist": "Camellia",
+        "length": 289566,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "Dance Delightful (feat. Adachi Rei)",
+        "artist": "Jamie Paige",
+        "length": 259764,
         "releaseDate": "2026-07-05T00:00:00.000Z"
       }
     ],
@@ -90,9 +90,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "7906f690-053f-4705-8b64-2e5ccc644b87",
-      "tag": "yarn_request_3-2026-07-07-0",
-      "release": "2026-07-07T12:57:51.4021026Z",
+      "uuid": "8a1154ae-0393-4045-8f06-c795a34569c0",
+      "tag": "yarn_request_3-2026-07-11-0",
+      "release": "2026-07-11T23:01:05.275394Z",
       "content": [
         {
           "platforms": [
@@ -102,7 +102,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_3-2026-07-07-0/yarn_request_3-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_3-2026-07-11-0/yarn_request_3-0.7z",
               "fileType": "encrypted"
             }
           ]
