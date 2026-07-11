@@ -16,9 +16,9 @@
     },
     "songs": [
       {
-        "title": "Author",
+        "title": "Typeface",
         "artist": "RENREN",
-        "length": 120821,
+        "length": 180000,
         "releaseDate": "2026-06-18T00:00:00.000Z"
       },
       {
@@ -28,15 +28,15 @@
         "releaseDate": "2026-06-18T00:00:00.000Z"
       },
       {
-        "title": "MX",
+        "title": "Author",
         "artist": "RENREN",
-        "length": 330000,
+        "length": 120821,
         "releaseDate": "2026-06-18T00:00:00.000Z"
       },
       {
-        "title": "Typeface",
+        "title": "MX",
         "artist": "RENREN",
-        "length": 180000,
+        "length": 330000,
         "releaseDate": "2026-06-18T00:00:00.000Z"
       }
     ],
@@ -84,9 +84,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "415b9d9c-9041-477c-8f90-33343f81fe37",
-      "tag": "yarn_pronoun_palace_1-2026-06-18-0",
-      "release": "2026-06-18T23:49:48.0578243Z",
+      "uuid": "5734d5e0-3a69-4397-8971-ea9764ffe461",
+      "tag": "yarn_pronoun_palace_1-2026-07-11-0",
+      "release": "2026-07-11T23:20:53.065631Z",
       "content": [
         {
           "platforms": [
@@ -96,7 +96,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pronoun_palace_1-2026-06-18-0/yarn_pronoun_palace_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pronoun_palace_1-2026-07-11-0/yarn_pronoun_palace_1-0.7z",
               "fileType": "encrypted"
             }
           ]
