@@ -28,12 +28,6 @@
         "releaseDate": "2026-05-09T00:00:00.000Z"
       },
       {
-        "title": "Why We Lose (feat. Coleman Trapp)",
-        "artist": "Cartoon, Coleman Trapp, J\u00E9ja",
-        "length": 215680,
-        "releaseDate": "2026-05-09T00:00:00.000Z"
-      },
-      {
         "title": "Static (feat. Hatsune Miku)",
         "artist": "FLAVOR FOLEY",
         "length": 246195,
@@ -58,12 +52,6 @@
         "releaseDate": "2026-05-09T00:00:00.000Z"
       },
       {
-        "title": "Rainfall",
-        "artist": "shadowflower64",
-        "length": 459012,
-        "releaseDate": "2026-05-09T00:00:00.000Z"
-      },
-      {
         "title": "Kamikaze",
         "artist": "The Royal They",
         "length": 230146,
@@ -79,6 +67,12 @@
         "title": "To Breath Is",
         "artist": "Walter Ralts",
         "length": 292000,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
+        "title": "Rainfall",
+        "artist": "shadowflower64",
+        "length": 459012,
         "releaseDate": "2026-05-09T00:00:00.000Z"
       }
     ],
@@ -126,9 +120,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "20734487-402a-4c6f-adcc-dcea16b84bbf",
-      "tag": "yarn_pack_4-2026-05-25-0",
-      "release": "2026-05-25T15:13:37.4220018Z",
+      "uuid": "a2dfb99b-242e-419e-8021-c035dae857cb",
+      "tag": "yarn_pack_4-2026-07-11-0",
+      "release": "2026-07-11T22:51:37.913677Z",
       "content": [
         {
           "platforms": [
@@ -138,7 +132,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_4-2026-05-25-0/yarn_pack_4-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_4-2026-07-11-0/yarn_pack_4-0.7z",
               "fileType": "encrypted"
             }
           ]
