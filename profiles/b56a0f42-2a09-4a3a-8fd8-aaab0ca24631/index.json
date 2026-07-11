@@ -84,9 +84,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "29d412a1-f304-4662-aea3-96a5af4cfb64",
-      "tag": "walter_1-2026-05-25-0",
-      "release": "2026-05-25T15:17:53.699527Z",
+      "uuid": "c932878d-0e00-4c2e-b5fa-d4a4f7073527",
+      "tag": "walter_1-2026-07-11-0",
+      "release": "2026-07-11T23:28:05.762731Z",
       "content": [
         {
           "platforms": [
@@ -96,7 +96,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/walter_1-2026-05-25-0/walter_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/walter_1-2026-07-11-0/walter_1-0.7z",
               "fileType": "encrypted"
             }
           ]
