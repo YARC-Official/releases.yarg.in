@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "8386a7f3a4603501e13fad979c9da665d4f6f01e",
+      "author": "wyrdough",
+      "summary": "Add individual player fail and revive mechanic",
+      "description": ""
+    },
+    {
+      "sha": "d256d7b39a7533be94b18307bcda6bb628c12040",
+      "author": "wyrdough",
+      "summary": "Fix LyricBarPhrase going apeshit when a pause/rewind happens after the lyrics are over",
+      "description": ""
+    },
+    {
+      "sha": "9d6bc01a81015cdbdc72e20799c06f9996b27b6c",
+      "author": "wyrdough",
+      "summary": "Update core pointer for lane deadlock fix",
+      "description": ""
+    }
+  ]
+}
