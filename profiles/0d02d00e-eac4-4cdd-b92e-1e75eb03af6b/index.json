@@ -138,9 +138,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "a4e84bed-7461-407f-a90d-fe9e4214dc0c",
-      "tag": "yarn_plastic_death-2025-07-21-0",
-      "release": "2025-07-21T16:18:08.7616865Z",
+      "uuid": "546eea82-c0ca-4266-934d-762fbd041e01",
+      "tag": "yarn_plastic_death-2026-07-11-0",
+      "release": "2026-07-11T23:13:32.241555Z",
       "content": [
         {
           "platforms": [
@@ -150,7 +150,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_plastic_death-2025-07-21-0/yarn_plastic_death-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_plastic_death-2026-07-11-0/yarn_plastic_death-0.7z",
               "fileType": "encrypted"
             }
           ]
