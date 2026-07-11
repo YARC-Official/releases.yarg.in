@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "4503d52e4a7af4a1830c96243d5278515a8f281d",
+      "author": "wyrdough",
+      "summary": "Fix songs_updates (core pointer update)",
+      "description": ""
+    },
+    {
+      "sha": "6810ca279f6509b7e701c49dba3dfc99f57f08e6",
+      "author": "wyrdough",
+      "summary": "update core pointer for metadata parsing stuff",
+      "description": ""
+    },
+    {
+      "sha": "883391b7b76b6831c998ecec6001264d74698cb2",
+      "author": "polson",
+      "summary": "Fix incorrect mixer position due to pitchfx delay [Note: re-calibrating is recommended] (#1553)",
+      "description": "* Fix issue where mixer position was misreported due to pitchfx delay\n\n* Cleanup"
+    }
+  ]
+}
