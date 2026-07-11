@@ -82,12 +82,6 @@
         "releaseDate": "2026-05-03T00:00:00.000Z"
       },
       {
-        "title": "Carpeter",
-        "artist": "bartlebeats",
-        "length": 150086,
-        "releaseDate": "2026-05-03T00:00:00.000Z"
-      },
-      {
         "title": "Putrid",
         "artist": "Birds of Necama",
         "length": 230000,
@@ -268,12 +262,6 @@
         "releaseDate": "2026-05-03T00:00:00.000Z"
       },
       {
-        "title": "everybody who built the carpal tunnel went blind afterwards. (Unisexy Mix)",
-        "artist": "Negative \u00D8hio",
-        "length": 232715,
-        "releaseDate": "2026-05-03T00:00:00.000Z"
-      },
-      {
         "title": "I Must Count My Blessings (Because I Feel There\u2019s Been a Miscalculation)",
         "artist": "Negative \u00D8hio",
         "length": 247637,
@@ -295,6 +283,12 @@
         "title": "The BMI Bandit vs. The Yoga Warrior for Omnivore of the Year",
         "artist": "Negative \u00D8hio",
         "length": 272701,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "everybody who built the carpal tunnel went blind afterwards. (Unisexy Mix)",
+        "artist": "Negative \u00D8hio",
+        "length": 232715,
         "releaseDate": "2026-05-03T00:00:00.000Z"
       },
       {
@@ -328,6 +322,12 @@
         "releaseDate": "2026-05-03T00:00:00.000Z"
       },
       {
+        "title": "Don\u0027t Take It Out On Me",
+        "artist": "PEG \u0026 The Rejected",
+        "length": 210421,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
         "title": "An Inverted World",
         "artist": "Peculate",
         "length": 203729,
@@ -337,12 +337,6 @@
         "title": "This Sick Beat\u2122",
         "artist": "Peculate",
         "length": 120330,
-        "releaseDate": "2026-05-03T00:00:00.000Z"
-      },
-      {
-        "title": "Don\u0027t Take It Out On Me",
-        "artist": "PEG \u0026 The Rejected",
-        "length": 210421,
         "releaseDate": "2026-05-03T00:00:00.000Z"
       },
       {
@@ -434,6 +428,12 @@
         "artist": "XTaKeRuX",
         "length": 225666,
         "releaseDate": "2026-05-03T00:00:00.000Z"
+      },
+      {
+        "title": "Carpeter",
+        "artist": "bartlebeats",
+        "length": 150086,
+        "releaseDate": "2026-05-03T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -480,9 +480,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "f2609dee-91ef-46a0-957e-54ed2e2865e4",
-      "tag": "cch_port-2026-05-25-0",
-      "release": "2026-05-25T15:09:53.0805985Z",
+      "uuid": "f409cf70-59c7-4c6a-bb4d-8e93c0f31ced",
+      "tag": "cch_port-2026-07-11-0",
+      "release": "2026-07-11T23:03:57.480514Z",
       "content": [
         {
           "platforms": [
@@ -492,7 +492,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/cch_port-2026-05-25-0/cch_port-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/cch_port-2026-07-11-0/cch_port-0.7z",
               "fileType": "encrypted"
             }
           ]
