@@ -150,9 +150,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "94993f8d-0570-40a4-9f05-f95cc81aa621",
-      "tag": "yarn_abyss_of_time-2025-06-28-0",
-      "release": "2025-06-28T23:32:51.2597638Z",
+      "uuid": "8e778629-7f13-4099-9a47-3383e62c74ce",
+      "tag": "yarn_abyss_of_time-2026-07-11-0",
+      "release": "2026-07-11T23:07:19.088665Z",
       "content": [
         {
           "platforms": [
@@ -162,7 +162,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_abyss_of_time-2025-06-28-0/yarn_abyss_of_time-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_abyss_of_time-2026-07-11-0/yarn_abyss_of_time-0.7z",
               "fileType": "encrypted"
             }
           ]
