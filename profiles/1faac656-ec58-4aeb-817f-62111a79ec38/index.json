@@ -37,7 +37,7 @@
       {
         "title": "Glass Beach",
         "artist": "Glass Beach",
-        "length": 443093,
+        "length": 443301,
         "releaseDate": "2025-07-09T13:00:00.000Z"
       },
       {
@@ -71,12 +71,6 @@
         "releaseDate": "2025-07-09T13:00:00.000Z"
       },
       {
-        "title": "Keep Your Guard Up",
-        "artist": "raphaelgoulart",
-        "length": 326837,
-        "releaseDate": "2025-07-09T13:00:00.000Z"
-      },
-      {
         "title": "All These Darlings and Now Me",
         "artist": "Sunflo\u0027er",
         "length": 257502,
@@ -86,6 +80,12 @@
         "title": "Underground Popstars",
         "artist": "The Dharmites",
         "length": 172225,
+        "releaseDate": "2025-07-09T13:00:00.000Z"
+      },
+      {
+        "title": "Keep Your Guard Up",
+        "artist": "raphaelgoulart",
+        "length": 326837,
         "releaseDate": "2025-07-09T13:00:00.000Z"
       }
     ],
@@ -132,9 +132,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "94e382cc-45d2-4aa8-a1ca-ee2cf19fd0f8",
-      "tag": "yarn_pack_2-2025-09-07-0",
-      "release": "2025-09-07T16:54:33.5343259Z",
+      "uuid": "2b8cccf8-93c1-41a3-b039-7d8e966f0d96",
+      "tag": "yarn_pack_2-2026-07-11-0",
+      "release": "2026-07-11T22:42:38.828574Z",
       "content": [
         {
           "platforms": [
@@ -144,7 +144,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_2-2025-09-07-0/yarn_pack_2-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_2-2026-07-11-0/yarn_pack_2-0.7z",
               "fileType": "encrypted"
             }
           ]
