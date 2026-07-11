@@ -113,9 +113,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "e5ea8228-2939-4317-ab41-93b063c7789c",
-      "tag": "the_water_cycle-2025-10-11-0",
-      "release": "2025-10-11T20:18:38.578671Z",
+      "uuid": "d016f728-76be-42b7-b9fe-949cf729829a",
+      "tag": "the_water_cycle-2026-07-11-0",
+      "release": "2026-07-11T23:16:18.252929Z",
       "content": [
         {
           "platforms": [
@@ -125,7 +125,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/the_water_cycle-2025-10-11-0/the_water_cycle-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/the_water_cycle-2026-07-11-0/the_water_cycle-0.7z",
               "fileType": "encrypted"
             }
           ]
