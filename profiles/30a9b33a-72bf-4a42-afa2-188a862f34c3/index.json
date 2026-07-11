@@ -120,9 +120,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "c431ba81-0855-4de8-b37c-c645b1693f44",
-      "tag": "yarn_fx4-2025-06-28-0",
-      "release": "2025-06-28T23:40:04.6348917Z",
+      "uuid": "bbd8aedf-705f-4b73-b8e1-19a14c8da604",
+      "tag": "yarn_fx4-2026-07-11-0",
+      "release": "2026-07-11T23:09:47.288275Z",
       "content": [
         {
           "platforms": [
@@ -132,7 +132,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_fx4-2025-06-28-0/yarn_fx4-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_fx4-2026-07-11-0/yarn_fx4-0.7z",
               "fileType": "encrypted"
             }
           ]
