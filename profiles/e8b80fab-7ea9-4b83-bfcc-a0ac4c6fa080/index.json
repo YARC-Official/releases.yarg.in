@@ -41,15 +41,15 @@
         "releaseDate": "2025-05-02T00:00:00.000Z"
       },
       {
-        "title": "Old MacDonald Had a Farm",
-        "artist": "Thomas d\u0027Urfey",
-        "length": 29000,
-        "releaseDate": "2025-05-02T00:00:00.000Z"
-      },
-      {
         "title": "Three Blind Mice",
         "artist": "Thomas Ravenscroft",
         "length": 28000,
+        "releaseDate": "2025-05-02T00:00:00.000Z"
+      },
+      {
+        "title": "Old MacDonald Had a Farm",
+        "artist": "Thomas d\u0027Urfey",
+        "length": 29000,
         "releaseDate": "2025-05-02T00:00:00.000Z"
       }
     ],
@@ -96,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "c35c2010-7af0-4c2c-8e60-036cd425494f",
-      "tag": "childrens_keys_2-2026-05-17-0",
-      "release": "2026-05-17T15:57:29.9747636Z",
+      "uuid": "be784552-803c-40dd-8504-cbdb88587f26",
+      "tag": "childrens_keys_2-2026-07-11-0",
+      "release": "2026-07-12T05:35:44.165811Z",
       "content": [
         {
           "platforms": [
@@ -108,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/childrens_keys_2-2026-05-17-0/childrens_keys_2-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/childrens_keys_2-2026-07-11-0/childrens_keys_2-0.7z",
               "fileType": "encrypted"
             }
           ]
