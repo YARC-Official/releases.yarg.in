@@ -96,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "0be272c3-4e8e-4fdd-ac1a-382cb9240dff",
-      "tag": "christmas_keys_1-2024-12-15-0",
-      "release": "2024-12-16T02:43:35.292Z",
+      "uuid": "bbd86bde-4116-44be-adbe-6cf9d6eb60e0",
+      "tag": "christmas_keys_1-2026-07-11-0",
+      "release": "2026-07-12T05:37:43.507573Z",
       "content": [
         {
           "platforms": [
@@ -108,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/christmas_keys_1-2024-12-15-0/christmas_keys_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/christmas_keys_1-2026-07-11-0/christmas_keys_1-0.7z",
               "fileType": "encrypted"
             }
           ]
