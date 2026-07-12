@@ -51,12 +51,6 @@
         "artist": "Wolfgang Amadeus Mozart",
         "length": 147121,
         "releaseDate": "2025-05-02T00:00:00.000Z"
-      },
-      {
-        "title": "Piano Sonata No. 16, Mvt. I: Allegro",
-        "artist": "Wolfgang Amadeus Mozart",
-        "length": 147121,
-        "releaseDate": "2025-05-02T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -102,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "bb0561b3-16db-450a-a8e9-68eff0324246",
-      "tag": "classical_keys_2-2026-07-11-0",
-      "release": "2026-07-12T05:31:37.13181Z",
+      "uuid": "2a69964f-23f1-4e37-8ddb-66fdf1434e63",
+      "tag": "classical_keys_2-2026-07-12-0",
+      "release": "2026-07-12T19:22:41.497984Z",
       "content": [
         {
           "platforms": [
@@ -114,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_2-2026-07-11-0/classical_keys_2-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_2-2026-07-12-0/classical_keys_2-0.7z",
               "fileType": "encrypted"
             }
           ]
