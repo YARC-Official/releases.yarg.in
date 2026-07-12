@@ -82,9 +82,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "c5692504-a1bb-453c-ae71-0d51c124b65c",
-      "tag": "unbeatable-2026-02-13-0",
-      "release": "2026-02-13T20:04:10.270583Z",
+      "uuid": "b70e599a-032f-4a86-8be3-d7d0f6ff90a5",
+      "tag": "unbeatable-2026-07-11-0",
+      "release": "2026-07-12T05:55:22.138791Z",
       "content": [
         {
           "platforms": [
@@ -94,7 +94,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/unbeatable-2026-02-13-0/unbeatable-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/unbeatable-2026-07-11-0/unbeatable-0.7z",
               "fileType": "encrypted"
             }
           ]
