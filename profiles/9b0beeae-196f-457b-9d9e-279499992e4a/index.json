@@ -120,9 +120,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "d96c91e7-3659-4276-9c1c-bfadca66d4a7",
-      "tag": "wanderkid-2026-05-25-0",
-      "release": "2026-05-25T15:21:40.3200594Z",
+      "uuid": "f6b41cec-b205-4097-b48c-2c74d8dc7ed6",
+      "tag": "wanderkid-2026-07-11-0",
+      "release": "2026-07-12T05:43:27.735309Z",
       "content": [
         {
           "platforms": [
@@ -132,7 +132,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/wanderkid-2026-05-25-0/wanderkid-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/wanderkid-2026-07-11-0/wanderkid-0.7z",
               "fileType": "encrypted"
             }
           ]
