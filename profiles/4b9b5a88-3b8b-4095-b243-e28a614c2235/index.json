@@ -78,9 +78,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "f5937edb-d46a-4d72-9ddb-567aa83d9f50",
-      "tag": "whiteweek_1-2026-06-06-1",
-      "release": "2026-06-07T01:41:59.1624252Z",
+      "uuid": "57127830-4a52-4952-8445-b15946e0e08a",
+      "tag": "whiteweek_1-2026-07-11-0",
+      "release": "2026-07-12T05:49:29.397082Z",
       "content": [
         {
           "platforms": [
@@ -90,7 +90,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/whiteweek_1-2026-06-06-1/whiteweek_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/whiteweek_1-2026-07-11-0/whiteweek_1-0.7z",
               "fileType": "encrypted"
             }
           ]
