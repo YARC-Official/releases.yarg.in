@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "faf1a60be7cf30e379063f1f5784544ab282ee88",
+      "author": "wyrdough",
+      "summary": "Fail mode fixes",
+      "description": ""
+    },
+    {
+      "sha": "033d610c378f79d31ecad506a40c28b0726abe23",
+      "author": "polson",
+      "summary": "Wait for normalizer task before freeing streams (#1552)",
+      "description": ""
+    }
+  ]
+}
