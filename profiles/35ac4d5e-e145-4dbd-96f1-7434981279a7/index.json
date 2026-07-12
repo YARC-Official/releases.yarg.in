@@ -114,9 +114,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "47503fcb-cf93-4628-be89-5920d77351d4",
-      "tag": "assorted_metal_2-2025-11-15-0",
-      "release": "2025-11-16T00:38:05.7433922Z",
+      "uuid": "cf1c6e51-cb4c-480c-be0e-107f3453a29c",
+      "tag": "assorted_metal_2-2026-07-11-0",
+      "release": "2026-07-12T05:17:38.567508Z",
       "content": [
         {
           "platforms": [
@@ -126,7 +126,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_metal_2-2025-11-15-0/assorted_metal_2-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/assorted_metal_2-2026-07-11-0/assorted_metal_2-0.7z",
               "fileType": "encrypted"
             }
           ]
