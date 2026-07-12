@@ -1,0 +1,155 @@
+{
+  "type": "setlist",
+  "uuid": "35d0ae31-75c4-4482-9549-00a5ad3668ec",
+  "metadata": {
+    "name": "YARN Pack 5",
+    "description": "YHere is YARN\u0027s fifth variety pack of community-submitted charts!",
+    "iconUrl": "@/icons/SetlistNetwork.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-07-12T18:56:13.797252Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Techock",
+        "artist": "Waterflame",
+        "length": 123208,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "Ashen Rhapsody",
+        "artist": "Chaotrope",
+        "length": 559461,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "One More Round! (feat. Aida Lyra)",
+        "artist": "Clover from the Clouds",
+        "length": 244210,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "Misplaced My Keys",
+        "artist": "Stevia Sphere",
+        "length": 220613,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "Senescence",
+        "artist": "Chaotrope",
+        "length": 363470,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "HEAD",
+        "artist": "Jeff Rosenstock",
+        "length": 89912,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "Digital Love (feat. Shabel Tonya, Crydiaa, Nini Yuuna, Miori Celesta \u0026 Yoclesh)",
+        "artist": "Alohaii",
+        "length": 208421,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "If I\u0027m Lucky",
+        "artist": "State Champs",
+        "length": 223689,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "Energy",
+        "artist": "Logan Fendi",
+        "length": 147450,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "yeh",
+        "artist": "C418",
+        "length": 250818,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "HELLLLHOOOOLE / June 21st",
+        "artist": "Jeff Rosenstock",
+        "length": 183148,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      },
+      {
+        "title": "Supernova",
+        "artist": "Barely March",
+        "length": 176946,
+        "releaseDate": "2026-07-12T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "YARN"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "1d7b8821-a2a7-4b78-ac59-694108cd6605",
+      "tag": "yarn_pack_5-2026-07-12-0",
+      "release": "2026-07-12T18:56:13.797252Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_5-2026-07-12-0/yarn_pack_5-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
