@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "b199d597a9b33bd9979a5e0d0afc959447c178e0",
+      "author": "polson",
+      "summary": "Core pointer update for (#1563) Fix BASS deadlock by disposing bass first on exit",
+      "description": ""
+    },
+    {
+      "sha": "fbaa34bb61ceec6e35ec1aaa52d74e1178afcf2d",
+      "author": "polson",
+      "summary": "Merge pull request #1563 from polson/bug/fix-stop-freeze",
+      "description": "Fix BASS deadlock by disposing bass first on exit"
+    },
+    {
+      "sha": "8e1eb5afe21c92e5953d294c08372254487b69c3",
+      "author": "polson",
+      "summary": "Fix BASS deadlock by disposing bass first on exit",
+      "description": ""
+    }
+  ]
+}
