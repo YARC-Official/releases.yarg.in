@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "c260861aebf68bec0d1c23d56bdcc2852ddcf15c",
+      "author": "Frickitickitavi",
+      "summary": "Support lanes on Medium, Easy, and Beginner (#1557)",
+      "description": "* Support lanes on Medium, Easy, and Beginner\n\n* Update Core pointer for MEB lanes"
+    }
+  ]
+}
