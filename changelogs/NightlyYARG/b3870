@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "120f1c4412075b7565224ea3ccfb437c71a4d240",
+      "author": "wyrdough",
+      "summary": "character loading logic fix",
+      "description": ""
+    },
+    {
+      "sha": "18cb3463f65b64015d1d42dfd7c5498f2854e6a5",
+      "author": "wyrdough",
+      "summary": "Some more addressables work...",
+      "description": ""
+    }
+  ]
+}
