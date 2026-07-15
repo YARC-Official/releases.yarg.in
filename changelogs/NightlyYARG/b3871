@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "003fd5e8311d0552170ec0ca856b117cdd646f18",
+      "author": "RubyStarbloom",
+      "summary": "Add the option to adjust the tint on the song progress overlay (#1564)",
+      "description": "* Added the option to adjust the tint on the song progress overlay\n\n* Added serialization helper for Unity colours"
+    }
+  ]
+}
