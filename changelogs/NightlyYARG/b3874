@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "e5c31aeaf43717bee13156e784cffa7e6edaaa0d",
+      "author": "wyrdough",
+      "summary": "fix memory leak in CharacterDisplayManager",
+      "description": ""
+    },
+    {
+      "sha": "c8a35b5de1a6379c267ad81aaa321ef9a7d1627b",
+      "author": "wyrdough",
+      "summary": "Allow use of remote character as selected custom character and ability to hide unwanted remote characters.",
+      "description": "- Also various fixes to custom character loading"
+    },
+    {
+      "sha": "77101733a307f35dc2248adb80b8cf221313cc78",
+      "author": "wyrdough",
+      "summary": "Character browser",
+      "description": ""
+    }
+  ]
+}
