@@ -16,7 +16,7 @@
     },
     "songs": [
       {
-        "title": "Toyko",
+        "title": "Tokyo",
         "artist": "2997_p",
         "length": 200841,
         "releaseDate": "2026-07-19T00:00:00.000Z"
@@ -114,9 +114,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "3128e0f3-d3a4-483b-ab88-1a059ae0a87a",
-      "tag": "yarn_teto_2-2026-07-19-0",
-      "release": "2026-07-19T18:45:47.396835Z",
+      "uuid": "9281542a-fc6a-4391-ace9-8cc343a8335c",
+      "tag": "yarn_teto_2-2026-07-19-1",
+      "release": "2026-07-19T23:23:19.534541Z",
       "content": [
         {
           "platforms": [
@@ -126,7 +126,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_teto_2-2026-07-19-0/yarn_teto_2-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_teto_2-2026-07-19-1/yarn_teto_2-0.7z",
               "fileType": "encrypted"
             }
           ]
