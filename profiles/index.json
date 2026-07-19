@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-07-12T18:56:13.797252Z",
+  "lastUpdated": "2026-07-19T18:45:47.396835Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -567,6 +567,17 @@
       "name": "YARN Pack 5",
       "iconUrl": "@/icons/SetlistNetwork.png",
       "bannerUrl": "@/banners/SetlistBack.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "c4ef8eae-2221-42a3-bd75-8e076170f806",
+      "type": "setlist",
+      "category": "yarn_setlist",
+      "url": "https://releases.yarg.in/profiles/c4ef8eae-2221-42a3-bd75-8e076170f806/",
+      "release": "2026-07-19T18:45:47.396835Z",
+      "name": "Teto Pack 2",
+      "iconUrl": "https://releases.yarg.in/profiles/c4ef8eae-2221-42a3-bd75-8e076170f806/icon.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/c4ef8eae-2221-42a3-bd75-8e076170f806/banner.png",
       "localeOverrides": {}
     }
   ]
