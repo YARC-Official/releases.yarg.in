@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "23a60f85c7c714743adf4d08a1ebb061588194e8",
+      "author": "wyrdough",
+      "summary": "Return early from UnisonDisplay initialization if there aren't any unison events.",
+      "description": ""
+    },
+    {
+      "sha": "d21f1707f71225b4531b76fb0a33882be5f09cdb",
+      "author": "wyrdough",
+      "summary": "Update core pointer for YARG.Core#380",
+      "description": ""
+    },
+    {
+      "sha": "2770ecc3c232eea6c95483d9f4c18021dcff9ebf",
+      "author": "Supersonicboss1",
+      "summary": "Add ability to view the score screen for a replay (#1488)",
+      "description": "* Add ability to view the score screen for a replay\n\n* Don't play vox samples if viewing a replay\n\n* Add high score detection to view replay score\n\n* Check replay consistency when viewing score screen\n\n* Don't show completed/cleared on replays\n\n* Move inconsistent replay warning to pill\n- Also fix some replay loading stuff\n- Also some localization, needs more"
+    },
+    {
+      "sha": "05216fe1bb3337c99b691252931b9d7829012103",
+      "author": "poliwhirlge",
+      "summary": "Fix bug in the profile screen where engine is not set when switching to a game mode where the currently selected engine doesn't exist (#1554)",
+      "description": ""
+    },
+    {
+      "sha": "649d32cf49029bb26e5c324c7d06264517677d8d",
+      "author": "theli-ua",
+      "summary": "Fix warnings (#1566)",
+      "description": "* Fix warnings\n\nremove unused fields and other fixes to remove the warning noise\n\n* More warnings"
+    },
+    {
+      "sha": "b10b6e0f5014393b91a93a59c1777fceec7a1472",
+      "author": "Supersonicboss1",
+      "summary": "Minor UnisonDisplay fixes (#1570)",
+      "description": "* Minor UnisonDisplay fixes\n\n* Disable UnisonDisplay entirely in practice for now"
+    }
+  ]
+}
