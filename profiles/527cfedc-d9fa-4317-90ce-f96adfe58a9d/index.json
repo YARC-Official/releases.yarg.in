@@ -44,6 +44,12 @@
         "artist": "Jamie Paige",
         "length": 259764,
         "releaseDate": "2026-07-05T00:00:00.000Z"
+      },
+      {
+        "title": "When I Die",
+        "artist": "Pepper Coyote",
+        "length": 192249,
+        "releaseDate": "2026-07-05T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -90,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "8a1154ae-0393-4045-8f06-c795a34569c0",
-      "tag": "yarn_request_3-2026-07-11-0",
-      "release": "2026-07-11T23:01:05.275394Z",
+      "uuid": "49abcdd2-24b5-4e4d-94f9-1107fe4e2d2b",
+      "tag": "yarn_request_3-2026-07-19-0",
+      "release": "2026-07-19T23:29:01.84776Z",
       "content": [
         {
           "platforms": [
@@ -102,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_3-2026-07-11-0/yarn_request_3-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_3-2026-07-19-0/yarn_request_3-0.7z",
               "fileType": "encrypted"
             }
           ]
