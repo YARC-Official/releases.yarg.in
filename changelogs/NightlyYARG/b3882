@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "05110f709d686957023ef4a0d57a1a0b851595e8",
+      "author": "wyrdough",
+      "summary": "Rework character loading and fix an ownership confusion bug",
+      "description": ""
+    },
+    {
+      "sha": "b47d0c1d2a9d3d5fbdf26f08bb6dc681a409769c",
+      "author": "wyrdough",
+      "summary": "don't explode if a yargchar is missing a Vrm10Instance",
+      "description": ""
+    }
+  ]
+}
