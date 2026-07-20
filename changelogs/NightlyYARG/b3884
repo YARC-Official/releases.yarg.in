@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "2dc626b0d56cc4c56c2a75b973b957db200099cd",
+      "author": "wyrdough",
+      "summary": "Core pointer update for PK single note solo fix",
+      "description": ""
+    },
+    {
+      "sha": "5442d7aa523452399448696beeef13b809ab448f",
+      "author": "wyrdough",
+      "summary": "Update sources and genres concurrently (speeds up startup)",
+      "description": ""
+    }
+  ]
+}
