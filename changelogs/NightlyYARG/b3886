@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "cea37bbaafdb5d5825e662e5fb5d7fc0bebaec2a",
+      "author": "polson",
+      "summary": "Core pointer update for improved song sync (#418)",
+      "description": ""
+    },
+    {
+      "sha": "fc877b7bfd459fefc756cdec22706d14a8f4265e",
+      "author": "polson",
+      "summary": "Improved song sync, mic latency, various audio improvements (#1558)",
+      "description": "* Improve audio synchronization\n\n* Refine audio synchronization\n\n* Fix transient sync delta after resume\n\n* Improve audio synchronization on resume and fix teardown hangs\n\n* Fix audio teardown and latency compensation\n\n* More improvements\n\n* Remove resume audio debug logs\n\n* Document sync correction behavior\n\n* Keep sync correction state aligned with playback\n\n* Reduce playback sync polling overhead\n\n* Use ring buffer for sync correction history\n\n* Improve audio sync and calibration timing\n\n* Unify audio playback preparation\n\n* Improve audio sync correction\n\n* More cleanup\n\n* Handle playback latency for metronome sample channel\n\n* Improved scheduling of metronome hits\n\n* More oneshot refactoring\n\n* Refactor position handling to simplify song runner\n\n* Simplify handling playback/seek latency\n\n* Fix calibration input boxes for negatives\n\n* Fix calibration issue\n\n* First implementation of DSP backed metronome\n\n* Improved oneshot design\n\n* Update YARG.Core playback sync API\n\n* Remove test cowbell asset\n\n* More cleanup\n\n* Much simplified song runner\n\n* More cleanup\n\n* More cleanup\n\n* More cleanup\n\n* docs: clarify song sync latency compensation and desync handling\n\n* docs: update deadband filter explanation in song_sync.md\n\n* docs: clarify transition handling vs feedback adjustments in song_sync.md\n\n* docs: remove fluctuations detail from transition latency note\n\n* Fix metronome issues on linux\n\n* Improve Freeverb and Quickplay mic startup\n\n* Refactor Quickplay microphone lifecycle\n\n* Updated song sync.md\n\n* Add audio delay verification utility\n\n* Better fix for mic latency\n\n* Add BASS position clock stability test\n\n* Fix microphone restarts and metronome playback\n\n* Restart profile microphones when loading screen finishes\n\n* Better song runner\n\n* Measure BASS position startup with plain PCM stream\n\n* Measure BASS position startup with plain PCM stream\n\n* More testing\n\n* Simpler handling of play -> getPosition delay\n\n* Metronome tests\n\n* Fix extra loud volume when star power enabled\n\n* Route tempo stream through a mixer\n\n* Route metronome through new playback mixer\n\n* Improved metronome scheduling and fix another whammy desync\n\n* Route crowd claps through playback mixer\n\n* Restore DSP version of oneshot channel\n\n* Latency correction for macos\n\n* Song sync update\n\n* speed changes in practice mode no longer flush\n\n* Remove audio delay verification utility\n\n* Fix crowd chatter playing when it shouldn't\n\n* Fix calibration\n\n* Improve BASS startup latency measurement\n\n* Restore dev YARG.Core pointer\n\n* Update song synchronization documentation\n\n* Replace LaTeX equations in sync docs\n\n* Remove audio delay verification utility\n\n* Remove microphone diagnostic logging\n\n---------\n\nCo-authored-by: Phil Olson <polson@github.com>"
+    }
+  ]
+}
