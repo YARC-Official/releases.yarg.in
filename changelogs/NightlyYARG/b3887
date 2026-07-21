@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d93809661a8173f0d54068c749a5409623bc08af",
+      "author": "Ape",
+      "summary": "dmx: Add configurable local sACN IP address (#1556)",
+      "description": "The default behavior of automatic interface selection remains, but now\nyou can override it if it didn't choose the correct network."
+    }
+  ]
+}
