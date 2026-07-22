@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "c434ce08a1798af1fe30c6ea9fa58f373367a12f",
+      "author": "Dansla116",
+      "summary": "Setting best percent ties with highest score (#1578)",
+      "description": ""
+    },
+    {
+      "sha": "bf303d183f4f1df7ee553c94aa3a711f2df12366",
+      "author": "Frickitickitavi",
+      "summary": "Rescale lanes based on lane count (#1579)",
+      "description": ""
+    },
+    {
+      "sha": "86a2061476c638f05ac7e45bd043ac93d2e28809",
+      "author": "Frickitickitavi",
+      "summary": "Alias Country > Traditional Folk to Traditional instead of Folk (#1575)",
+      "description": ""
+    }
+  ]
+}
