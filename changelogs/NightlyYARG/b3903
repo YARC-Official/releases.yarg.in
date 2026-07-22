@@ -1,0 +1,100 @@
+{
+  "commits": [
+    {
+      "sha": "0609be3c8824ccb129f027bb81fc5436b3b4263e",
+      "author": "polson",
+      "summary": "ci: Update label for auto labeling PRs with conflicts",
+      "description": ""
+    },
+    {
+      "sha": "6be1fdcd2728242be24ea1a9f4315fca2938ed1b",
+      "author": "polson",
+      "summary": "Core pointer update for ci changes",
+      "description": ""
+    },
+    {
+      "sha": "4d64df01ca1b38194fa59fd8203c62d55088e3fc",
+      "author": "polson",
+      "summary": "ci: Better script for labeling PRs with conflicts (#1577)",
+      "description": "* refactor(ci): replace 3rd party action with inline gh CLI script\n\n* feat(ci): add explicit logging for open PR count and conflict labeling\n\n* feat(ci): add retry loop for UNKNOWN PR mergeability status\n\n* fix(ci): report conflict label failures"
+    },
+    {
+      "sha": "8861f494a6ab4b788b03a15bb8bc92ef16d17402",
+      "author": "polson",
+      "summary": "ci: add workflow to auto-label PRs needing rebase (#1576)",
+      "description": "* ci: add workflow to auto-label PRs needing rebase\n\n* fix(ci): update label-conflicts action to v3.1.0 commit SHA"
+    },
+    {
+      "sha": "074a8a69539f58cc1ff6ed3f8549d78797485d13",
+      "author": "Dansla116",
+      "summary": "Add Current Difficulty Score Display Options and Sync Star Sorting (#1565)",
+      "description": "* Refresh star sort grouping after instrument or difficulty changes\n\n* Add current difficulty high score options and sync star sorting with display"
+    },
+    {
+      "sha": "639bdd5601ce0004bfd32c20784fffa70a5db803",
+      "author": "polson",
+      "summary": "Fix inputs not working when playing new song",
+      "description": ""
+    },
+    {
+      "sha": "45f07fbe7f3a2a14fb8cc0cdf66043ce68bed570",
+      "author": "polson",
+      "summary": "Restore orange button",
+      "description": ""
+    },
+    {
+      "sha": "c43faf4319679d9455877455ca6f86b17f0380d2",
+      "author": "polson",
+      "summary": "Fix Core pointer regression after EngineContainer update",
+      "description": ""
+    },
+    {
+      "sha": "649212eeb44b791ccbf519eee66b90da4795ff71",
+      "author": "polson",
+      "summary": "Core pointer update for Rework EngineContainer to use generics #414",
+      "description": ""
+    },
+    {
+      "sha": "367a2d55b567baa07ded1cbdd4973b8390dfc76a",
+      "author": "Supersonicboss1",
+      "summary": "Updates for EngineContainer changes (#1560)",
+      "description": ""
+    },
+    {
+      "sha": "7e86b84a9e0eb8361a09a2101cd92a23a582d9e8",
+      "author": "polson",
+      "summary": "Core pointer update for Make Harmony part selection sticky with fallback. (#395)",
+      "description": ""
+    },
+    {
+      "sha": "bd5ea86eaf6d2b929717770ccdefe4b0cc5af291",
+      "author": "XaiaX",
+      "summary": "Fix HARM3 persisting when switching to Harmony on songs with fewer parts (#1515)",
+      "description": "A player who launched a song as HARM3 and later played as VOCALS could\nopen a two-part song, switch the instrument to HARMONY, and confirm as\nHARM3 — a part that doesn't exist, producing a song with no notes.\n\nThe out-of-range check in ChangePlayer compared profile.HarmonyIndex,\nwhose getter returns 0 whenever CurrentInstrument != Harmony (that guard\nis load-bearing: VocalsPlayer indexes Parts[HarmonyIndex] for VOCALS\nplayers too). With the player on VOCALS the check could never fire, so\nthe stale stored index survived until the instrument switch exposed it.\n\nUse YargProfile.ResolveHarmonyIndex (added in the corresponding\nYARG.Core change), which validates the stored value regardless of the\ncurrent instrument and recomputes the effective index per song from the\nplayer's last explicit selection: clamped to the highest available part\non songs with fewer parts, restored in full on songs with enough — the\nsame retention DifficultyFallback gives Expert+. Also resolved in\nCreateInstrumentMenu right after an instrument switch, covering the\npath from the report.\n\nRequires a YARG.Core version containing ResolveHarmonyIndex."
+    },
+    {
+      "sha": "662f630e4720f2ac3289708e94d29ba7bff9ba66",
+      "author": "polson",
+      "summary": "Core pointer update for Add search input action (#347)",
+      "description": ""
+    },
+    {
+      "sha": "5da3a1d35fd3369bd52a0a8006bf5e8147c158fc",
+      "author": "polson",
+      "summary": "Add menu binds for search (#1404)",
+      "description": "* Add keyboard shortcut for search\n\n* Add explicit menu binds for search\n\n* Highlight search field when focused\n\n* Add border to search bar\n\n* Clean up prefab spam\n\n* Toggle with the keybinding\n\n* Remove duplicate Search key in en-US.json\n\n* Reset YARG.Core submodule pointer to match dev"
+    },
+    {
+      "sha": "be906e2f6014c666b7ff42e4c735ba6f64645454",
+      "author": "Dansla116",
+      "summary": "Remove Dead Playlist Hashes (#1452)",
+      "description": "* Remove dead playlist hashes from disk when songs are removed from disk and library is rescanned\n\n(cherry picked from commit 3185230e4fbba8e8ecec5571f0f8c237b0493a66)\n\n* Only remove dead playlist hashes from disk when the playlist is manually edited"
+    },
+    {
+      "sha": "104a7b285f5ad1285996972a0f3214eaa4fcc5a3",
+      "author": "Dansla116",
+      "summary": "Reapply Active Filters when Opening Music Library (#1548)",
+      "description": "* Reapply active filters when opening music library\n\n* Don't reapply filters a redundant time when coming from Difficulty Select"
+    }
+  ]
+}
