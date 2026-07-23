@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "21073d195f3e756e4b6eafc89468a253f626395b",
+      "author": "polson",
+      "summary": "Fix settings calibration issues",
+      "description": ""
+    },
+    {
+      "sha": "dbab1e93f7c9cb669df81aea1b373b53a9228096",
+      "author": "polson",
+      "summary": "Core pointer update for Implement per-stem drum muting #425",
+      "description": ""
+    },
+    {
+      "sha": "7b88d9dabdc0df2eb4277b3ec8184f798595e5fc",
+      "author": "DevPrice",
+      "summary": "Implement per-stem drum muting (#1573)",
+      "description": "* handle rename SongStems.Drums -> SongStems.DrumsElse\n\n* basic implementation of separate stem loading\n\n* move mute logic from TrackPlayer to subclasses\n\n* drum stem mute logic\n\n* ToSongStem() -> ToSongStems()\n\n* use DrumStem value from DrumNote to determine which stem to mute/unmute\n\n* rename drum SongStems\n\n* handle missing stems gracefully\n\n* special cases for easier difficulties\n\n* point to core fork\n\n* fix bg stem logic\n\n* remove linq usage\n\n* drums4 support\n\n* clean up some stuff\n\n* handle toms stem appropriately on easy mode\n\n* handle drums4 in a few more places\n\n* remove linq usage\n\n* update core\n\n* update core\n\n* update core\n\n* update core"
+    },
+    {
+      "sha": "9a14ed433cae610da904e187215e829df6d06c4d",
+      "author": "polson",
+      "summary": "Check merge conflicts for updated PR only",
+      "description": ""
+    }
+  ]
+}
