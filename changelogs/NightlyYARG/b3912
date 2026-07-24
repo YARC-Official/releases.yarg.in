@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "323a331db6fb78c22cb57b83cca5dab631a635c6",
+      "author": "Dansla116",
+      "summary": "Aggregate Drums Score/Sort/Filter (#1413)",
+      "description": "* Show all drum scores when playing on MIDI Drumkit\n\n(cherry picked from commit 8a83b3167b64122f658f408ce4c042e96b4c6bbc)\n\n* Refactor score cache to support instrument sets\n\n(cherry picked from commit f38f673664218cfd851f8993ca70bf22610cd3f8)\n\n* Make sort and filter work for aggregate drums\n\n(cherry picked from commit b4224120d2d8d5a1e920b9a4080531d19ca0b6ce)\n\n* Added \"Aggregate Drums\" verbiage (unused for now)\n\n(cherry picked from commit 9ce599a95b7edb1d7db934670bcaf0949ecd797c)\n\n* Make sort and filter work for aggregate drums, again\n\n(cherry picked from commit 9bd176e0938612244923be4c948bbcb1971af4de)\n\n* Added \"Aggregate Drums\" sort option\n\n(cherry picked from commit 5234323581e70ca03e9953b8c6e787056e1e6e02)\n\n* Add `using` statements lost in cherry-pick\n\n* Integrate aggregate drums scores with current high score settings\n\n* Fix sorting by Play Count for aggregate drums\n\n* Fix cherry pick errors involving rating and duplicate handling in drum sorting"
+    }
+  ]
+}
