@@ -48,7 +48,7 @@
       {
         "title": "Indoor Soccer",
         "artist": "Speedy Ortiz",
-        "length": 195121,
+        "length": 199213,
         "releaseDate": "2026-03-25T20:00:00.000Z"
       }
     ],
@@ -96,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "274a263b-7f29-4124-aa38-1e019385c12a",
-      "tag": "yarn_request_1-2026-07-11-0",
-      "release": "2026-07-11T22:55:39.076297Z",
+      "uuid": "0c0142bc-2909-442e-bcbb-dad1d3875ae1",
+      "tag": "yarn_request_1-2026-07-24-0",
+      "release": "2026-07-24T08:08:06.946207Z",
       "content": [
         {
           "platforms": [
@@ -108,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_1-2026-07-11-0/yarn_request_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_request_1-2026-07-24-0/yarn_request_1-0.7z",
               "fileType": "encrypted"
             }
           ]
