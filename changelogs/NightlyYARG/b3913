@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "6bd898a02affc704d4dfc6f33d0a43e4343738e9",
+      "author": "wyrdough",
+      "summary": "Fix fail meter related inconsistent replay issue",
+      "description": "- Make YargPlayer read rock meter preset data from replay\n- GameManager now initializes happiness when playing a replay\n- GameManager reads no fail state from ReplayData when playing a replay\n- Disallow score saving when no fail is toggled during gameplay"
+    }
+  ]
+}
