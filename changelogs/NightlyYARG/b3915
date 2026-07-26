@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "f797d47a4a077a4e779dadcb5bae17ad8a913c01",
+      "author": "polson",
+      "summary": "Core pointer update for song sync fixes",
+      "description": ""
+    },
+    {
+      "sha": "9ae1b0f63c2d1e25e7ffe5e0cdcf69be84cc5d3d",
+      "author": "polson",
+      "summary": "Fix audio desync issues (#1589)",
+      "description": ""
+    }
+  ]
+}
