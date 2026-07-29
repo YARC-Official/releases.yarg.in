@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "222adb574c3bc1b75135de281f9a508dac9b5a6d",
+      "author": "XaiaX",
+      "summary": "fix(song): ignore leading articles in web export sorting (#1592)",
+      "description": ""
+    },
+    {
+      "sha": "03733cf864b080fd2b42b52ccd3b769ed7bebb59",
+      "author": "Dansla116",
+      "summary": "Preserve Music Library Song Selection Instead of Scroll Position when Score Context Changes (#1590)",
+      "description": "* Preserve music library song selection instead of scroll position when score context changes\n\n* Update play-count sort when score context changes"
+    },
+    {
+      "sha": "cff203187af852e556b262fec8d98aa80d01b723",
+      "author": "poliwhirlge",
+      "summary": "Dim the music library when the search field is in focus (#1591)",
+      "description": "* Add shaded background when search is active\n\n* Re-add border for search box\n\n* Keep forgetting to re-enable this filters menu\n\n* Fix z-order of filters menu to put it above the search box, added a field to TextFieldNavigationDisabler.cs to differentiate the music library search text box from other text boxes that are used in the settings menu."
+    },
+    {
+      "sha": "f4ebdda00e43f51d252409ebd1ed0f17f62fa68a",
+      "author": "RubyStarbloom",
+      "summary": "Fix: Song progress overlay desynced from actual song progress (#1571)",
+      "description": ""
+    }
+  ]
+}
