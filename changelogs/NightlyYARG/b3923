@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "d5640935de960b4dba6da41d319f456f4763eabe",
+      "author": "wyrdough",
+      "summary": "Players should not fail in practice mode",
+      "description": ""
+    },
+    {
+      "sha": "7d9b387208c49b1b3efbc67979e057769e61500d",
+      "author": "wyrdough",
+      "summary": "Don't initialize StageManager if venue is not set",
+      "description": ""
+    },
+    {
+      "sha": "9045823d2f87341ad295242c80231106a0d145be",
+      "author": "wyrdough",
+      "summary": "Update core pointer for enginemanager fixes",
+      "description": ""
+    },
+    {
+      "sha": "169db96a4f44226ff7f1a9144db7c7fb1b93aa36",
+      "author": "Supersonicboss1",
+      "summary": "Make practice mode handle EngineManager state better (#1595)",
+      "description": ""
+    }
+  ]
+}
