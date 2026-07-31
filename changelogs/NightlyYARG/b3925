@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "f3a288affd2e9f6f0b6a0a3ac7035fc393e3fea2",
+      "author": "polson",
+      "summary": "Core pointer update for #397 Separate saved and effective vocal modifiers",
+      "description": ""
+    },
+    {
+      "sha": "20437d88e3c9552070695da233a972c625813f66",
+      "author": "XaiaX",
+      "summary": "Keep vocal modifier uniformity from overwriting saved selections (#1517)",
+      "description": "The difficulty select menu enforces uniform vocal modifiers by giving every\nvocal player the selecting player's modifiers at song launch. That copy\n(CopyModifiers) wrote the persisted modifier field, permanently erasing the\nother players' saved modifier selections - and they could not see it happen,\nsince the modifier menu is hidden for non-selecting vocal players.\n\nUse the new session-scoped YargProfile.ApplySessionModifiers for the launch\ncopy so gameplay and replay recording still see uniform modifiers while each\nprofile's saved selection is left intact. Additionally, re-seed every player's\neffective modifiers from their saved selection when difficulty select opens\n(RestoreSavedModifiers), so modifiers imposed by a previous song do not linger\non the long-lived in-memory profile and reappear in the menu.\n\nRequires the corresponding YARG.Core change."
+    }
+  ]
+}
