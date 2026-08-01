@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "5e94f6e1525b56cd4105e239765c941fcdc912b6",
+      "author": "4dispel",
+      "summary": "add wind parameter to character manager and pause VRM springs during pause (#1527)",
+      "description": "* add wind parameter to character manager\n\n# Conflicts:\n#\tAssets/Script/Venue/Characters/VRMCharacter.cs\n\n* pause springbones during gameplay pause"
+    },
+    {
+      "sha": "fef713a4e60ddf2c202bfc644d8cee0a8243e47c",
+      "author": "poliwhirlge",
+      "summary": "Fix loading screen appearing underneath Music Library search field + reduce dimming on search field focus (#1596)",
+      "description": "* Bump z-order of Loading Screen in PersistentScene.unity to 104 to bring it above the search box in the MusicLibrary\n\n* Bump down alpha on background dimmer when the Music Library search field is on focus from 0.9 to 0.67"
+    },
+    {
+      "sha": "6bb58968e02a9d335e704f970e1c0b2477554ed4",
+      "author": "Supersonicboss1",
+      "summary": "Fix BRE Box behaviour with multiple close together BREs (#1598)",
+      "description": ""
+    }
+  ]
+}
