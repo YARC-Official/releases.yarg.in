@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-07-19T18:45:47.396835Z",
+  "lastUpdated": "2026-07-31T23:58:22.9606671Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -578,6 +578,17 @@
       "name": "Teto Pack 2",
       "iconUrl": "https://releases.yarg.in/profiles/c4ef8eae-2221-42a3-bd75-8e076170f806/icon.png",
       "bannerUrl": "https://releases.yarg.in/profiles/c4ef8eae-2221-42a3-bd75-8e076170f806/banner.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "869ce0f6-c0f2-4293-a2f7-0963c9305fd8",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/869ce0f6-c0f2-4293-a2f7-0963c9305fd8/",
+      "release": "2026-07-31T23:58:22.9606671Z",
+      "name": "Variety Pack 1",
+      "iconUrl": "@/icons/SetlistDLC.png",
+      "bannerUrl": "@/banners/SetlistBack.png",
       "localeOverrides": {}
     }
   ]

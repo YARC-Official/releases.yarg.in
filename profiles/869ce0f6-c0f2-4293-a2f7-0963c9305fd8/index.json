@@ -1,0 +1,119 @@
+{
+  "type": "setlist",
+  "uuid": "869ce0f6-c0f2-4293-a2f7-0963c9305fd8",
+  "metadata": {
+    "name": "Variety Pack 1",
+    "description": "Kicking off our Variety Pack DLC series, this pack brings an eclectic set of six songs from genres you won\u0027t find in any of our Assorted packs!",
+    "iconUrl": "@/icons/SetlistDLC.png",
+    "bannerBackUrl": "@/banners/SetlistBack.png",
+    "initialRelease": "2026-07-31T23:58:22.9606671Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Funky New Orleans",
+        "artist": "Gnarlemagne",
+        "length": 237675,
+        "releaseDate": "2026-07-31T00:00:00.000Z"
+      },
+      {
+        "title": "34 Ghosts IV",
+        "artist": "Nine Inch Nails",
+        "length": 356718,
+        "releaseDate": "2026-07-31T00:00:00.000Z"
+      },
+      {
+        "title": "Space Duck",
+        "artist": "Sexual Lobster",
+        "length": 183875,
+        "releaseDate": "2026-07-31T00:00:00.000Z"
+      },
+      {
+        "title": "The Undertaker\u0027s Daughter",
+        "artist": "Steampianist",
+        "length": 543861,
+        "releaseDate": "2026-07-31T00:00:00.000Z"
+      },
+      {
+        "title": "The Birthday Cake Song",
+        "artist": "The Wikimedia Foundation",
+        "length": 164761,
+        "releaseDate": "2026-07-31T00:00:00.000Z"
+      },
+      {
+        "title": "The Elements",
+        "artist": "Tom Lehrer",
+        "length": 86811,
+        "releaseDate": "2026-07-31T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "Official"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "0d184fd2-bfeb-40fa-a8a9-f541641d6e04",
+      "tag": "variety_pack_1-2026-07-31-0",
+      "release": "2026-07-31T23:58:22.9606671Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/variety_pack_1-2026-07-31-0/variety_pack_1-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
