@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "006f50746d144427179890b7bebde432172989d1",
+      "author": "polson",
+      "summary": "Use native C++ DSP effects (#1602)",
+      "description": "* Extract native gain and Freeverb DSPs\n\n* Ignore native DSP integration outputs\n\n* Move scheduled one-shot DSP to native\n\n* Preserve one-shot voices during speed changes\n\n* Port native audio build tooling and CI workflows from feature/asio\n\n- scripts/NativeBuild: cmake/ctest/integration build tool + GitHub package helper\n- native-audio.yml: PR/push gate, 3-OS matrix, verify-committed-plugin\n- native-audio-package.yml: manual dispatch all-platform build\n- native-audio-unity-runtime.yml: Unity smoke player, Mono/IL2CPP x linux/mac\n- Native/YargAudio/packaging: Linux/Mac plugin metadata templates\n\n* Include BASS Mixer libs in GainIntegration for Linux and macOS\n\n* Refresh committed Linux and macOS audio plugins from native build\n\n* Refresh committed Windows audio plugin from native build\n\n* Remove redundant native-audio-package workflow\n\n* Drop stale package workflow from native-audio path filters\n\n* Remove smoke test\n\n* Use committed Unity plugin metas as metadata source\n\n* Address review: glibc 2.14 floor, dead code, one-shot attach retry\n\n- Build Linux plugin inside an ubuntu:20.04 container with gcc 10 so the\n  shipped .so tops out at GLIBC_2.14. The previous ubuntu-22.04 runner\n  emitted dlopen@GLIBC_2.34, excluding Ubuntu 20.04, Debian 11, and RHEL 8\n  despite Unity 6 supporting them.\n- Delete the managed FreeverbProcessor (unreferenced after the native\n  freeverb port) and orphaned one-shot Detach/DetachOutput wrappers.\n- Retry one-shot mixer attach on re-anchor: a transient attach failure\n  previously left the metronome and crowd claps dead for the whole song.\n- Add a bitCast compat shim so the C++20 sources build with the\n  container's gcc 10 (std::bit_cast needs gcc 11), avoiding a launchpad\n  PPA dependency in CI.\n- Refresh the committed Linux binary (GLIBC_2.38 -> 2.14); Windows and\n  macOS binaries verified unchanged.\n\n* Fix native audio plugin load on modern macOS and off-main-thread DSP attach\n\n* Run macOS CI on macos-26; older codesign signatures fail at dlopen on macOS 26\n\n* Pin macOS CI to Xcode 26.0.1; newer codesign signatures SIGKILL at dlopen on macOS 26.0\n\n* Force DEVELOPER_DIR for macOS codesign; observe CD size in CI\n\n* Ship linker-signed dylib; drop UUID patch and re-sign (codesign signatures SIGKILL on macOS 26.0-26.4)\n\n* Drop codesign verify for linker-signed dylib; fix plugin file mode\n\n* Refresh macOS plugin from CI artifact (linker-signed, Xcode 26.0.1)"
+    },
+    {
+      "sha": "1ee4fe52ea0246305260601dbc0c80afbb67614f",
+      "author": "TheFatBastid",
+      "summary": "Added fog timer and changed all bytes to a queue (#1605)",
+      "description": "this should stop missed updates when things update between udp sending timer.\nThe fog timer will allow clients to do things like change the on/off times of a fogger so any size machine can be used without smoking out the irl venue."
+    },
+    {
+      "sha": "aea3da84d001118af474260f98d691637379736b",
+      "author": "polson",
+      "summary": "Core pointer update for Kick lanes #428",
+      "description": ""
+    },
+    {
+      "sha": "da0abe2027f502aa0851e9e2e98c83fede04df30",
+      "author": "Frickitickitavi",
+      "summary": "Kick lanes (#1581)",
+      "description": "* Kick lane visuals\n\n* Dedicated lane visuals\n\n* Kick lane visual tweaks\n\n* Fix width correction constant"
+    }
+  ]
+}
