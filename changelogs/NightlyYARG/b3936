@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "7823764abeb7e81dbb89f3adb0a352cfe9fba608",
+      "author": "Dansla116",
+      "summary": "Fix Persistent UI Layering in Filters Menu (#1601)",
+      "description": "* Fix persistent UI layering in Filters menu\n\n* Don't dynamically elevate scenes in code, and instead just change their z-index"
+    },
+    {
+      "sha": "824adf9c1baa5cc936943be8acd9b6893c44ac49",
+      "author": "Supersonicboss1",
+      "summary": "Add vocal needle outline on hit (#1585)",
+      "description": "* Add vocal needle outline on hit\n\n* Fix a stupid bug in my implementation"
+    },
+    {
+      "sha": "5e87d07685f76442e18efc1d953a4177b7e1c89b",
+      "author": "Supersonicboss1",
+      "summary": "Extend track effects to the end of a sustain (#1603)",
+      "description": ""
+    },
+    {
+      "sha": "fb9ef532756ea891e176ff6d83b8e02e61c2ec7b",
+      "author": "wyrdough",
+      "summary": "Core pointer for first note one-note solo fix",
+      "description": ""
+    }
+  ]
+}
