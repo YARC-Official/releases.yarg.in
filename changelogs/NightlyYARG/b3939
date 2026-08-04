@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "881edc3ba96c24ef5a6ca6e101f86428497034a1",
+      "author": "Dansla116",
+      "summary": "Fix Persistent UI Layering Regression (#1606)",
+      "description": ""
+    },
+    {
+      "sha": "3dd47e0a41522ec86b5e79de43b375bbdb721ea8",
+      "author": "Supersonicboss1",
+      "summary": "Resize character select text if too large",
+      "description": ""
+    },
+    {
+      "sha": "6546d115858c2fcc6d0f23ab6cab12439e06c83e",
+      "author": "Supersonicboss1",
+      "summary": "Correctly determine whether no fail is on for replays",
+      "description": ""
+    }
+  ]
+}
