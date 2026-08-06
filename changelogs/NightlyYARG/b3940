@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1ab04dc0c0246064032600c1cd42071ec978a64c",
+      "author": "Supersonicboss1",
+      "summary": "Fix vocal needle rendering on MacOS",
+      "description": ""
+    }
+  ]
+}
