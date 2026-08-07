@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "a0ff736c09c6371747293d941f5bbb0ec499367f",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for <br> in loading phrases",
+      "description": ""
+    },
+    {
+      "sha": "f5d8a500fea97411d8ba10362a22fde50659f15c",
+      "author": "Supersonicboss1",
+      "summary": "Fix vocals glow in batchmode builds",
+      "description": ""
+    }
+  ]
+}
