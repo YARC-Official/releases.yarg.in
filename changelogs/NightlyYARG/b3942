@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "d90282caa35bafe24ab56324c4b8e8279bdd179a",
+      "author": "TheNathannator",
+      "summary": "Update PlasticBand-Unity to v0.9.1 (#1607)",
+      "description": "* Correct .editorconfig encoding setting for manifest.json\n\n* Update PlasticBand-Unity to v0.9.1"
+    },
+    {
+      "sha": "44030d6f849d744ba3ebcbb88d620a92cb086244",
+      "author": "Supersonicboss1",
+      "summary": "Vocal Note Glow (SP & Normal) (#1586)",
+      "description": "* Vocal note SP glow shader\n\n* Apply glow to vocals notes always, and improve glow\n\n* Improve glow on notes with a larger width\n\n* Change intensity of vocal glow depending on whether it's SP\n\n* slightly bump glow intensity and change SP color\n\n* commit material that got lost in unversioned hell\n\n* Rename glow object on BaseVocalNote prefab\n\n* Cleanup\n\n* Remove testing material"
+    }
+  ]
+}
