@@ -28,6 +28,12 @@
         "releaseDate": "2026-05-09T00:00:00.000Z"
       },
       {
+        "title": "Why We Lose (feat. Coleman Trapp)",
+        "artist": "Cartoon, Coleman Trapp, J\u00E9ja",
+        "length": 215680,
+        "releaseDate": "2026-05-09T00:00:00.000Z"
+      },
+      {
         "title": "Static (feat. Hatsune Miku)",
         "artist": "FLAVOR FOLEY",
         "length": 246195,
@@ -120,9 +126,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "a2dfb99b-242e-419e-8021-c035dae857cb",
-      "tag": "yarn_pack_4-2026-07-11-0",
-      "release": "2026-07-11T22:51:37.913677Z",
+      "uuid": "c6091219-bbe5-496f-b2c8-1e10a6897cb5",
+      "tag": "yarn_pack_4-2026-08-08-0",
+      "release": "2026-08-08T19:20:20.078029Z",
       "content": [
         {
           "platforms": [
@@ -132,7 +138,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_4-2026-07-11-0/yarn_pack_4-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_pack_4-2026-08-08-0/yarn_pack_4-0.7z",
               "fileType": "encrypted"
             }
           ]
