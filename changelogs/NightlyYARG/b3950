@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "35c61ed45bd880bf079c6d7e969d5fda6629fb62",
+      "author": "Supersonicboss1",
+      "summary": "Vocals visual enhancements (#1567)",
+      "description": "* Vocals visual improvements\n- Combo rim effects\n- Sunburst effect\n- Combo increase animation\n\n* Fix pulse effect\n\n* Prevent VFX from covering the lyrics\n\n* Use actual FC Ring for vocals\n\n* Make the ring mask 35px\n\n* Prevent multiplier increase tween playing when losing multiplier in SP\n\n* Show correct rim type instantly if FC lost"
+    },
+    {
+      "sha": "c49e8efe3042978c2ddf051599cb6e60048cad9e",
+      "author": "wyrdough",
+      "summary": "Also reset rotation when resetting character position",
+      "description": ""
+    },
+    {
+      "sha": "16be244b670d5710a516b925460e09d172d399d1",
+      "author": "polson",
+      "summary": "YARG.Core pointer update for Support for multichannel mic handling- #440",
+      "description": ""
+    },
+    {
+      "sha": "4fe6b45acb96f38e2e4ef3a9882bfbd6cceeac98",
+      "author": "polson",
+      "summary": "Multichannel mic handling (#1610)",
+      "description": "* Implement multichannel device handling\n\n* Support multiple microphones per profile\n\n* Tolerate glitched samples in channel probe duplicate check\n\n* Feed every profile mic into vocals pitch detection\n\n* Move mic device listing async to YARG with UniTask\n\n* Persist mics as BaseName and Channel in v3\n\n* Rename mic parse variables for clarity"
+    },
+    {
+      "sha": "cb0b6fdbe7ecb34c8da049c1b4c3ea4b385cdecc",
+      "author": "Dansla116",
+      "summary": "Fix Persistent UI Layering Regression Again (#1611)",
+      "description": ""
+    }
+  ]
+}
