@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "ea9ae314da430632b805238b1bc61e46ef30763f",
+      "author": "Supersonicboss1",
+      "summary": "Vocal player hud fixes",
+      "description": ""
+    },
+    {
+      "sha": "61cd26dc3cf1957f35a578f0ba20b4f81cc9849a",
+      "author": "Dansla116",
+      "summary": "Fix Persistent UI Layering Regression a Third Time (#1612)",
+      "description": ""
+    }
+  ]
+}
