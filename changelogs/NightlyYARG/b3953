@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d627c1ff59588078c26c35e1ec5e14e8caa38286",
+      "author": "wyrdough",
+      "summary": "Reset VRMCharacter rotation, support RNG parameter for animator",
+      "description": ""
+    }
+  ]
+}
