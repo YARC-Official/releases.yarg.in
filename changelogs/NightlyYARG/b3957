@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "b38c6f0152dffbc2e6c31c7b78161b550c95e55f",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for \"Parse strings and keys authors from DTA\"",
+      "description": ""
+    },
+    {
+      "sha": "8c47173c9966b5785c064f786ab977a3181206e1",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for vocals censorship",
+      "description": ""
+    },
+    {
+      "sha": "2bd52c9092abc39f9202726782772fdf3f870803",
+      "author": "Supersonicboss1",
+      "summary": "Add vocals censorship chart feature (#1529)",
+      "description": "* Add vocal censorship support\n- Lyric display censorship still needs to be implemented\n\n* Load chart with censorship enabled\n\n* Cleanup\n\n* Move censorship status to ReplayInfo\n\n* Move censorship application back to SongChart and cleanup\n\n* Add RefreshSongs method for MaxSongRating and CensorMatureContent\n\n* Fix censorship state on replay playback\n\n* Bump replay cache version"
+    }
+  ]
+}
