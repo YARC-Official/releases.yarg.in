@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "b6c660ea5194f77b4668c1ab21e78ae4fd118f07",
+      "author": "polson",
+      "summary": "Core pointer update for asio support",
+      "description": ""
+    },
+    {
+      "sha": "30d31c8b4252148cdb5b8b04c26701e6f95b865b",
+      "author": "polson",
+      "summary": "Implement ASIO support (#1587)",
+      "description": "* Add ASIO audio support\n\n* Cleanup\n\n* More cleanup\n\n* Allow more than 2 output channels"
+    },
+    {
+      "sha": "bd44e6317df09d043d9bb68a87a81d0bbf9130ea",
+      "author": "Supersonicboss1",
+      "summary": "Use parsed section names for practice header",
+      "description": ""
+    }
+  ]
+}
