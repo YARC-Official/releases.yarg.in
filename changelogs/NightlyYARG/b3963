@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "eb442dd10e2b8135584d2b0ae71ede93df8bdfa6",
+      "author": "wyrdough",
+      "summary": "CON scan parallization core pointer update (h/t DevPrice)",
+      "description": ""
+    },
+    {
+      "sha": "9a2f7105673be2149543406d9847fd77caba06dd",
+      "author": "wyrdough",
+      "summary": "Wait Countdown fix core pointer update",
+      "description": ""
+    },
+    {
+      "sha": "5a78e37bad7158fb81f4bc856bac006c647af39a",
+      "author": "polson",
+      "summary": "Fix FFT handling and add FFT to audio debug window",
+      "description": ""
+    }
+  ]
+}
