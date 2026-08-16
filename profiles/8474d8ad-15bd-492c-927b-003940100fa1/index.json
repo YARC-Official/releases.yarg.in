@@ -664,6 +664,36 @@
         "artist": "White Coven",
         "length": 365823,
         "releaseDate": "2026-04-26T00:00:00.000Z"
+      },
+      {
+        "title": "In the Garden",
+        "artist": "Red Vox",
+        "length": 252923,
+        "releaseDate": "2026-08-15T00:00:00.000Z"
+      },
+      {
+        "title": "Eat Me Alive",
+        "artist": "Saturdays at Your Place",
+        "length": 250815,
+        "releaseDate": "2026-08-15T00:00:00.000Z"
+      },
+      {
+        "title": "Dancing Demons",
+        "artist": "Space Weather",
+        "length": 222799,
+        "releaseDate": "2026-08-15T00:00:00.000Z"
+      },
+      {
+        "title": "Secrets",
+        "artist": "State Champs",
+        "length": 228571,
+        "releaseDate": "2026-08-15T00:00:00.000Z"
+      },
+      {
+        "title": "Love Me Pls",
+        "artist": "The Polarity",
+        "length": 184962,
+        "releaseDate": "2026-08-15T00:00:00.000Z"
       }
     ],
     "credits": [
@@ -709,9 +739,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "45f8a3ff-06fc-4976-a5f6-303374147cb0",
-      "tag": "official-2026-04-24-0",
-      "release": "2026-04-24T23:52:07.6357292Z",
+      "uuid": "10673d4c-d9b6-42c8-a1cc-3bc5223f69e1",
+      "tag": "official-2026-08-15-0",
+      "release": "2026-08-16T00:26:43.111978Z",
       "content": [
         {
           "platforms": [
@@ -721,11 +751,11 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-04-24-0/official-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-08-15-0/official-0.7z",
               "fileType": "encrypted"
             },
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-04-24-0/official-1.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/official-2026-08-15-0/official-1.7z",
               "fileType": "encrypted"
             }
           ]
