@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "34f8e3deeda6f9811347b6da912ed787c477e9ca",
+      "author": "Supersonicboss1",
+      "summary": "Fix enter to unfocus search not working",
+      "description": ""
+    },
+    {
+      "sha": "7fde4ac7f10b8d44bcd5b700fde03a6e84099111",
+      "author": "Supersonicboss1",
+      "summary": "Don't assume all slider ranges that start and end at whole numbers are percentages",
+      "description": ""
+    },
+    {
+      "sha": "5a8caa09e79d034674fcab7563ac9d8c3087f055",
+      "author": "Supersonicboss1",
+      "summary": "core pointer update for stem fixes",
+      "description": ""
+    },
+    {
+      "sha": "ce64386d558c59b6f33b4d5d17cf4a85f0bd7e3c",
+      "author": "polson",
+      "summary": "Add github pull request template",
+      "description": ""
+    },
+    {
+      "sha": "6ed47e7ea0fe32563cb3ad608a31d910de88deb3",
+      "author": "sepalani",
+      "summary": "Add KeepLyricBar to HUD settings (#1572)",
+      "description": ""
+    },
+    {
+      "sha": "d9c2141a7141225da9197e326b4e12b5accac9db",
+      "author": "XaiaX",
+      "summary": "feat: clarify recommended preset dismissal (#1569)",
+      "description": ""
+    }
+  ]
+}
