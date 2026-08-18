@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "44c71679cda38b071fb8e56cfadba5fb2e67c737",
+      "author": "wyrdough",
+      "summary": "Rewrite background/side image FileInfo when renaming highway preset",
+      "description": ""
+    }
+  ]
+}
