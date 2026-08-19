@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "28ec971209810b6ee62196255683d7b5e82ebdc3",
+      "author": "Supersonicboss1",
+      "summary": "Add glow effect to the fail meter",
+      "description": ""
+    },
+    {
+      "sha": "51a528102869fef4d22e31624153cffbb47e5a69",
+      "author": "Supersonicboss1",
+      "summary": "Shrink and wrap genre/subgenre text",
+      "description": ""
+    }
+  ]
+}
