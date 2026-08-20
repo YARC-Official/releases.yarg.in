@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "5afd36aa97dfe448c46bca5572301dd1f1fabcdb",
+      "author": "Dansla116",
+      "summary": "Add Options for Song Duration Groups in Sort and Filter (#1624)",
+      "description": "* Add options for song duration groups in sort and filter\n\n* Create legacy duration buckets only when needed"
+    },
+    {
+      "sha": "7d7fa4f4e10f9ccc7c597ccbcd0139dbee687419",
+      "author": "wyrdough",
+      "summary": "More consistently use charted postproc transition durations",
+      "description": ""
+    },
+    {
+      "sha": "96f2af6cd88e0aef4adb13b60e1c9aa394e39d75",
+      "author": "Supersonicboss1",
+      "summary": "Harmony lipsync and singalongs (#1614)",
+      "description": "* Rough harmony lipsync implementation\n\n* More lipsync work\n- Read BandSongPref\n- Handle unlimited lipsync files\n\n* Implement singalongs\n\n* refactor\n\n* Add autogen support\n\n* cleanup and minor refactor\n\n* Fix various bugs\n\n* Reset all expression keys on singalong end\n\n* Fix lipsync when characters are replaced\n\n* Change null check to be explicit\n\n* Rework singalong events to do what they do in RB\n\n* Refactor lipsync assignment to be callable from BackgroundManager\n\n* Remove log I forgot about\n\n* Singalong fixes\n\n* Core pointer update"
+    }
+  ]
+}
