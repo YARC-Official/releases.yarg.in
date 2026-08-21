@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "d4d1236cf964fc09e99859999352222efece5258",
+      "author": "theli-ua",
+      "summary": "Handle duplicate metal shaders when loading custom content gracefully (#1630)",
+      "description": ""
+    },
+    {
+      "sha": "e08b6d7df10b528bbd03b55eb5c10426e6f75549",
+      "author": "theli-ua",
+      "summary": "Add unity pipeline package dependency (#1619)",
+      "description": "This allows using official Unity CLI\nhttps://docs.unity.com/en-us/unity-cli/unity-cli"
+    },
+    {
+      "sha": "782e0ac835034c42b38d937a9df946c85d7a7ad6",
+      "author": "polson",
+      "summary": "Update core pointer for Expose microphone buffer and reverb controls #445 - polson",
+      "description": ""
+    },
+    {
+      "sha": "c277bed152edb48c4f6e7b8e29d113969f18f5ff",
+      "author": "polson",
+      "summary": "Unify managed DSP native interop (#1626)",
+      "description": "* Unify managed microphone DSP pipeline\n\n* Update native libs"
+    }
+  ]
+}
