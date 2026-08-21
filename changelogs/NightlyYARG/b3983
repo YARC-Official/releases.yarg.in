@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "3e7ffeb9bd04d3d6e5a4f9111cc90f009357ce42",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for .voc lipsync loading",
+      "description": ""
+    }
+  ]
+}
