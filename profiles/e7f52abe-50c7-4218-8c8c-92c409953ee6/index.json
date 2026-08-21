@@ -25,7 +25,7 @@
                 "url": "https://releases.yarg.in/profiles/e7f52abe-50c7-4218-8c8c-92c409953ee6/Magica2.jpg",
                 "caption": ""
             }
-	    ],
+        ],
         "credits": [
             {
                 "name": "Credits",
@@ -36,9 +36,9 @@
     "version": {
         "type": "embedded",
         "version": {
-            "uuid": "422eff50-8351-47b3-8ae1-b0922a976911",
-            "tag": "Magia_Alliance_HQ-2026-07-05-0",
-            "release": "2026-07-05T18:18:01.534651+00:00",
+            "uuid": "dfe5802c-1efd-46de-baa3-824d056085c0",
+            "tag": "Magia_Alliance_HQ-2026-08-21-0",
+            "release": "2026-08-21T19:50:40.987285+00:00",
             "content": [
                 {
                     "platforms": [
@@ -48,7 +48,7 @@
                     ],
                     "files": [
                         {
-                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Magia_Alliance_HQ-2026-07-05-0/Magia_Alliance_HQ-2026-07-05-0.7z",
+                            "url": "https://github.com/YARC-Official/Venue-Releases/releases/download/Magia_Alliance_HQ-2026-08-21-0/Magia_Alliance_HQ-2026-08-21-0.7z",
                             "fileType": "7z"
                         }
                     ]
