@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "b62081ffb863674e3f7ba28a6d96054b838572e5",
+      "author": "polson",
+      "summary": "Add back in 0 buffer on output mixer, whoops",
+      "description": ""
+    },
+    {
+      "sha": "b3e70ee3f37469efc897b465845606fd8fe7b213",
+      "author": "polson",
+      "summary": "Core pointer update for yarg.core metronome fix",
+      "description": ""
+    },
+    {
+      "sha": "0635624a3617dd0c9f8dd8f7a26fa26efa12592e",
+      "author": "wyrdough",
+      "summary": "yarg_guid ini support core pointer update",
+      "description": ""
+    },
+    {
+      "sha": "e93fdba8272c57ea0abbf1a286980499976c00f7",
+      "author": "polson",
+      "summary": "Core pointer update for Support idle_mellow character state #1627 - trainlos",
+      "description": ""
+    },
+    {
+      "sha": "bdbb3bdf77649d2a5e76c62b22305f251c402cea",
+      "author": "trainlos",
+      "summary": "Support `idle_mellow` character state (#1627)",
+      "description": ""
+    },
+    {
+      "sha": "864f13563457f3f6f32c88522241d6b49fc03c35",
+      "author": "polson",
+      "summary": "Add in new crowd settings (#1629)",
+      "description": "* New crowd settings\n\n* Default to performance reverb on migration"
+    },
+    {
+      "sha": "7fb2a43aa4aa4bf92abc9f39d69f840f0c526e90",
+      "author": "polson",
+      "summary": "Fix metronome routing (#1631)",
+      "description": ""
+    }
+  ]
+}
