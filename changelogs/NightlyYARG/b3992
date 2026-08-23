@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "0015fcf8e828ab26a83ac3ae72b473b8c4bf57ae",
+      "author": "Dansla116",
+      "summary": "Percentage and Score Sorting, Resolution Helper (#1580)",
+      "description": "* fix: score/percentage sorting, no part category, cache optimization\n\n* Sort score groups by performance\n\n* Added IsFC sorting for 100% group and added back intensity/name sorts\n\n---------\n\nCo-authored-by: Nort <118631044+Nort1346@users.noreply.github.com>"
+    },
+    {
+      "sha": "6953ccef0c8e322f348810389a801c5813e68f41",
+      "author": "Supersonicboss1",
+      "summary": "Fix notifications sometimes appearing when they should be inhibited",
+      "description": "- This would happen if a unison occured during a solo"
+    }
+  ]
+}
