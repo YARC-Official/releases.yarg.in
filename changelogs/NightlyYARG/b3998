@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "e67f9c34547028d5a60770169a3e927066289a24",
+      "author": "wyrdough",
+      "summary": "Fix quick bind skip button",
+      "description": ""
+    },
+    {
+      "sha": "27d4457c66ba3c5752106d5ac4fe629257533560",
+      "author": "Dansla116",
+      "summary": "Preserve playlist entries when songs are updated in place (#1622)",
+      "description": ""
+    },
+    {
+      "sha": "5103c78007f544010a728e1923dfe07bc83ea04a",
+      "author": "polson",
+      "summary": "Core pointer update for wasapi exclusive",
+      "description": ""
+    },
+    {
+      "sha": "3786b793378aca58a0bd6bd2bd0eb16c0792652c",
+      "author": "polson",
+      "summary": "WASAPI exclusive support (#1633)",
+      "description": "* Implement WASAPI exclusive for output\n\n* Fix latency issues, add to audio debug panel\n\n* Cleanup\n\n* More cleanup\n\n* Never stop cleaning up\n\n* More cleanup\n\n* Cleanup\n\n* Don't show claimed devices in add devices\n\n* Cleanup\n\n* Reset push stream on scene load\n\n* Reset latency on song start\n\n* More cleanup\n\n* Cleanup again\n\n* Remove estimated latency from playback buffer length setting visual\n\n* Refactor WASAPI output and microphone capture implementation\n\n* Revert QualitySettings.asset changes\n\n* Remove F8 garbage collection shortcut\n\n* Remove YARG.Core pointer update"
+    }
+  ]
+}
