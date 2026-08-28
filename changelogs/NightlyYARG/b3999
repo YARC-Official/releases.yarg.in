@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "14c1f5e778ad9e68d08da781e33c58492503c779",
+      "author": "poliwhirlge",
+      "summary": "Fix genre spacer improperly being set to be active (#1643)",
+      "description": ""
+    }
+  ]
+}
