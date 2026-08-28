@@ -1,5 +1,9 @@
 [
   {
+    "tagName": "b4002",
+    "publishedAt": "2026-08-28T23:01:35Z"
+  },
+  {
     "tagName": "b3999",
     "publishedAt": "2026-08-28T12:11:44Z"
   },
@@ -394,9 +398,5 @@
   {
     "tagName": "b3748",
     "publishedAt": "2026-05-13T02:22:31Z"
-  },
-  {
-    "tagName": "b3747",
-    "publishedAt": "2026-05-12T13:54:27Z"
   }
 ]
