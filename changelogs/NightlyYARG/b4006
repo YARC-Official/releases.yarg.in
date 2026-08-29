@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "0d5929aac11792ba2c06f61c51c3bd2e5b0416f3",
+      "author": "polson",
+      "summary": "Revert libVLC video player integration (#1644)",
+      "description": ""
+    },
+    {
+      "sha": "28abd018b68487990ae439aae6c9c56a7736b581",
+      "author": "polson",
+      "summary": "Update core pointer for Add SelectArtist input action- #432 (Ape)",
+      "description": ""
+    },
+    {
+      "sha": "723c6f0d01472590616a68b413ffa790e0c697d2",
+      "author": "Ape",
+      "summary": "Add bind for selecting current artist in music library (#1588)",
+      "description": ""
+    }
+  ]
+}
