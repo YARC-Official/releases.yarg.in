@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "1110bf0cd24b84f0a666212e6ca886b5d9643ce7",
+      "author": "wyrdough",
+      "summary": "Update IsGenericState to include missing states",
+      "description": ""
+    },
+    {
+      "sha": "386d5122284df34f74db887afeb86564967506e2",
+      "author": "wyrdough",
+      "summary": "Reset VRM character animation on camera cut, add support for end animation",
+      "description": ""
+    }
+  ]
+}
