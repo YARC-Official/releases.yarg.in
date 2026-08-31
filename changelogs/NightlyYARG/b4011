@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "1f1af6536f8228ecfe33b970749bf5cccf45dabd",
+      "author": "wyrdough",
+      "summary": "Catch exceptions in audio output mode selection so that we fall back to shared instead of failing to run.",
+      "description": ""
+    }
+  ]
+}
