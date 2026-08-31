@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "5a214aa4ee11d0af944150f3ba1e82710c622cd9",
+      "author": "polson",
+      "summary": "Remove obsolete OldOnboardingDialog prefab with missing script (#1651)",
+      "description": "Removes the unused OldOnboardingDialog.prefab and its .meta file, which referenced a removed MonoBehaviour script and triggered MissingScriptBuildValidator failures."
+    },
+    {
+      "sha": "2503e0e3c51534561fbf3560ff85908b6945c8d9",
+      "author": "0urPal",
+      "summary": "Fix ASIO init crash on drivers with non-ASCII paths (#1648)",
+      "description": "BassAsioDriver.Initialize() read the driver's file path via\nAsioDeviceInfo.Driver, which under Mono can throw\nExecutionEngineException: Illegal byte sequence when that path\ncontains non-ASCII bytes (e.g. RODE's driver installs under a path\ncontaining \"ø\"). The exception went uncaught, aborting ASIO\ninitialization entirely instead of just losing one piece of display\nmetadata.\n\nWrap the read in try/catch and fall back to the already-safe\nDriverName for DriverId on failure."
+    },
+    {
+      "sha": "5a21196d4daeaee04721d4ee4754edff8c93d67b",
+      "author": "polson",
+      "summary": "Divide mic analysis bytes by channel count (#1650)",
+      "description": ""
+    },
+    {
+      "sha": "6f83acacecc1823e29cbd52a1687dc21a6bfbdb5",
+      "author": "polson",
+      "summary": "Add build preprocessor to fail on missing scripts in scenes and prefabs (#1647)",
+      "description": ""
+    }
+  ]
+}
