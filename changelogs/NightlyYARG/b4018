@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "f31fc968ca536c9f5ae83ad3ab791d0f7a29f652",
+      "author": "wyrdough",
+      "summary": "Allow VRMCharacters to specify genre-specific animation controllers",
+      "description": ""
+    },
+    {
+      "sha": "b7b572cebbcfac80915b7f5fb01cf18a5648f301",
+      "author": "wyrdough",
+      "summary": "Also reset positions when camera cuts are triggered by VenueAnimator.",
+      "description": ""
+    }
+  ]
+}
