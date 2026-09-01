@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "50bd0511eb0fcc2c7344c73df918654d6e8e5d8b",
+      "author": "wyrdough",
+      "summary": "Update open to greens modifier icon",
+      "description": ""
+    },
+    {
+      "sha": "7481307147808bba6327ba8f2907d8a26d528c22",
+      "author": "Dansla116",
+      "summary": "Move Playable filter from 'Sort By' to 'Filters' menu (#1640)",
+      "description": "* Move Playable filter from More Options Sort to Filters menu\n\nUse intensity names for Classic intensities and clean up group order\nUse Source display name in More Options Go To Section\n\n* Use expanded intensities in Filters Menu"
+    },
+    {
+      "sha": "dadf0dd74e52c3398dd5c34889308992e9ed2cd2",
+      "author": "Dansla116",
+      "summary": "Show clickable filters in a unified search bar (#1637)",
+      "description": ""
+    }
+  ]
+}
