@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "288319b5c82c686416794a16183ba4cc18b21de1",
+      "author": "Dansla116",
+      "summary": "Performance Improvements when Sorting By Score Context (#1641)",
+      "description": "* Performance Improvements when Sorting By Score Context\n\n* Update Linux SQLite to support window functions"
+    },
+    {
+      "sha": "ecbd27df9a05ec643dd070c459943423c3389f9d",
+      "author": "XaiaX",
+      "summary": "Bug/profile load recovery (#1636)",
+      "description": "* Move delayed button arming into ShowCompactConfirmation, fix color flash\n\nThe preset delete confirmation disabled its confirm button after the\ndialog was shown, which flashed the button's enabled color for a frame:\nthe button's color-tint transition lerps to the disabled color over its\nfade duration instead of switching instantly.\n\nShowCompactConfirmation now takes an armDelaySeconds parameter that\ndisables the confirm button fade-free before it first renders and\nre-enables it (with its given color restored) after the delay. Preset\ndeletion collapses to a single call with armDelaySeconds: 2.\n\n* Recover from invalid profile records instead of failing the whole load\n\nLoading profiles previously deserialized the entire JSON array in one\ncall, so a single unrecognized record threw and prevented every profile\nfrom loading; the backup path had the same flaw, and PlayerContainer\nwas never left initialized, so new profiles could not be saved either.\n\n- Parse the profile array element-by-element and register each record in\n  its own failure boundary, so valid profiles survive invalid neighbors.\n- Fall back to the backup only when the main file is not structurally\n  readable; a partially valid main file keeps its valid records.\n- Always initialize the container on non-throwing paths (even with zero\n  valid profiles) and refresh bindings, which already skips orphans.\n- Records this version cannot load are set aside in a sidecar file\n  (profiles.json.unloaded) with the version that last tried them,\n  preserved verbatim and never deleted automatically; on later loads\n  under a different version they are retried and promoted on success.\n- Guard registration against null records, duplicate IDs, and migration\n  failures, skipping only the offending record.\n- Preserve structurally unreadable sources as profiles.json.invalid\n  (timestamped if one exists) before any sanitized rewrite.\n- Show one aggregate warning toast with the skipped-record count;\n  per-record details go to the log.\n\n* Show set-aside profiles in the profile list\n\nRecords this version could not load now appear under a 'Couldn't Load'\ngroup in the profile list, rendered with the existing profile row\nprefab in an inert mode: the name is shown with a 'could not be\nloaded by this version of YARG' suffix, connect/disconnect and\nreorder controls are hidden or disabled, and selecting the row shows\nnothing in the sidebar. The row's delete button removes the record\nfrom the sidecar after a delayed-confirmation dialog.\n\nBot deletion gains the same delayed-confirmation dialog (it was\npreviously instant with no prompt); regular profile deletion is\nunchanged. All delete paths now refresh the list so emptied group\nheaders disappear immediately."
+    },
+    {
+      "sha": "2a76fa7e04d0f87b386e58f588c63a6125c31474",
+      "author": "XaiaX",
+      "summary": "Move delayed button arming into ShowCompactConfirmation, fix color flash (#1635)",
+      "description": "The preset delete confirmation disabled its confirm button after the\ndialog was shown, which flashed the button's enabled color for a frame:\nthe button's color-tint transition lerps to the disabled color over its\nfade duration instead of switching instantly.\n\nShowCompactConfirmation now takes an armDelaySeconds parameter that\ndisables the confirm button fade-free before it first renders and\nre-enables it (with its given color restored) after the delay. Preset\ndeletion collapses to a single call with armDelaySeconds: 2."
+    },
+    {
+      "sha": "fc7270841c26dcfc810ff89371831ed0fa51c5cd",
+      "author": "theli-ua",
+      "summary": "Set sound texture as a global texture (#1632)",
+      "description": "Intenion is to be able to use it in any of custom content without\nhaving to plumb it through"
+    },
+    {
+      "sha": "33afd22d8a237f013e72bdf6daa89e7ae13453c1",
+      "author": "XaiaX",
+      "summary": "feat: show built-in preset values read-only in the preset editor (#1620)",
+      "description": ""
+    },
+    {
+      "sha": "cc317cfa50e871dd00138e1165b655c842800b24",
+      "author": "Dansla116",
+      "summary": "Unify Play a Show and Setlist Behavior in the Music Library (#1625)",
+      "description": "* Unify Play a Show and Setlist Behavior in the Music Library\n\n* Add bulk transfers between playlists and setlists"
+    }
+  ]
+}
