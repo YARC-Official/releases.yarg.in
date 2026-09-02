@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "41d74a98b27a93101caf3711331a5f0d2ba5fae0",
+      "author": "Frickitickitavi",
+      "summary": "Enable dedicated open lane on 5F Guitar (#1654)",
+      "description": "* Mostly working, just needs visual polish\n\n* Actual open animation for BREs\n\n* 5LK open BRE animation\n\n* Fake flash effects\n\n* Fix dedicated open HOPO/tap color\n\n* Cosmetic cleanup from review feedback\n\n* Update core pointer"
+    },
+    {
+      "sha": "1f85219e377d6648d42d5f43a690089a15800aae",
+      "author": "wyrdough",
+      "summary": "Use specified custom genre-specific animator overrides (when possible)",
+      "description": ""
+    },
+    {
+      "sha": "44d1dfa8651dd219566eb84da329efa93cb46ef5",
+      "author": "wyrdough",
+      "summary": "Fix backwards compatibility with existing characters",
+      "description": ""
+    }
+  ]
+}
