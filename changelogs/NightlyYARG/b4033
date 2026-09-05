@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "558591a1cf3eb112c81719125a2aa2bf891ac6cc",
+      "author": "Supersonicboss1",
+      "summary": "Static lyric shifts (#1594)",
+      "description": "* static lyrics shifts v1\n\n* misc changes\n\n* Basic held syllables implementation\n\n* Code cleanup\n\n* Add next phrase activation ahead of shift\n- Also fixes for core changes\n\n* Rename enum members and add Reset method to HeldStaticPhraseElement\n\n* Rename MergedPhrases to MergedStaticLyricPhrases\n\n* Fix timing issue with carried notes\n\n* Cleanup and fix 3-lane held syllables\n\n* Switch to using lyric lengths for scrolling lyrics too\n\n* Disable held lyrics if static vox is not on\n\n* Don't add to _heldPhrases if there are no syllables in the phrase\n\n* Update color of static lyrics to match scrolling\n\n* Actually use AddSyllablesToBuilder for static lyric phrases\n\n* core pointer"
+    },
+    {
+      "sha": "d4e6ce682cead2b31c7ccd15a207951a9c3031df",
+      "author": "Supersonicboss1",
+      "summary": "core pointer update to unbroke 5F anchoring",
+      "description": ""
+    },
+    {
+      "sha": "3971a139cf577ee8c21842cf12c22c5002d2ed87",
+      "author": "theli-ua",
+      "summary": "Allow 6f profile to select casual or solotap preset (#1658)",
+      "description": "* Allow 6f profile to select casual or solotap preset\n\n* core pointer"
+    },
+    {
+      "sha": "bf2bb29ea7778f94c4473f50853762fb198c7da9",
+      "author": "theli-ua",
+      "summary": "Fix 6f color preset sp metal preview (#1659)",
+      "description": ""
+    }
+  ]
+}
