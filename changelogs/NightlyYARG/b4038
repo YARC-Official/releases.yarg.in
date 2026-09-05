@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "36736727fc6f9d8a3787b2fe6ead25a090390542",
+      "author": "Supersonicboss1",
+      "summary": "Fix bass groove on 5F->6F converts",
+      "description": ""
+    },
+    {
+      "sha": "700f9cd2f736af91c9d82e4a4cec693f602e93f9",
+      "author": "Supersonicboss1",
+      "summary": "Allow 5LK converts on 6F Guitar",
+      "description": ""
+    },
+    {
+      "sha": "296ff12bfff0434b35b6ee5cbad02122d5f05ab0",
+      "author": "theli-ua",
+      "summary": "Add gameStateTexture to texture manager (#1634)",
+      "description": "* Introduce game state texture\n\nTo be able to have shader effects based on current game state\nCurrently only exposes failure meter and song lengt/position\n\n* Fix game state texture using wrong texture format\n\nR16 is unorm, not f16 - the raw f16 bit patterns were being\nnormalized on sampling, reading back garbage values\n\n* Add SongTimer shader\n\nNixie tube style MM:SS / MM:SS song clock for venue quads,\nrendered from the game state global texture.\n\nDigit SDFs based on https://www.shadertoy.com/view/4dc3zr\n\n* Add gamestate.hlsl accessor include for game state texture\n\nShaders access texels by index through stable named accessors,\nso extending the game state with new fields (always appended)\nkeeps existing shaders working unchanged\n\n* Extend game state texture with venue-reactive values\n\nAdds song progress, countdown, paused/practice/speed flags,\nbeat and measure phases, star power active/charge, crowd\nintensity, band accuracy, combo multiplier and stars.\n\nTexels are append-only; shaders read them through the stable\naccessors in gamestate.hlsl\n\n* Add beat pulse torus showcase shader\n\nVertex-displaced torus that spikes on each beat with an extra\nkick on the downbeat; tint follows the fail meter\n\n* Add beat spike sphere showcase shader\n\nSphere with per-vertex noise spikes gated by the beat pulse,\naccented on the downbeat\n\n* Add beat ripple plane showcase shader\n\nFloor plane with concentric vertex-displaced ripples emanating\non every beat, brighter wave on the downbeat\n\n* Add beat wave grid showcase shader\n\nRow of cubes bobbing as a traveling wave, one wave per beat;\nphase derives from world position so no per-object setup\n\n* Add star power crystal showcase shader\n\nFills with light as star power charges, ignites with a fresnel\nrim and energy scroll while active\n\n* Add heartbeat orb showcase shader\n\nDouble-thump pulse that races and reddens as the fail meter\ndrops; rate and amplitude scale with danger\n\n* Add crowd wave plane showcase shader\n\nBanner whose waves grow bigger, faster and choppier as crowd\nintensity rises\n\n* Add song progress arc showcase shader\n\nTorus arc filling with song progress; depletes as a countdown\nring during the pre-song delay\n\n* Add song timer to sample venue\n\nPlaces the nixie-style song clock on the stage alongside the\ngame state showcase objects"
+    },
+    {
+      "sha": "d3813ded026cf4b25b44ee85fec9a7bd37f21c97",
+      "author": "wyrdough",
+      "summary": "Don't allow solo taps to be selected in 6F",
+      "description": "- This is a half fix, because we don't actually force it to be something else if the profile is already saved that way"
+    },
+    {
+      "sha": "0c3efe8519de78eaf35151fbb8dac33fcab6e54e",
+      "author": "XaiaX",
+      "summary": "Fix engine preset editor regressions (#1660)",
+      "description": ""
+    }
+  ]
+}
