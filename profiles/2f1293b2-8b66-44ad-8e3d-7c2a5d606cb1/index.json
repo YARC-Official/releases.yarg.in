@@ -4,8 +4,8 @@
   "metadata": {
     "name": "Go Down in History",
     "description": "Experience the raw power of Four Year Strong with their 2014 EP! A must-get if you enjoy anything between pop punk and melodic hardcore.",
-    "iconUrl": "@/icons/SetlistGoDownInHistory.png",
-    "bannerBackUrl": "@/banners/SetlistGoDownInHistory.png",
+    "iconUrl": "https://releases.yarg.in/profiles/2f1293b2-8b66-44ad-8e3d-7c2a5d606cb1/icon.png",
+    "bannerBackUrl": "https://releases.yarg.in/profiles/2f1293b2-8b66-44ad-8e3d-7c2a5d606cb1/banner.png",
     "initialRelease": "2026-09-06T05:53:52.232599Z",
     "newsCategory": "setlist_official",
     "links": {
@@ -90,9 +90,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "0b2f9c75-9116-4001-ac9e-f796efab0310",
-      "tag": "go_down_in_history-2026-09-05-0",
-      "release": "2026-09-06T05:53:52.232599Z",
+      "uuid": "80243ac8-29d6-4fab-b3c2-727ddfa6d24a",
+      "tag": "go_down_in_history-2026-09-06-0",
+      "release": "2026-09-06T18:49:30.606837Z",
       "content": [
         {
           "platforms": [
@@ -102,7 +102,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/go_down_in_history-2026-09-05-0/go_down_in_history-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/go_down_in_history-2026-09-06-0/go_down_in_history-0.7z",
               "fileType": "encrypted"
             }
           ]
