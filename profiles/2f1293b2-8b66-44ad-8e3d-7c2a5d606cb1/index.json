@@ -1,0 +1,113 @@
+{
+  "type": "setlist",
+  "uuid": "2f1293b2-8b66-44ad-8e3d-7c2a5d606cb1",
+  "metadata": {
+    "name": "Go Down in History",
+    "description": "Experience the raw power of Four Year Strong with their 2014 EP! A must-get if you enjoy anything between pop punk and melodic hardcore.",
+    "iconUrl": "@/icons/SetlistGoDownInHistory.png",
+    "bannerBackUrl": "@/banners/SetlistGoDownInHistory.png",
+    "initialRelease": "2026-09-06T05:53:52.232599Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Go Down in History",
+        "artist": "Four Year Strong",
+        "length": 231101,
+        "releaseDate": "2026-09-06T20:00:00.000Z"
+      },
+      {
+        "title": "Living Proof of a Stubborn Youth",
+        "artist": "Four Year Strong",
+        "length": 187843,
+        "releaseDate": "2026-09-06T20:00:00.000Z"
+      },
+      {
+        "title": "So You\u0027re Saying There\u0027s a Chance...",
+        "artist": "Four Year Strong",
+        "length": 214285,
+        "releaseDate": "2026-09-06T20:00:00.000Z"
+      },
+      {
+        "title": "Tread Lightly",
+        "artist": "Four Year Strong",
+        "length": 201635,
+        "releaseDate": "2026-09-06T20:00:00.000Z"
+      },
+      {
+        "title": "What\u0027s in the Box?",
+        "artist": "Four Year Strong",
+        "length": 191228,
+        "releaseDate": "2026-09-06T20:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "Official"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "0b2f9c75-9116-4001-ac9e-f796efab0310",
+      "tag": "go_down_in_history-2026-09-05-0",
+      "release": "2026-09-06T05:53:52.232599Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/go_down_in_history-2026-09-05-0/go_down_in_history-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
