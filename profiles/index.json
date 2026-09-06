@@ -600,8 +600,8 @@
       "release": "2026-09-06T05:53:52.232599Z",
       "name": "Go Down in History",
       "subText": "Four Year Strong",
-      "iconUrl": "@/icons/SetlistGoDownInHistory.png",
-      "bannerUrl": "@/banners/SetlistGoDownInHistory.png",
+      "iconUrl": "https://releases.yarg.in/profiles/2f1293b2-8b66-44ad-8e3d-7c2a5d606cb1/icon.png",
+      "bannerUrl": "https://releases.yarg.in/profiles/2f1293b2-8b66-44ad-8e3d-7c2a5d606cb1/banner.png",
       "localeOverrides": {}
     }
   ]
