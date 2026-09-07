@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "38d8e137d81b6c14271113d4278e9a8abe33f34f",
+      "author": "wyrdough",
+      "summary": "Default to binding touch strip frets as solo frets for GH guitars",
+      "description": ""
+    },
+    {
+      "sha": "d856cfb338fd7deceb79bad280e11051e1ae702c",
+      "author": "TheNathannator",
+      "summary": "Update PlasticBand-Unity to v0.10.0 (#1666)",
+      "description": ""
+    }
+  ]
+}
