@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "f301de3f128017738c0782c5b5e74e67ffbc1418",
+      "author": "XaiaX",
+      "summary": "feat(difficulty-select): polish difficulty select menus (#1593)",
+      "description": "* feat(difficulty-select): polish difficulty select menus\n\n* feat(difficulty-select): address review feedback on hover and selection fill\n\n* fix: restore localized Unknown label for negative intensities\n\n* Change unselected button text color to match fill"
+    },
+    {
+      "sha": "e22106682ef9989e3a3877412057e5e9dac64200",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for 6f ghost fixes",
+      "description": ""
+    },
+    {
+      "sha": "f78a1fad9dc889e1c6c90ff5eb579b09d00999ce",
+      "author": "4dispel",
+      "summary": "make both venue rngs even 1 to 100 ranges (#1668)",
+      "description": "* make both venue RNG values even 1 to 100 ranges\n\n* swap start and end index because that is significant now"
+    },
+    {
+      "sha": "6a44f340afc32d47c1cf326aa1c920cf52d7d32a",
+      "author": "theli-ua",
+      "summary": "Update com.unity.pipeline (#1667)",
+      "description": ""
+    }
+  ]
+}
