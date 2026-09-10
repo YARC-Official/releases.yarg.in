@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "806c55a0a035aeda1eeb73b0a3e94ba8e3c79d9c",
+      "author": "neilweber",
+      "summary": "Guard NeonLightManager against unassigned material references (#1676)",
+      "description": "The light manager reference and individual neon material slots can be\nnull when a venue only uses one of the two coexisting serialized\nmaterial lists, causing repeated NullReferenceExceptions/\nUnassignedReferenceExceptions every frame in Update()."
+    },
+    {
+      "sha": "31e0505beae9b2ce139d7c80bd90edbcc6c8bfa4",
+      "author": "XaiaX",
+      "summary": "Fix sitting-out vocal mode gating (#1662)",
+      "description": ""
+    }
+  ]
+}
