@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "698c190508297cbe99ae453bc878b4d4568c5f36",
+      "author": "Ape",
+      "summary": "Fix Linux microphone scanning (#1642)",
+      "description": "Avoid probing recording devices on Linux, where opening ALSA plugins and\npseudo-devices can crash or freeze the game. Keep device guards and\nexpose two channels per device without opening it during scanning."
+    },
+    {
+      "sha": "3d66d061a31703f1b25a1f4e6eb326b66002ee71",
+      "author": "theli-ua",
+      "summary": "Copy vlc-unity files instead of symlinks (#1645)",
+      "description": "* Revert \"Revert libVLC video player integration (#1644)\"\n\nThis reverts commit 0d5929aac11792ba2c06f61c51c3bd2e5b0416f3.\n\n* Copy vlc-unity files instead of symlinks\n\n* Copy vlc-unity asmdef instead of symlinks\n\n* Updating vlc assets\n\nLibVLCSharp: 333a98a54095c94c966c4fca117cd11cffeee919 (master branch)\nvlc-unity: f2bbedd5bc84f3e1e979a543f4341a9b9c370dff\n\nLibVLCSharp changes since 533b38387:\n333a98a update NEWS\n0c7bd56 tests: step past first frame before rewinding\n0885d4a tests: stabilize frame stepping and track parsing\n8fc86ce Uno: fix WinUI sample runtime issues\nc630968 samples: add a Windows head to the Uno sample\nfed7be6 Uno: support the WinUI 3 Windows target\n615a32a build: centralize Windows App SDK dependency floor\n\nvlc-unity changes since 81970486d:\nf2bbedd unity: add context menu for VLCMediaPlayer\n744b437 fix(ci/linux): stage Xrandr protocol metadata\n69ed98b fix(ci/linux): expose staged pkg-config metadata\ncee01f0 Fix Unity audio buffering for LibVLC\n202822e Trigger CI for LibVLC build script changes\ncf10c95 Build PulseAudio output for Linux LibVLC\n\n* Patch VLCUnity auto-init to tolerate missing native plugin\n\nWindows users hit DllNotFoundException from VLCUnity's own\n[RuntimeInitializeOnLoadMethod]/[InitializeOnLoad] entry points\n(OnLoad.SetColorSpace, TrialNotice.IsTrial) because only\nLibVLCSharp.dll ships on Windows - the native plugin is Linux-only.\n\nAdd vlc/patches/0001-tolerate-missing-native-plugin.patch (applied by\nvlc/build.sh after mirroring upstream sources) so a missing native\nplugin logs a warning and leaves the VLC backend disabled; the game\ncode already compiles VLC out on Windows (VLC_SUPPORTED) and falls\nback to Unity's built-in VideoPlayer.\n\nLibVLCSharp.dll was already imported for all platforms; no shipping\nchanges needed.\n\n* Support win+osx with vlc\n\n* Excldue vlc plugin in the editor\n\n* Tolerate missing or excluded native VLC plugin on startup\n\n* Silence VLC missing plugin warnings and downgrade fallback log\n\n* Simplify VLC fallback comments to single line plain English\n\n---------\n\nCo-authored-by: Anton Romanov <anromanov@tesla.com>\nCo-authored-by: polson <302882+polson@users.noreply.github.com>"
+    },
+    {
+      "sha": "88ebc8998bc706bca36e9b5d47703d9e9cc8c7ff",
+      "author": "polson",
+      "summary": "Implement track player menu (#1673)",
+      "description": "* Implement track player menu\n\n* Cleanup\n\n* More cleanup"
+    }
+  ]
+}
