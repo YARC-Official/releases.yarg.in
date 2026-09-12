@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "0ca497528261aec23c3adcf62c1203a365e487b1",
+      "author": "polson",
+      "summary": "Core pointer update for Fix warnings and error logs- #462",
+      "description": ""
+    },
+    {
+      "sha": "ac2ccd47aaa9595f042e902dbe08ae1e009f3fa2",
+      "author": "polson",
+      "summary": "Fix warnings and error logs (#1677)",
+      "description": "* Fix warnings and error logs\n\n* Fix DOTween warnings\n\n* Prevent input time regression during in-place speed adjustments\n\n* Fix more errors\n\n* Clean up tween lifecycles and null checks"
+    }
+  ]
+}
