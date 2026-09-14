@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "8d0bd7f0bfb8a0a260d9f08c3c9d6db52f8d4242",
+      "author": "matiasba",
+      "summary": "Don't stop the Unity VideoPlayer right after it finishes preparing (#1681)",
+      "description": "OnVideoPrepared() stopped the player before reading player.length and before\nseeking to the configured start offset.\n\nThat stop is only needed for the VLC backend, where OpenAsync() starts playback\nas soon as the media opens. The Unity VideoPlayer does not auto-play, so there\nwas nothing to stop, and stopping it returned it to an unprepared state, where\nlength reports 0 and seeks are silently dropped. Three consequences on that\npath:\n\n- Songs with a non-zero video_start_time never showed their video. The \"loop\"\n  branch was skipped, _videoEndTime was set to player.length (0), and Update()\n  then returned early on `if (_videoEndTime == 0)` every frame, so Play() was\n  never reached. Without an offset the bug was masked: the loop branch was\n  taken instead and _videoEndTime became NaN, which that check does not match.\n- Every song video was treated as loopable, regardless of its real length.\n- video_start_time itself was a no-op, since the seek was dropped.\n\nStop the VLC player where it is started instead, so the backend-specific\nbehaviour stays in YargVideoPlayer and the Unity path keeps the prepared state\nit just acquired.\n\nTested on Linux with two song folders sharing the same video file via hard link\nand differing only by video_start_time. Before: only the song without an offset\nplayed. After: videos play with positive, negative and absent offsets, the\noffset is applied, and a video as long as its song is no longer marked as\nlooping. The VLC path was also compared against an unmodified build and behaves\nthe same."
+    },
+    {
+      "sha": "1d2117d1464f89c1abde9e554af7a9282a117fdf",
+      "author": "wyrdough",
+      "summary": "Add missing setting string for pause on menu open",
+      "description": ""
+    },
+    {
+      "sha": "b21ce444ef3d969e6a3a46d02f405484378cdd96",
+      "author": "wyrdough",
+      "summary": "Implement mid-song difficulty switching",
+      "description": ""
+    }
+  ]
+}
