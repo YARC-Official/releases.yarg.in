@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "ceb449e5ab398a3dc6734891bc7d10e7942c3fee",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for first note splicing fix",
+      "description": ""
+    },
+    {
+      "sha": "1ce5d1ec4aa6f7cf93a749b3e13f7e0bdc824134",
+      "author": "wyrdough",
+      "summary": "fix text postproc parsing (core pointer)",
+      "description": ""
+    },
+    {
+      "sha": "ca601ca2abbcc36859bb4be049d9bacc3e44498f",
+      "author": "Supersonicboss1",
+      "summary": "Handle difficulty changes more gracefully in UnisonDisplay",
+      "description": ""
+    },
+    {
+      "sha": "d7b321862ba7eada70de06ac7a3992d3c3352bdb",
+      "author": "wyrdough",
+      "summary": "orthographic highway core",
+      "description": ""
+    },
+    {
+      "sha": "2e349eb4420e970460bf36c995b2507a9264c363",
+      "author": "theli-ua",
+      "summary": "Add orthogonal projection to camera preset (#1674)",
+      "description": "* Add orthogonal projection camera preset setting\n\n* Fix vocal track display"
+    },
+    {
+      "sha": "6bf6b1432b0875f5d0f77ef79ee4d7902c48382a",
+      "author": "theli-ua",
+      "summary": "6f visual fixes (#1665)",
+      "description": "* Fix 6f sustain color\n\n* Add color preset setting for 6f open note/hopo\n\n* Remove wildcard from 6f preview\n\n* b/w fret -> fret\n\n* Pick hit effect color based on note being hit for 6f\n\n* six feet pointer"
+    },
+    {
+      "sha": "54d3c04859e1c36d31ee7f46d85a22904efe0cc2",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for \"Fix difficulty select exploding when selecting 5F converts on 6F\"",
+      "description": ""
+    }
+  ]
+}
