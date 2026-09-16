@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "0beb0a6c698a0f67e9900eb458552d596fc5f6b2",
+      "author": "matiasba",
+      "summary": "Log errors from the Unity VideoPlayer (#1684)",
+      "description": "YargVideoPlayer wires up prepareCompleted and seekCompleted but never\nerrorReceived, so anything the Unity player cannot decode fails without\nleaving a trace. The background just never appears: no error, no warning,\nand the song plays through as if the video had been absent all along.\n\nThat silence is expensive to debug. A pack encoded in H.264 does not play\non Linux, where the supported encoding is VP8 in WebM, and the only way to\nfind that out today is to guess at the codec and re-encode something to\ntest the theory. Worse, it is indistinguishable from every other reason a\nvideo might not show up, so one silent failure looks exactly like another\nwith a completely different cause.\n\nForward the event to the log so the file and the reason show up.\n\nCo-authored-by: Matias Barros <matias.barros@invgate.com>"
+    },
+    {
+      "sha": "c6b418966bcf7aa57925fa1ba2e71345573ddad9",
+      "author": "polson",
+      "summary": "Add native audio builder and shadow loading (#1653)",
+      "description": "* Add native audio builder and shadow loading\n\n* Make native audio binding loader thread-safe\n\n* Use Unity platform defines for native audio library loading\n\n* Cleanup\n\n* Handle native audio build errors gracefully and remove package builder\n\n* Refresh macOS audio plugin from CI artifact\n\n* Fix Linux YargAudio plugin path and report the searched path on load failure\n\n* Fix native audio build deadlock, surface reload failures, and drop the session flag"
+    }
+  ]
+}
