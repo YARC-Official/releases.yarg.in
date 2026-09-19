@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "d4cdf30df13cece1a253efad098cc2170837f553",
+      "author": "Dansla116",
+      "summary": "Add Configurable Album Grouping to Artist Sort (#1690)",
+      "description": "* Add configurable album grouping to artist sort\n\n* Fix random song bias\n\n* Address review feedback"
+    },
+    {
+      "sha": "6acace53896878a024051ebf2d2bb6a5a35d0943",
+      "author": "theli-ua",
+      "summary": "Further simplify fade alpha calculation (#1688)",
+      "description": "* Further simplify fade alpha calculation\n\nWe already abandoned euclidian distance from camera previously.\nGo even further and simply use elements' Z coordinate directly\nsince all highways are spawned at Z=0 and aligned with z axis.\n\nThis also fixes fading application for orthogonal projection\n\n* Add fade/strikeline comments about keeping in sync"
+    },
+    {
+      "sha": "aaa73a363a284d3af9c38e7d6c9478a5329503cb",
+      "author": "matiasba",
+      "summary": "Add a setting to keep a shared stem audible until every player misses (#1687)",
+      "description": "When several players share an instrument, its stem volume is currently\nsplit between them, so with two guitarists one miss leaves the guitar at\nhalf volume. That split is less forgiving than it looks. Mixing sums\npower, not amplitude, so halving a stem's amplitude removes 75% of the\nenergy it contributes to the mix. Measured on a multitrack song, dropping\nthe guitar to half covers 73-82% of the loudness distance between the\nfull mix and the same mix with the guitar muted outright.\n\nSo the partial mute already sounds close to a full one, which makes the\nmiddle ground it aims for hard to hear. This adds a setting for groups\nwho would rather the instrument stay fully audible as long as somebody is\nstill playing it, and mute only once everyone on it has missed.\n\nOff by default, so the existing behaviour is unchanged. It is greyed out\nwhen Mute On Miss is off, and it leaves the background stem alone: that\nstem stands in for players whose instrument has no stem of its own, and\nits split is what keeps a single-track song from going silent on a miss.\n\nCo-authored-by: Matias Barros <matias.barros@invgate.com>"
+    },
+    {
+      "sha": "1b96e72876c68845869080f9f1efe3a2a0b31e6f",
+      "author": "Dansla116",
+      "summary": "4-Lane/Pro Drums aggregate-light Score/Sort/Filter (#1678)",
+      "description": ""
+    },
+    {
+      "sha": "68a809e8c83c9353f80a55b98848dce7fee1613f",
+      "author": "Dansla116",
+      "summary": "Fix Scan Songs from Playlist Menu (#1691)",
+      "description": ""
+    }
+  ]
+}
