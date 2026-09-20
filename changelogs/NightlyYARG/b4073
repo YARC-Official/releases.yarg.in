@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "5681cfd864bb530ebc00837434507740c8a8a39c",
+      "author": "theli-ua",
+      "summary": "Match fade distance to previous values (#1696)",
+      "description": ""
+    }
+  ]
+}
