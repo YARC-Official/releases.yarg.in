@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "fa0b9c00dbfe1e24b643abca06486d75c933ea55",
+      "author": "Dansla116",
+      "summary": "Reorganize Music Library Settings (#1700)",
+      "description": "* Add \"Show All Intensity Filters\" Setting\n\n* Remove \"Show All Intensity Filters\" setting and keep reorganized Music Library settings"
+    }
+  ]
+}
