@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "28b90b6250e236beb0001b88745918e410796b19",
+      "author": "wyrdough",
+      "summary": "Update README with new font attribution",
+      "description": ""
+    },
+    {
+      "sha": "6ef6137d713e3d0b660362f4e7b4b1e48259a65e",
+      "author": "wyrdough",
+      "summary": "Add NotoSansSymbols2 font, set as fallback for Barlow so we have checked box glyph.",
+      "description": ""
+    }
+  ]
+}
