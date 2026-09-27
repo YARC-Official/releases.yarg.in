@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "275e9a13916a5ae73e75d488055e3b8e6e6b14a8",
+      "author": "Dansla116",
+      "summary": "Block input during loading and prevent UI click-through (#1705)",
+      "description": ""
+    },
+    {
+      "sha": "6c9dcbd4fb73d7731aad41b3085314c36eac4ed5",
+      "author": "theli-ua",
+      "summary": "Update CONTRIBUTING.md to reflect modern realities (#1701)",
+      "description": ""
+    },
+    {
+      "sha": "0b7113577f9702c17b5d34fcd83b1f8550e01ca4",
+      "author": "joewestcott",
+      "summary": "Use correct enum in menu bindings (#1713)",
+      "description": ""
+    },
+    {
+      "sha": "79241b6a9105d32463a93c4985e94e3cfb18be6f",
+      "author": "Dansla116",
+      "summary": "Remember filters between play sessions (#1707)",
+      "description": ""
+    }
+  ]
+}
