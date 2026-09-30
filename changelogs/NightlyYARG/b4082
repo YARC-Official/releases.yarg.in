@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "47b3e67aeafdd50f69d579287dae4590111b435a",
+      "author": "Dansla116",
+      "summary": "Fix live star updates for tied best percentages (#1719)",
+      "description": ""
+    },
+    {
+      "sha": "c9bb8b1d6b99a1de0fd19ca7da86044160e176a2",
+      "author": "Dansla116",
+      "summary": "Show Gold Star Icons for Fully Gold-Starred Song Groups (#1692)",
+      "description": "* Show Gold Star Icons for Fully Gold-Starred Song Groups\n\n* Assume gold stars false instead of true\n\n* Simplify gold star group logic"
+    }
+  ]
+}
