@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-09-06T05:53:52.232599Z",
+  "lastUpdated": "2026-10-02T23:09:18.5225119Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -602,6 +602,17 @@
       "subText": "Four Year Strong",
       "iconUrl": "https://releases.yarg.in/profiles/2f1293b2-8b66-44ad-8e3d-7c2a5d606cb1/icon.png",
       "bannerUrl": "https://releases.yarg.in/profiles/2f1293b2-8b66-44ad-8e3d-7c2a5d606cb1/banner.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "151eef57-1fe6-4fcc-ab94-70222c94b756",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/151eef57-1fe6-4fcc-ab94-70222c94b756/",
+      "release": "2026-10-02T23:09:18.5225119Z",
+      "name": "Classical Keys Pack 3",
+      "iconUrl": "@/icons/SetlistKeys.png",
+      "bannerUrl": "@/banners/SetlistKeysAlt.png",
       "localeOverrides": {}
     }
   ]

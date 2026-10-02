@@ -1,0 +1,125 @@
+{
+  "type": "setlist",
+  "uuid": "151eef57-1fe6-4fcc-ab94-70222c94b756",
+  "metadata": {
+    "name": "Classical Keys Pack 3",
+    "description": "Classical Keys returns with even more public domain compositions! This pack leans a little easier than the last two, but still packs some serious challenge. It also has a bonus seventh song to boot!",
+    "iconUrl": "@/icons/SetlistKeys.png",
+    "bannerBackUrl": "@/banners/SetlistKeysAlt.png",
+    "initialRelease": "2026-10-02T23:09:18.5225119Z",
+    "newsCategory": "setlist_official",
+    "links": {
+      "youtube": {
+        "name": "Setlist Trailers",
+        "url": "https://www.youtube.com/@YARGGame/videos"
+      }
+    },
+    "songs": [
+      {
+        "title": "Taps",
+        "artist": "Daniel Butterfield",
+        "length": 63833,
+        "releaseDate": "2026-10-02T00:00:00.000Z"
+      },
+      {
+        "title": "Gymnop\u00E9die No. 2",
+        "artist": "Erik Satie",
+        "length": 205500,
+        "releaseDate": "2026-10-02T00:00:00.000Z"
+      },
+      {
+        "title": "Carmen - Prelude to Act I",
+        "artist": "Georges Bizet",
+        "length": 122975,
+        "releaseDate": "2026-10-02T00:00:00.000Z"
+      },
+      {
+        "title": "Rosamunde",
+        "artist": "Jarom\u00EDr Vejvoda",
+        "length": 59439,
+        "releaseDate": "2026-10-02T00:00:00.000Z"
+      },
+      {
+        "title": "The Liberty Bell",
+        "artist": "John Philip Sousa",
+        "length": 198181,
+        "releaseDate": "2026-10-02T00:00:00.000Z"
+      },
+      {
+        "title": "Rage over a Lost Penny, Vented in a Caprice",
+        "artist": "Ludwig van Beethoven",
+        "length": 356812,
+        "releaseDate": "2026-10-02T00:00:00.000Z"
+      },
+      {
+        "title": "Also Sprach Zarathustra, Part 1 - Sonnenaufgang",
+        "artist": "Richard Strauss",
+        "length": 69461,
+        "releaseDate": "2026-10-02T00:00:00.000Z"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Dai",
+        "url": "https://youtube.com/@daijyoubs1319"
+      },
+      {
+        "name": "frickitickitavi",
+        "url": "https://www.youtube.com/@fricksfrickincharts"
+      },
+      {
+        "name": "grishhung",
+        "url": "https://youtube.com/@grishhung2828"
+      },
+      {
+        "name": "Hubbubble",
+        "url": "https://youtube.com/@hubbubble6856"
+      },
+      {
+        "name": "ItzSynth",
+        "url": "https://youtube.com/@SynthesizeTime"
+      },
+      {
+        "name": "Miscellany",
+        "url": ""
+      },
+      {
+        "name": "Rulas",
+        "url": "https://youtube.com/@Rulas025"
+      },
+      {
+        "name": "Spachi",
+        "url": "https://www.youtube.com/channel/UCQpGzrCzoaiQ4wlV9pTzs5g"
+      },
+      {
+        "name": "WalterRalts",
+        "url": "https://youtube.com/@WalterRalts"
+      }
+    ],
+    "localeOverrides": {},
+    "badge": "Official"
+  },
+  "version": {
+    "type": "embedded",
+    "version": {
+      "uuid": "36c2c683-5f27-4866-95f2-53c166198ce4",
+      "tag": "classical_keys_3-2026-10-02-0",
+      "release": "2026-10-02T23:09:18.5225119Z",
+      "content": [
+        {
+          "platforms": [
+            "windows",
+            "macos",
+            "linux"
+          ],
+          "files": [
+            {
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/classical_keys_3-2026-10-02-0/classical_keys_3-0.7z",
+              "fileType": "encrypted"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
