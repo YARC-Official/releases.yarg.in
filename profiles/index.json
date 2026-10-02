@@ -9,7 +9,7 @@
     "previewUrl": "https://www.youtube.com/watch?v=AbjyQ3jEtrs",
     "localeOverrides": {}
   },
-  "lastUpdated": "2026-10-02T23:09:18.5225119Z",
+  "lastUpdated": "2026-10-02T23:13:38.0422894Z",
   "profiles": [
     {
       "uuid": "2d78800c-1397-496a-83c1-50759607999a",
@@ -613,6 +613,17 @@
       "name": "Classical Keys Pack 3",
       "iconUrl": "@/icons/SetlistKeys.png",
       "bannerUrl": "@/banners/SetlistKeysAlt.png",
+      "localeOverrides": {}
+    },
+    {
+      "uuid": "77063d9c-40c6-48ce-a017-570fcc6caced",
+      "type": "setlist",
+      "category": "official_setlist",
+      "url": "https://releases.yarg.in/profiles/77063d9c-40c6-48ce-a017-570fcc6caced/",
+      "release": "2026-10-02T23:13:38.0422894Z",
+      "name": "Children\u0027s Keys Pack 3",
+      "iconUrl": "@/icons/SetlistKeys.png",
+      "bannerUrl": "@/banners/SetlistKeys.png",
       "localeOverrides": {}
     }
   ]
