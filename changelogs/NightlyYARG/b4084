@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "a67f856e439c0d872537df0eb088e14e4d1bb3d7",
+      "author": "polson",
+      "summary": "Update core pointer for free harmonies",
+      "description": ""
+    },
+    {
+      "sha": "9e0f0b379f05dc19b412ac877db80f9695040201",
+      "author": "XaiaX",
+      "summary": "Enable Free Harmonies gameplay (minimal, single-mic) (#1600)",
+      "description": "* Enable Free Harmonies gameplay (minimal, single-mic)\n\n* Show part-count instrument icon for Party Vocals\n\nParty vocals is part-agnostic, so the start banner and crowd/fail meter render an untinted part-count icon (solo/two-mic/three-mic) instead of the per-part harmony icon and color.\n\n* Core pointer update for party vocals coordinator rebase\n\n* Point YARG.Core at dev's Core pin pending #437 merge\n\n* fix: keep party vocals Core pin after upstream sync\n\n* fix: support free harmony guide pitch in practice\n\n* fix: merge upstream Core open lane support\n\n* Point YARG.Core submodule at fork for paired-PR transport\n\n* Show lead vocals tier and part-count ring for Free Harmonies on harmony-less songs\n\n* Dim unselected harmony parts in practice mode when guide pitch is enabled\n\nUnselected parts render fully desaturated; talkie elements render at half their normal opacity. Note tubes and glow stay visible in greyscale (alpha-ignoring shaders). Live re-tint on part toggle; state resets on dispose.\n\n* Color needle outline glow by the harmony part currently being matched\n\n* Bump YARG.Core pointer for talkie broadcast and tie hysteresis fix\n\n* Add Vocals to the engine preset instrument dropdown with a safe blank preview\n\n* Fix Free Harmony song sorting\n\n* Fix Free Harmony no-part sorting\n\n* Fix Free Harmony library behavior\n\n* Fix Free Harmony search and intensity fallback"
+    }
+  ]
+}
