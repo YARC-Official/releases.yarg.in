@@ -96,9 +96,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "9aa3c834-8395-4546-be0d-22ec28979fe5",
-      "tag": "childrens_keys_3-2026-10-02-0",
-      "release": "2026-10-02T23:13:38.0422894Z",
+      "uuid": "5af73f72-9baf-4fd8-b9f3-29666c9dd072",
+      "tag": "childrens_keys_3-2026-10-02-1",
+      "release": "2026-10-03T02:18:21.5301985Z",
       "content": [
         {
           "platforms": [
@@ -108,7 +108,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/childrens_keys_3-2026-10-02-0/childrens_keys_3-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/childrens_keys_3-2026-10-02-1/childrens_keys_3-0.7z",
               "fileType": "encrypted"
             }
           ]
