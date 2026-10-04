@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "007d978e0e96350703a4f3578d40039f33e12bd3",
+      "author": "Supersonicboss1",
+      "summary": "Attempt to get animation controller matching MiloAnimationGenre first with fallback to Genre",
+      "description": ""
+    },
+    {
+      "sha": "9f200572a98938f1aff1560348fb03e940330c84",
+      "author": "Supersonicboss1",
+      "summary": "Static lyrics improvements",
+      "description": ""
+    },
+    {
+      "sha": "f4ae7bc7bb0de33406120c42dee44225e9cc69ea",
+      "author": "Supersonicboss1",
+      "summary": "Don't remove FC Ring or play miss SFX when missing percussion notes",
+      "description": ""
+    },
+    {
+      "sha": "b7039642cd99d8354d95d1c61f84249717f34e0f",
+      "author": "Supersonicboss1",
+      "summary": "Fix open sustain particles never stopping on 5LK",
+      "description": ""
+    },
+    {
+      "sha": "6aad5ad9d9d889fdd792ad52070c046d26941893",
+      "author": "Supersonicboss1",
+      "summary": "6F open sustain particles",
+      "description": ""
+    }
+  ]
+}
