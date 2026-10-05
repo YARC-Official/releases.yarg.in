@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "77947be2695afc47373c4cd0e01a95b91da4fc0a",
+      "author": "wyrdough",
+      "summary": "Support custom player avatar (png only for now)",
+      "description": ""
+    },
+    {
+      "sha": "8fbf080b5f22ce93ff0f781233b85aeba209b98c",
+      "author": "Dansla116",
+      "summary": "Improve Music Library Shortcuts and Context Menus (#1718)",
+      "description": "* Improve Music Library Shortcuts and Context Menus\n\n* Verbiage Change\n\n* Prevent background-only frame from flashing when Filters closes without regressions this time"
+    },
+    {
+      "sha": "dd3b42f0749dd4d40aa06b4af644eb465e3f266d",
+      "author": "Dansla116",
+      "summary": "Make Recommendations follow Filter Results (#1680)",
+      "description": "* Make Recommendations follow Filter Results\n\n* Fix issues with Recommendations responding to profile/controller changes\n\n* Preserve button selection when filtering songs"
+    }
+  ]
+}
