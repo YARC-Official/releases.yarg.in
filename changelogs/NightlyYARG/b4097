@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "c1f0ede08ba7e5ea395be064b61ee22dcb9601e0",
+      "author": "Supersonicboss1",
+      "summary": "core pointer update for \"Fix static lyrics dropping every lyric after an unmatched one\"",
+      "description": ""
+    },
+    {
+      "sha": "3b8cd26527471229462a56e1f1dc61cb897298d1",
+      "author": "theli-ua",
+      "summary": "update rectangular 6f notes (#1671)",
+      "description": "* Make 6f less in your face\n\n* Make 'down' 6f note more pronounced\n\n* Make notches on 6f notes in rectangular theme more pronounced\n\n* Make hopo/tap glow better match brightness of the color\n\n* Add blend for 6f notes"
+    },
+    {
+      "sha": "8948146d091a7c4edebc8b809bd2c95650e078a2",
+      "author": "Supersonicboss1",
+      "summary": "Actually size the mask and avatar correctly on vocals",
+      "description": ""
+    },
+    {
+      "sha": "fc21b7a3151d59053f98d673f48967ed481067d5",
+      "author": "Supersonicboss1",
+      "summary": "Make player avatars work on Vocals",
+      "description": ""
+    },
+    {
+      "sha": "b6819b62af778ab8466ca78f24aef47fb49402ba",
+      "author": "wyrdough",
+      "summary": "Use avatar on score screen (and remove vestigial code)",
+      "description": ""
+    }
+  ]
+}
