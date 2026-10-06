@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "f91ba737e6e66deb4f308c86ec3f375907fffbdb",
+      "author": "wyrdough",
+      "summary": "Use bot sprite for bot profiles in profile list",
+      "description": ""
+    }
+  ]
+}
