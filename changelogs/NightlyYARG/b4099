@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "8026c25ebd3a0879575affd2ee411deda13fc47b",
+      "author": "theli-ua",
+      "summary": "Fix 5L drums cymbal accent note material ( Lit -> YargLit ) (#1730)",
+      "description": ""
+    },
+    {
+      "sha": "f0eb086a7af5d24c789aefcbcf25344ae3d72111",
+      "author": "wyrdough",
+      "summary": "Better organization for avatar loading and disposal (plus fix the disconnect crash)",
+      "description": ""
+    }
+  ]
+}
