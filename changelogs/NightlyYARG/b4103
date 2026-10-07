@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "3cb08249c611a761c344b9199c0d0f8e61061e23",
+      "author": "polson",
+      "summary": "Move effects quality setting",
+      "description": ""
+    },
+    {
+      "sha": "53914a1efab8e34b185a532315f3a525ef2d0325",
+      "author": "polson",
+      "summary": "Core pointer for new time stretch",
+      "description": ""
+    },
+    {
+      "sha": "c430df2b8c5689a73245c71eaa53ff3cf6b2d6f8",
+      "author": "polson",
+      "summary": "New time stretching algorithm (#1726)",
+      "description": "* Implement new time stretch algorithm\n\n* Numerous improvements\n\n* Refine time stretch texture and transient handling\n\n* Update native audio plugins and licensing documentation\n\n* Update YARG.Core to master\n\n* Remove stretch experiment toggles and keep DSP improvements permanent\n\n* Restore Core pointer to dev and scope sync tuning per engine\n\n* Refresh committed native audio plugins from CI build\n\n* Remove phase vocoder demo page from docs\n\n* Simplify effects mode description\n\n* More tweaks\n\n* Improve time stretch with magnitude-aware phase integration\n\n* More improvements\n\n* Preserve attack alignment at normal playback speed\n\n* Rebuild native audio plugins for all platforms\n\n* Prepare native audio for release and correct documentation\n\n* Package release audio plugins for all platforms\n\n* Better native lib reloading\n\n* More improvements\n\n* Finalize time stretch noise morphing\n\n* Update native audio plugins\n\n* Update submodule\n\n* Cleanup\n\n* Rebuild native audio plugins"
+    }
+  ]
+}
