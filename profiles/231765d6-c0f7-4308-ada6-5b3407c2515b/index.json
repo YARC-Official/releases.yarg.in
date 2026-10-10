@@ -108,9 +108,9 @@
   "version": {
     "type": "embedded",
     "version": {
-      "uuid": "4ac6c617-d06b-49cb-a7b9-1aa2fdd32778",
-      "tag": "yarn_teto_1-2026-07-10-0",
-      "release": "2026-07-10T20:34:51.275131Z",
+      "uuid": "b25d8147-55db-49de-a03a-458f106841fc",
+      "tag": "yarn_teto_1-2026-10-10-0",
+      "release": "2026-10-10T17:06:54.756392Z",
       "content": [
         {
           "platforms": [
@@ -120,7 +120,7 @@
           ],
           "files": [
             {
-              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_teto_1-2026-07-10-0/yarn_teto_1-0.7z",
+              "url": "https://github.com/YARC-Official/Official-Setlist-Public/releases/download/yarn_teto_1-2026-10-10-0/yarn_teto_1-0.7z",
               "fileType": "encrypted"
             }
           ]
