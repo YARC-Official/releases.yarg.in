@@ -1,0 +1,34 @@
+{
+  "commits": [
+    {
+      "sha": "cd5316082cd862accf46edbc760a281b893143ea",
+      "author": "wyrdough",
+      "summary": "Core pointer update (ini parsing, bot extended sustain fix, singer lipsync)",
+      "description": ""
+    },
+    {
+      "sha": "bee3c5012aaf6d5b4cb269494a97a908cdf8afa9",
+      "author": "theli-ua",
+      "summary": "Use same settings for all glyphs in font sprites (#1736)",
+      "description": ""
+    },
+    {
+      "sha": "4eabb58e1739d1552da230594350f8d4e599fc78",
+      "author": "XaiaX",
+      "summary": "fix(settings): align keys preview overlay with highway (#1731)",
+      "description": ""
+    },
+    {
+      "sha": "e493ff3f703772d661c2d60cec30212348930436",
+      "author": "Dansla116",
+      "summary": "Recommend Favorites, Don't Recommend Repeats, Shuffle Recommendations (#1728)",
+      "description": "* Recommend Favorites, Don't Recommend Repeats, Shuffle Recommendations\n\n* Reduce memory usage"
+    },
+    {
+      "sha": "fff41468ad6a2a3dbae48b434a5ea3756d1b2b5d",
+      "author": "Dansla116",
+      "summary": "Small UI Tweaks, Round 3 (#1738)",
+      "description": "* Improve music library list bounds and marquee overflowing song text\n\n* Change left/right Navigator Icon to up/down when holding Orange\n\n* Sort ungrouped Songs by Year when Secondary Sort by Artist is Set to Albums by Year\n\n* Adjusted marquee effect\n\n* Add Setting to Navigate by Sections or Pages\n\n* Sort by Source Secondary Group by Intensity\n\n* Sort by Intensity Secondary Group by Source\n\n* Sort by Play Count, granular groups and sub-sort the same as other Score Context sorts\n\n* Fix inconsistencies found in testing\n\n* Add options for secondary sort by Source and Intensity\n\n* Navigator Button state fixes\n\n* Verbiage change, Group to Sort\n\n* Apply list viewport clamping universally\n\n* Address review feedback for marquee abstraction, up/down icon, and play counts\n\n* Return sort by Play Count previous sort for unplayed behavior and show \"Random\" header when it was random"
+    }
+  ]
+}
