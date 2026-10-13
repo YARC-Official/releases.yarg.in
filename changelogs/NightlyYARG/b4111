@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "ebf421bf5a3ef0f7051f5941e80a747215e0f68e",
+      "author": "wyrdough",
+      "summary": "Fix track menu persisting when escape used to unpause",
+      "description": ""
+    },
+    {
+      "sha": "ac867773ed5e6d93f0eb5a16f92a015f4f5f49ba",
+      "author": "wyrdough",
+      "summary": "Guard view list clamping",
+      "description": ""
+    }
+  ]
+}
