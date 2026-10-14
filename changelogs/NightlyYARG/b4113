@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "41dd6ed3165769489d21089c7de8d2a726ff9895",
+      "author": "polson",
+      "summary": "Final cleanup for settings menu",
+      "description": ""
+    },
+    {
+      "sha": "1413d1296a6c4038e1e11e653cf8823b25d010c6",
+      "author": "polson",
+      "summary": "New settings UI (#1739)",
+      "description": "* Add section sidebar navigation to settings menu\n\n* Modernize settings left sidebar with inset pills and remove chevrons\n\n* Reset scroll position and selected item when switching settings tabs and sections\n\n* Suppress redundant section header in filtered settings tabs\n\n* Move setting descriptions to right sidebar and remove bottom help panel\n\n* Add category sidebar UI structure and component\n\n* Add animated collapsible category sidebar and header layout refactor\n\n* Implement three-tier hierarchical controller navigation for settings\n\n* Polish settings menu layout transitions and controller navigation responsiveness\n\n* New settings design\n\n* More improvements\n\n* Cleanup\n\n* Remove settings menu redesign plan\n\n* cleanup\n\n* Move layout logic back to prefabs\n\n* More cleanup\n\n* More fixes and cleanup\n\n* More cleanup\n\n* Fix highlights and colors\n\n* Small fix for dropdown\n\n* More cleanup\n\n* Fix missing usings and delegate invocation in settings views"
+    }
+  ]
+}
