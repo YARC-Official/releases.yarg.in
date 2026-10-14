@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "e3a3b1f6d5245b5c7597073cbe09ea2379a4abe5",
+      "author": "wyrdough",
+      "summary": "Core pointer update (new profiles default to easy diff)",
+      "description": ""
+    }
+  ]
+}
