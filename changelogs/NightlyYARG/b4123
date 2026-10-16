@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "5c1ab5a8139e2699cda121f53fd863426568e544",
+      "author": "theli-ua",
+      "summary": "Update sample progress timer material to be able to specify current time color (#1744)",
+      "description": ""
+    },
+    {
+      "sha": "4adeace56c8bf9be8e3b2275fac8413c12bca4ee",
+      "author": "Dansla116",
+      "summary": "Filters Menu UI Adjustments (#1743)",
+      "description": ""
+    },
+    {
+      "sha": "42440d356f9970f6bdd08f734c8a07d52a5d50ac",
+      "author": "theli-ua",
+      "summary": "Actually fix 6f font sprites (#1742)",
+      "description": ""
+    },
+    {
+      "sha": "551741c3378ba8192937253803903725ceee445a",
+      "author": "wyrdough",
+      "summary": "Fix filters menu failing to activate",
+      "description": ""
+    },
+    {
+      "sha": "73370cd775d162977bf5a08b6278b5847b8a0f3e",
+      "author": "wyrdough",
+      "summary": "Fix tier delete dialog not clearing when delete button is pressed",
+      "description": ""
+    },
+    {
+      "sha": "7dac42a668507472de60cfe4058aa9b7f0d2f821",
+      "author": "wyrdough",
+      "summary": "Use JsonHashWrapperConverter to serialize song hashes",
+      "description": ""
+    }
+  ]
+}
