@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "9998995df3ae56cb9993994f65db27743fdc8c9a",
+      "author": "polson",
+      "summary": "Fix desync when buffer size changes (#1745)",
+      "description": "* Fix desync when buffer changes during quickplay\n\n* Update native audio plugins for all platforms"
+    }
+  ]
+}
