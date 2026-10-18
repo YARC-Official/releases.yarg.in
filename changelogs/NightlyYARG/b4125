@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "d3a03bea10c23d3731d26638f16dd9e26a8b2883",
+      "author": "wyrdough",
+      "summary": "Fix game mode and content menus displaying incorrectly on ultrawide aspect ratios",
+      "description": ""
+    }
+  ]
+}
