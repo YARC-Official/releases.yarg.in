@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "1713a7ec0c3ad503ec5c7d8c321338fcaa075658",
+      "author": "wyrdough",
+      "summary": "Refactor preview audio to share logic between music library and practice section",
+      "description": ""
+    },
+    {
+      "sha": "bdb048a7ae296d0e013f5697dcdf85a1435a8d75",
+      "author": "wyrdough",
+      "summary": "Play section preview audio in practice mode section select",
+      "description": "- Also don't run CrowdEventHandler in practice mode"
+    },
+    {
+      "sha": "35e63a9faac1096aeb93817c1d84947e67c0dc70",
+      "author": "wyrdough",
+      "summary": "Add bonus tag to bonus career tiers",
+      "description": ""
+    },
+    {
+      "sha": "9d734a9f700a1bb7c8659d1a9eea2b511264c2f4",
+      "author": "wyrdough",
+      "summary": "Return to last selected song in career menu when returning from a song",
+      "description": ""
+    },
+    {
+      "sha": "ac0667d0b2394528db0f067f836748cf099bba1e",
+      "author": "wyrdough",
+      "summary": "Update career tier unlock requirements",
+      "description": ""
+    },
+    {
+      "sha": "ab79d677097017311d05871a7d8bd7bd7142b5eb",
+      "author": "wyrdough",
+      "summary": "Set correct source for YARG Setlist Pop",
+      "description": ""
+    },
+    {
+      "sha": "ec1de6f070d9709eb98aa5aca7ad9de43f0ff2a9",
+      "author": "wyrdough",
+      "summary": "Don't reuse content message on game modes menu",
+      "description": ""
+    }
+  ]
+}
