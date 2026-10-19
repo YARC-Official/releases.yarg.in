@@ -1,0 +1,22 @@
+{
+  "commits": [
+    {
+      "sha": "a85dcb5bfff23b7598c754d14599c21b3780b330",
+      "author": "wyrdough",
+      "summary": "don't allow same global venue twice in a row",
+      "description": ""
+    },
+    {
+      "sha": "47d95f32bc62c2a4cd89b1a60426beee8212c004",
+      "author": "wyrdough",
+      "summary": "Add 5LK lift option to engine preset (#1746)",
+      "description": "* Add 5LK lift option to engine preset\n\n* implicitly hold sustains when sustain note hit with release\n\n* Correct the core pointer"
+    },
+    {
+      "sha": "247fbdd8ef3ee7854a0789cd26ec24573815f632",
+      "author": "wyrdough",
+      "summary": "Update core pointer for 5lk lift option",
+      "description": ""
+    }
+  ]
+}
