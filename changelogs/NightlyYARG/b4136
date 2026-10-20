@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "696e149f080f2910a2f8d88587e7d973bda0b68b",
+      "author": "Dansla116",
+      "summary": "Small UI Tweaks, Round 4 (#1748)",
+      "description": "* Add settings to override unrated songs rating\n\n* Generalize marquee effects even more and apply to Career Presets\n\n* Don't jump to first result when using clickable search shortcuts\n\n* Don't use secondary groups while free searching\n\n* Fix Music Library vertical monitor regression\n\n* Add adjustable Number of Recommendations option\n\n* Change adjustable Number of Recommendations value clamping"
+    }
+  ]
+}
