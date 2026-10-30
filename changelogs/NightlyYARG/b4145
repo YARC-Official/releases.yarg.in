@@ -1,0 +1,70 @@
+{
+  "commits": [
+    {
+      "sha": "5a188411228df357bf37e6850c675fe9af243cb2",
+      "author": "XaiaX",
+      "summary": "fix(settings): update fret preview colors live (#1729)",
+      "description": ""
+    },
+    {
+      "sha": "96bfd3c5a7ce7bd5fa48232a9e10a2f464f62515",
+      "author": "polson",
+      "summary": "Make native audio auto rebuild opt-in (#1763)",
+      "description": ""
+    },
+    {
+      "sha": "fa63afbdf5725d7bfa22824c039ca3cda608b623",
+      "author": "polson",
+      "summary": "Update Unity Pipeline package (#1764)",
+      "description": ""
+    },
+    {
+      "sha": "8b35d4ee92c1f0d4e702da65c7204faaec359ac8",
+      "author": "polson",
+      "summary": "Core pointer update for feat: add conID to json export (#1698)",
+      "description": ""
+    },
+    {
+      "sha": "2fe46a92d9a9acd0b656daae92c7a0a28c824bd9",
+      "author": "matiasba",
+      "summary": "Decode video in software on NVIDIA/Linux (#1682)",
+      "description": "On Linux with the proprietary NVIDIA driver, libVLC picks the nvdec\ndecoder and pairs it with the glinterop_nvdec OpenGL interop. VLC itself\nonly supports that interop on its own GLX output: display.c forces\ngl_name to \"glx\" for the NVDEC chromas, but only when the window type is\nVLC_WINDOW_TYPE_XID. The Unity plugin renders through the external\n\"wextern\" window and \"vgl\" output, so that guard never applies and VLC\nhappily selects an interop the context cannot handle.\n\nIt fails silently. The plugin keeps reporting new frames, rotates its\ntexture pointers and the blit into the output RenderTexture runs at the\nusual rate, but the texture contents never change -- the video shows its\nfirst frame and then appears frozen while playback, timing and looping\nall keep working normally.\n\nReading back the output texture makes it obvious: the hash of its pixels\nchanges once and then stays constant for the rest of the song.\n\nThe plugin's other Linux paths do not help. Forcing the DMA-BUF fallback\nneeds the DRI3 extension, which is missing under XWayland, and the EGL\nbackend renders nothing at all. Restricting the decoder list is what\nworks, so do that on NVIDIA only and leave hardware decoding alone\neverywhere else.\n\nCo-authored-by: Matias Barros <matias.barros@invgate.com>"
+    },
+    {
+      "sha": "368d6c367c85dae08f70d018905ded18377c0a84",
+      "author": "Dansla116",
+      "summary": "Add vocalist gender song filter (#1722)",
+      "description": ""
+    },
+    {
+      "sha": "63a8ef4f96133b8ba5b6be012ccafa2cea7b13fd",
+      "author": "AARP41298",
+      "summary": "feat: add conID to json export (#1698)",
+      "description": ""
+    },
+    {
+      "sha": "be9995396d2bfea0152e66fa4dda130ad4a9d868",
+      "author": "theli-ua",
+      "summary": "Fix 6 fret no instrument icons (#1734)",
+      "description": "* Fix 6 fret no instrument icons\n\n* More accurate 6f no instrument icons"
+    },
+    {
+      "sha": "449d90af6e61716a0de4aadd31d457f9bb30643a",
+      "author": "DevPrice",
+      "summary": "Guard per-frame Keyboard.current and Mouse.current reads against null (#1751)",
+      "description": "Keyboard.current and Mouse.current are null when no such device is\nattached: on Xbox, on a PC driven only by a controller, or right after a\nmouse is unplugged. Several Update methods dereferenced them\nunconditionally, so they threw a NullReferenceException every frame in\nthose setups:\n\n- GameManager: Escape to pause and Ctrl+Tab for debug text\n- SongSearchingField: Escape to clear the search\n- MainMenuBackground: camera parallax following the mouse\n- HideCursor: mouse movement re-showing the gameplay cursor\n- PracticePause and PracticeSectionMenu: scroll-wheel adjustment\n\nEach site now treats a missing device as one producing no input, so\nbehavior with a keyboard and mouse is unchanged and no early return\nskips the rest of an Update. The keyboard checks require the device;\nthe practice menus read a scroll delta of zero; MainMenuBackground\nfollows the cursor at a rate of zero, so it still runs its intro camera\nslide and holds the last parallax position.\n\nMouse.current also goes null whenever its current mouse is removed,\nincluding the Input System's VirtualMouse device that a gamepad-driven\nsoftware cursor adds while shown and removes when hidden. While such a\nvirtual mouse is current, these sites treat it like any mouse: the menu\nbackground follows it and its scroll adjusts practice sections. Cursor\nvisibility in HideCursor never depended on a mouse existing, only the\ntimer reset did, and the cursor is always shown while paused.\n\nThe other device reads in YARG code (IdleDimmer,\nPlayerContainer.HasConnectedKeyboardProfile) were already guarded, and\nthere are no Gamepad, Pointer or Touchscreen .current reads or legacy\nUnityEngine.Input calls outside the third-party VLCUnity input shim,\nwhich guards its own.\n\nVerified by compiling Assembly-CSharp with Unity 6000.3.5f2's Roslyn\nusing the standalone IL2CPP player defines (exit code 0) and the WSA\nplayer defines (only the pre-existing FileExplorerHelper CS0103 errors).\nNot run in Unity or on a device without a keyboard or mouse."
+    },
+    {
+      "sha": "267afc56589c4e1f3ccc868dd9737799e892973e",
+      "author": "taynaron",
+      "summary": "Small fixes (#1735)",
+      "description": "* BassAudioRouter.GetReadAheadStats (Assets/Script/Audio/Bass/BassAudioRouter.cs:171) iterates a HashSet that another thread modifies. It threw \"Collection was modified\" during song scans.\n\n* more minor fixes\n\n* Dedupe songs listed in several categories before unspecified search"
+    },
+    {
+      "sha": "ad418b8951a60625eea655aff63114701ea7e775",
+      "author": "Geomitron",
+      "summary": "Strip style tags from the song name, artist and album in the Discord status (#1749)",
+      "description": "Discord shows the status as plain text, so a song.ini value such as\n<color=#FF0000>Test</color> appeared with its tags. Strip them with\nRichTextUtils.StripRichTextTags, as the stream text file already does.\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>"
+    }
+  ]
+}
