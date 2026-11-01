@@ -1,0 +1,40 @@
+{
+  "commits": [
+    {
+      "sha": "5de24ed09a707be77e31d57e71ec4df8a26a4c02",
+      "author": "wyrdough",
+      "summary": "Add notification history feature. (YARG-243)",
+      "description": ""
+    },
+    {
+      "sha": "d6025daf16d2f8710ea04bbc662973522dff306a",
+      "author": "potato-sandwich",
+      "summary": "Resolve solo and unison box conflict (#1760)",
+      "description": "* Resolve solo and unison box conflict\n\nUnisonDisplay:\nMade the time variables public so they can be accessed and used to determine when to hide the solo box.\n\nTrackPlayer:\nAdded _isSoloActive to be set by OnSoloStart / OnSoloEnd so we can see when a solo is active durring UpdateUnisonEvents.\nAdded _currentUnisonEndTime to store the current Unison's ending time after _unisonEndIndex has iterated one more.\nAdded _soloHiddenForUnison to know when the solo box is hidden durring a unison event.\nModified UpdateUnisonEvents to call HideSoloForUnison / ShowSoloAfterUnison and set _currentUnisonEndTime so that value is not lost when showing the solo box after unison has ended.\nAdded HideSoloForUnison(). This will calculate the time before the unison event the solo box needs to be hidden using the UnisonDisplay's time values. When that time occurs it will Call TrackView.HideSoloForUnison();\nAdded ShowSoloForUnison() To do the opposite. It has to use the _currentUnisonEndTime value to determine when the previous unison ended.\n\nTrackView:\nAdded HideSoloForUnison and ShowSoloAfterUnison. These both call SoloBox.ToggleSoloBoxForUnison()\n\nSoloBox:\nAdded ToggleSoloBoxForUnison(). This will use DOTween's DOFade method on the _soloBoxCanvasGroup. The param determines whether to fade in or out.\n\n* Moved setting variables\n\nMoved setting _soloHiddenForUnison _currentUnisonEndTime back where they were supposed to be.\n\n* Only hide solo box when it overlaps with unison bonus.\n\n* Addressing review comments\n\nTrackView:\nChanged Function name from GetUnisonSoloOverlap to GetUnisonAndSoloOverlap. Adjusted for naming consistency. Changed Overlaps extension call to be an actual extension call (very cool thing I didn't know you could do)\n\nTrackPlayer:\nAdjusted spacing after if to be consistent with the codebase.\nChanged variable unisonSoloOverlap to unisonAndSoloOverlap.\nChanged function name from UnisonSoloOverlap to UnisonAndSoloOverlap.\n\nTransformExtensions:\nChanged function param to make Overlaps an extension call (hopefully that is the right terminology).\n\n* Fix Leo Concerns\n\nLeo Comment: This code does not need to trigger if the unison display is disabled, or set to multiplayer only and the number of parts in the unison is <2.\nThe unison display has code to handle showing and hiding unisons in quick succession, by shortening the transition period - does your code handle this?\n\n* Address Supersonicboss1 comments."
+    },
+    {
+      "sha": "b712ad83f68d6dcc77a2cb4aadeb2b58fc7d1314",
+      "author": "wyrdough",
+      "summary": "Don't break completely when custom characters are missing hand bones",
+      "description": ""
+    },
+    {
+      "sha": "9de2367274aeec7fb308cee9799eb5050bcdf182",
+      "author": "Supersonicboss1",
+      "summary": "Vocal track fading improvements",
+      "description": "- Fading the text instead of... not doing that\n- Adjusted the fade distance to 5% of screen space on each side"
+    },
+    {
+      "sha": "72487f08690eaa464cd579a4c17a632f29933293",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer update for vocal color editing",
+      "description": ""
+    },
+    {
+      "sha": "9c94344704aca52e66b686a810a37cdbf5754878",
+      "author": "TheFatBastid",
+      "summary": "Editable vocal colors (#1725)",
+      "description": "* Added vocal colors to profile\n\n* Now the backgrounds change color too\n\n* Finalize editable vocal colors integration\n\n* Fix vocal color instance access\n\n* Fix vocal pitch tube initialization\n\n* Apply Free Harmonies profile colors to all parts\n\n* Update YARG.Core vocal color branch\n\n* Update YARG.Core vocal color branch"
+    }
+  ]
+}
