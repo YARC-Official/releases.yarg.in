@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "385b2fe9ffc75555ed07f94fe8170e362163dc2e",
+      "author": "wyrdough",
+      "summary": "Fix exception in TrackPlayer",
+      "description": ""
+    }
+  ]
+}
