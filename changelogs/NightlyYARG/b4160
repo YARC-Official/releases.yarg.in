@@ -1,0 +1,28 @@
+{
+  "commits": [
+    {
+      "sha": "8e5c4a81f4ed80ae4360605017d71273584e7c86",
+      "author": "polson",
+      "summary": "YARG.Core PR for Expose Chart File Modified Time- #478",
+      "description": ""
+    },
+    {
+      "sha": "3ddd606a58d6118d9c8f7c4de29fd3354be2bd0f",
+      "author": "Dansla116",
+      "summary": "Optional Sort by Date Added for Date Released (#1721)",
+      "description": "* Sort songs by exact release date\n\n* Add advanced setting for Date Added sort\n\n* Use \"Last Updated\" date from YARC Launcher for .yargsong files\n\n* Fix modified date for unpacked PS3 songs"
+    },
+    {
+      "sha": "5ce81cf8309471561a3114daaefd15e586e031e7",
+      "author": "Geomitron",
+      "summary": "Show Clone Hero's names for Rock Band practice sections (#1754)",
+      "description": "In English, ParseSectionName now looks a section name up in Clone Hero's\nsection name table first, as written, and returns its entry. The Clone\nHero developers agreed to share the table with YARG. solo_m and solo_n\nare left out, since Clone Hero's table swaps their names. Other names,\nand other languages, show as before.\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>"
+    },
+    {
+      "sha": "e75ef0a35d2dd2ec0555ce7d079cfcffed1fc4bb",
+      "author": "theli-ua",
+      "summary": "Update vlc unity (#1710)",
+      "description": "* Updating vlc assets\n\nvlc-unity: b5510a6d6fa90b24ac473ce3c7c1f129e65c247d\nlibvlc macOS SDK: 169ec94f\nlibvlc win64 SDK: 169ec94f\n\nvlc-unity changes since f2bbedd5b:\nb5510a6 fix(vulkan/android): log VkResult when importing an AHardwareBuffer fails\n943e69f refactor(plugin): group platform sources into linux, vulkan and android folders\n6febaa4 test(rendering): drop process-wide fd count from disposal smoke\nf48cd36 fix(linux): guarantee DMA-BUF and EGL teardown on contention\n5e0194c docs(linux): document context-based OpenGL backend selection\n294acaf fix(linux): deduplicate native libraries in Unity player builds\n9c76cb3 fix(linux): capture Unity context before selecting the video backend\ne04f60b fix(linux): preserve Unity GL binding across EGL setup and cleanup\n4b95a68 test(linux): reproduce Unity graphics initialization and packaging paths\n03ccc7d fix(tests): reference LibVLCSharp in test assembly\nce990d4 test(rendering): streamline disposal smoke coverage\n6997524 refactor(rendering): centralize deferred disposal\nbdf2e1b fix(android): complete Vulkan extension requirements\na1abf59 fix(rendering): complete deferred renderer disposal\n0182f76 fix(vulkan): import Linux DMA-BUFs with explicit layout\n255d706 fix(vulkan): keep completion polling under backpressure\n50bdcf4 fix(vulkan): configure queue event after device init\n5e07f11 fix(linux): defer Unity OpenGL import destruction\n73cf7b6 fix(linux): make VLC helper runpaths relocatable\n64a06af fix(editor): import System for plugin path matching\n1610aa3 chore: ignore local Linux build outputs\n39d4691 fix(android): scope JNI references per thread\nfd6e9c3 fix(android): harden OpenGL ES renderer lifecycle\n5b24891 perf(opengl): replace shared-context finish with fences\n84a98aa perf(vulkan): copy directly into output texture\n14fe723 perf(rendering): shorten renderer registry lock scope\n7624e93 perf(vulkan): discard CPU texture backing storage\n7e5750b perf(linux): coalesce texture interop events per frame\n2bf143a fix(media): dispose native media and track wrappers\nbacb1ac fix(linux): preserve dma-buf slots without a GL context\na60ffd7 fix(opengl): release framebuffer resources reliably\n7d85253 fix(rendering): drain retired renderers after disposal\n4149819 fix(vulkan): configure queue submission render event\n3ee2084 docs(testing): cover the Linux Vulkan validation matrix\n33ce591 docs: document Linux Vulkan support\nfaf9ebb ci(linux): require the Vulkan plugin build\nbebbf16 feat(unity): preload the Linux native plugin\n6eb4cd3 build: wire Linux Vulkan sources and tests\n4e53df6 fix(unity): marshal the trial state as a native boolean\n2af1cc4 feat(unity): drive Vulkan work and renderer cleanup\n234ac7c fix(rendering): serialize renderer retirement on the render thread\nb76d204 feat(vulkan/linux): add DMA-BUF rendering backend\n8b4f28a feat(vulkan): add external-frame queue submission\n3a421ae feat(vulkan/linux): match exact DRM device identity\ndd68efe refactor(vulkan/android): use shared copy pipeline\n32679bd feat(vulkan): add Unity queue submission strategy\nf2dfd8f feat(vulkan): add shared texture copy core\ne369b07 feat(vulkan): validate platform capabilities\nd1ece94 refactor(linux): share OpenGL DMA-BUF imports\n98f2773 refactor(rendering): define backend work and shutdown hooks\n1ae8b7d refactor(trial): share DMA-BUF watermark handling\nff69e09 refactor(linux): extract reusable DMA-BUF producer\nbb26448 feat(linux): add deterministic file descriptor ownership\n199c446 demos: resize focused video when output texture changes\n9cdebfd demos: refresh mosaic video info as media loads\n8a2547d scenes: add mosaic demo scene and scripts\na3bc1f6 unity: make MediaPlayer settable\n1f3d59c unity: add interact and cancel input\nb62721a update NEWS\n\nUpdating vlc assets\n\nvlc-unity: 5f3bb75e51ab79f4020c6d5ef0c9749ce4f2bb3b\nlibvlc win64 SDK: 169ec94f\n\nvlc-unity changes since b5510a6d6:\n5f3bb75 docs(demos): remove YouTube sample scene and point to yt-dlp/YoutubeExplode\n\n* Get rid of log stmt that can throw"
+    }
+  ]
+}
