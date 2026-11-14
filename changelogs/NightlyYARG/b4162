@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "f29ecb14bf392ed6a3f393b8d13132a1bedfd3dc",
+      "author": "Dansla116",
+      "summary": "Update Career Preset UI (#1759)",
+      "description": "* Career Preset UI Changes\n\n* Move screens built in code to prefabs and minor flow improvements\n\n* Swap hard-coded text for English localization\n\n* Change \"Career Tiers\" to \"Career Setlist\"\n\n* Prevent clearing songs from built-in careers\n\n* Restore short name career identifiers"
+    }
+  ]
+}
