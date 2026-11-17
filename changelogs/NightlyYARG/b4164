@@ -1,0 +1,16 @@
+{
+  "commits": [
+    {
+      "sha": "50cb0cb4f951c5222dcd46f00d501163dada216f",
+      "author": "polson",
+      "summary": "Fix compiler warnings in CareerSong and GameModesMenu (#1772)",
+      "description": ""
+    },
+    {
+      "sha": "b4beeefdca7a5a8c0b4c40c063c3b55e0f64223d",
+      "author": "polson",
+      "summary": "Remove doubled rounded outline from track player menu header (#1771)",
+      "description": ""
+    }
+  ]
+}
