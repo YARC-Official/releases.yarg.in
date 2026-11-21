@@ -1,0 +1,604 @@
+{
+  "commits": [
+    {
+      "sha": "50c7c96fe86ad38f0abb41b7f17cf1dac67fa2a8",
+      "author": "wyrdough",
+      "summary": "Make character select use deterministic ordering",
+      "description": ""
+    },
+    {
+      "sha": "6bd11cbaa153337cae6034532c6d3871c52ae14d",
+      "author": "wyrdough",
+      "summary": "Ensure CurrentCareer state gets cleared when not entering gameplay from career menu.",
+      "description": ""
+    },
+    {
+      "sha": "d1c64626ed7555727248e92d7400e3f14df2c58c",
+      "author": "Supersonicboss1",
+      "summary": "Guard against null player in RefreshControllers",
+      "description": ""
+    },
+    {
+      "sha": "291e8bf4efb8febc115f3c2f6a5e09371d0cbd00",
+      "author": "Frickitickitavi",
+      "summary": "Use value of current event for debounce timer",
+      "description": "- Reading from the control subjects us to MIDI event queueing"
+    },
+    {
+      "sha": "11058135286d6121f097ed501cb77375c7a16317",
+      "author": "wyrdough",
+      "summary": "Load metal shaders for character prefabs in CharacterDisplayManager",
+      "description": ""
+    },
+    {
+      "sha": "cc2a56b6d6079c91ba21b8479579b051e599e636",
+      "author": "wyrdough",
+      "summary": "Show completed songs in unlocked CompletionCount tier headers",
+      "description": ""
+    },
+    {
+      "sha": "910890ac9432f64bba4afca93500fe813e0c4a9f",
+      "author": "wyrdough",
+      "summary": "Reset career menu selection when the career changes",
+      "description": ""
+    },
+    {
+      "sha": "3cb950f8c3c5482ed0eb479b2ccd74c523868409",
+      "author": "wyrdough",
+      "summary": "fix career song completion status display leaking between careers",
+      "description": ""
+    },
+    {
+      "sha": "62303af106b0604a0e79d7955abd2db4127d3665",
+      "author": "Supersonicboss1",
+      "summary": "uncomma thy JSON",
+      "description": ""
+    },
+    {
+      "sha": "6d19720d9256b73531ace0e3d83c2b32bd920a24",
+      "author": "Supersonicboss1",
+      "summary": "The Profiles Rework (#1777)",
+      "description": "* First draft of profiles rework v4\n\n* Tabs added, old versions commented out for now\n\nIt's compiling again, hooray\n\nFix startup hang\n\n* Parameterize reusability\n\n* Add resizable Controllers item\n\n* Controller and Microphone lists\n\nRoughly populate controller list\n\nRemove controller button\n\nMicrophone management\n\n* Tooltip logic\n\n* Basic tab functionality\n\n* Multiple center panes (very unfinished)\n\n* No more controller configs, key bindings by tuples\n\n* Remove device config stuff\n\nRemove more device config set files\n\nFurther removal of device stuff\n\nMerge renamed classes\n\n* Create LayoutHelper\n\n* Rm configset dropdown, add TODO\n\n* Add binding sets filter pane\n\nPartial filter functionality\n\nList refreshing\n\n* Remove layout from BindingCollection\n\n* Remove controllerDefaultBindings from BindingsContainer\n\n* Good progress; not compiling but committing anyway to not lose place\n\nResolved all easy compilation errors\n\n* Establish a place for defaults\n\n* Binding center pane header behavior\n\n* Remove profile from deviceinfo\n\n* Fleshed-out reusable classes, strictly data no runtime\n\n* Implement parameterized hardcoded binding sets\n\nEstablish system for hardcoded binding sets\nAllow for parameters in defaults, at the cost of brevity (for now at least)\n\n* Fix binding set header bug\n\n* Reusable binding-group views and prefabs\n\nStart creating ReusableBindGroups\nEstablish reusable prefabs, very shoddy beginnings of menu creation\n(Mostly) properly populate bindings pane\nGet singlebind displaynames in some circumstances\nFix pane height\n\n* Set up infrastructure for family-aware control lists\n\n* Adjust anchors and stretching\n\n+left pane fix\n\n* Naively populate control dropdowns for button bindings\n\n* ControlItem tree traversal\n\n* Clarify certain names (kinda hacky?)\n\n* Retain source layout for later grouping\n\n* DIsplay axis bindings\n\n* Establish controller family binding set filter switching\n\n* Replace control tree traversal logic\n\n* Fix some menu bugs\n\n* Add 6F template and defaults\n\n* Add 5L Drums template and defaults\n\n* Separate controller menu and gameplay binding selection\n\nPopulate controller entry view dropdown\nEstablish separate menu bindings (UI is temporary)\nBinding set headers, actual Menu GameMode\n\n* Add keys binding template and Pro Keyboard defaults\n\nAdd keys template\nAdd Pro Keyboard defaults\n\n* 5L drums menu defaults\n\n* More generic controller families\n\n* MIDI keyboard defaults\n\n* General MIDI drums defaults\n\n* Alesis Nitro defaults\n\n* Naming consistency changes\n\n* Gamepad menu defaults\n\n* Hacking and slashing with actual control resolution\n\nTheoretically wired up, but something's not working\n\nEstablish monitors\n\nGameplay (button) bindings wire up correctly!\n\nFix menu binding wiring\n\n* Hide Add Bot/Profile buttons in Bindings tab\n\n* Copy and delete nondefault binding sets (superficial)\n\n* Vocal template and gamepad default\n\n* Some computer keyboard defaults\n\n5LD computer keyboard defaults\n\n* Switching modes works\n\n* Enable inputs on controller add\n\nFix multidevice setups only subscribing the first\n\n* More defaults, name clarity/conciseness improvements\n\n* Aggregate gameplay inputs across devices\n\nAggregate regular buttons across devices\nAggregate axes\nAggregate integer bindings\nAggregate impulse bindings\nAggregate drum bindings\n\n* Add button on binding set headers\n\n* Binding set group prioritization and simple atypicality marking\n\n* Implement footer\n\nImplement footer, clarify controller family strings\n\n* Add parameterized profile and binding tooltips\n\nParameterizable tooltips\nAdd more tooltips\nBinding tooltips\n\n* Persist and apply binding-set selections and edits\n\nActually (de)serialize binding sets (editing doesn't actually apply yet though)\nSwapping sets works - editing doesn't apply until restart though\nWire up gameplay bindings on song startup; editing works now!\nRemember preferences by context\n\n* Add blank dummy controller dropdown\n\n* Settings pane\n\n* Fix dummy dropdown behavior\n\n* Implement Add New buttons and None selection\n\n* Overhaul group/header ownership\n\n* Implement single binding delete button\n\n* Change inheritance of RefreshBindings\n\nRemove oxbow method\n\n* Implement parameter editing\n\nRm stray function hookup\n\n* Fix menu persistence bugs\n\n* Select binding set on creation\n\n* Clean up set deletion behavior\n\n* Add (nonfunctional) record buttons\n\n* MIDI note parameter variations\n\nAssume MIDI Note when None for MidiDevice\n\n* Make hardcoded binding sets read-only\n\nDisable Add New for hardcoded\nReadonly hardcoded singles\n\n* Implement record button\n\nRecord red dot dims correctly\n\n* Handle generic input devices gracefully\n\nPrevent exception on selecting Generic Input Device (still useless though)\nImprove generic controller messaging\n\n* Support ad hoc live bindings and synthetic controls\n\nPartial support for ad hoc live bindings\nFix synthetic control serialization\n\n* Remove auto profile creation\n\n+localization change\n\n* Menu binding aggregator\n\n* Autowire menu bindings on change\n\n* Basic single binding live input displays\n\n* Prompt quick bind on add new if dummy exists\n\n* Update controller and microphone entry layout\n\nCollapsible controller entries\nMicrophoneEntry visual consistency\nEntry width fix\n\n* Bindings indicators\n\n* Fix tooltip targeting\n\n* Some ControllerEntry tooltips\n\nMore ControllerEntry tooltips\n\n* Fix profile header text\n\n* Remove Menu mode special cases\n\n* Delete stray file copies\n\n* Dynamically-sized settings pane\n\n* Show binding set user count\n\n* Support lefty binding settings and labels\n\nConditionalize lefty flip group\nShow lefty-name headers\nOther lefty binding strings\nForget about lefty dropdown strings for now\n\n* Jump-to buttons, dynamic gameplay binding headers\n\n* Rename binding sets\n\n* Implement binding set import and export\n\nDisable name editing on hardcoded, add nonfunctional import button\nImplement import and export buttons\nNonfunctional export button\nImplement export button\nImplement import button\n\n* Correct binding set user counts and tooltips\n\nAccount for selected-but-nonpreferred binding sets in usercount\nFix settings panel tooltip areas\nUser count text improvements\n\n* Implement locking\n\n* Event removal bug fix\n\n* Remove default tooltip text\n\n* Fix no microphones text\n\n* Placeholder int menus, deserialize by template rather than binding set\n\n* Remove old Mouse comment-out\n\n* Smarter binding set deletion handling\n\n* Fix menu binding persistence\n\n* Versioning of exported sets\n\n* Confirmation on delete\n\n* Menu binding icons\n\n* Implement stealing\n\n* Add device name special cases\n\n* Relink profile overview\n\n* Fix stale tooltip on disable\n\n* Hide binding center pane contents by default\n\n* Implement quick binding and correct live binding behavior\n\nImplement quick bind, with rough edges\nFix up prefab name change\nFix button live-binding\n\n* Implement caching optimizations\n\n* Fix drum quick binding\n\n* Clean up reusable button binding types\n\nRemove dead subclass\nRename IndividualButton to ImpulseButton\n\n* MIDI Drumkit on computer keyboard defaults\n\n* Start handling misidentified gamepads\n\n* Create ActionStrings\n\n* Wiitar Thing Drumkit\n\n* More misidentified gamepad binding sets\n\n* Remaining misidentified gamepad binding sets\n\n* Complete switch statement\n\n* Fix up control strings\n\n* Label 4L and 5L gamepad bindings as overall defaults\n\n* Rename keys default\n\n* Naming and indentation consistency fixes\n\n* Fix single button pressed display\n\n* Fix impulse and drum inputs\n\nRemove warning from input latency tooltip\n\nFix stale impulses? I think?\n\nFix impulse bindings\n\nClean up remaining DrumButton stuff\n\n* Improve aggregator timing precision\n\n* Read state updates from event\n\n* DIsplay aggregate button state\n\n* Calibrated single axis display\n\n* Aggregated axis display, int drawer\n\n* Strip claimed controllers on sign-in\n\n* Suppress dummy controller in the menu\n\n* Implement binding set editor tooltips\n\nAdd singlebinding button tooltips\nSingleButton tooltips\nReparent BindGroup prefabs\nFurther tooltip restructuring\nBind header tooltips\nAxis and Integer group tooltips\nAxis value tooltips\nMore single axis tooltips\nSingle integer tooltip\nSingle binding dropdown tooltips\nFix min/max overlays\nFix bind group header components\n\n* Add profile and binding set menu tooltips\n\nAdd Binding Set tooltips\nMore tooltips\nMenu header tooltips\nProfile list tooltips\nName tooltips\n\n* Fix drum highway configure buttons\n\n* Update DrumsScoreCard and cleanup\n\n+fix\n\nFix warnings\n\nFix l10n warnings\n\nRm more vestigial files, fix more warnings\n\nFix remaining warnings and lefty toggle\n\n* Fix axis and integer header tooltips\n\n* V3 deserialization\n\nRm obsolete field\n\n* V2 deserialization\n\n* V1 deserialization\n\n* V0 deserialization\n\n* 5F control strings\n\n* 6F control string fixes\n\n* Recognize legacy default bindings in deserialization\n\nBeginnings of old-legacy-default check (5F gameplay only so far)\nLegacy 6F defaults\n+enum fix\nLegacy 4LD defaults\nLegacy 5LD and PK\n\n* Fix Attach Controller/Microphone button tooltips\n\n* Rm unneeded imports\n\n* Legacy computer keyboard bindings\n\n* Legacy gamepad\n\n* Don't deserialize empty legacy binding sets\n\n+import cleanup\n\n* Switch gamepad menu defaults\n\n* Clean up TODO comments\n\n* Fix microphone assignment check\n\n* Improve controller and microphone tooltips\n\nFix ControllerEntry tooltips\nMore controller/mic entry tooltips\n\n* Fix controller stealing\n\n* Pro Guitar menu/5F legacy and defaults\n\n* Fix double impulse bug\n\n* Fix permanent dummy suppression bug\n\n* Rewire gameplay bindings on reconnect during gameplay\n\n* Fix computer keyboard MIDI drumkit binding set\n\n* Legacy deserialization warning/comment cleanup\n\n* Fix controller stealing bugs\n\n* Correct legacy binding migration and default matching\n\nPartial bug fixes for legacy deserialization\nIsolate control name from legacy control path\nFix errant default parameters in hardcoded legacy sets\nFix deserializing unrelated legacy device bindings\nFix backquote capitalization issue, don't create empty binding dicts(?)\nFix single binding count equality check bug\nFix remaining legacy 5F deserialization bugs\nFix empty legacy bindings bug\n\n* Rm problematic unused imports\n\n* Fix error on deleting binding set when unbound controller exists\n\n* Always unsuppress old dummy controllers\n\n* Assign hardcoded binding set GUIDs and fix static initialization\n\nCreate hardcoded binding set GUIDs\nFix static initialization via voodoo black magic\n\n* Explicitly serialize No Bindings choices\n\n* Add turntable family and menu defaults\n\n* Address PR feedback\n\nRM unnecessary null checks\n\n* Match legacy binding sets based on device index when possible, instead of layout\n\n* Treat more modes as typical for gamepad\n\n* Gamepad as MIDI Drumkit default\n\n* Fix default turntable menu down bindings\n\n* Allow stealing microphones from other profiles\n\n* Address PR feedback\n\nOmit irrelevant profile settings for bots\n\nRm Engine Preset from bot-irrelevant list\n\nPartially fix profile name wrapping\n\nFix editable profile name text wrapping\n\nReenable drums config menu\n\nAddress PR feedback\n\nAddress partial PR feedback\n\nAddress more PR feedback\n\n* Fix stray preference deletion, unused legacy deserialization params\n\n* Add menu unsubscription\n\n* Add profile rework explanation comment\n\n* Improve binding set locking behavior and layout\n\nRelock binding sets on leave\nFix lock bg width\n\n* Fix unrecognized device load, trim ReportId string\n\n* Remove usings from ReusableAxisBinding and RuntimeSingleAxisBinding\n\n* New build type: testing\n\n* Fix CRKD menu set, establish default set ordering, force open group on Add New\n\n* Omit protar from modes, clarify some strings\n\n* Add uneditable message\n\n* Hide Quick Bind when unsupported\n\n* Special behavior for empty binding set dropdowns\n\n* Jump to category when no set selected\n\n* Special no-dummies string\n\n* Fix mode import\n\n* Dedupe binding sets within a single profile\n\n* Fix drum velocities\n\n* Flesh out empty bindings before equivalence check\n\n* Scroll left pane to binding set when jumping from a controller\n\n* Keep controllers expanded across input mode changes and expand by clicking the header\n\n* Hot reload controller entries\n\n* Preserve profile/bindings selection between tabs\n\n* Create description field, populate for migrations\n\n* Reattach microphones to connected players when plugged back in\n\n* Tidy up ControllerEntry tooltip triggers\n\n* Fix rebase prefab differences\n\n- I assume this is just unity behaving strangely?\n\n* Core pointer for Profiles Rework\n\n---------\n\nCo-authored-by: Will Frick <willfrickvt@gmail.com>\nCo-authored-by: polson <302882+polson@users.noreply.github.com>\nCo-authored-by: wyrdough <nathan@nwacg.net>"
+    },
+    {
+      "sha": "1e54a7c4b61ed73436134b0c73e27619629dee19",
+      "author": "Supersonicboss1",
+      "summary": "Core pointer for Profiles Rework",
+      "description": ""
+    },
+    {
+      "sha": "0d314552d5710bc412d58e408ff2afdf4ab5ffd9",
+      "author": "Supersonicboss1",
+      "summary": "Fix rebase prefab differences",
+      "description": "- I assume this is just unity behaving strangely?"
+    },
+    {
+      "sha": "299ad704604a32221dcc8636afd70d7ea5d8d2bb",
+      "author": "Frickitickitavi",
+      "summary": "Tidy up ControllerEntry tooltip triggers",
+      "description": ""
+    },
+    {
+      "sha": "c19392aaa2d1b6e26a8ad75c50095f406703f0ff",
+      "author": "polson",
+      "summary": "Reattach microphones to connected players when plugged back in",
+      "description": ""
+    },
+    {
+      "sha": "5b516638e2ec88af1065c61e0ce2d20d56c051be",
+      "author": "Frickitickitavi",
+      "summary": "Create description field, populate for migrations",
+      "description": ""
+    },
+    {
+      "sha": "853f6777df5b0c7a07d643a706779c37b13c552c",
+      "author": "Frickitickitavi",
+      "summary": "Preserve profile/bindings selection between tabs",
+      "description": ""
+    },
+    {
+      "sha": "5a17561603d6a3c2fa8c98b0dd7eb965ea6fc0c1",
+      "author": "Frickitickitavi",
+      "summary": "Hot reload controller entries",
+      "description": ""
+    },
+    {
+      "sha": "6c387ff07e14b05c8c0ff246cd3fde2490fa8901",
+      "author": "polson",
+      "summary": "Keep controllers expanded across input mode changes and expand by clicking the header",
+      "description": ""
+    },
+    {
+      "sha": "32353604ff4a9c1eb7753e08a85a57c0253a1268",
+      "author": "polson",
+      "summary": "Scroll left pane to binding set when jumping from a controller",
+      "description": ""
+    },
+    {
+      "sha": "55e6874a6b8ef9d9eaf73737d6076d7c7ae813b2",
+      "author": "Frickitickitavi",
+      "summary": "Flesh out empty bindings before equivalence check",
+      "description": ""
+    },
+    {
+      "sha": "87c98a59877c233c6d7ea2013f2d32bcd004192c",
+      "author": "Frickitickitavi",
+      "summary": "Fix drum velocities",
+      "description": ""
+    },
+    {
+      "sha": "d16fb508e18b1b55e80cf5fd13ef7a3f0a6fdbaf",
+      "author": "Frickitickitavi",
+      "summary": "Dedupe binding sets within a single profile",
+      "description": ""
+    },
+    {
+      "sha": "68c510f7ed4d98ed5c23484270f2b812c3f4ec78",
+      "author": "Frickitickitavi",
+      "summary": "Fix mode import",
+      "description": ""
+    },
+    {
+      "sha": "52967c5a97e4286a25466290eddc64d5a5320e6b",
+      "author": "Frickitickitavi",
+      "summary": "Special no-dummies string",
+      "description": ""
+    },
+    {
+      "sha": "9ed5b9344dbb781e679582a6742c635fcd133437",
+      "author": "Frickitickitavi",
+      "summary": "Jump to category when no set selected",
+      "description": ""
+    },
+    {
+      "sha": "210b09c3b88a57b08c5ab66831b70558075eed1d",
+      "author": "Frickitickitavi",
+      "summary": "Special behavior for empty binding set dropdowns",
+      "description": ""
+    },
+    {
+      "sha": "cb25932742c44cdd1c963e2c8a4a34330f2ced47",
+      "author": "Frickitickitavi",
+      "summary": "Hide Quick Bind when unsupported",
+      "description": ""
+    },
+    {
+      "sha": "bf15fbeb057396fb826d1ab5a6e3b213a405bfa5",
+      "author": "Frickitickitavi",
+      "summary": "Add uneditable message",
+      "description": ""
+    },
+    {
+      "sha": "9ba573f2b0074c5d6268c841594a43750e96a6ff",
+      "author": "Frickitickitavi",
+      "summary": "Omit protar from modes, clarify some strings",
+      "description": ""
+    },
+    {
+      "sha": "e10695e7f5dfd87e3a8b23bacd23fa196be5b4e3",
+      "author": "Frickitickitavi",
+      "summary": "Fix CRKD menu set, establish default set ordering, force open group on Add New",
+      "description": ""
+    },
+    {
+      "sha": "d818c341a5d84cba4cdb0c26e56f855bb32978c4",
+      "author": "wyrdough",
+      "summary": "New build type: testing",
+      "description": ""
+    },
+    {
+      "sha": "79b29c674b0b4c6668aea994379bf9eadc5d11bc",
+      "author": "wyrdough",
+      "summary": "Remove usings from ReusableAxisBinding and RuntimeSingleAxisBinding",
+      "description": ""
+    },
+    {
+      "sha": "82ceebfff5cb44970c5b34d02f42897b62f1ae2d",
+      "author": "Frickitickitavi",
+      "summary": "Fix unrecognized device load, trim ReportId string",
+      "description": ""
+    },
+    {
+      "sha": "4e8062b1108b8eb73dbfb37473c843f1e209c5d2",
+      "author": "Frickitickitavi",
+      "summary": "Improve binding set locking behavior and layout",
+      "description": "Relock binding sets on leave\nFix lock bg width"
+    },
+    {
+      "sha": "2214a4935c0d6795bc687f24734a20d3ba7377fd",
+      "author": "Frickitickitavi",
+      "summary": "Add profile rework explanation comment",
+      "description": ""
+    },
+    {
+      "sha": "134ce1dcff6384bac1d8db9c7f5dffd5645a62a7",
+      "author": "Frickitickitavi",
+      "summary": "Add menu unsubscription",
+      "description": ""
+    },
+    {
+      "sha": "34906fdbaeee8053f3684046c23c905d862df13d",
+      "author": "Frickitickitavi",
+      "summary": "Fix stray preference deletion, unused legacy deserialization params",
+      "description": ""
+    },
+    {
+      "sha": "ad13446f36c25ed4262c79513bdf4b3b50335bf6",
+      "author": "Frickitickitavi",
+      "summary": "Address PR feedback",
+      "description": "Omit irrelevant profile settings for bots\n\nRm Engine Preset from bot-irrelevant list\n\nPartially fix profile name wrapping\n\nFix editable profile name text wrapping\n\nReenable drums config menu\n\nAddress PR feedback\n\nAddress partial PR feedback\n\nAddress more PR feedback"
+    },
+    {
+      "sha": "1eb7ad03a39b667de2c3410cfdd9bbf64b8f46d0",
+      "author": "polson",
+      "summary": "Allow stealing microphones from other profiles",
+      "description": ""
+    },
+    {
+      "sha": "a64f04c5e4191ab88ddbf8f5c12ecf7e7e8bc049",
+      "author": "Frickitickitavi",
+      "summary": "Fix default turntable menu down bindings",
+      "description": ""
+    },
+    {
+      "sha": "4437cee86de640735f4c1ec4f933d8d00136937d",
+      "author": "Frickitickitavi",
+      "summary": "Gamepad as MIDI Drumkit default",
+      "description": ""
+    },
+    {
+      "sha": "88cb6ddad15050ace79a2c2ed1e82afb5534694c",
+      "author": "Frickitickitavi",
+      "summary": "Treat more modes as typical for gamepad",
+      "description": ""
+    },
+    {
+      "sha": "7ef02109cb0a527b1ae6f33b3ad9e31109dd19c7",
+      "author": "Frickitickitavi",
+      "summary": "Match legacy binding sets based on device index when possible, instead of layout",
+      "description": ""
+    },
+    {
+      "sha": "c2f41000e5c20a5206d51c1c90d63647583f5b65",
+      "author": "Frickitickitavi",
+      "summary": "Address PR feedback",
+      "description": "RM unnecessary null checks"
+    },
+    {
+      "sha": "874172bf61f757bc39bf55d17670684296d95d53",
+      "author": "Frickitickitavi",
+      "summary": "Add turntable family and menu defaults",
+      "description": ""
+    },
+    {
+      "sha": "88729688faf73a1c7c0783442262c7c333d5d6ac",
+      "author": "Frickitickitavi",
+      "summary": "Explicitly serialize No Bindings choices",
+      "description": ""
+    },
+    {
+      "sha": "d5b659ca6c8c4e081e7d8603af3d03ff1a4ffb69",
+      "author": "Frickitickitavi",
+      "summary": "Assign hardcoded binding set GUIDs and fix static initialization",
+      "description": "Create hardcoded binding set GUIDs\nFix static initialization via voodoo black magic"
+    },
+    {
+      "sha": "801e235ba9285f371f78bc9c83297c54b7fd7afe",
+      "author": "Frickitickitavi",
+      "summary": "Always unsuppress old dummy controllers",
+      "description": ""
+    },
+    {
+      "sha": "e71ddccbd4c75863dd5a083d701b0e51ab18129e",
+      "author": "Frickitickitavi",
+      "summary": "Fix error on deleting binding set when unbound controller exists",
+      "description": ""
+    },
+    {
+      "sha": "16a31114cbd2a9d16a4e26f051f27baf8a16c57f",
+      "author": "Frickitickitavi",
+      "summary": "Rm problematic unused imports",
+      "description": ""
+    },
+    {
+      "sha": "4072d008bbff18bc0219dafce3d8ce4a74c7c099",
+      "author": "Frickitickitavi",
+      "summary": "Correct legacy binding migration and default matching",
+      "description": "Partial bug fixes for legacy deserialization\nIsolate control name from legacy control path\nFix errant default parameters in hardcoded legacy sets\nFix deserializing unrelated legacy device bindings\nFix backquote capitalization issue, don't create empty binding dicts(?)\nFix single binding count equality check bug\nFix remaining legacy 5F deserialization bugs\nFix empty legacy bindings bug"
+    },
+    {
+      "sha": "56cf0e7244f3ccad0226c9039cd58d8086fb73f1",
+      "author": "Frickitickitavi",
+      "summary": "Fix controller stealing bugs",
+      "description": ""
+    },
+    {
+      "sha": "54a95eb8a00eace1d1028b92952b7abe2dd15b91",
+      "author": "Frickitickitavi",
+      "summary": "Legacy deserialization warning/comment cleanup",
+      "description": ""
+    },
+    {
+      "sha": "7293eea3705179e5c25a93782f247b4462f63ed8",
+      "author": "Frickitickitavi",
+      "summary": "Fix computer keyboard MIDI drumkit binding set",
+      "description": ""
+    },
+    {
+      "sha": "0ff9dfb262ad8c42002895ab0559f2c14f8d9da2",
+      "author": "Frickitickitavi",
+      "summary": "Rewire gameplay bindings on reconnect during gameplay",
+      "description": ""
+    },
+    {
+      "sha": "cc2045bcd9261f9787fd16d6f174d1852a7944fc",
+      "author": "Frickitickitavi",
+      "summary": "Fix permanent dummy suppression bug",
+      "description": ""
+    },
+    {
+      "sha": "84d7477708e361077af2920c69706f9c040044cb",
+      "author": "Frickitickitavi",
+      "summary": "Fix double impulse bug",
+      "description": ""
+    },
+    {
+      "sha": "d05511a6992b1cf86630305689c87bbb57212266",
+      "author": "Frickitickitavi",
+      "summary": "Pro Guitar menu/5F legacy and defaults",
+      "description": ""
+    },
+    {
+      "sha": "5d91b06731a1a27064e02ab5af4c29e448cc583c",
+      "author": "Frickitickitavi",
+      "summary": "Fix controller stealing",
+      "description": ""
+    },
+    {
+      "sha": "492cc534f680d92ac6edcb68410d4bf1ece7088c",
+      "author": "Frickitickitavi",
+      "summary": "Improve controller and microphone tooltips",
+      "description": "Fix ControllerEntry tooltips\nMore controller/mic entry tooltips"
+    },
+    {
+      "sha": "84a065b57fe0aba8c30f282fc88464e9878d8acc",
+      "author": "Frickitickitavi",
+      "summary": "Fix microphone assignment check",
+      "description": ""
+    },
+    {
+      "sha": "2a0dfcd49b2b160a10ea98e3c09d4f9c1896c821",
+      "author": "Frickitickitavi",
+      "summary": "Clean up TODO comments",
+      "description": ""
+    },
+    {
+      "sha": "2dd42ff42580b07f44b5e73918ef25b3e4ce666b",
+      "author": "Frickitickitavi",
+      "summary": "Switch gamepad menu defaults",
+      "description": ""
+    },
+    {
+      "sha": "442cb8aa194992767ee379a60c8597d7377bc6a8",
+      "author": "Frickitickitavi",
+      "summary": "Don't deserialize empty legacy binding sets",
+      "description": "+import cleanup"
+    },
+    {
+      "sha": "ff165cff6476ac83810595d1500db21633f0c5e9",
+      "author": "Frickitickitavi",
+      "summary": "Legacy gamepad",
+      "description": ""
+    },
+    {
+      "sha": "b654cc0fef0cc66e6a3a19fe1e9fa869b1386b5c",
+      "author": "Frickitickitavi",
+      "summary": "Legacy computer keyboard bindings",
+      "description": ""
+    },
+    {
+      "sha": "e8f20e26e640a610b102f2107acbe0058b44d8ff",
+      "author": "Frickitickitavi",
+      "summary": "Rm unneeded imports",
+      "description": ""
+    },
+    {
+      "sha": "f71c9072ff5c09a626064b564e611039944726a6",
+      "author": "Frickitickitavi",
+      "summary": "Fix Attach Controller/Microphone button tooltips",
+      "description": ""
+    },
+    {
+      "sha": "e9afef246905e55168d0b69dc9e27ef851e44552",
+      "author": "Frickitickitavi",
+      "summary": "Recognize legacy default bindings in deserialization",
+      "description": "Beginnings of old-legacy-default check (5F gameplay only so far)\nLegacy 6F defaults\n+enum fix\nLegacy 4LD defaults\nLegacy 5LD and PK"
+    },
+    {
+      "sha": "4ab2a7f72b277f70b4718164b03f83835c421c98",
+      "author": "Frickitickitavi",
+      "summary": "6F control string fixes",
+      "description": ""
+    },
+    {
+      "sha": "aa97bf73f19ec54f3b31bce712e927aa583df493",
+      "author": "Frickitickitavi",
+      "summary": "5F control strings",
+      "description": ""
+    },
+    {
+      "sha": "c8fefadc4e0dd3495f52cc1d948bbe6bc8021220",
+      "author": "Frickitickitavi",
+      "summary": "V0 deserialization",
+      "description": ""
+    },
+    {
+      "sha": "036bd7068e4c9a25e8e4bcb87cb9edc827cc285d",
+      "author": "Frickitickitavi",
+      "summary": "V1 deserialization",
+      "description": ""
+    },
+    {
+      "sha": "f00250355e6ec848c9b6292534c957c0515553cc",
+      "author": "Frickitickitavi",
+      "summary": "V2 deserialization",
+      "description": ""
+    },
+    {
+      "sha": "16a76e0ae40af234f85693010d74447b3a99f9f6",
+      "author": "Frickitickitavi",
+      "summary": "V3 deserialization",
+      "description": "Rm obsolete field"
+    },
+    {
+      "sha": "e32b04d31978c60e13a9ef23f2075583230db607",
+      "author": "Frickitickitavi",
+      "summary": "Fix axis and integer header tooltips",
+      "description": ""
+    },
+    {
+      "sha": "9b6578bbbd2b7e054af9ae2b89a7d99c6a6a6eb9",
+      "author": "Frickitickitavi",
+      "summary": "Update DrumsScoreCard and cleanup",
+      "description": "+fix\n\nFix warnings\n\nFix l10n warnings\n\nRm more vestigial files, fix more warnings\n\nFix remaining warnings and lefty toggle"
+    },
+    {
+      "sha": "873137f1b38bf1e19de2f0385892e5a1667b3337",
+      "author": "Frickitickitavi",
+      "summary": "Fix drum highway configure buttons",
+      "description": ""
+    },
+    {
+      "sha": "778989eb7afda8f8c7347764b920cede720844e4",
+      "author": "Frickitickitavi",
+      "summary": "Add profile and binding set menu tooltips",
+      "description": "Add Binding Set tooltips\nMore tooltips\nMenu header tooltips\nProfile list tooltips\nName tooltips"
+    },
+    {
+      "sha": "df997cfb2f92a18c9a6ee093d89cdafa632b9625",
+      "author": "Frickitickitavi",
+      "summary": "Implement binding set editor tooltips",
+      "description": "Add singlebinding button tooltips\nSingleButton tooltips\nReparent BindGroup prefabs\nFurther tooltip restructuring\nBind header tooltips\nAxis and Integer group tooltips\nAxis value tooltips\nMore single axis tooltips\nSingle integer tooltip\nSingle binding dropdown tooltips\nFix min/max overlays\nFix bind group header components"
+    },
+    {
+      "sha": "2a7d98318f23bcab86394196c28010bdb1d86b8a",
+      "author": "Frickitickitavi",
+      "summary": "Suppress dummy controller in the menu",
+      "description": ""
+    },
+    {
+      "sha": "6d96695edff40d7e5cd9a7fc2a1f182a9c63807a",
+      "author": "Frickitickitavi",
+      "summary": "Strip claimed controllers on sign-in",
+      "description": ""
+    },
+    {
+      "sha": "ee5c5f226a8b3a09f0a113aa676042150a9865db",
+      "author": "Frickitickitavi",
+      "summary": "Aggregated axis display, int drawer",
+      "description": ""
+    },
+    {
+      "sha": "6554bdbc59c2aafe47ba33e40f5ab9623eb64d6c",
+      "author": "Frickitickitavi",
+      "summary": "Calibrated single axis display",
+      "description": ""
+    },
+    {
+      "sha": "c4516bf34c1d754a9591132e577f13048164e926",
+      "author": "Frickitickitavi",
+      "summary": "DIsplay aggregate button state",
+      "description": ""
+    },
+    {
+      "sha": "11dcc05e0acf2661e1cbeaa89ba265395a3e2145",
+      "author": "Frickitickitavi",
+      "summary": "Read state updates from event",
+      "description": ""
+    },
+    {
+      "sha": "b24d8c13c489021ce8b41e23b9cc0b20c6342169",
+      "author": "Frickitickitavi",
+      "summary": "Improve aggregator timing precision",
+      "description": ""
+    },
+    {
+      "sha": "df0c29194fae51ee7d5bfbba5a9b23c581fc4993",
+      "author": "Frickitickitavi",
+      "summary": "Fix impulse and drum inputs",
+      "description": "Remove warning from input latency tooltip\n\nFix stale impulses? I think?\n\nFix impulse bindings\n\nClean up remaining DrumButton stuff"
+    },
+    {
+      "sha": "b466fdb185f286459e0948f0e18c9d803cdd0684",
+      "author": "Frickitickitavi",
+      "summary": "Fix single button pressed display",
+      "description": ""
+    },
+    {
+      "sha": "a807f7d7395efee5ce42a549a48c405a3e1fa400",
+      "author": "Frickitickitavi",
+      "summary": "Naming and indentation consistency fixes",
+      "description": ""
+    },
+    {
+      "sha": "35da0ee1284a3b0a6f7ef64f47653b5788b6c711",
+      "author": "Frickitickitavi",
+      "summary": "Rename keys default",
+      "description": ""
+    },
+    {
+      "sha": "9b1252869668c0ab532b0a7abba5cad3b21c9393",
+      "author": "Frickitickitavi",
+      "summary": "Label 4L and 5L gamepad bindings as overall defaults",
+      "description": ""
+    },
+    {
+      "sha": "cb48e587a5b687e4f91aea83c9937817ce616698",
+      "author": "Frickitickitavi",
+      "summary": "Fix up control strings",
+      "description": ""
+    },
+    {
+      "sha": "56937efb82ab15f96408846df9752ea368d24cfd",
+      "author": "Frickitickitavi",
+      "summary": "Complete switch statement",
+      "description": ""
+    },
+    {
+      "sha": "977c28c897ef2bdb6d132de1ac0ee0895cc21ffe",
+      "author": "Frickitickitavi",
+      "summary": "Remaining misidentified gamepad binding sets",
+      "description": ""
+    },
+    {
+      "sha": "4a4b3359e2acf8e1a87aae7d6acaa5fc1fdfbb26",
+      "author": "Frickitickitavi",
+      "summary": "More misidentified gamepad binding sets",
+      "description": ""
+    },
+    {
+      "sha": "e7e7811c09c049f4ff47734922676b2ffbb0ede4",
+      "author": "Frickitickitavi",
+      "summary": "Wiitar Thing Drumkit",
+      "description": ""
+    },
+    {
+      "sha": "80e68ed9b4a06ea062e8b7b3c2f93259976a0f8f",
+      "author": "Frickitickitavi",
+      "summary": "Create ActionStrings",
+      "description": ""
+    },
+    {
+      "sha": "cf35e05b8048c5acbafcebda6f7743c15e22797a",
+      "author": "Frickitickitavi",
+      "summary": "Start handling misidentified gamepads",
+      "description": ""
+    },
+    {
+      "sha": "13534acdf9e2883b9effa1adb209209ef9458f1f",
+      "author": "Frickitickitavi",
+      "summary": "MIDI Drumkit on computer keyboard defaults",
+      "description": ""
+    }
+  ]
+}
