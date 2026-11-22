@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "813e4622587e7b7ea354f5acad885787ec27a0eb",
+      "author": "polson",
+      "summary": "Improve 5000% speed with new pitch shift dsp (#1773)",
+      "description": "* Let main thread position reads preempt the render worker at high song speeds\n\n* Cap whammy FX at 5x song speed and test read-ahead source access\n\n* Replace BASS_FX whammy with a native time-domain pitch shifter\n\n* Remove the stale whammy drift correction timer\n\n* Move the pitch shift handle next to the other stream handles\n\n* Remove the high speed stall notes from version control\n\n* Rebuild the Linux and macOS native audio plugins\n\n* Relay native build output instead of discarding it\n\n* Encapsulate stem alignment delay in pipeline and relax test throughput threshold\n\n* Rename read-ahead source access hooks to pause and resume read-ahead\n\n* Wait past one source read before sampling held frames in the pause test\n\n* Rebuild the Windows, Linux, and macOS native audio plugins for the read-ahead pause exports\n\n* Cleanup\n\n* Add LogError stub to the GainIntegration test logger\n\n* Answer read-ahead position reads from recorded chunk positions while the render worker is busy\n\n* Apply one-shot resyncs and tempo changes on the audio render thread instead of waiting on the song mixer lock\n\n* Cleanup\n\n* More cleanup\n\n* Pass read-ahead source attributes as ints so the GainIntegration harness builds without ManagedBass\n\n* Add native peak limiter to the song output\n\n* Rebuild native audio binaries with peak limiter exports"
+    }
+  ]
+}
