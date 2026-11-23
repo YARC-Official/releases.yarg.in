@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "e6e28a76281a8196623e438d5ec5e8865fa2f677",
+      "author": "Frickitickitavi",
+      "summary": "Fix profile rework debounce bug (#1778)",
+      "description": "* Attempt debounce fix\n\n* Apply potential patch fix"
+    }
+  ]
+}
