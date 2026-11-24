@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "e09670445370e4443c244f67275f0229db35ad0e",
+      "author": "wyrdough",
+      "summary": "Add venue selection menu (#1780)",
+      "description": "* Add venue selection settings, VenueMetadata, and improve remote catalog loading\n\n* Implement venue registry, local metadata reader, and rework background resolution\n\n* Add Venue Select menu, prefabs, scene wiring, and localization\n\n* Improve venue metadata loading and error handling\n\n* Clean up venue select display\n\n* Update unity pipeline package version\n\n* Fix outdated description for AllowRemoteContent setting"
+    }
+  ]
+}
