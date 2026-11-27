@@ -1,0 +1,10 @@
+{
+  "commits": [
+    {
+      "sha": "871707fdaa5c20282114b99c3589c0db573b8d4e",
+      "author": "Pharylon",
+      "summary": "Write testing builds' logs to the testing data folder (#1783)",
+      "description": "A testing build (YARG_TEST_BUILD) keeps its data in the \"testing\" folder\n(PathHelper), but LogHandler had no case for it and wrote its logs to the\n\"release\" folder, among the release build's logs."
+    }
+  ]
+}
